@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Product Detail - Mimity</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Third Party CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- Mimity CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+
+    <!-- Offcanvas Menu -->
+    <nav class="offcanvas">
+      <div class="offcanvas-content">
+        <div id="list-menu" class="list-menu list-group" data-children=".sub-menu1">
+          <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="products.html"><i class="fa fa-fw fa-tags"></i> Product List</a>
+          <a href="cart.html"><i class="fa fa-fw fa-shopping-cart"></i> Shopping Cart <span class="badge badge-secondary badge-pill float-right mt-1">4</span></a>
+          <a href="checkout.html"><i class="fa fa-fw fa-check"></i> Checkout</a>
+          <div class="sub-menu1">
+            <a data-toggle="collapse" href="#" data-target="#sub1" role="button" aria-expanded="false" aria-controls="sub1"><i class="fa fa-fw fa-file"></i> Pages</a>
+            <div id="sub1" class="collapse" data-parent="#list-menu" role="tabpanel">
+              <a href="about.html">About Us</a>
+              <a href="blog.html">Blog</a>
+              <a href="blog-detail.html">Blog Detail</a>
+              <a href="compare.html">Compare</a>
+              <a href="contact.html">Contact Us</a>
+              <a href="cart-empty.html">Empty Shopping Cart</a>
+              <a href="404.html">Error 404</a>
+              <a href="faq.html">FAQ</a>
+              <a href="login.html">Login</a>
+              <a href="detail.html">Product Detail</a>
+              <a href="register.html">Register</a>
+              <div class="list-submenu" id="list-submenu" data-children=".sub-menu2">
+                <div class="sub-menu2">
+                  <a data-toggle="collapse" href="#" data-target="#sub3" role="button" aria-expanded="false" aria-controls="sub3">Submenu</a>
+                  <div id="sub3" class="collapse" data-parent="#list-submenu" role="tabpanel">
+                    <a href="#">Submenu 1</a>
+                    <a href="#">Submenu 2</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-menu1">
+            <a data-toggle="collapse" href="#" data-target="#sub2" role="button" aria-expanded="false" aria-controls="sub2"><i class="fa fa-fw fa-user"></i> My Account</a>
+            <div id="sub2" class="collapse" data-parent="#list-menu" role="tabpanel">
+              <a href="account-order.html">Orders</a>
+              <a href="account-profile.html">Profile</a>
+              <a href="account-address.html">Addresses</a>
+              <a href="account-wishlist.html">Wishlist</a>
+              <a href="account-password.html">Change Password</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content-overlay"></div>
+
+    <!-- Top Header -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              <nav class="nav">
+                <a class="nav-item nav-link d-none d-sm-block" href="#"><i class="fa fa-question-circle"></i> Help</a>
+                <a class="nav-item nav-link d-none d-sm-block" href="#"><i class="fa fa-phone"></i> +123-456-789</a>
+                <a class="nav-item nav-link d-none d-sm-block" href="#"><i class="fa fa-apple"></i> Download App</a>
+              </nav>
+              <ul class="nav">
+                <select class="select-dropdown-nav" data-width="95px">
+                  <option value="en" data-before='<img src="images/en.jpg" class="align-baseline" /> '>English</option>
+                  <option value="fr" data-before='<img src="images/fr.jpg" class="align-baseline" /> '>French</option>
+                </select>
+                <select class="select-dropdown-nav" data-width="70px">
+                  <option value="USD">$ USD</option>
+                  <option value="EUR">€ EUR</option>
+                </select>
+                <li class="nav-item d-none d-md-block">
+                  <a href="#" class="nav-link"><i class="fa fa-align-left"></i> Track Order</a>
+                </li>
+                <li class="nav-item d-sm-none">
+                  <a href="#" class="nav-link" data-toggle="modal" data-target="#LoginModal"><i class="fa fa-sign-in"></i> Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle Header -->
+    <div class="middle-header">
+      <div class="container">
+        <div class="row py-2 py-lg-0">
+          <div class="col-2 col-sm-1 d-block d-lg-none">
+            <div class="d-flex align-items-center h-100 justify-content-center menu-btn-wrapper">
+              <button class="btn btn-lg border-0 btn-link offcanvas-btn p-0" type="button">
+                <i class="fa fa-bars"></i/>
+              </button>
+            </div>
+          </div>
+          <div class="col-2 col-sm-1 col-lg-3 pr-0">
+            <div class="d-flex align-items-center h-100 logo-wrapper">
+              <a href="index.html" class="d-lg-none"><img alt="Logo" src="images/logo-teal-small.png" class="img-fluid"/></a>
+              <a href="index.html" class="d-none d-lg-flex mb-2 mb-lg-0"><img alt="Logo" src="images/logo-teal.png" class="img-fluid"/></a>
+            </div>
+          </div>
+          <div class="col-8 col-sm-6 col-md-7 col-lg-6">
+            <div class="d-flex align-items-center h-100">
+              <div class="input-group input-group-search">
+                <div class="input-group-prepend d-none d-md-flex">
+                  <select class="select-dropdown">
+                    <option value="all">All Categories</option>
+                    <option value="1">Dresses</option>
+                    <option value="2">Tops</option>
+                    <option value="3">Bottoms</option>
+                    <option value="4">Jackets / Coats</option>
+                    <option value="5">Sweaters</option>
+                    <option value="6">Gym Wear</option>
+                    <option value="7">Others</option>
+                  </select>
+                </div>
+                <input type="text" class="form-control" id="search-input" placeholder="Search here..." aria-label="Search here..." autocomplete="off">
+                <span class="input-group-append">
+                  <button class="btn btn-theme btn-search" type="button"><i class="fa fa-search"></i></button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-sm-4 col-md-3 col-lg-3 d-none d-sm-block">
+            <div class="d-flex align-items-center h-100 float-right abg-secondary">
+              <div class="btn-group btn-group-sm mr-3" role="group" aria-label="Login Sign Up">
+                <button type="button" class="btn btn-outline-theme" data-toggle="modal" data-target="#LoginModal"><i class="fa fa-sign-in d-none d-lg-inline-block"></i> Login</button>
+                <a class="btn btn-outline-theme" href="register.html" role="button"><i class="fa fa-user-plus d-none d-lg-inline-block"></i> Sign Up</a>
+              </div>
+              <div class="navbar p-0 mr-3" hidden>
+                <div class="dropdown">
+                  <button class="btn btn-light active btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Hi, John Thor
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right smooth" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="account-order.html"><i class="fa fa-fw fa-shopping-bag"></i> Orders</a>
+                    <a class="dropdown-item" href="account-profile.html"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    <a class="dropdown-item" href="account-wishlist.html"><i class="fa fa-fw fa-heart"></i> Wishlist (3)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="fa fa-fw fa-sign-out"></i> Logout</a>
+                  </div>
+                </div>
+              </div>
+              <a href="account-wishlist.html" class="d-none d-xl-block pos-r mr-3"><img src="images/wishlist.png" alt="" width="31"><span class="badge badge-counter badge-theme">3</span></a>
+              <a href="cart.html" class="d-lg-none pos-r"><img src="images/cart.png" alt="" width="31"><span class="badge badge-counter badge-theme">4</span></a>
+              <div class="navbar p-0 d-none d-lg-block"> <!-- Disable Popper.js for Dropdown in Navbar, this will make it easier to animate -->
+                <div class="dropdown dropdown-cart">
+                  <a class="d-block pos-r" href="#" role="button" id="dropdown-cart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/cart.png" alt="" width="31"><span class="badge badge-counter badge-theme">4</span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-cart smooth" aria-labelledby="dropdown-cart">
+                    <div class="media">
+                      <a href="detail.html"><img class="img-thumbnail d-flex mr-2" src="images/product/polo1-small.jpg" alt="product" width="50"></a>
+                      <div class="media-body">
+                        <div><a href="detail.html" class="mt-0 text-default">U.S. Polo Assn. Green Solid Slim Fit</a></div>
+                        <small>x1</small> <span class="price font-weight-normal">$13.50</span> <a href="#" class="float-right" data-toggle="tooltip" title="Remove"><span class="badge badge-light"><i class="fa fa-remove"></i></span></a>
+                      </div>
+                    </div>
+                    <div class="media">
+                      <a href="detail.html"><img class="img-thumbnail d-flex mr-2" src="images/product/polo2-small.jpg" alt="product" width="50"></a>
+                      <div class="media-body">
+                        <div><a href="detail.html" class="mt-0 text-default">U.S. Polo Assn. Red Solid Slim Fit</a></div>
+                        <small>x1</small> <span class="price font-weight-normal">$13.50</span> <a href="#" class="float-right" data-toggle="tooltip" title="Remove"><span class="badge badge-light"><i class="fa fa-remove"></i></span></a>
+                      </div>
+                    </div>
+                    <div class="media">
+                      <a href="detail.html"><img class="img-thumbnail d-flex mr-2" src="images/product/polo3-small.jpg" alt="product" width="50"></a>
+                      <div class="media-body">
+                        <div><a href="detail.html" class="mt-0 text-default">U.S. Polo Assn. Yellow Solid</a></div>
+                        <small>x1</small> <span class="price font-weight-normal">$13.50</span> <a href="#" class="float-right" data-toggle="tooltip" title="Remove"><span class="badge badge-light"><i class="fa fa-remove"></i></span></a>
+                      </div>
+                    </div>
+                    <div class="media">
+                      <a href="detail.html"><img class="img-thumbnail d-flex mr-2" src="images/product/polo4-small.jpg" alt="product" width="50"></a>
+                      <div class="media-body">
+                        <div><a href="detail.html" class="mt-0 text-default">Red Tape Blue Solid Slim Fit</a></div>
+                        <small>x1</small> <span class="price font-weight-normal">$13.50</span> <a href="#" class="float-right" data-toggle="tooltip" title="Remove"><span class="badge badge-light"><i class="fa fa-remove"></i></span></a>
+                      </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    Subtotal: <span class="price">$54.00</span>
+                    <div class="dropdown-divider"></div>
+                    <div class="text-center">
+                      <div class="btn-group btn-group-sm" role="group" aria-label="View Cart and Checkout Button">
+                        <a href="#" role="button" class="btn btn-outline-theme"><i class="fa fa-shopping-cart"></i> View Cart</a>
+                        <a href="#" role="button" class="btn btn-outline-theme"><i class="fa fa-check"></i> Checkout</a>
+                      </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="container">
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 d-none d-lg-flex navbar-theme">
+        <div class="container">
+          <div class="pos-r d-flex w-100">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="products.html">Product List</a></li>
+              <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
+              <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pages
+                </a>
+                <div class="dropdown-menu t-90 smooth" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="about.html">About Us</a>
+                  <a class="dropdown-item" href="blog.html">Blog</a>
+                  <a class="dropdown-item" href="blog-detail.html">Blog Detail</a>
+                  <a class="dropdown-item" href="compare.html">Compare</a>
+                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  <a class="dropdown-item" href="cart-empty.html">Empty Shopping Cart</a>
+                  <a class="dropdown-item" href="404.html">Error 404</a>
+                  <a class="dropdown-item" href="faq.html">FAQ</a>
+                  <a class="dropdown-item" href="login.html">Login</a>
+                  <a class="dropdown-item" href="detail.html">Product Detail</a>
+                  <a class="dropdown-item" href="register.html">Register</a>
+                  <div class="dropdown-submenu">
+                    <a href="" class="dropdown-item">My Account</a>
+                    <ul class="dropdown-menu smooth">
+                      <a href="account-order.html" class="dropdown-item">Orders</a>
+                      <a href="account-profile.html" class="dropdown-item">Profile</a>
+                      <a href="account-address.html" class="dropdown-item">Addresses</a>
+                      <a href="account-wishlist.html" class="dropdown-item">Wishlist</a>
+                      <a href="account-password.html" class="dropdown-item">Change Password</a>
+                      <div class="dropdown-submenu">
+                        <a href="" class="dropdown-item">Submenu</a>
+                        <ul class="dropdown-menu smooth">
+                          <a href="#" class="dropdown-item">Submenu1</a>
+                          <a href="#" class="dropdown-item">Submenu2</a>
+                        </ul>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown mega-menu">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarMegaMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Mega Menu
+                </a>
+                <div class="dropdown-menu w-100 t-90 smooth" aria-labelledby="navbarMegaMenu">
+                  <div class="mega-menu-content">
+                    <div class="row">
+                      <div class="col">
+                        <h6 class="p-2 font-weight-bold border border-top-0 border-right-0 border-left-0">Top Categories</h6>
+                        <div class="list-group">
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Polo T-Shirt</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Round Neck T-Shirt</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">V Neck T-Shirt</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Hooded T-Shirt</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Polo T-Shirt</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Round Neck T-Shirt</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">V Neck T-Shirt</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <h6 class="p-2 font-weight-bold border border-top-0 border-right-0 border-left-0">Categories</h6>
+                        <div class="list-group">
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Dresses</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Tops</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Bottoms</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Jackets / Coats</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Sweaters</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Gym Wear</a>
+                          <a href="products.html" class="list-group-item list-group-item-action py-1 px-3 border-0">Others</a>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="row">
+                          <div class="col-12 mb-2">
+                            <div class="card overlay-thumbnail">
+                              <img src="images/product/type-polo.jpg" alt="" class="card-img">
+                              <a href="products.html">
+                                <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                                  <div class="card-text">
+                                    <div>Polo T-Shirts <br/><small>40% OFF</small></div>
+                                    <button class="btn btn-sm btn-info rounded"><small>SHOP NOW</small></button>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="card overlay-thumbnail">
+                              <img src="images/product/type-hooded.jpg" alt="" class="card-img">
+                              <a href="products.html">
+                                <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                                  <div class="card-text">
+                                    <div>New Collection</div>
+                                    <button class="btn btn-sm btn-warning rounded"><small>SHOP NOW</small></button>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <a href="products.html"><img class="img-thumbnail" src="images/product/mega-menu.jpg" alt=""></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <a><i class="fa ml-4 fa-truck"></i> Free Shipping</a>
+              <a><i class="fa ml-4 fa-money"></i> Cash on Delivery</a>
+              <a class="d-none d-xl-inline-block"><i class="fa ml-4 fa-lock"></i> Secure Payment</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Breadcrumb -->
+      <div class="breadcrumb-container">
+        <div class="container">
+          <nav aria-label="breadcrumb" role="navigation">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="products.html">Products</a></li>
+              <li class="breadcrumb-item active" aria-current="page">U.S. Polo Assn. Green Solid Slim Fit</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Main Container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-block d-md-none">
+            <div class="title"><span>U.S. Polo Assn. Green Solid Slim Fit</span></div>
+          </div>
+          <div class="col-xl-4 col-lg-5 col-md-6">
+            <img src="images/product/polo1-1.jpg" class="img-fluid mb-2 border w-100 image-detail" data-zoom-image="images/product/polo1-large-1.jpg" alt="" style="cursor: pointer;">
+            <div class="products-slider-detail owl-carousel owl-theme mb-2">
+              <a href="#"><img src="images/product/polo1-1.jpg" data-zoom-image="images/product/polo1-large-1.jpg" alt="" class="img-thumbnail"></a>
+              <a href="#"><img src="images/product/polo1-2.jpg" data-zoom-image="images/product/polo1-large-2.jpg" alt="" class="img-thumbnail"></a>
+              <a href="#"><img src="images/product/polo1-3.jpg" data-zoom-image="images/product/polo1-large-3.jpg" alt="" class="img-thumbnail"></a>
+              <a href="#"><img src="images/product/polo1-4.jpg" data-zoom-image="images/product/polo1-large-4.jpg" alt="" class="img-thumbnail"></a>
+              <a href="#"><img src="images/product/polo1-5.jpg" data-zoom-image="images/product/polo1-large-5.jpg" alt="" class="img-thumbnail"></a>
+            </div>
+            <div class="title d-none d-md-block"><span>Share to</span></div>
+            <ul class="list-inline d-none d-md-block">
+              <li class="list-inline-item"><button type="button" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-facebook"></i></button></li>
+              <li class="list-inline-item"><button type="button" class="btn btn-sm btn-info"><i class="fa fa-fw fa-twitter"></i></button></li>
+              <li class="list-inline-item"><button type="button" class="btn btn-sm btn-danger"><i class="fa fa-fw fa-google-plus"></i></button></li>
+              <li class="list-inline-item"><button type="button" class="btn btn-sm btn-primary"><i class="fa fa-fw fa-linkedin"></i></button></li>
+              <li class="list-inline-item"><button type="button" class="btn btn-sm btn-warning"><i class="fa fa-fw fa-envelope"></i></button></li>
+            </ul>
+          </div>
+          <div class="col-xl-8 col-lg-7 col-md-6">
+            <table class="table table-detail" add-class-on-xs="table-sm">
+              <tbody>
+                <tr class="d-none d-md-table-row">
+                  <td class="border-top-0" colspan="2"><h5>U.S. Polo Assn. Green Solid Slim Fit</h5></td>
+                </tr>
+                <tr>
+                  <td>Price</td>
+                  <td>
+                    <ul class="list-inline mb-0">
+                      <li class="list-inline-item"><span class="price"><h5 class="mb-0">$13.50</h5></span></li>
+                      <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                      <li class="list-inline-item d-none d-sm-inline-block"><span class="badge custom-badge arrowed-left badge-primary">-10%</span></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Availability</td>
+                  <td>
+                    <span class="badge badge-success custom-badge arrowed-left">In Stock</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Quantity</td>
+                  <td>
+                    <div class="input-group input-group-sm input-group-qty">
+                      <div class="input-group-prepend">
+                        <button class="btn btn-outline-theme btn-down" type="button"><i class="fa fa-minus"></i></button>
+                      </div>
+                      <input type="text" class="form-control" aria-label="Quantity" value="1" data-min="1" data-max="10">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-theme btn-up" type="button"><i class="fa fa-plus"></i></button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Size</td>
+                  <td>
+                    <select class="select-dropdown" data-width="65px" data-size="sm">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                      <option value="XXL">XXL</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr class="d-none d-md-table-row">
+                  <td class="align-middle">Checkbox</td>
+                  <td>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="detailCheck">
+                      <label class="custom-control-label" for="detailCheck">Checkbox 1</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="detailCheck2">
+                      <label class="custom-control-label" for="detailCheck2">Checkbox 2</label>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="d-none d-md-table-row">
+                  <td class="align-middle">Radio Option</td>
+                  <td>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="quickviewOption1" name="quickview-option" class="custom-control-input">
+                      <label class="custom-control-label" for="quickviewOption1">Yes</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="quickviewOption2" name="quickview-option" class="custom-control-input">
+                      <label class="custom-control-label" for="quickviewOption2">No</label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-theme"><i class="fa fa-plus-circle"></i> Add to cart</button>
+                      <button type="button" class="btn btn-outline-theme" data-toggle="tooltip" data-placement="top" title="Compare this"><i class="fa fa-align-left"></i></button>
+                      <button type="button" class="btn btn-outline-theme" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link text-default active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-default" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Detail</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-default" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Reviews (2)</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane border border-top-0 p-3 show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, molestiae odit? Animi eligendi, optio culpa cupiditate, minus, eaque sint delectus non id accusamus suscipit illum quaerat quibusdam expedita dolore quos distinctio corporis quae. Error molestiae consequatur nostrum placeat architecto maiores commodi ipsam incidunt</p>
+                <p>adipisci tempora ratione soluta aliquam, velit voluptatum dolore reprehenderit quis aut. Obcaecati nam non quis praesentium deserunt qui consequatur illum quae nobis? Optio eos, sit corporis quam distinctio, ad aspernatur quisquam ut, corrupti accusamus saepe labore veritatis sed est rerum. Iste odit reiciendis mollitia culpa illum eligendi, soluta magnam voluptatum ut sequi vitae vel labore quae, ducimus.</p>
+              </div>
+              <div class="tab-pane border border-top-0 p-3" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <table class="table table-bordered mb-0">
+                  <tbody>
+                    <tr>
+                      <td class="bg-light w-25">Lorem</td>
+                      <td>Ipsum</td>
+                    </tr>
+                    <tr>
+                      <td class="bg-light w-25">Dolor</td>
+                      <td>Sit Amet</td>
+                    </tr>
+                    <tr>
+                      <td class="bg-light w-25">Consectetur</td>
+                      <td>Adipisicing</td>
+                    </tr>
+                    <tr>
+                      <td class="bg-light w-25">Excepteur</td>
+                      <td>Occaecat</td>
+                    </tr>
+                    <tr>
+                      <td class="bg-light w-25">Excepteur</td>
+                      <td>Occaecat</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane border border-top-0 p-3" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="media mb-3">
+                  <div class="mr-2">
+                    <img class="img-thumbnail" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2264%22%20height%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_160c142c97c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_160c142c97c%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2213.5546875%22%20y%3D%2236.5%22%3E64x64%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Generic placeholder image">
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <div class="font-weight-bold">John Thor</div>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                  </div>
+                </div>
+                <div class="media mb-3">
+                  <div class="mr-2">
+                    <img class="img-thumbnail" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2264%22%20height%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_160c142c97c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_160c142c97c%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2213.5546875%22%20y%3D%2236.5%22%3E64x64%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Generic placeholder image">
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <div class="font-weight-bold">Michael Lelep</div>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                  </div>
+                </div>
+                <hr>
+                <h5><a class="text-default" data-toggle="collapse" href="#formReview" role="button" aria-expanded="false" aria-controls="formReview">Add your review</a></h5>
+                <form class="mt-3 collapse" id="formReview">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="InputName" class="mb-0 font-weight-bold">Name</label>
+                      <input type="text" class="form-control" id="InputName" placeholder="Enter Name" add-class-on-xs="form-control-sm">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="InputEmail" class="mb-0 font-weight-bold">Email Address</label>
+                      <input type="email" class="form-control" id="InputEmail" placeholder="Enter Email" add-class-on-xs="form-control-sm">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="d-block mb-0 font-weight-bold">Rating</label>
+                    <div class="input-rating"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="mb-0 font-weight-bold" for="InputReview">Your Review</label>
+                    <textarea class="form-control" id="InputReview" rows="4" add-class-on-xs="form-control-sm" placeholder="Your Review Here"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-theme btn-sm">Submit Review</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12"><div class="title"><span>People who bought this also bought</span></div></div>
+          <div class="col pl-sm-0 pr-sm-0">
+            <div class="owl-carousel owl-theme product-slider">
+              <div class="product-slider-item">
+                <div class="card card-product">
+                  <div class="img-wrapper">
+                    <a href="detail.html"><img class="card-img-top" src="images/product/vneck1.jpg" alt="Card image cap"></a>
+                    <div class="tools tools-bottom" data-animate-in="fadeInDown" data-animate-out="flipOutX">
+                      <div class="btn-group" role="group" aria-label="card-product-tools">
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block quick-view"><i class="fa fa-search-plus"></i></button>
+                        <button class="btn btn-link btn-sm">Add to Cart</button>
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block"><i class="fa fa-heart"></i></button>
+                      </div>
+                    </div>
+                    <span class="badge badge-primary custom-badge arrowed-right label label-top-left">Extra Sale</span>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><a href="detail.html">Gas Mustard Yellow Solid Slim Fit</a></p>
+                    <ul class="card-text list-inline">
+                      <li class="list-inline-item"><span class="price">$13.50</span></li>
+                      <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                      <li class="list-inline-item d-none d-sm-inline-block"><span class="badge badge-info custom-badge arrowed-left">-10%</span></li>
+                    </ul>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <a href="#" class="d-none d-sm-inline-block">(6 reviews)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider-item">
+                <div class="card card-product">
+                  <div class="img-wrapper">
+                    <a href="detail.html"><img class="card-img-top" src="images/product/vneck2.jpg" alt="Card image cap"></a>
+                    <div class="tools tools-bottom" data-animate-in="zoomIn" data-animate-out="fadeOutLeft">
+                      <div class="btn-group" role="group" aria-label="card-product-tools">
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block quick-view"><i class="fa fa-search-plus"></i></button>
+                        <button class="btn btn-link btn-sm">Add to Cart</button>
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block"><i class="fa fa-heart"></i></button>
+                      </div>
+                    </div>
+                    <span class="badge badge-secondary custom-badge arrowed-right label label-top-left">Best Offer</span>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><a href="detail.html">Basics Black Striped</a></p>
+                    <ul class="card-text list-inline">
+                      <li class="list-inline-item"><span class="price">$13.50</span></li>
+                      <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                      <li class="list-inline-item d-none d-sm-inline-block"><span class="badge badge-warning custom-badge arrowed-left">-10%</span></li>
+                    </ul>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <a href="#" class="d-none d-sm-inline-block">(5 reviews)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider-item">
+                <div class="card card-product">
+                  <div class="img-wrapper">
+                    <a href="detail.html"><img class="card-img-top" src="images/product/vneck3.jpg" alt="Card image cap"></a>
+                    <div class="tools tools-right" data-animate-in="flipInX" data-animate-out="flipOutY">
+                      <div class="btn-group-vertical" role="group" aria-label="card-product-tools">
+                        <button class="btn btn-link btn-sm d-none d-sm-inline-block quick-view"><i class="fa fa-search-plus"></i></button>
+                        <button class="btn btn-link btn-sm"><i class="fa fa-shopping-cart"></i></button>
+                        <button class="btn btn-link btn-sm"><i class="fa fa-heart"></i></button>
+                      </div>
+                    </div>
+                    <span class="badge badge-success custom-badge arrowed-right label label-top-left">Special Discount</span>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><a href="detail.html">Superdry Blue Solid Slim Fit</a></p>
+                    <ul class="card-text list-inline">
+                      <li class="list-inline-item"><span class="price">$13.50</span></li>
+                      <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                      <li class="list-inline-item d-none d-sm-inline-block"><span class="badge badge-danger custom-badge arrowed-left">-10%</span></li>
+                    </ul>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <a href="#" class="d-none d-sm-inline-block">(4 reviews)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider-item">
+                <div class="card card-product">
+                  <div class="img-wrapper">
+                    <a href="detail.html"><img class="card-img-top" src="images/product/vneck5.jpg" alt="Card image cap"></a>
+                    <div class="tools tools-right" data-animate-in="slideInRight" data-animate-out="slideOutUp">
+                      <div class="btn-group-vertical" role="group" aria-label="card-product-tools">
+                        <button class="btn btn-link btn-sm d-none d-sm-inline-block quick-view"><i class="fa fa-search-plus"></i></button>
+                        <button class="btn btn-link btn-sm"><i class="fa fa-shopping-cart"></i></button>
+                        <button class="btn btn-link btn-sm"><i class="fa fa-heart"></i></button>
+                      </div>
+                    </div>
+                    <span class="badge badge-warning custom-badge arrowed-right label label-top-left">Best Price</span>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><a href="detail.html">Gritstones Olive Solid</a></p>
+                    <ul class="card-text list-inline">
+                      <li class="list-inline-item"><span class="price">$13.50</span></li>
+                      <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                      <li class="list-inline-item d-none d-sm-inline-block"><span class="badge badge-secondary custom-badge arrowed-left">-10%</span></li>
+                    </ul>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <a href="#" class="d-none d-sm-inline-block">(2 reviews)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider-item">
+                <div class="card card-product">
+                  <div class="img-wrapper">
+                    <a href="detail.html"><img class="card-img-top" src="images/product/vneck4.jpg" alt="Card image cap"></a>
+                    <div class="tools tools-bottom" data-animate-in="rotateInDownLeft" data-animate-out="rotateOutDownLeft">
+                      <div class="btn-group" role="group" aria-label="card-product-tools">
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block quick-view"><i class="fa fa-search-plus"></i></button>
+                        <button class="btn btn-link btn-sm">Add to Cart</button>
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block"><i class="fa fa-heart"></i></button>
+                      </div>
+                    </div>
+                    <span class="badge badge-danger custom-badge arrowed-left label label-top-right">Buy 1 Get 1 Free</span>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><a href="detail.html">Celio Brown Textured</a></p>
+                    <ul class="card-text list-inline">
+                      <li class="list-inline-item"><span class="price">$13.50</span></li>
+                      <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                      <li class="list-inline-item d-none d-sm-inline-block"><span class="badge badge-success custom-badge arrowed-left">-10%</span></li>
+                    </ul>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <a href="#" class="d-none d-sm-inline-block">(3 reviews)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-slider-item">
+                <div class="card card-product">
+                  <div class="img-wrapper">
+                    <a href="detail.html"><img class="card-img-top" src="images/product/vneck6.jpg" alt="Card image cap"></a>
+                    <div class="tools tools-bottom" data-animate-in="lightSpeedIn" data-animate-out="zoomOut">
+                      <div class="btn-group" role="group" aria-label="card-product-tools">
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block quick-view"><i class="fa fa-search-plus"></i></button>
+                        <button class="btn btn-link btn-sm">Add to Cart</button>
+                        <button class="btn btn-link btn-sm d-none d-md-inline-block"><i class="fa fa-heart"></i></button>
+                      </div>
+                    </div>
+                    <span class="badge badge-info custom-badge arrowed-left label label-top-right">Limited Offer</span>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><a href="detail.html">Numero Uno White Striped Regular Fit</a></p>
+                    <ul class="card-text list-inline">
+                      <li class="list-inline-item"><span class="price">$13.50</span></li>
+                      <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                      <li class="list-inline-item d-none d-sm-inline-block"><span class="badge badge-primary custom-badge arrowed-left">-10%</span></li>
+                    </ul>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <a href="#" class="d-none d-sm-inline-block">(1 reviews)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row equal-height">
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>About Us</span></div>
+              <ul>
+                <li>
+                  Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloremmagna aliqua. Ut enim ad minim... <a href="about.html">Read More</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>Information</span></div>
+              <ul>
+                <li><i class="fa fa-angle-double-right"></i> <a href="faq.html">FAQ</a></li>
+                <li><i class="fa fa-angle-double-right"></i> <a href="#">Policy Privacy</a></li>
+                <li><i class="fa fa-angle-double-right"></i> <a href="#">Terms and Conditions</a></li>
+                <li><i class="fa fa-angle-double-right"></i> <a href="#">Shipping Methods</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>Categories</span></div>
+              <ul>
+                <li><i class="fa fa-angle-double-right"></i> <a href="products.html">Cras justo odio</a></li>
+                <li><i class="fa fa-angle-double-right"></i> <a href="products.html">Dapibus ac facilisis in</a></li>
+                <li><i class="fa fa-angle-double-right"></i> <a href="products.html">Morbi leo risus</a></li>
+                <li><i class="fa fa-angle-double-right"></i> <a href="products.html">Porta ac consectetur ac</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>Newsletter</span></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, soluta, tempora, ipsa voluptatibus porro vel laboriosam</p>
+              <div class="input-group input-group-sm">
+                <input class="form-control" type="text" placeholder="Email Address" aria-label="Email Address">
+                <div class="input-group-append">
+                  <button class="btn btn-theme" type="button">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>Our Store</span></div>
+              <ul class="footer-icon">
+                <li><span><i class="fa fa-map-marker"></i></span> 212 Lorem Ipsum. Dolor Sit</li>
+                <li><span><i class="fa fa-phone"></i></span> +123-456-789</li>
+                <li><span><i class="fa fa-envelope"></i></span> <a href="mailto:cs@domain.tld">cs@domain.tld</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>Follow Us</span></div>
+              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum</p>
+              <ul class="follow-us">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>Payment Method</span></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, soluta, tempora, ipsa voluptatibus porro vel laboriosam</p>
+              <img src="images/payment-1.png" alt="Payment-1">
+              <img src="images/payment-2.png" alt="Payment-2">
+              <img src="images/payment-3.png" alt="Payment-3">
+              <img src="images/payment-4.png" alt="Payment-4">
+              <img src="images/payment-5.png" alt="Payment-5">
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="title-footer"><span>My Account</span></div>
+                <ul>
+                  <li><i class="fa fa-angle-double-right"></i> <a href="account-order.html">Orders</a></li>
+                  <li><i class="fa fa-angle-double-right"></i> <a href="account-profile.html">Profile</a></li>
+                  <li><i class="fa fa-angle-double-right"></i> <a href="account-wishlist.html">Wishlist</a></li>
+                  <li><i class="fa fa-angle-double-right"></i> <a href="#">Logout</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center copyright">
+          Copyright &copy; 2018 Mimity All right reserved
+        </div>
+      </div>
+
+      <!-- Login Modal -->
+      <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="LoginModalLabel">Enter Your Information</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="InputUsername" class="font-weight-bold">Username</label>
+                <input type="text" class="form-control" id="InputUsername" placeholder="Enter Username">
+              </div>
+              <div class="form-group">
+                <label for="InputPassword" class="font-weight-bold">Password</label>
+                <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+                <a href="#" class="float-right text-default"><small>Forgot Password ?</small></a>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="checkRememberMe">
+                <label class="custom-control-label" for="checkRememberMe">Remember Me</label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-theme btn-sm">Enter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick View Modal -->
+      <div class="modal fade" id="QuickViewModal" tabindex="-1" role="dialog" aria-labelledby="QuickViewModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-quickview" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"><a href="detail.html" class="text-default">U.S. Polo Assn. Green Solid Slim Fit</a></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col col-sm-6">
+                    <div class="owl-carousel owl-theme quickview-slider">
+                      <div><img src="images/product/polo1.jpg" alt="image"></div>
+                      <div><img src="images/product/polo2.jpg" alt="image"></div>
+                      <div><img src="images/product/polo3.jpg" alt="image"></div>
+                    </div>
+                  </div>
+                  <div class="col col-sm-6">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="border-top-0">Price</td>
+                          <td class="border-top-0">
+                            <ul class="list-inline mb-0">
+                              <li class="list-inline-item"><span class="price">$13.50</span></li>
+                              <li class="list-inline-item"><del class="text-muted">$15.00</del></li>
+                              <li class="list-inline-item d-none d-sm-inline-block"><span class="badge custom-badge arrowed-left badge-primary">-10%</span></li>
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Quantity</td>
+                          <td>
+                            <div class="input-group input-group-sm input-group-qty">
+                              <div class="input-group-prepend">
+                                <button class="btn btn-theme btn-down" type="button"><i class="fa fa-minus"></i></button>
+                              </div>
+                              <input type="text" class="form-control" aria-label="Quantity" value="1" data-min="1" data-max="10">
+                              <div class="input-group-append">
+                                <button class="btn btn-theme btn-up" type="button"><i class="fa fa-plus"></i></button>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Size</td>
+                          <td>
+                            <select class="select-dropdown" data-width="65px" data-size="sm">
+                              <option value="S">S</option>
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                              <option value="XL">XL</option>
+                              <option value="XXL">XXL</option>
+                            </select>
+                          </td>
+                        </tr>
+                        <tr class="d-none d-md-table-row">
+                          <td>Checkbox</td>
+                          <td>
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="quickviewCheck">
+                              <label class="custom-control-label" for="quickviewCheck">Check this</label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="d-none d-md-table-row">
+                          <td class="align-middle">Radio Option</td>
+                          <td>
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="quickviewOption1" name="quickview-option" class="custom-control-input">
+                              <label class="custom-control-label" for="quickviewOption1">Yes</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="quickviewOption2" name="quickview-option" class="custom-control-input">
+                              <label class="custom-control-label" for="quickviewOption2">No</label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                            <button class="btn btn-sm btn-theme btn-block btn-add-quickview">Add to Cart</button>
+                            <button class="btn btn-sm btn-outline-theme"><i class="fa fa-heart"></i></button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#top" class="back-top text-center" onclick="$('body,html').animate({scrollTop:0},500); return false">
+        <i class="fa fa-angle-double-up"></i>
+      </a>
+
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then required plugins -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap3-typeahead.min.js"></script>
+
+    <!-- Third Party JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.raty-fa.min.js"></script>
+    <script src="js/jquery.ez-plus.min.js"></script>
+
+    <!-- Mimity JS -->
+    <script src="js/mimity.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!-- Modal Cart -->
+    <div class="modal fade modal-cart" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">You have 4 items in your bag</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            {% for item in cart %}
+            <div class="media">
+              <a href="detail.html"><img src="../img/product/{{ item.img }}" width="50" height="50" alt="{{ item.name }}"></a>
+              <div class="media-body">
+                <a href="detail.html" title="{{ item.name }}">{{ item.name }}</a>
+                <div class="input-spinner input-spinner-sm">
+                  <input type="number" class="form-control form-control-sm" value="{{ item.qty }}" min="1" max="999">
+                  <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-light"><i class="fa fa-chevron-up"></i></button>
+                    <button type="button" class="btn btn-light"><i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+                x <span class="price">{{ item.price }}</span>
+                <button type="button" class="close" aria-label="Close"><i class="fa fa-trash-o"></i></button>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="modal-footer">
+            <div class="box-total">
+              <h4>Subotal: <span class="price">$1,297.48</span></h4>
+              <a href="cart.html" class="btn btn-success">VIEW CART</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

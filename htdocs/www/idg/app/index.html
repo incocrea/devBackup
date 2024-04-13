@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>IDG</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" /> -->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script> -->
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html">IDG Windtech</a>
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars" onclick="fixSlide()"></i></button>
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" onclick = "setMyPass()" id="setPassLink"></a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" id="logoutLink" onclick="logout()" ></a></li>
+                    </ul>
+                </li>
+            </ul>
+			<div class="flagBox">
+				<img src="img/es_es.png" onclick="setLangGeneral('ES')"></a>
+				<img src="img/en_us.png" onclick="setLangGeneral('EN')"></a>
+				<img src="img/pt_br.png" onclick="setLangGeneral('PT')"></a>
+			</div>
+			
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div id = "menuBar" class="nav"></div>
+                    </div>
+                    <div class="sb-sidenav-footer">
+                        <div id = "userNameTit" class="small">Logged in as:</div>
+                        <div id = "userName" class="small"></div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main id="main-content">
+                    <div class="container-fluid px-4">
+						<div >
+							<h2 id="welcomeTit" class="mt-4"></h2>
+						</div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; IDG 2023</div>
+                            <div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+		
+       
+		
+		<!-- --------------------*************MODALS************************-------------------- -->
+		
+		<!-- Alert modal -->
+		<div class="modal fade" style="z-index: 5000;" id="alertsBox" tabindex="-1" role="dialog" aria-hidden="true">
+			<div id="alertBoxBox" class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<!-- Alert header -->
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="alertsBoxTitle"></h5>
+						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<!-- Alert content -->
+					<div id="alertsBoxMessage" class="modal-body text-center"></div>
+					<!-- Alert footer -->
+					<div class="modal-footer ">
+					<button id="acceptButton" type="button" class="btn btn-primary btn-sm filterButton1" data-bs-dismiss="modal"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Confirm modal -->
+		<div class='modal fade' id='confirmModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div id="modalBox" class='modal-content'>
+					<!-- Passrec header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='confirmModalLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					<!-- Confirm body -->
+					<div  class='modal-body '>
+						<div class="form-floating mb-3">
+							<span id="confirmQuestion"></span>
+						</div>
+					</div>
+					<!-- Confirm footer -->
+					<div class='modal-footer'>
+						<button type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'>Cancelar</button>
+						<button id= "confirmButton" type='button' class='btn btn-primary btn-sm filterButton2'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Test Set Modal -->
+		<div class='modal fade' id='testSetModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div class='modal-content'>
+					<!-- testSet header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='testSetLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					<!-- testSet body -->
+					<div class='modal-body'>
+						<div class="col-12">
+							<select class="form-control" id="testPicker"></select>
+						</div>
+					</div>
+					<!-- testSet footer -->
+					<div class='modal-footer'>
+						<button id="testPickCancel" type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'></button>
+						<button id= "testPickSend" type='button' class='btn btn-primary btn-sm filterButton2' onclick='setCourseTest()'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Test Set ModalQuestion -->
+		<div class='modal fade' id='testSetModalQ' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div class='modal-content'>
+					<!-- testSet header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='testSetLabelQ'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					<!-- testSet body -->
+					<div class='modal-body'>
+						<div class="col-12">
+							<select class="form-control" id="testPickerQ"></select>
+						</div>
+						
+					</div>
+					<div class='modal-body'>
+						<div class="col-12">
+							<input id="testPickerQmod" type="number" class="form-control">
+						</div>
+						
+					</div>
+					<!-- testSet footer -->
+					<div class='modal-footer'>
+						<button id="testPickCancelQ" type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'></button>
+						<button id= "testPickSendQ" type='button' class='btn btn-primary btn-sm filterButton2' onclick='setCourseTestQ()'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Pass set modal -->
+		<div class='modal fade' id='pssSetModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div class='modal-content'>
+					<!-- Passrec header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='pssChangeLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
++						</button>
+					</div>
+					<!-- Passrec body -->
+					<div class='modal-body'>
+						<!-- Passrec mail -->
+						<div class="col-12">
+							<span id="inputPassword1" class="fieldLabel"></span>
+							<input id="InputPass1" type="text" class="form-control">
+						</div>
+						<div class="col-12">
+							<span id="inputPassword2" class="fieldLabel"> curso</span>
+							<input id="InputPass2" type="text" class="form-control">
+						</div>
+					</div>
+					<!-- Passrec footer -->
+					<div class='modal-footer'>
+						<button id="recCancel" type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'></button>
+						<button id= "setSend" type='button' class='btn btn-primary btn-sm filterButton2' onclick='pssSetCheck()'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- courses set modal -->
+		<div class='modal fade' id='coursesSetModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div id="modalBoxBig" class='modal-content'>
+					<!-- Passrec header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='coursesSetLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					
+					<label id="daysTotakeSingleTittle" class="daysToTakeTag"></label>
+					
+					<input id="limitDaysSingle" type="number" class="form-control limitDays">
+					
+					<!-- Course Set body -->
+					<div id="coursesSetBox" class='modal-body'>	</div>
+					<!-- Passrec footer -->
+					<div class='modal-footer'>
+						<button id="setCourseCancel" type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'></button>
+						<button id= "setCourseSend" type='button' class='btn btn-primary btn-sm filterButton2' onclick='setAllowed()'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- bundle set modal -->
+		<div class='modal fade' id='bundleSetModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div class='modal-content'>
+					<!-- Passrec header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='bundlesSetLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					
+					<label id="daysTotakeSingleTittleB" class="daysToTakeTag"></label>
+					
+					<input id="limitDaysBundle" type="number" class="form-control limitDays">
+					
+					<!-- Course Set body -->
+					<div id="bundlesSetBox" class='modal-body'>	</div>
+					<!-- Passrec footer -->
+					<div class='modal-footer'>
+						<button id="setBundleCancel" type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'></button>
+						<button id= "setBundleSend" type='button' class='btn btn-primary btn-sm filterButton2' onclick='setBundles()'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<input id="fileSelector" name="myimage" type="file" onchange="onFileSelected(event)">
+		
+    </body>
+	
+	<!-- ************************ -->
+	
+	<script src="js/bs523.min.js" crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+	<script src="plugins/fa 5.15/js/all.js"></script>
+	<script>imfoo = "home";</script>
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="js/dp/jquery.datetimepicker.js"></script>
+	<script src="js/jsLoader.js"></script>
+	
+	
+	<!-- ************************ -->
+	
+</html>

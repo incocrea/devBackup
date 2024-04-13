@@ -1,0 +1,11 @@
+.user-card {
+  margin-top: 1rem;
+  .nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  > .card-body > .media > img {
+	width: 100px;
+	height: 100px;
+  }
+}

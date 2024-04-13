@@ -1,0 +1,27 @@
+Cliente: BANCO AGRARIO DE COLOMBIA S.A;Detalle de Orden: 21
+
+Actividades;
+
+Item;Detalle;Actividad;Valor Unidad;Cantidad;Subtotal
+"bdc363-Locativas";"Locativas";"Pintura en esmalte para puerta de fachada, incluye preparacion de superficie";"14600";"6.60";"96360"
+"bdc363-Locativas";"Locativas";"pintura de recuperación y acabado puertas entrada ";"136700";"2";"273400"
+"bdc363-Locativas";"Locativas";"s pintura en cenefa de fachada color ocre y azul";"262800";"1";"262800"
+"bdc363-Locativas";"Locativas";"Pintura en fachada color blanco";"17130";"40";"685200"
+"bdc363-Locativas";"Locativas";"resane de muros bajos por humedad fachada";"8700";"10";"87000"
+"bdc363-Locativas";"Locativas";"pintura area baja de fachada lateral color blanco";"17300";"10";"173000"
+"bdc363-Locativas";"Locativas";"mantenimiento correctivo de cubiertas, desmonte de tejas, cambio tejas dañadas, retiro de tejas abandonadas en cubierta.";"59700";"35";"2089500"
+"bdc363-Locativas";"Locativas";"transporte visita técnica";"50000";"5";"250000"
+"bdc363-Locativas";"Locativas";"construcción caja inspección 40*40 patio, bajante y sifon de aguas lluvias";"139700";"1";"139700"
+"bdc363-Locativas";"Locativas";"revisión y mantenimiento de red y canales de aguas lluvia";"9700";"22";"213400"
+"bdc363-Locativas";"Locativas";"demolición de pisos incluye empaque mas retiro de escombros.";"17600";"1";"17600"
+"bdc363-Locativas";"Locativas";"demolición de enchape o tableta de piso ";"17600";"1";"17600"
+"bdc363-Locativas";"Locativas";"pintura vinilo viniltex blanco interiores pasillo cocina";"11800";"22";"259600"
+"bdc363-Locativas";"Locativas";"suministro de canal amzonas de 6 mas accesorios.";"65700";"4";"262800"
+
+Repuestos;
+
+Item;Detalle;;Valor Unidad;Cantidad;Subtotal
+
+Otros Costos;
+
+Tipo de costo;Detalle;Documento/Factura;Valor Unidad;Cantidad;Subtotal

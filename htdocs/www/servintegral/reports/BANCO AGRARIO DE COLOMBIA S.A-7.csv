@@ -1,0 +1,16 @@
+Cliente: BANCO AGRARIO DE COLOMBIA S.A;Detalle de Orden: 7
+
+Actividades;
+
+Item;Detalle;Actividad;Valor Unidad;Cantidad;Subtotal
+"23004328";"planta electrica";"suministro cargador de batería";"370000";"1";"370000"
+"23004328";"planta electrica";"mantenimiento preventivo planta electrica ";"340000";"1";"340000"
+"23004328";"planta electrica";"transporte visita oficina";"60000";"1";"60000"
+
+Repuestos;
+
+Item;Detalle;;Valor Unidad;Cantidad;Subtotal
+
+Otros Costos;
+
+Tipo de costo;Detalle;Documento/Factura;Valor Unidad;Cantidad;Subtotal

@@ -1,0 +1,29 @@
+// Modal Filter
+.modal-filter {
+  padding-right: 0 !important;
+  .modal-dialog {
+    max-width: 250px;
+    margin: 0;
+    margin-left: auto;
+    height: 100%;
+  }
+  .modal-content {
+    height: 100%;
+    border: 0;
+  }
+  .modal-body {
+    flex-shrink: 0;
+    background-color: $modal-content-bg;
+  }
+  &.fade .modal-dialog {
+    transform: translate3d(20px, 0, 0);
+    transition: transform .25s;
+  }
+  &.show .modal-dialog {
+    transform: translate3d(0, 0, 0);
+  }
+  #star-rating {
+    color: $yellow;
+    font-size: 1rem;
+  }
+}

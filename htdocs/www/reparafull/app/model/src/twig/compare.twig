@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include '_required-css.twig' %}
+
+    {% include '_template-css.twig' %}
+
+    <title>Product Comparison - {{title}}</title>
+  </head>
+  <body>
+
+    {% include '_header.twig' %}
+
+    <div class="container-fluid" id="main-container">
+      <div class="row">
+
+        {% include '_sidebar.twig' with {'active':'pages','sub':'compare'} %}
+
+        <div class="col" id="main-content">
+
+          <h3>Product Comparison</h3>
+
+          <div class="table-responsive">
+            <table class="table table-bordered text-center table-wishlist">
+              <thead>
+                <tr>
+                  {% for item in wishlist %}
+                  <th>
+                    <p><a href="detail.html"><img src="../img/product/{{ item.img }}" width="75" height="75" alt="{{ item.name }}"></a></p>
+                    <p><a href="detail.html" class="text-body">{{ item.name }}</a></p>
+                    <div class="btn-group btn-group-sm" role="group">
+                      <button type="button" class="btn btn-outline-info"><i class="fa fa-close"></i></button>
+                      <button type="button" class="btn btn-outline-info">Add to cart</button>
+                    </div>
+                  </th>
+                  {% endfor %}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  {% for item in wishlist %}
+                  <td>
+                    <strong>Price:</strong>
+                    <div>{{ item.price }}</div>
+                  </td>
+                  {% endfor %}
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Model:</strong>
+                    <div>Model 1</div>
+                  </td>
+                  <td>
+                    <strong>Model:</strong>
+                    <div>Model 2</div>
+                  </td>
+                  <td>
+                    <strong>Model:</strong>
+                    <div>Model 3</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Brand:</strong>
+                    <div>Brand 1</div>
+                  </td>
+                  <td>
+                    <strong>Brand:</strong>
+                    <div>Brand 2</div>
+                  </td>
+                  <td>
+                    <strong>Brand:</strong>
+                    <div>Brand 3</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Availability:</strong>
+                    <div>Availabel 1</div>
+                  </td>
+                  <td>
+                    <strong>Availability:</strong>
+                    <div>Availabel 2</div>
+                  </td>
+                  <td>
+                    <strong>Availability:</strong>
+                    <div>Availabel 3</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Rating:</strong>
+                    <div><div class="rating" data-value="2"></div></div>
+                    <a href="#" class="text-muted small">(2 reviews)</a>
+                  </td>
+                  <td>
+                    <strong>Rating:</strong>
+                    <div><div class="rating" data-value="3"></div></div>
+                    <a href="#" class="text-muted small">(3 reviews)</a>
+                  </td>
+                  <td>
+                    <strong>Rating:</strong>
+                    <div><div class="rating" data-value="4"></div></div>
+                    <a href="#" class="text-muted small">(4 reviews)</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="btn-group btn-group-sm" role="group">
+                      <button type="button" class="btn btn-outline-info"><i class="fa fa-close"></i></button>
+                      <button type="button" class="btn btn-outline-info">Add to cart</button>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="btn-group btn-group-sm" role="group">
+                      <button type="button" class="btn btn-outline-info"><i class="fa fa-close"></i></button>
+                      <button type="button" class="btn btn-outline-info">Add to cart</button>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="btn-group btn-group-sm" role="group">
+                      <button type="button" class="btn btn-outline-info"><i class="fa fa-close"></i></button>
+                      <button type="button" class="btn btn-outline-info">Add to cart</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {% include '_footer.twig' %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include '_modal-cart.twig' %}
+
+    {% include '_required-js.twig' %}
+
+    {% include '_template-js.twig' %}
+  </body>
+</html>

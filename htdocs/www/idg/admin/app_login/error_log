@@ -1,0 +1,103 @@
+[10-Jan-2023 19:45:43 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:43 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:43 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 40
+[10-Jan-2023 19:45:43 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 42
+[10-Jan-2023 19:45:43 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(42): sc_convert_encoding('', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(345): sc_html_entity_decode('')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1748): NM_utf8_urldecode('')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 375
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 377
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 379
+[10-Jan-2023 19:45:48 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('empresa1', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(379): sc_convert_encoding('empresa1', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(346): NM_charset_decode('empresa1')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1748): NM_utf8_urldecode('empresa1')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 375
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 377
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 379
+[10-Jan-2023 19:45:48 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('12345', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(379): sc_convert_encoding('12345', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(346): NM_charset_decode('12345')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1753): NM_utf8_urldecode('12345')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 375
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 377
+[10-Jan-2023 19:45:48 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 379
+[10-Jan-2023 19:45:48 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('empresa1', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(379): sc_convert_encoding('empresa1', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(346): NM_charset_decode('empresa1')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1763): NM_utf8_urldecode('empresa1')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79
+[10-Jan-2023 19:46:32 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:46:32 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:46:32 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 375
+[10-Jan-2023 19:46:32 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 377
+[10-Jan-2023 19:46:32 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 379
+[10-Jan-2023 19:46:32 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('empresa1', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(379): sc_convert_encoding('empresa1', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(346): NM_charset_decode('empresa1')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1748): NM_utf8_urldecode('empresa1')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79
+[10-Jan-2023 19:46:33 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:46:33 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:46:33 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 375
+[10-Jan-2023 19:46:33 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 377
+[10-Jan-2023 19:46:33 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 379
+[10-Jan-2023 19:46:33 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('12345', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(379): sc_convert_encoding('12345', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(346): NM_charset_decode('12345')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1753): NM_utf8_urldecode('12345')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79
+[10-Jan-2023 19:46:59 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:46:59 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:46:59 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 375
+[10-Jan-2023 19:46:59 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 377
+[10-Jan-2023 19:46:59 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 379
+[10-Jan-2023 19:46:59 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('empresa1', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(379): sc_convert_encoding('empresa1', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(346): NM_charset_decode('empresa1')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1748): NM_utf8_urldecode('empresa1')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79
+[10-Jan-2023 19:47:04 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:47:04 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 32
+[10-Jan-2023 19:47:04 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 375
+[10-Jan-2023 19:47:04 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 377
+[10-Jan-2023 19:47:04 America/Chicago] PHP Warning:  Undefined array key "charset" in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 379
+[10-Jan-2023 19:47:04 America/Chicago] PHP Fatal error:  Uncaught ValueError: mb_convert_encoding(): Argument #2 ($to_encoding) must be a valid encoding, "" given in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php:79
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(79): mb_convert_encoding('empresa1', '', 'UTF-8')
+#1 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(379): sc_convert_encoding('empresa1', NULL, 'UTF-8')
+#2 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php(346): NM_charset_decode('empresa1')
+#3 /home4/vrcrenew/public_html/admin/app_login/index.php(1748): NM_utf8_urldecode('empresa1')
+#4 {main}
+  thrown in /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_utf8.php on line 79

@@ -1,0 +1,1264 @@
+*:focus 
+{
+	outline: none;
+}
+body 
+{
+	font-size: 1.0em;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+}
+html
+{ 	
+	font-size: 100%;
+	display: block;
+}
+input[type='checkbox']
+{
+	border-radius: 4px;
+	margin: 0px !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{  
+   opacity: 1;
+}
+select
+{
+	text-align: left;
+	
+}
+option
+{
+	text-align: left;
+}
+li
+{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+-webkit-input-placeholder { font-size: 14px !important; text-align: left; font-family: 'Open Sans', sans-serif;}
+-moz-placeholder { font-size: 14px !important; text-align: left; font-family: 'Open Sans', sans-serif;}
+-ms-input-placeholder { font-size: 14px !important; text-align: left; font-family: 'Open Sans', sans-serif;}
+
+/*----------------WORK AREA--------------------*/
+.explain
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 13px;
+	
+}
+.explain2
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 14px;
+	
+}
+.importantB
+{
+	font-size: 15px;
+	color: red;
+}
+.orderWarn
+{
+	width: 28px;
+}
+.orderWlabel
+{
+	cursor: pointer;
+}
+.clientDataLine
+{
+	float: left;
+	width: 100%;
+	padding: 5px;
+	font-size: 0.9rem;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.customRowMargin
+{
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+}
+.maxH350
+{
+	max-height: 350px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.tableField
+{
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+	height: 22px !important;
+	font-size: 12px !important;
+	width: 60px !important;
+	text-align: center !important;
+	float: none !important;
+	padding-left: 0px !important;
+}
+.floaTable
+{
+	background: #ffffff;
+}
+.lower
+{
+	text-transform: none !important;
+}
+.lower input
+{
+	text-transform: none !important;
+}
+.loaderDiv
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 21;
+	display: none;
+}
+.loaderDiv img
+{
+	width: 80px;
+	display:block;
+	position:absolute;
+	left:0;
+	right:0;
+	top:40%;
+	margin:auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.blocker
+{
+	position: absolute;
+	background: #000000;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000000;
+	display: none;
+}
+.mainContainerWeb
+{
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: 1;
+	display: none;
+
+}
+.mainHead
+{
+
+	width: 100%;
+	background: #FF6636;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	z-index: 3;
+	text-align: center;
+}
+.mainMid
+{
+	position: absolute;
+	top: 62px;
+	bottom: 0px;
+	width: 100%;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	border: 1px solid red;
+	overflow-y: auto;
+	/* background-image: url("../irsc/mainBGB.png"); */
+}
+.loginTitle1
+{
+	margin: auto;
+	max-width: 90%;
+	font-size: 16px;
+	color: #FF6636;
+	font-weight: bold;
+	text-align: center;
+}
+.loginTitle2
+{
+	margin: auto;
+	max-width: 90%;
+	font-size: 14px;
+	color: #000000;
+}
+.hiddenSec
+{
+	display: none !important;
+}
+.loginButton1
+{
+	float: left;
+	width: 98%;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 0.5%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	background: #FF6636;
+	color: #ffffff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-shadow: 0px 0px 4px #000000;
+	cursor: pointer;
+}
+.loginButton2
+{
+	display: none;
+}
+.fileBox
+{
+	height: 30px;
+	font-size: 12px;
+}
+.fileBoxHidden
+{
+	display: none !important;
+}
+.upForm
+{
+	border: 1px solid #DEDEDE;
+	height: 30px !important;
+	border-radius: 5px;
+}
+.cBoxDefault
+{
+	float: left;
+	width: 60%;
+	margin-left: 20%;
+	height: 20px;
+	background: #eeeeee;
+	padding: 0px;
+	border: 0px solid;
+}
+/*----------------END WORK AREA--------------------*/
+
+/*----------------BUTTONS--------------------*/
+.dualButtonsDiv
+{
+	float: left;
+	margin-top: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	text-shadow: 0px 0px 4px #000000;
+}
+.dualButtonPop
+{
+	float: left !important;
+	width: 40%;
+	margin-left: 6.7%;
+	margin-top: 2%;
+	margin-bottom: 15px;
+	background: #FF6636;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 6px;
+	text-shadow: 0px 0px 4px #000000;
+}
+.dualButtonPopBlue
+{
+	background: #337ab7;
+}
+.dualButtonPop:hover
+{
+	background: #272E36;
+}
+.singleButton
+{
+	float: left;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 2%;
+	margin-bottom: 15px;
+	background: #FF6636;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 6px;
+	text-shadow: 0px 0px 4px #000000;
+}
+.dualButton
+{
+	float: left;
+	width: 40%;
+	margin-left: 6.7%;
+	margin-top: 2%;
+	margin-bottom: 15px;
+	background: #FF6636;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 6px;
+	text-shadow: 0px 0px 4px #000000;
+
+}
+.dualButton:hover
+{
+	background: #272E36;
+}
+/*----------------END BUTTONS--------------------*/
+
+/*----------------FIELDS--------------------*/
+.fields input[type="text"]:disabled, input[type="password"]:disabled
+{
+        background: #aaaaaa;
+}
+.fields select:disabled
+{
+        background: #aaaaaa;
+		
+}
+.fields input[type="text"], input[type="password"]
+{
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #DEDEDE;
+	height: 30px !important;
+	font-size: 14px;
+	padding-left: 8px;
+	border-radius: 5px;
+	background: #ffffff;
+	/* text-transform: uppercase; */
+}
+.fields textarea
+{
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 100%;
+	min-height: 60px;
+	border: 0px solid #DEDEDE;
+	font-size: 14px;
+	background: #fdf3e5;
+	resize: none;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+.fields select
+{
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #DEDEDE;
+	height: 30px !important;
+	font-size: 14px;
+	text-align-last: left !important; 
+	border-radius: 5px;
+	background: #ffffff;
+}
+.centField
+{
+	text-align: center !important;
+}
+/*----------------END FIELDS--------------------*/
+
+/*----------------BUTTONS AND LABELS--------------------*/
+.panelButtFull
+{
+	/* border: 1px solid red; */
+}
+.panelButtFull button
+{
+	float: left;
+	width: 100%;
+	background: #FF6636;
+	color: #ffffff;
+	border: 0px solid #aaaaaa;
+	height: 30px !important;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.panelButtFull button:hover
+{
+        background: #272E36;
+}
+.fLabel span
+{
+	text-align: left;
+	font-size: 13px;
+	color: #FF6636;
+	font-weight: bold;
+	width: 100%;
+}
+/*----------------END BUTTONS AND LABELS--------------------*/
+
+/*----------------IMAGE CROPER--------------------*/
+.imageBox
+{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    border: 0px solid #aaa;
+    background: #000000;
+    overflow: hidden;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+    cursor:move;
+	margin-bottom: 10px;
+	
+}
+.imageBox .thumbBox
+{
+    /* display: none; */
+	position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 360px;
+    height: 360px;
+    box-sizing: border-box;
+    border: 0px solid rgb(102, 102, 102);
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background: none repeat scroll 0% 0% transparent;
+}
+.action
+{
+	width: 100%;
+	text-align: center;
+}
+.cropBtn
+{
+	width: 40px;
+	height: 30px;
+	background: #FF6636;
+	/* border-radius: 6px; */
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	border: solid 0px red;
+	padding: 6px;
+	text-shadow: 0px 0px 4px #000000;
+	margin-top: -1px;
+	border-radius: 5px;
+}
+.sizeBtn
+{
+	width: 40px;
+	background: #FF6636;
+	margin-left: 3px;
+	/* border-radius: 6px; */
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	color: #ffffff;
+	border: solid 0px red;
+	border-radius: 5px;
+	text-shadow: 0px 0px 4px #000000;
+}
+.changeBtn
+{
+	width: 120px;
+	background: #FF6636;
+	margin-left: 3px;
+	/* border-radius: 6px; */
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	color: #ffffff;
+	border: solid 0px red;
+	border-radius: 5px;
+	text-shadow: 0px 0px 4px #000000;
+}
+.addDeliver
+{
+	width: 100%;
+	background: #FF6636;
+	margin-left: 3px;
+	margin-top: 2px;
+	/* border-radius: 6px; */
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	color: #ffffff;
+	border: solid 0px red;
+	border-radius: 5px;
+	text-shadow: 0px 0px 4px #000000;
+}
+.imageBox .spinner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 200px;
+    background: rgba(0,0,0,0.7);
+}
+.cropped
+{
+	display: none;
+}
+.floatForm
+{
+	/* max-height: 300px; */
+	margin-bottom: 10px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	overflow-y: auto !important;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+/*----------------END IMAGE CROPER--------------------*/
+
+/*----------------TABLES--------------------*/
+.tableBox
+{
+	width: 98%;
+	float: left;
+	margin-top: 15px;
+	overflow-x: hidden;
+	/* max-height: 310px; */
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+.table
+{
+	display:table;	/* Defines a Table */
+	font-size:14px;
+	border-bottom:1px solid #dddddd;
+	color:#8d8d8d;
+	width: 100%;
+	-o-user-select: text !important;
+    -moz-user-select: text !important;
+    -webkit-user-select: text !important;
+    user-select: text !important;
+}
+.table-head
+{
+	 display: table-header-group; /* Defines a table header group */
+         
+}
+.table-head .column
+{ 
+	background: #FF6636;
+	font-weight: bold;
+	color: #ffffff;
+	border-right:1px solid #ffffff;
+	border-bottom:none;
+	cursor: pointer;
+
+}
+.table-head .column:hover
+{ 
+	background #FF6636;
+}
+.rowT
+{
+	display:table-row; /* Defines a table row */
+}
+.rowT:hover
+{
+        background:#F4F5F9;
+}
+.rowT .column:nth-child(1)
+{ 
+	border-left:1px solid #eeeeee;
+}
+.rowT:last-child .column
+{  
+	border-bottom:none;
+}
+.column
+{
+	display:table-cell; /* Defines a table cell */
+	padding: 5px 10px;
+	border-bottom:1px solid #eeeeee;
+	border-right:1px solid #eeeeee;
+	font-size: 13px;
+	text-align: center;
+}
+.columnWhite
+{
+	cursor: pointer;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	border-bottom:1px solid #eeeeee;
+	font-size: 12px;
+}
+.checks
+{
+	text-align: center !important; 
+	max-width: 10px;
+	vertical-align: middle;
+}
+.checks input[type=checkbox]
+{
+	width: 20px !important; 
+	margin-left: 0.5%;
+	vertical-align: middle;
+	margin-right: 0.5%;
+	cursor: pointer;
+}
+/* Responsive table */
+@media all and (max-width: 768px){
+	.table,
+	.rowT,
+	.column,
+	.column:before
+        {
+		display:block;	/* Converts a table, table row, table column and table column:before into a block element */
+                
+	}
+	.table,
+	.rowT .column:last-child
+	{
+		border-bottom:none;
+	}
+	.table-head
+	{
+		position:absolute;	/* Hides table head but not using display none */
+		top:-1000em;
+		left:-1000em;
+                
+	}
+	.rowT
+	{
+		border:1px solid #eeeeee;
+		border-top:0px solid #dddddd;
+		border-bottom: 0px solid #FF6636;
+		border-top: 3px solid #FF6636;
+
+	}
+	.rowT .column:nth-child(1)
+	{ 
+		border-left:none;
+	}
+	.rowT .column:last-child
+	{
+		border-right:none;
+	}
+	.rowT:last-child .column,
+	.column
+	{ 
+		border-bottom:1px solid #eeeeee;
+		padding: 2px 5px;
+		text-align: left;
+	}
+	.column:before
+	{ 
+		padding-right:0px;
+		font-size: 13px;
+		color: #FF6636;
+		content:""attr(data-label)"";
+	}
+	.opts img
+	{
+			width: 30px !important; 
+			margin-left: 5%;
+			margin-right: 5%;
+	}
+	.pbox
+	{
+			float: left;
+			width: 80%;
+			padding-left: 5px !important;
+			padding-right: 5px !important;
+			font-size: 13px;
+	}
+	.uMailBotDiv
+	{
+		float: right;
+		width: 100%;
+		margin-top: 5px;
+		text-align: justify;
+		box-sizing: border-box;
+		height: 240px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		color: #272E36;
+		font-size: 14px;
+		box-sizing: border-box;
+	}
+	.legalAdviseBox
+	{
+		float: left;
+		width: 100%;
+		margin-top: 10px;
+		text-align: justify;
+		background:  rgba(255, 255, 255, 0.7);
+		box-sizing: border-box;
+		border-radius: 5px;
+		padding: 15px;
+		max-height: 300px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		color: #272E36;
+		font-size: 13px;
+		overflow-y: auto;
+	}
+}
+.blankProducts
+{
+	margin-top: 5px;
+	font-size: 12px;
+	color: #3E4095 !important;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+.opts
+{
+	text-align: center;
+	min-width: 125px;
+}
+.opts img
+{
+		width: 20px !important; 
+		margin-left: 2%;
+		margin-right: 2%;
+		cursor: pointer;
+}
+.loneIconCell
+{
+        text-align: center !important; 
+        /* vertical-align: middle; */
+}
+.loneIconCell img
+{
+        width: 20px !important; 
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        cursor: pointer;
+}
+/*----------------END TABLES--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerMine
+{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+}
+.workarea
+{
+	width: 100%;
+	margin: auto;
+}
+.hiddenT
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden !important;
+	height: 0;
+	width: 0;
+}
+.pssRecLink
+{
+	font-size: 13px;
+
+}
+.ppicbox
+{
+	position: relative;
+}
+.ppicbox img
+{
+	width: 100%;
+	height: 100%;
+}
+.edIcon1
+{
+	position: absolute;
+	bottom: -5px;
+	left: 5px;
+	width: 35px !important;
+	height: 35px !important;
+}
+.edIcon2
+{
+	position: absolute;
+	bottom: -5px;
+	right: 5px;
+	width: 35px !important;
+	height: 35px !important;
+}
+.floatForm div
+{
+	float: left !important;
+}	
+.regFormIcon
+{
+	width: 170px;
+	margin-bottom: 5px;
+	height: auto;
+}
+.regFieldSelect
+{
+	width: 32.85%;
+	margin-top: 2%;
+	border-radius: 5px;
+	text-align: left;
+	box-sizing: border-box;
+	padding-left: 5px;
+	font-size: 14px !important;
+	border: 1px solid #272E36;
+}
+.conditionsAcceptLink
+{
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	font-size: 13px !important;
+	
+}
+.conditionsAcceptLink span
+{
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 13px !important;
+	color: #272E36 !important;;
+	
+}
+.conditionsAcceptLink input
+{
+	vertical-align: middle;
+}
+.conditionsBox
+{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	text-align: justify;
+	background:  rgba(255, 255, 255, 0.7);
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 15px;
+	max-height: 350px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	color: #272E36;
+	font-size: 13px;
+	overflow-y: auto;
+}
+.optionDiv
+{
+	margin: auto;
+	background: #ffffff;
+	margin-left: 5%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border-radius: 5px;
+}
+.pssRecBox
+{
+	text-align: center;
+}
+.pssRecMain
+{
+	text-align: center;
+}
+.pssRecMain div
+{
+	width: 300px;
+	margin: auto;
+	border: 5px solid #ffffff;
+	margin-top: 50px;
+	border-radius: 10px;
+	padding: 15px;
+}
+.pssRecMain img
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 80%;
+}
+.pssRecMain input[type=text]
+{
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+	border-radius: 10px;
+	text-align: center;
+}
+.pssRecMain button
+{
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+	border-radius: 10px;
+	text-align: center;
+	background: #FF6636;
+	border: 3px solid #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.pssRecMain span
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.passCheckDiv
+{
+	width: 100%;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.floatParagraph
+{
+	width: 100%;
+	text-align: center;
+	color: #272E36;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.loginArea
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	background: #ffffff;
+	z-index: 1;
+}
+.loginBox
+{
+	margin: auto;
+	border-radius: 5px;
+	text-align: center;
+	overflow: hidden;
+	max-width: 400px;
+
+}
+.checkicon
+{
+	margin-top: 25px;
+	cursor: pointer;
+	width: 70px;
+}
+.fullSec
+{
+	float: left;
+	width: 100%;
+}
+.bcButton
+{
+	background: #FF6636;
+	color: 
+}
+.mainMiddleContent
+{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.infoIcon
+{
+	width: 55px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.infoLogo
+{
+	width: 80px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.floatBoxInput
+{
+	width: 90% !important;
+	margin-left: 0% !important;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+	/* text-transform: uppercase; */
+}
+.noLRPad
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-top: -1px;
+	display: inline-block;
+}
+.noLRMar
+{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.centered
+{
+	text-align: center;
+}
+.optIcon
+{
+        text-align: center !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+}
+.optIcon img
+{
+        width: 23px;
+        margin-top: 8px;
+        cursor: pointer;
+}
+.contentBox
+{
+	margin: auto;
+	max-width: 1000px;
+	border-radius: 5px;
+	min-height: 200px;
+	background: #f5f5f5;
+	border: 1px solid #cccccc;
+}
+.contactBox
+{
+	float: left;
+	width: 98%;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.contactBox textarea
+{
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 10px;
+	resize: none;
+}
+.contactBox span
+{
+	margin-top: 0px;
+	font-size: 15px;
+	width: 100%;
+}
+.codeCheckBox
+{
+	float: left;
+	width: 100%;
+	font-size: 20px;
+	color: #272E36;
+	text-align: center;
+	border: 0px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	padding: 3px;
+}
+.codeCheckButton:hover
+{
+	background: #272E36;
+}
+.codeCheckBox::-webkit-input-placeholder { font-size: 18px;}
+.codeCheckBox::-moz-placeholder { font-size: 18px;}
+.codeCheckBox:-ms-input-placeholder { font-size: 18px;}
+.codeCheckButton
+{
+	float: left;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 10px;
+	background: #FF6636;
+	/* border-radius: 5px; */
+	border-radius: 6px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 3px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-shadow: 0px 0px 4px #000000;
+
+}
+.prizeResumeBox
+{
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: #ffffff;
+	display: table;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	overflow-y: auto !important;
+	position: relative;
+}
+.prizeResumeBox img
+{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.claimPrizeDesc
+{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 15px !important;
+	color: #FF6636;
+	text-shadow: 1px 1px 5px #ffffff;
+	
+}
+.prizeResumeBox span
+{
+	vertical-align: middle;
+	display: table-cell;
+	color: #272E36;
+	text-align: center;
+	font-size: 13px;
+	padding-right: 3px;
+}
+
+
+/*----------------GENERAL CSS END--------------------*/
+/*----------------GENERAL CSS END--------------------*/
+/*----------------GENERAL CSS END--------------------*/
+/*----------------GENERAL CSS END--------------------*/
+
+
+/*----------------BOXSPAND--------------------*/
+.mainbs
+{
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 10px;
+	-webkit-transition: height 1s ease;
+	-moz-transition: height 1s ease;
+	-o-transition: height 1s ease;
+	transition: height 1s ease;
+}
+.tBar
+{
+	background: #ffffff;
+	height: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	display: table;
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 3px solid #bae6ce;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.tBar span
+{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #FF6636;
+	text-shadow: 2px 2px 5px #ffffff;
+	width: auto;
+	
+}
+.expandIcon
+{
+	float: right;
+	width: 20px;
+	margin-right: 5px;
+}
+.expandIcon:Hover
+{
+	cursor: pointer;
+}
+/*----------------BOXSPAND--------------------*/
+
+
+
+
+
+
+
+/*----------------UTILITIES END--------------------*/
+/*----------------UTILITIES END--------------------*/
+/*----------------UTILITIES END--------------------*/
+/*----------------UTILITIES END--------------------*/
+/*----------------UTILITIES END--------------------*/

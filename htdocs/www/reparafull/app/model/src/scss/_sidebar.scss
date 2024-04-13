@@ -1,0 +1,73 @@
+// Main Sidebar
+#main-sidebar {
+  width: $sidebar-width;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  padding: 0;
+  background-color: #fff;
+  transition: transform .2s ease-out;
+  z-index: $zindex-fixed + 2;
+  border-right: 1px solid #eee;
+  > .list-group {
+    .list-group-item {
+      border: 0;
+      > .fa {
+        margin-right: .5rem;
+      }
+      &.active {
+        background-color: #fff;
+        color: $info !important;
+        @include hover-focus {
+          background-color: $list-group-hover-bg;
+        }
+        &::before {
+          position: absolute;
+          content: '';
+          width: 4px;
+          height: 45px;
+          background-color: $info;
+          top: 0;
+          left: 0;
+        }
+      }
+      &.sub {
+        padding-left: 3.5rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        color: lighten($body-color, 25%);
+        &.active::before {
+          height: 37px;
+        }
+      }
+      &.toggle:focus:not(:hover) {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+
+// Sidebar Collapsed
+.sidebar-collapse {
+  #main-sidebar {
+    transform: translateX(-$sidebar-width);
+    &:hover {
+      transform: translateX(0);
+    }
+  }
+  #main-content {
+    padding-left: ($grid-gutter-width / 2);
+  }
+}
+
+// Sidebar Backdrop
+.sidebar-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: $sidebar-width;
+  z-index: $zindex-fixed + 1;
+}

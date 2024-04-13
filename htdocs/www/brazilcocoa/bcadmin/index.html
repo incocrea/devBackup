@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Administración Mundo Brazil Cocoa</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+	
+	<link href="css/main.css" rel="stylesheet">
+	
+	<script src="libs/locations/locationsCO.js"></script>
+	
+	<!-- Cropbox image -->
+	<script src = "libs/cb/cropbox-min.js"></script>
+	<link href="libs/cb/cropbox-min.css" rel="stylesheet">
+	
+	
+	
+	<script src = "libs/ko/knockout-3.4.2.js"></script>
+	<script type="text/javascript" src="js/aes.js"></script>
+	<script type="text/javascript" src="js/aes-json-format.js"></script>
+	<script src = "libs/modal/modal.js"></script>
+	<script src="js/main.js"></script>
+	<script src = "libs/modal/modal.js"></script>
+	<link href="libs/modal/modal.css" rel="stylesheet"/>
+	<link href="libs/dp/jquery.datetimepicker.css" rel="stylesheet"/>
+	<script src="libs/dp/build/jquery.datetimepicker.full.min.js"></script>
+
+  </head>
+
+  <body id="page-top">
+			
+		<div id="loginArea" class="loginArea">
+							
+			<div  id="loginBox" class="col-md-12 col-lg-12" >
+			
+				<div class="loginBox">
+						
+					<div id="loginScreen" class="loginScreen">
+					
+						<img class="" src="irsc/infoGeneral.png"/>
+						<br>
+						<br>
+						<div id="loginTitle1" class="loginTitle1"></div>
+							
+						<div id="loginTitle2" class="loginTitle2"></div>
+
+						<div id="accessBox" class="centField fields">
+
+								<input type="text" class = "centField" id="userLoginBox" value="hvelez@incocrea.com"/>
+								<input type="password" class = "centField" id="userPassBox" value="Harolito2015"/>
+								<div id="loginButton" class="loginButton1" onclick="login()"></div>
+								
+								<span onclick="openPriceDeliver()" class="pssRecLink">
+									<img class="checkicon" src="irsc/checkicon.png"/>
+									<br>
+									Verificar Código
+								</span>
+
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	
+		<div id="mainContainerWeb" class="mainContainerWeb">
+
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+			
+			  <a class="navbar-brand js-scroll-trigger" >
+				<span class="d-block d-lg-none">Menu</span>
+				
+				<div class="d-none d-lg-block">
+
+					<img id="" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="irsc/infoGeneral.png" alt="">
+
+				</div>
+			  
+			  </a>
+
+			  
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  
+				<ul id = "mainMenu" class="navbar-nav"></ul>
+				
+			  </div>
+			  
+			</nav>
+
+			<div class="container">
+				
+				<section class="resume-section p-3 p-lg-5 d-flex d-column" id="sHall">
+					
+					<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+
+						<h5>Salón de la Fama</h5>
+
+						<div class="row panelButtFull" >
+							
+														
+							<div class="col-lg-4">
+								<span>Nombre</span>
+								<input type="text" id="sName" placeholder="Nombre" maxlength = 35 >
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Tipo</span>
+								<select id="sType">
+									<option value="p">Profesional</option>
+									<option value="s">Sitio</option>
+								</select>
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Ciudad</span>
+								<select id="sLoc">
+									<option value="Pereira - Risaralda">Pereira - Risaralda</option>
+									<option value="La Virginia - Risaralda">La Virginia - Risaralda</option>
+								</select>
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Dirección</span>
+								<input type="text" id="sAddress" placeholder="Dirección">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Teléfono</span>
+								<input type="text" id="sPhone" placeholder="Teléfono">
+							</div>
+							
+							<div class="col-lg-6">
+								<span>Detalles</span>
+								<input type="text" id="sDesc" placeholder="Detalles">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Email</span>
+								<input type="text" id="sMail" placeholder="Email">
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Vencimiento</span>
+								<input type="text" id="sEndate" placeholder="Vencimiento">
+							</div>
+
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button id="sCreateB" onclick="generateSite(this)">Crear</button>
+							</div>
+
+						</div>
+
+						<hr>
+
+						<div class="tableBox">
+							<div id="sitesList" class="table">
+								<div class="table-head">
+									<div class="column" data-label="Nombre" >Nombre</div>
+									<div class="column" data-label="Tipo" >Tipo</div>
+									<div class="column" data-label="Ciudad" >Ciudad</div>
+									<div class="column" data-label="Dirección" >Dirección</div>
+									<div class="column" data-label="Teléfono" >Teléfono</div>
+									<div class="column" data-label="Email" >Email</div>
+									<div class="column" data-label="Vence" >Vence</div>
+									<div class="column" data-label="SP1" >SP1</div>
+									<div class="column" data-label="SP2" >SP2</div>
+									<div class="column" data-label="SP3" >SP3</div>
+									<div class="column" data-label="SP4" >SP4</div>
+									<div class="column" data-label="SP5" >SP5</div>
+									<div class="column" data-label="SP6" >SP6</div>
+									
+									<div class="column" data-label="Acciones" >Acciones</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+				
+				<section class="resume-section p-3 p-lg-5 d-flex d-column" id="sShopAd">
+					
+					<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+
+						<h5>Administración de productos</h5>
+
+						<div class="row panelButtFull" >
+
+							<div class="col-lg-3">
+								<span>Nombre</span>
+								<input type="text" id="pName" placeholder="Detalle" maxlength = 40 >
+							</div>
+							
+							<div class="col-lg-9">
+								<span>Detalle</span>
+								<input type="text" id="pDetail" placeholder="Detalle" maxlength = 250 >
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Tipo</span>
+								<select id="pType">
+									<option value="p">Producto</option>
+									<option value="s">Servicio</option>
+									<option value="c">Curso</option>
+								</select>
+							</div>
+
+							<div class="col-lg-2">
+								<span>Valor</span>
+								<input type="text" id="pValue" placeholder="Valor">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Cantidad</span>
+								<input type="text" id="pQty" placeholder="Cantidad">
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Posición</span>
+								<input type="text" id="pPlace" placeholder="Posición">
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Link video</span>
+								<input type="text" id="pLink" placeholder="Link video">
+							</div>
+							
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button id="pCreateB" onclick="generateProduct(this)">Crear</button>
+							</div>
+							
+							<div class="col-lg-10">
+								<span>Instrucciones de reclamación</span>
+								<textarea id="pInstrucs" placeholder="Instrucciones de reclamación"></textarea>
+							</div>
+
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<br class="hidden-xs">
+								<button id="pCreateB" onclick="saveClaimIns()">Guardar</button>
+							</div>
+
+						</div>
+
+						<hr>
+
+						<div class="tableBox">
+							<div id="productsList" class="table">
+								<div class="table-head">
+									<div class="column" data-label="Nombre" >Nombre</div>
+									<div class="column" data-label="Detalle" >Detalle</div>
+									<div class="column" data-label="Tipo" >Tipo</div>
+									<div class="column" data-label="Valor" >Valor</div>
+									<div class="column" data-label="Cantidad" >Cantidad</div>
+									<div class="column" data-label="Posición" >Posición</div>
+									<div class="column" data-label="Acciones" >Acciones</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div id="reporTableBox">
+
+
+						<div id="productsList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Descripción original" >Detalle original</div>
+								<div class="column" data-label="Línea" >Línea</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Foto" >Foto</div>
+								<div class="column" data-label="Oferta" >Oferta</div>
+								<div class="column" data-label="Visible" >Visible</div>
+								<div class="column" data-label="Cantidad" >Cantidad</div>
+							</div>
+						</div>
+
+						<div id="catsList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+							</div>
+						</div>
+
+						<div id="pList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+							</div>
+						</div>
+
+						<div id="rfList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Extensión" >Extensión</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+								<div class="column" data-label="Color" >Color</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</section>
+
+				<section class="resume-section p-3 p-lg-5 d-flex d-column" id="sProd">
+					
+					<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+
+						<h5>Generador de Códigos</h5>
+
+						<div class="row panelButtFull" >
+
+							<div class="col-lg-1">
+								<span>Tipo</span>
+								<select type="text" id="cType" onchange="setCodeForm(this.value)">
+									
+								</select>
+							</div>
+
+							<div class="col-lg-5">
+								<span>Detalle</span>
+								<input type="text" id="sDetail" placeholder="Detalle">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Valor</span>
+								<input type="text" id="sValue" placeholder="Valor">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Cantidad</span>
+								<input type="text" id="sQty" placeholder="Cantidad">
+							</div>
+
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button onclick="generateSerie()">Generar</button>
+							</div>
+
+						</div>
+
+						<hr>
+
+						<h5>Listado de Códigos </h5>
+
+						<div>
+							<div id = "providerSearchBox">
+
+								<div class="row fLabel fields panelButtFull">
+								
+									<div class = "col-lg-1 ">
+										<span>Serie</span>
+										<input  id="fSerie" type="text" placeholder="Serie"/>
+									</div>
+									
+									<div class = "col-lg-1 ">
+										<span>Tipo</span>
+										<select type="text" class="" id="fType">
+
+										</select>
+									</div>
+									
+									<div class = "col-lg-2 ">
+										<span>Código</span>
+										<input id="fCode" type="text" placeholder="Código"/>
+									</div>
+									
+									<div class = "col-lg-2 ">
+										<span>Detalle</span>
+										<input  id="fDetail" type="text" placeholder="Detalle"/>
+									</div>
+									
+									<div class = "col-lg-2 ">
+										<span>Estado</span>
+										<select type="text" class="" id="fState">
+											<option value = "">Estado</option> 
+											<option value = "1">Nuevo</option> 
+											<option value = "2">Usado</option> 
+										</select>
+									</div>
+
+									<div class = "col-lg-2 ">
+										<br class="hidden-xs">
+										<button value="Buscar" onclick="cListRefresh(0)" >Buscar</button>
+									</div>
+									
+									<div class = "col-lg-2 ">
+										<br class="hidden-xs">
+										<button value="Exportar" onclick="cListRefresh(1)">Exportar</button>
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="tableBox">
+							<div id="codesList" class="table">
+								<div class="table-head">
+									<div class="column" data-label="Serie" >Serie</div>
+									<div class="column" data-label="Tipo" >Tipo</div>
+									<div class="column" data-label="Código" >Código</div>
+									<div class="column" data-label="Detalle" >Detalle</div>
+									<div class="column" data-label="Valor" >Valor</div>
+									<div class="column" data-label="Estado" >Estado</div>
+									<div class="column" data-label="Acciones" >Acciones</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<section class="resume-section p-3 p-lg-5 d-flex d-column" id="sUsers">
+					
+					<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+
+						<h5>Usuarios registrados</h5>
+						
+						<div class="row panelButtFull" >
+
+			
+							<div class="col-lg-4">
+								<br class="hidden-xs">
+								<button onclick="activatePop()">Activar curso para seleccionados</button>
+							</div>
+							<div class = "col-lg-3 ">
+								<br class="hidden-xs">
+								<button value="Exportar" onclick="usersGetXls()">Exportar lista de usuarios</button>
+							</div>
+
+
+						</div>
+			
+						<div class="tableBox">
+							<div id="usersList" class="table">
+								<div class="table-head">
+									<div class="column" data-label="" ></div>
+									<div class="column" data-label="Nombre" >Nombre</div>
+									<div class="column" data-label="Email" >Email</div>
+									<div class="column" data-label="Ciudad" >Ciudad</div>
+									<div class="column" data-label="Teléfono" >Teléfono</div>
+									<div class="column" data-label="Teléfono" >Tipo </div>
+									<div class="column" data-label="Fecha Registro" >Fecha Registro</div>
+									<div class="column" data-label="Premium" >Premium</div>
+									<div class="column" data-label="Opciones" >Opciones</div>
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+				
+				<section class="resume-section p-3 p-lg-5 d-flex d-column" id="sPromo">
+					
+					<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+
+						<h5>Administración de promociones</h5>
+
+						<div class="row panelButtFull" >
+
+							<div class="col-lg-2">
+								<span>Nombre</span>
+								<input type="text" id="promoName" placeholder="Nombre" maxlength = 40 >
+							</div>
+							
+							<div class="col-lg-4">
+								<span>Detalle</span>
+								<input type="text" id="promoDetail" placeholder="Detalle" maxlength = 250 >
+							</div>
+
+							<div class="col-lg-2">
+								<span>Fecha Inicio</span>
+								<input type="text" id="promoSdate" placeholder="Fecha inicio">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Fecha Fin</span>
+								<input type="text" id="promoEdate" placeholder="Fecha fin">
+							</div>
+							
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button id="promoSaveB" onclick="savePromo(this)">Crear</button>
+							</div>
+							
+							<div class="col-lg-12">
+								<span>Condiciones del concurso</span>
+								<textarea id="promoConds" placeholder="Condiciones del concurso"></textarea>
+							</div>
+
+						</div>
+
+						<hr>
+
+						<div class="tableBox">
+							<div id="promosList" class="table">
+								<div class="table-head">
+									<div class="column" data-label="Nombre" >Nombre</div>
+									<div class="column" data-label="Detalle" >Detalle</div>
+									<div class="column" data-label="Fecha inicio" >Fecha inicio</div>
+									<div class="column" data-label="Fecha fin" >Fecha fin</div>
+									<div class="column" data-label="Acciones" >Acciones</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div id="reporTableBox">
+
+
+						<div id="productsList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Descripción original" >Detalle original</div>
+								<div class="column" data-label="Línea" >Línea</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Foto" >Foto</div>
+								<div class="column" data-label="Oferta" >Oferta</div>
+								<div class="column" data-label="Visible" >Visible</div>
+								<div class="column" data-label="Cantidad" >Cantidad</div>
+							</div>
+						</div>
+
+						<div id="catsList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+							</div>
+						</div>
+
+						<div id="pList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+							</div>
+						</div>
+
+						<div id="rfList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Extensión" >Extensión</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+								<div class="column" data-label="Color" >Color</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</section>
+				
+				<section class="resume-section p-3 p-lg-5 d-flex d-column" id="sServs">
+					
+					<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+
+						<h5>Servicios de salón</h5>
+
+						<div class="row panelButtFull" >
+
+							<div class="col-lg-5">
+								<span>Descripción</span>
+								<input type="text" id="serviceName" placeholder="Descripción" maxlength = 40 >
+							</div>
+							
+							<div class="col-lg-3">
+								<span>Duración</span>
+								</select>
+								<select id="serviceDuration">
+									<option value="15">15 minutos</option>
+									<option value="30">30 minutos</option>
+									<option value="45">45 minutos</option>
+									<option value="60">60 minutos/ 1 hora</option>
+									<option value="75">75 minutos/ 1 hora y 15 minutos</option>
+									<option value="90">90 minutos/ 1 hora y 30 minutos</option>
+									<option value="105">105 minutos/ 1 hora y 45 minutos</option>
+									<option value="120">120 minutos/ 2 horas</option>
+									<option value="135">135 minutos/ 2 horas y 15 minutos</option>
+									<option value="150">150 minutos/ 2 horas y 30 minutos</option>
+									<option value="165">165 minutos/ 2 horas y 45 minutos</option>
+									<option value="180">180 minutos/ 3 horas</option>
+									<option value="195">195 minutos/ 3 horas y 15 minutos</option>
+									<option value="210">210 minutos/ 3 horas y 30 minutos</option>
+									<option value="225">225 minutos/ 3 horas y 45 minutos</option>
+									<option value="240">240 minutos/ 4 horas</option>
+									<option value="255">255 minutos/ 4 horas y 15 minutos</option>
+									<option value="270">270 minutos/ 4 horas y 30 minutos</option>
+									<option value="285">285 minutos/ 4 horas y 45 minutos</option>
+									
+								</select>
+								
+							</div>
+							<div class="col-lg-1">
+								<span>Costo</span>
+								<input type="text" id="serviceCost" placeholder="Coins" maxlength = 40 >
+							</div>
+							<div class="col-lg-1">
+								<span>Redime</span>
+								<input type="text" id="serviceGive" placeholder="Coins" maxlength = 40 >
+							</div>
+
+							
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button id="serviceCreateB" onclick="saveService(this)">Crear</button>
+							</div>
+							
+							
+
+						</div>
+
+						<hr>
+
+						<div class="tableBox">
+							<div id="servicesList" class="table">
+								<div class="table-head">
+									<div class="column" data-label="Código" >Código</div>
+									<div class="column" data-label="Descripción" >Descripción</div>
+									<div class="column" data-label="Duración" >Duración</div>
+									<div class="column" data-label="Costo en coins" >Costo en coins</div>
+									<div class="column" data-label="Regala coins" >Regala coins</div>
+									<div class="column" data-label="Acciones" >Acciones</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div id="reporTableBox">
+
+
+						<div id="productsList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Descripción original" >Detalle original</div>
+								<div class="column" data-label="Línea" >Línea</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Foto" >Foto</div>
+								<div class="column" data-label="Oferta" >Oferta</div>
+								<div class="column" data-label="Visible" >Visible</div>
+								<div class="column" data-label="Cantidad" >Cantidad</div>
+							</div>
+						</div>
+
+						<div id="catsList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+							</div>
+						</div>
+
+						<div id="pList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Código" >Código</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+							</div>
+						</div>
+
+						<div id="rfList" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Extensión" >Extensión</div>
+								<div class="column" data-label="Detalle Original" >Detalle Original</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Visible" >Visible</div>
+								<div class="column" data-label="Color" >Color</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</section>
+				
+
+				
+			</div>
+
+		</div>
+
+		<!-- Bootstrap core JavaScript -->
+		<!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Plugin JavaScript -->
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+		<!-- Custom scripts for this template -->
+		<script src="js/resume.min.js"></script>
+		
+		<div id = "hidden" class = "hiddenT">
+
+			<div id = "loaderDiv" class="loaderDiv">
+				<img src = "irsc/loader.gif"/>
+			</div>
+			
+			<div id = "box" class = "modalCoverHidden">
+				
+				<div id="closeBa" class="closeB" onclick="hide_pop()"></div>
+				
+				<div id = "modalBox" class = "modalT">
+				
+					<div id = "boxHeader" class = "modalHeader">
+						<span id = "boxTitle" class = "modalTitle"></span>
+					</div>
+					
+					<div id = "boxContent" class = "modalContent"></div>
+					
+				</div>
+				
+			</div>
+
+			<div id = "modalCover" class = "modalCoverHidden">
+
+				<div id="closeB" class="closeB" onclick="hide_pop_form()"></div>
+
+				<div id = "modal" class = "modalForm">
+
+					<div id = "modalHeader" class = "modalHeader">
+						
+						<span id = "modalTitle" class = "modalTitle"></span>
+						
+					</div>
+					
+					<div id = "modalContent" class = "modalContentForm"></div>
+					
+				</div>
+				  
+			</div>
+			
+			<div id = "pssRecBox" class="pssRecBox fields"></div>
+			
+			<div id="claimPrizeDiv" class="abuseReportDiv formPadder">
+				
+				<div class="contactBox">
+				
+					<span id="claimPrizeDesc" class="claimPrizeDesc"></span>
+					<input type="text" style="text-transform:uppercase" id="codeCheckBox" class="codeCheckBox" maxlength="50"/>
+					<div id="codeCheckButton" class="codeCheckButton" onclick="verifyCode()"></div>
+					<div id="prizeResumeBox" class="prizeResumeBox"></div>
+					
+				</div>
+				
+				<div class="dualButtonsDiv">
+				
+					<div id="claimPrizeButton" class="dualButtonPop" onclick="markPrize()"></div>
+					<div id="claimPrizeCloseButton" class="dualButtonPop" onclick="hide_pop_form()"></div>
+					
+				</div>
+				
+			</div>
+			
+			<div id="rankingBoxP">
+			
+				<div id="rankingTable" class="conditionsBox">
+					<div class="tableBox">
+						<div id="rankList" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Puesto" >Puesto</div>
+								<div class="column" data-label="Nombre" >Nombre</div>
+								<div class="column" data-label="Puntos" >Puntos</div>
+								<div class="column" data-label="Ciudad" >Ciudad</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="dualButtonsDiv">
+				
+					<div class="singleButton" onclick="hide_pop_form()">Salir</div>
+					
+				</div>
+				
+			</div>
+			
+			
+			<input id="picSelector" name="userCode" type="file" class="fileBox hiddenSubmit"/>
+			
+			<div id="cropBoxBox" class="floatForm formPadder">
+				<div class="imageBox" id="imgBox">
+					<div  id="thumbBox" class="thumbBox"></div>
+					<div class="spinner" style="display: none">Loading...</div>
+				</div>
+				<div class="action">
+					<input type="button" id="changePic" value="Cargar" class="changeBtn" onclick="pickpic()">
+					<input type="button" id="btnZoomIn" value="+" class="sizeBtn">
+					<input type="button" id="btnZoomOut" value="-" class="sizeBtn">
+					<input type="button" id="btnCrop" value="Guardar" class="changeBtn">
+				</div>
+				<div class="cropped"></div>
+			</div>
+
+		</div>
+	
+  </body>
+
+</html>

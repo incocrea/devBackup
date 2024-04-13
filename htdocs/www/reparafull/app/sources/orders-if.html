@@ -1,0 +1,38 @@
+
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<p><b id="ifTitle">Listado de reparaciones</b></p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+			<p><b>Filtros</b></p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+			<select class="form-control bottoMargin" onchange="getMyWorks(this.value)">
+				<option value="0">Ver todos</option>
+				<option value="1">Creados por mi</option>
+				<option value="2">Asignados a mi</option>
+				<option value="3">Sin calificar</option>
+			</select>
+		</div>
+	</div>
+</div>
+
+<div class="table-responsive">
+	<div id='worksList' class='table'>
+		<div class='table-head'>
+			<!-- <div class='column' data-label='Extensión' >Extensión</div> -->
+			<div class='column' data-label='Descripción de la reparación'>Descripción de la reparación</div>
+			<div class='column' data-label='Creada' >Creada</div>
+			<div class='column' data-label='Estado' >Estado</div>
+			<div class='column' data-label='Duración' >Duración</div>
+			<div class='column' data-label='Creado por' >Creado por</div>
+			<div class='column' data-label='Asignado a' >Asignado a</div>
+			<div class='column' data-label='Puntos' >Puntos</div>
+			<div class='column' data-label='Opciones'>Opciones</div>
+		</div>
+	</div>
+</div>
+	
+

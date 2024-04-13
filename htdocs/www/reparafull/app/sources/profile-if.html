@@ -1,0 +1,90 @@
+<div class="col">
+
+  <div class="card user-card">
+	<div class="card-body">
+
+		<div class="form-row">
+			<div class="form-group col-12 profileTitle">
+				<label>Perfil de usuario</label>
+			</div>
+		  <div class="form-group col-sm-6">
+			<label for="rName">Nombres</label>
+			<input type="text" class="form-control" id="rName">
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="rLastName">Apellidos</label>
+			<input type="text" class="form-control" id="rLastName">
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="rEmail">Email</label>
+			<input type="email" class="form-control" id="rEmail">
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="rLocation">Ciudad</label>
+			<input type="text" class="form-control" id="rLocation">
+		  </div>
+		   <div class="form-group col-sm-6">
+			<label for="rAddress">Dirección</label>
+			<input type="text" class="form-control" id="rAddress">
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="rPhone">Teléfono</label>
+			<input type="number" class="form-control" id="rPhone">
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="idType">Tipo id.</label>
+			<select class="form-control" id="idType">
+				<option value="">Selecciona tipo de id.</option>
+				<option value="CC">Cédula</option>
+				<option value="NIT">NIT</option>
+			</select>
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="idNumber">Número id.</label>
+			<input type="text" class="form-control" id="idNumber">
+		  </div>
+		  <div class="form-group col-6">
+			<button onclick="changePassBox()"type="submit" class="btn blueBg whiteText btn-block">Cambiar Clave</button>
+		  </div>
+		  <div class="form-group col-6">
+			<button onclick="saveProfile(1)"type="submit" class="btn blueBg whiteText btn-block">Guardar</button>
+		  </div>
+		</div>
+
+	</div>
+  </div>
+</div>
+
+<!-- pass change modal -->
+<div class="modal fade" id="changePassModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<!-- Login header -->
+			<div class="modal-header">
+				<h5 class="modal-title" id="LoginModalLabel"></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<!-- Login body -->
+			<div class="modal-body">
+				<!-- Login mail -->
+				<div class="form-group">
+					<label for="newPass1b" class="font-weight-bold">Nueva contraseña</label>
+					<input type="password" class="form-control" id="newPass1b" placeholder="Nueva contraseña">
+				</div>
+				<!-- Login password -->
+				<div class="form-group">
+					<label for="newPass2b" class="font-weight-bold">Confirmar contraseña</label>
+					<input type="password" class="form-control" id="newPass2b" placeholder="Confirmar contraseña">
+					
+				</div>
+			</div>
+			<!-- Login footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-primary btn-sm" onclick="savePass()">Guardar</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+@include media-breakpoint-up(sm) {
+  .card-login-form {
+    [class*="col-"]:first-child {
+      border-right: 1px solid $border-color;
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+  .card-login-form {
+    [class*="col-"]:first-child {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid $border-color;
+    }
+  }
+}

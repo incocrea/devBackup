@@ -1,0 +1,46 @@
+{
+  "title":"Mimity",
+  "cart":[
+    {
+      "name":"NEW Microsoft Surface Go",
+      "img":"1.jpg",
+      "price":"$549.00",
+      "qty":"1"
+    },
+    {
+      "name":"SanDisk Cruzer CZ36 64GB USB 2.0 Flash Drive",
+      "img":"3.jpg",
+      "price":"$13.49",
+      "qty":"1"
+    },
+    {
+      "name":"Beats Studio3 Wireless Headphones",
+      "img":"8.jpg",
+      "price":"$299.99",
+      "qty":"1"
+    },
+    {
+      "name":"Essential Phone in Halo Gray - 128 GB Unlocked",
+      "img":"12.jpg",
+      "price":"$435.00",
+      "qty":"1"
+    }
+  ],
+  "wishlist":[
+    {
+      "name":"Apple 15.4&quot; MacBook Pro Laptop Space Gray",
+      "img":"2.jpg",
+      "price":"$2,720.38"
+    },
+    {
+      "name":"Sony Alpha a6500 Mirrorless Digital Camera",
+      "img":"4.jpg",
+      "price":"$1,098.00"
+    },
+    {
+      "name":"Xbox One X 1TB Console - PUBG Bundle",
+      "img":"6.jpg",
+      "price":"$499.99"
+    }
+  ]
+}

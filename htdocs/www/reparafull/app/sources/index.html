@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="es"> 
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:image" content="https://reparafull.com/img/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Reparafull - Pública tu necesidad y encuentra quien te lo repare, conectamos reparaciones con reparadores!</title>
+	<meta name="description" content="Pública tu necesidad y encuentra fácilmente quien te repare o si eres un profesional encuentra que reparar cerca de tu área, conectamos reparaciones con reparadores!"/>
+	<meta name="keywords" content="Reparafull, reparación, técnico, reparar, dañado, reparador, arreglar, arreglo"/>
+	<meta property="og:url" content="https://reparafull.com/">
+	<meta property="og:type" content="Platform" />
+	
+
+    <!-- FONT  -->
+    <!-- <link rel="stylesheet" href="fonts/fira-sans.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
+
+    <!-- REQUIRED CSS: BOOTSTRAP, FONTAWESOME, PERFECT-SCROLLBAR  -->
+    <link rel="stylesheet" href="dist/css/vendor.min.css">
+    <!-- <link rel="stylesheet" href="dist/css/style.css"> -->
+
+    <!-- PLUGINS FOR CURRENT PAGE -->
+    <link rel="stylesheet" href="plugins/swiper/swiper.min.css">
+	
+
+    <!-- Mimity CSS  -->
+    <link rel="stylesheet" href="dist/css/style.css">
+
+
+	
+    
+  </head>
+  <body>
+
+    <!--Header -->
+    <header class="navbar navbar-expand navbar-light fixed-top">
+
+      <!-- Toggle Menu -->
+      <span class="toggle-menu" onclick="closeOffsetMenu()"><i class="fa fa-bars fa-lg"></i></span>
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" class="mainlogo" alt="Mimity"></a>
+
+
+		<!-- Search Form -->
+      <div class="form-inline form-search d-none d-sm-inline">
+        <div class="input-group">
+          <button class="btn btn-light btn-search-back" type="button"><i class="fa fa-arrow-left"></i></button>
+          <input id="searchTop" type="text" class="form-control" placeholder="Buscar por texto..." aria-label="Buscar ...">
+          <button class="btn btn-light locPickerSebutton" type="" onclick="preFilterWorks()"><i class="fa fa-search" ></i></button>
+        </div>
+      </div>
+		
+		<ul class="navbar-nav ml-auto">
+
+        <li class="d-none d-md-flex">
+          <input type="text" id="locPickerTop" class="form-control locPicker" placeholder="Ciudad"/><button class="btn btn-light locPickerSebutton" type="" onclick="preFilterWorks()"><i class="fa fa-search" ></i></button>
+        </li>
+		
+        
+		<!-- Search Toggle -->
+        <li class="nav-item d-none">
+          <a href="#" class="nav-link" id="search-toggle"><i class="fa fa-search fa-lg"></i></a>
+        </li>
+        <!-- /Search Toggle -->
+
+      </ul>
+		
+      <!-- /Search Form -->
+		<ul class="navbar-nav ml-auto">
+			<button id="pubRepaTop" onclick="createWork('1')" class="publishBtop d-none d-sm-inline">Necesito Reparar</button>
+			<button id="pubRepuTop" onclick="createWork('2')" class="publishBtopR d-none d-sm-inline">Vender Repuesto</button>
+		</ul>
+      <!-- navbar-nav -->
+      
+      <!-- /navbar-nav -->
+
+      <!-- User Dropdown -->
+      <div class="dropdown dropdown-user">
+        <a class="dropdown-toggle" href="#" role="button" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="img/user.svg" alt="User">
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+          <span id="myLoginMenuTop" onclick="ifLoad('login-if')" class="dropdown-item has-icon"><i class="fa fa-lock fa-fw"></i>Login / 
+		  Registro</span>
+		  <span id="myJobsMenu" onclick="ifLoad('orders-if')" class="dropdown-item has-icon"><i class="fa fa-wrench fa-fw"></i>Mis reparaciones</span>
+		  <span id="myPartsMenu" onclick="ifLoad('parts-if')" class="dropdown-item has-icon"><i class="fa fa-magic fa-fw"></i>Mis repuestos</span>
+          <span id="myProfileMenu" onclick="loadProfile(1)" class="dropdown-item has-icon has-badge" ><i class="fa fa-user fa-fw"></i>Perfil de usuario </span>
+			 <span id="mypProfileMenu" onclick="loadProfile(2)" class="dropdown-item has-icon has-badge" ><i class="fa fa-check fa-fw"></i>Perfil profesional </span>
+          <span id="myCfgMenu" onclick="loadCfg()" class="dropdown-item has-icon"><i class="fa fa-cog fa-fw"></i> Configuración</span>
+          <div class="dropdown-divider"></div>
+          <span id="myCloseMenu" class="dropdown-item has-icon" ><i class="fa fa-sign-out fa-fw"></i>Cerrar sesión</span>
+        </div>
+      </div>
+      <!-- /User Dropdown -->
+
+    </header>
+    <!-- /Header -->
+
+    <div class="container-fluid" id="main-containerX">
+      <div class="row fullcontainerGrid">
+
+        <!-- Sidebar -->
+        <div class="col" id="main-sidebar">
+          <div class="list-group list-group-flush">
+            <span class="list-group-item list-group-item-action active" onclick="viewAll()"><i class="fa fa-home fa-lg fa-fw" ></i> Ver todas</span>
+            
+            <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-th fa-lg fa-fw"></i> Categorías</a>
+            <div id="cats"></div>
+			
+				<hr>
+				<span id="myLogOutMenu" onclick="logout()" class="list-group-item list-group-item-action sub">Cerrar sesión</span>
+				<span id="myLoginMenu" onclick="ifLoad('login-if')" class="list-group-item list-group-item-action sub">Login / Registro</span>
+				<span onclick="goSite('contact')" class="list-group-item list-group-item-action sub">Contacto y soporte</span>
+
+			</div>
+
+
+          </div>
+          
+        </div>
+        <!-- /Sidebar -->
+
+
+        <div class="col" id="main-content">
+
+
+			
+			<div id="gridFilters" class="gridFilters">
+				<span class="gridFilter" onclick="setFilter('1')">Trabajos</span>
+				<span class="gridFilter" onclick="setFilter('2')">Repuestos</span>
+				<span class="gridFilter" onclick="setFilter('3')">Técnicos</span>
+			</div>
+			
+			<button id="pubRepaMid" onclick="createWork('1')" class="publishBmid d-sm-none d-md-none d-lg-none">Necesito Reparar</button>
+			<button id="pubRepuMid" onclick="createWork('2')" class="publishBmidR d-sm-none d-md-none d-lg-none">Vender Repuesto</button>
+         
+			<!-- Popular -->
+          <h4 id="gridTitle" class="title mt-4 gridTitle"></h4>
+          <h6 id="gridSubTitle" class="title mt-4 gridTitle subTitleDesc">Descripción del directorio</h6>
+		  <input type="text" id="locPicker" class="form-control d-sm-none d-md-none d-lg-none locPicker" placeholder="Buscar por Ciudad"/><button class="btn btn-light locPickerSebutton d-sm-none d-md-none d-lg-none" type="" onclick="preFilterWorks()"><i class="fa fa-search" ></i></button>
+		  <input type="text" id="mobileSearch" class="form-control d-sm-none d-md-none d-lg-none locPicker" placeholder="Buscar por texto"/><button id="mobileSearchB" class="btn btn-light locPickerSebutton d-sm-none d-md-none d-lg-none" type="" onclick="preFilterWorks()"><i class="fa fa-search" ></i></button>
+          <div class="content-slider">
+            <div class="swiper-container" id="popular-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div id="worksBox" class="row no-gutters gutters-2"></div>
+                </div>
+              </div>
+            </div>
+			</div>
+          <!-- /Popular -->
+
+        </div>
+
+		  <input id='picSelector2' name='userCode' type='file' class='fileBoxHidden'/>
+	  
+          <!-- /Footer -->
+      </div>
+    </div>
+
+	<!-- Alert modal -->
+	<div class="modal fade" style="z-index: 5000;" id="alertsBox" tabindex="-1" role="dialog" aria-hidden="true">
+		<div id="alertBoxBox" class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+				<!-- Alert header -->
+				<div class="modal-header">
+					<h5 class="modal-title text-center" id="alertsBoxTitle"></h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<!-- Alert content -->
+				<div id="alertsBoxMessage" class="modal-body text-center"></div>
+				<!-- Alert footer -->
+				<div class="modal-footer ">
+				<button id="acceptButton" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Coments Form Modal -->
+	<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="reviewFormModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="confirmModalLabel"></h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  
+			<div class="modal-body">
+			  <div class="form-group">
+				<span id="confirmQuestion"></span>
+			  </div>
+
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+			  <button id="confirmButton" onclick="" class="btn btn-primary">Confirmar</button>
+			</div>
+		  
+		</div>
+	  </div>
+	</div>
+	
+	<!-- post register Modal -->
+	<div class="modal fade" id="postregisterModal" tabindex="-1" role="dialog" aria-labelledby="reviewFormModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="confirmModalLabel">Bienvenid@ a Reparafull</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  
+			<div class="modal-body">
+			  <div class="form-group">
+				<span >Si eres profesional en busca de trabajos llena tu perfil profesional, si lo que buscas es que te reparen algo puedes publicar tu necesidad.</span>
+			  </div>
+
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-primary" onclick="postOption('1')">Llenar perfil profesional</button>
+			  <button onclick="postOption('2')" class="btn btn-primary">Publicar una necesidad</button>
+			</div>
+		  
+		</div>
+	  </div>
+	</div>
+
+	<!-- Load Pic modal -->
+	<div class='modal fade' id='loadPicPop' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+		<div class='modal-dialog modal-lg' role='document'>
+			<div class='modal-content'>
+				<!-- Passrec header -->
+				<div class='modal-header'>
+					<span>Trata de que tu foto ocupe todo el cuadro para una mejor vista</span>
+					<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+					<span aria-hidden='true'>&times;</span>
+					</button>
+				</div>
+				<!-- CroppieBox body -->
+				<div class='modal-body noPadds'>
+					<div id="croppieBox" class="croppieBox"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Cancel Work modal -->
+	<div class='modal fade' id='cancelModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+		<div class='modal-dialog modal-sm' role='document'>
+			<div class='modal-content'>
+				<!-- Passrec header -->
+				<div class='modal-header'>
+					<h5 class='modal-title' id='cancelModalTitle'>Cancelar trabajo</h5>
+					<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+					<span aria-hidden='true'>&times;</span>
+					</button>
+				</div>
+				<!-- Passrec body -->
+				<div class='modal-body centeredText'>
+					<!-- Passrec mail -->
+					<span id="cancelMessage"></span>
+					<br>
+					<br>
+					<div class="form-group">
+					  <select class="form-control" id="cancelCause"></select>
+					</div>
+				</div>
+				<!-- Passrec footer -->
+				<div class='modal-footer'>
+					<button type='button' class='btn btn-secondary btn-sm' data-dismiss='modal'>Salir</button>
+					<button id="cancelButton" type='button' class='btn btn-primary btn-sm' onclick='cancelWorkSend()'>Cancelar trabajo</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- REQUIRED JS  -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	
+	<!-- Croppie image -->
+	<script src = 'secure/libs/croppie/croppie.js'></script>
+	<link href='secure/libs/croppie/croppie.css' rel='stylesheet'>
+	
+	<!-- Datetime Picker -->
+	<link href='secure/libs/dp/jquery.datetimepicker.css' rel='stylesheet'/>
+	<script src='secure/libs/dp/build/jquery.datetimepicker.full.min.js'></script>
+
+    <!-- PLUGINS FOR CURRENT PAGE -->
+    <script src="plugins/swiper/swiper.min.js"></script>
+
+    <!-- Mimity JS  -->
+    <script src="dist/js/script.js"></script>
+	
+	
+	<!-- Custom JS -->
+		<script>imfoo = "home";</script>
+		<script src="dist/js/jsLoader.js"></script>
+		
+	<!-- Custom JS -->
+	<script src="plugins/raty-fa/jquery.raty-fa.min.js"></script>
+
+  </body>
+</html>
+
+<!-- Buy offer modal -->
+<div class='modal fade' id='buyOfferModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+	<div class='modal-dialog modal-sm' role='document'>
+		<div class='modal-content'>
+			<!-- Passrec header -->
+			<div class='modal-header'>
+				<h5 class='modal-title' id='BuyModalLabel'>Enviar oferta de compra</h5>
+				<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+				<span aria-hidden='true'>&times;</span>
+				</button>
+			</div>
+			<!-- Passrec body -->
+			<div class='modal-body'>
+				<!-- Passrec mail -->
+				<div class='form-group'>
+					<label for='InputBuyValue' class='font-weight-bold'>Valor de compra<br><span class="subInfo">(Modifícalo si deseas ofrecer un valor diferente al vendedor)</span></label>
+					<input type='text' class='form-control' id='InputBuyValue' placeholder='Valor ofrecido'>
+				</div>
+				<div class='form-group'>
+					<label for='InputBuyDetail' class='font-weight-bold'>Mensaje al vendedor</label>
+					<textarea class='form-control' id='InputBuyDetail' placeholder='Mensaje al vendedor'></textarea>
+				</div>
+			</div>
+			<!-- Passrec footer -->
+			<div class='modal-footer'>
+				<button type='button' class='btn btn-secondary btn-sm' data-dismiss='modal'>Cancelar</button>
+				<button type='button' class='btn btn-primary btn-sm' onclick='saveOfferBuy()'>Enviar oferta</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Pass Rec modal -->
+<div class='modal fade' id='pssRecModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+	<div class='modal-dialog modal-sm' role='document'>
+		<div class='modal-content'>
+			<!-- Passrec header -->
+			<div class='modal-header'>
+				<h5 class='modal-title' id='LoginModalLabel'>Escribe tu email</h5>
+				<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+				<span aria-hidden='true'>&times;</span>
+				</button>
+			</div>
+			<!-- Passrec body -->
+			<div class='modal-body'>
+				<!-- Passrec mail -->
+				<div class='form-group'>
+					<label for='InputPassrec' class='font-weight-bold'>Email</label>
+					<input type='text' class='form-control' id='InputPassrec' placeholder='Email'>
+				</div>
+			</div>
+			<!-- Passrec footer -->
+			<div class='modal-footer'>
+				<button type='button' class='btn btn-secondary btn-sm' data-dismiss='modal'>Cancelar</button>
+				<button type='button' class='btn btn-primary btn-sm' onclick='pssRecCheck()'>Recuperar Contraseña</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Pass Set modal -->
+<div class='modal fade' id='pssSetModal' tabindex='-1' role='dialog' aria-labelledby='pssSetModal' aria-hidden='true'>
+	<div class='modal-dialog modal-sm' role='document'>
+		<div class='modal-content'>
+			<!-- Passrec header -->
+			<div class='modal-header'>
+				<h5 class='modal-title' id=''>Establecer nueva contraseña</h5>
+				<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+				<span aria-hidden='true'>&times;</span>
+				</button>
+			</div>
+			<!-- Passrec body -->
+			<div class='modal-body'>
+				<!-- Passrec mail -->
+				<div class='form-group'>
+					<label for='InputPassrec' class='font-weight-bold'>Nueva contraseña</label>
+					<input type='text' class='form-control' id='newPass1' placeholder='Nueva contraseña'>
+				</div>
+				<div class='form-group'>
+					<label for='InputPassrec' class='font-weight-bold'>Confirma Nueva contraseña</label>
+					<input type='text' class='form-control' id='newPass2' placeholder='Confirma Nueva contraseña'>
+				</div>
+			</div>
+			<!-- Passrec footer -->
+			<div class='modal-footer'>
+				<button type='button' class='btn btn-secondary btn-sm' data-dismiss='modal'>Salir</button>
+				<button type='button' class='btn btn-primary btn-sm' onclick='setPass()'>Establecer Contraseña</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Coments Form Modal -->
+<div class="modal fade" id="commentFormModal" tabindex="-1" role="dialog" aria-labelledby="reviewFormModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title" id="reviewFormModalLabel">Escribir comentario o pregunta</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+	  
+		<div class="modal-body">
+		  <div class="form-group">
+			<textarea class="form-control" id="inputComment" rows="3" placeholder="Sus comentarios o inquietudes sobre el trabajo"></textarea>
+		  </div>
+
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+		  <button onclick="commentSend()" class="btn btn-primary">Comentar</button>
+		</div>
+	  
+	</div>
+  </div>
+</div>
+
+<!-- Contact modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<!-- Contact header -->
+			<div class="modal-header">
+				<h5 class="modal-title" >Contáctenos</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+			<!-- Contact body -->
+			<div class="modal-body">
+				<!-- Contact name -->
+				<div class="form-group">
+					<label class="font-weight-bold">Nombre</label>
+					<input type="text" class="form-control" id="nameField" placeholder="Su nombre"/>
+				</div>
+				<!-- Contact mail -->
+				<div class="form-group">
+					<label class="font-weight-bold">Email</label>
+					<input type="text" class="form-control" id="mailField" placeholder="Su email"/>
+				</div>
+				<!-- Contact message -->
+				<div class="form-group">
+					<label class="font-weight-bold">Su mensaje</label>
+					<textarea type="textarea" class="form-control" id="messageField" rows="5"></textarea>
+				</div>
+			</div>
+			<!-- Contact footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-primary btn-sm" onclick="contactSend()">Enviar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- UPLOAD FORM -->
+	<form action="https://reparafull.com/app/loadFile.php" method="post" enctype="multipart/form-data" target="upload_target" style="display: none;">
+	<!-- <form action="http://192.168.0.60:9090/www/reparafull/app/loadFile.php" method="post" enctype="multipart/form-data" target="upload_target" style="display: none;" > -->
+		<input id="upFileSelector" name="myfile" type="file" placeholder="Imagen"/>
+		<input type="submit" id="upButtonDoc" name="submitBtn" value="Upload"/>
+	</form>
+<!-- UPLOAD FORM -->
+<iframe id="upload_target" name="upload_target" src="" style="display:block; width:100%;height:200;border:0px solid #fff;"></iframe>
+<!-- DOWNLOAD LINK -->
+	<a href id="downframe" download></a>
+<!-- DOWNLOAD LINK -->

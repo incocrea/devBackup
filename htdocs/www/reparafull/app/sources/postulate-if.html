@@ -1,0 +1,136 @@
+<div class="col">
+
+  <div class="card user-card">
+	<div class="card-body">
+
+		<div class="form-row">
+		  <div class="form-group col-sm-12">
+			<label for="comments">Describe tu propuesta (explica en pocas palabras porque deberían seleccionarte para el trabajo, máximo 500 carácteres)</label>
+			<textarea class="form-control" id="comments"></textarea>
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="price">Valor a cobrar</label>
+			<input type="text" class="form-control" id="price" onblur="setRansom(this.value)">
+		  </div>
+		  <div class="form-group col-sm-3">
+			<label for="ransom">Comisión Reparafull</label>
+			<input type="text" class="form-control" id="ransom" disabled="true"/>
+		  </div>
+		  <div class="form-group col-sm-3">
+			<label for="totalPrice">Total a cobrar</label>
+			<input type="text" class="form-control" id="totalPrice" disabled="true"/>
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="avaDate">Disponibilidad</label>
+			<select class="form-control" id="avaDate">
+				<option value="Inmediata">Inmediata</option>
+				<option value="A convenir">A convenir</option>
+			</select>
+		  </div>
+		  <div class="form-group col-sm-3">
+			<label for="wTimeDays">Duración trabajo (días)</label>
+			<select class="form-control" id="wTimeDays">
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+			</select>
+		  </div>
+		  <div class="form-group col-sm-3">
+			<label for="wTimeHours">Duración trabajo (horas)</label>
+			<select class="form-control" id="wTimeHours">
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+			</select>
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="wGuarantee">Garantía ofrecida</label>
+			<select class="form-control" id="wGuarantee">
+				<option value="Sin garantía">Sin garantía</option>
+				<option value="15 días">15 días</option>
+				<option value="1 meses">1 meses</option>
+				<option value="2 meses">2 meses</option>
+				<option value="3 meses">3 meses</option>
+				<option value="6 meses">6 meses</option>
+				<option value="1 año">1 año</option>
+			</select>
+		  </div>
+		  <div class="form-group col-sm-6">
+			<label for="wLocation">Ubicación de servicio</label>
+			<select class="form-control" id="wLocation">
+				<option value="Servicio completo en el domicilio">Servicio completo en el domicilio</option>
+				<option value="Traer al punto de servicio">Traer al punto de servicio</option>
+				<option value="Se recoge en domicilio y se retorna al terminar">Se recoge en domicilio y se retorna al terminar</option>
+				
+			</select>
+		  </div>
+		   
+		   <div class="form-group col-6">
+			<button onclick="backToWork()"type="submit" class="btn blueBg whiteText btn-block">Volver al detalle</button>
+		  </div>
+
+		  <div class="form-group col-6">
+			<button onclick="saveOffer()"type="submit" class="btn blueBg whiteText btn-block">Enviar propuesta</button>
+		  </div>
+		</div>
+
+	</div>
+  </div>
+</div>
+
+<!-- pass change modal -->
+<div class="modal fade" id="changePassModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<!-- Login header -->
+			<div class="modal-header">
+				<h5 class="modal-title" id="LoginModalLabel"></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<!-- Login body -->
+			<div class="modal-body">
+				<!-- Login mail -->
+				<div class="form-group">
+					<label for="newPass1" class="font-weight-bold">Nueva contraseña</label>
+					<input type="password" class="form-control" id="newPass1" placeholder="Nueva contraseña">
+				</div>
+				<!-- Login password -->
+				<div class="form-group">
+					<label for="newPass2" class="font-weight-bold">Confirmar contraseña</label>
+					<input type="password" class="form-control" id="newPass2" placeholder="Confirmar contraseña">
+					
+				</div>
+			</div>
+			<!-- Login footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-primary btn-sm" onclick="savePass()">Guardar</button>
+			</div>
+		</div>
+	</div>
+</div>

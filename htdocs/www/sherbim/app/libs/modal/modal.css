@@ -1,0 +1,191 @@
+.modalCoverHidden
+{
+	display: none;
+}
+.modalCover
+{
+	background-color:rgba(00,00,00,0.8);
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 4;
+}
+.modalCoverForm
+{
+	background-color:rgba(00,00,00,0.8);
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 3;
+	display: none;
+}
+.modalForm
+{
+	width: 90%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #ffffff;
+	margin: auto;
+	border-radius: 10px;
+	-moz-box-shadow: 0px 1px 5px #888888;
+	-webkit-box-shadow: 0px 1px 5px #888888;
+	box-shadow: 0px 1px 5px #888888;
+	z-index: 20;
+	border: 5px solid #ffffff;
+	text-align: center;
+}
+.modalT
+{
+	width: 90%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #ffffff;
+	margin: auto;
+	padding-bottom: 0.2%;
+	border-radius: 10px;
+	-moz-box-shadow: 0px 1px 5px #888888;
+	-webkit-box-shadow: 0px 1px 5px #888888;
+	box-shadow: 0px 1px 5px #888888;
+	z-index: 50;
+	border: 5px solid #ffffff;
+}
+.modalBox
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+	background:white;
+	margin: auto;
+	-moz-box-shadow: 0px 1px 5px #888888;
+	-webkit-box-shadow: 0px 1px 5px #888888;
+	box-shadow: 0px 1px 5px #888888;
+	z-index: 50;
+}
+.modalHeader
+{
+	text-align: center;
+	padding: 0px 0px 5px 0px;
+	border: solid 0px #000000;
+}
+.modalTitle
+{
+	float: left;
+	width: 100%;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	background: #272E36;
+	position: relative;
+}
+.modalTitle img
+{
+	vertical-align: top;
+}
+.modalSubTitle
+{
+	color: #00D4EA;
+	font-size: 15px;
+	font-style: italic;
+}
+.modalContent
+{
+	font-size: 13px;
+	margin-top: 13px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #333333;
+	padding: 5px 15px 5px 15px;
+	border: solid 0px #000;
+
+	text-shadow: 0px 0px 4px #ffffff;
+}
+.modalContentForm
+{
+	font-size: 100%;
+	color: #808080;
+	text-align: left;
+	padding: 5px 15px 5px 15px;
+
+}
+.modalT input[type=text]
+{
+	border: 1px solid #C1C1C1;
+}
+.modalT input[type=password]
+{
+	width: 192px;
+	border: 1px solid #C1C1C1;
+	box-shadow: 0px 0px 0px #E8E8E8 inset;
+}
+.modalT input[type=text]:active
+{
+	-moz-box-shadow:    0px 1px 5px #888888;
+	-webkit-box-shadow: 0px 1px 5px #888888;
+	box-shadow:         0px 1px 5px #888888;
+}
+.modalT select
+{
+	border: 1px solid #C1C1C1;
+	width: 200px;
+}
+.modalT select:active
+{
+	-moz-box-shadow:    0px 1px 5px #888888;
+	-webkit-box-shadow: 0px 1px 5px #888888;
+	box-shadow:         0px 1px 5px #888888;
+}
+.modalT textarea
+{
+	border: 1px solid #C1C1C1;
+}
+.modalT button
+{
+	margin-top:3%;
+	font-size: 13px;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 10px;
+	border: 0px solid #00BBEA;
+	background: #006633;
+	text-shadow: 0px 0px 4px #000000;
+	font-weight: bold;
+	font-family: "fontRegular";
+	cursor : pointer;
+}
+.modalT button:hover
+{
+	background: red; 
+}
+.modalForm button
+{
+	margin: auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+	border: 0px solid #00BBEA;
+	background: #006633;
+	cursor : pointer;
+	text-shadow: 0px 0px 4px #000000;
+	font-family: "fontRegular";
+}
+.separatedButton
+{
+	margin-left: 5%;
+}
+.modalButtons
+{
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	bottom: 0%;
+	width: 100%;
+	border: solid 0px #ccc;
+	margin-top: 8px;
+	
+}
+

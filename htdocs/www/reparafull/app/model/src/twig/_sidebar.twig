@@ -1,0 +1,50 @@
+<!-- Sidebar -->
+        <div class="col" id="main-sidebar">
+          <div class="list-group list-group-flush">
+            <a href="index.html" class="list-group-item list-group-item-action{% if (active == 'index') %} active{% endif %}"><i class="fa fa-home fa-lg fa-fw"></i> Home</a>
+            <a href="grid.html" class="list-group-item list-group-item-action"><i class="fa fa-star fa-lg fa-fw text-warning"></i> Editor's Choice</a>
+            <a href="categories.html" class="list-group-item list-group-item-action{% if (active == 'categories' and sub == '') %} active{% endif %}"><i class="fa fa-th fa-lg fa-fw"></i> Categories</a>
+            <a href="grid.html" class="list-group-item list-group-item-action sub{% if (active == 'categories' and sub == 'grid') %} active{% endif %}">Computers</a>
+            <a href="grid.html" class="list-group-item list-group-item-action sub">Cell Phones</a>
+            <a href="grid.html" class="list-group-item list-group-item-action sub">Photography</a>
+            <a href="grid.html" class="list-group-item list-group-item-action sub">Home Entertainment</a>
+            <a href="grid.html" class="list-group-item list-group-item-action sub">Video Games</a>
+            <div class="collapse" id="categories">
+              <a href="grid.html" class="list-group-item list-group-item-action sub">Headphones</a>
+              <a href="grid.html" class="list-group-item list-group-item-action sub">Office Electronics</a>
+              <a href="grid.html" class="list-group-item list-group-item-action sub">Office Supplies</a>
+              <a href="grid.html" class="list-group-item list-group-item-action sub">Musical Instruments</a>
+            </div>
+            <a href="#categories" class="list-group-item list-group-item-action sub toggle" data-toggle="collapse" aria-expanded="false">MORE &#9662;</a>
+            <a href="about.html" class="list-group-item list-group-item-action"><i class="fa fa-list fa-lg fa-fw"></i> Other Pages</a>
+            <a href="about.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'about') %} active{% endif %}">About Us</a>
+            <a href="cart.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'cart') %} active{% endif %}">Cart</a>
+            <a href="checkout.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'checkout') %} active{% endif %}">Checkout</a>
+            <a href="compare.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'compare') %} active{% endif %}">Compare</a>
+            <a href="contact.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'contact') %} active{% endif %}">Contact Us</a>
+            <a href="404.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == '404') %} active{% endif %}">Error 404</a>
+            <a href="faq.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'faq') %} active{% endif %}">FAQ</a>
+            <a href="login.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'login') %} active{% endif %}">Login / Register</a>
+            {% if (sub == 'account-profile' or sub == 'account-order' or sub == 'account-order-detail' or sub == 'account-address' or sub == 'account-wishlist' or sub == 'detail-tab') %}
+            <div class="collapse show" id="pages">
+            {% else %}
+            <div class="collapse" id="pages">
+            {% endif %}
+              <a href="account-profile.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'account-profile') %} active{% endif %}">My Profile</a>
+              <a href="account-order.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'account-order') %} active{% endif %}">My Orders</a>
+              <a href="account-order-detail.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'account-order-detail') %} active{% endif %}">Order Detail</a>
+              <a href="account-address.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'account-address') %} active{% endif %}">My Address</a>
+              <a href="account-wishlist.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'account-wishlist') %} active{% endif %}">My Wishlist</a>
+              <a href="detail-tab.html" class="list-group-item list-group-item-action sub{% if (active == 'pages' and sub == 'detail-tab') %} active{% endif %}">Product Detail with Tab</a>
+            </div>
+            {% if (sub == 'account-profile' or sub == 'account-order' or sub == 'account-address' or sub == 'account-wishlist' or sub == 'detail-tab') %}
+            <a href="#pages" class="list-group-item list-group-item-action sub toggle" data-toggle="collapse" aria-expanded="true">LESS &#9662;</a>
+            {% else %}
+            <a href="#pages" class="list-group-item list-group-item-action sub toggle" data-toggle="collapse" aria-expanded="false">MORE &#9662;</a>
+            {% endif %}
+            <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-question-circle fa-lg fa-fw"></i> Help</a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-plus-circle fa-lg fa-fw"></i> Start Selling</a>
+          </div>
+          <div class="small p-3">Copyright © {{'now'|date('Y')}} {{title}} All right reserved</div>
+        </div>
+        <!-- /Sidebar -->

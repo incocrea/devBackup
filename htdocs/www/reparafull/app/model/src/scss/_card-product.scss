@@ -1,0 +1,133 @@
+// Product Card
+.card-product {
+  overflow: hidden;
+  &:hover {
+    border-color: $info;
+  }
+  .badge {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    font-weight: lighter;
+    line-height: inherit;
+    font-size: 90%;
+  }
+  .ribbon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    > span {
+      display: block;
+      left: -35px;
+      text-align: center;
+      transform: rotate(-45deg);
+      position: relative;
+      padding: 1.5rem 0 .5rem;
+      top: -10px;
+      font-weight: lighter;
+    }
+  }
+  .wishlist {
+    border: 0;
+    color: $gray-400;
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-size: 0;
+    background-color: #fff;
+    box-shadow: $box-shadow-sm;
+    padding: .3rem 0;
+    border-radius: 50%;
+    transition: box-shadow .2s, color .2s, opacity .2s;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.active,
+    &:hover {
+      color: $red;
+    }
+    &:focus {
+      outline: 0;
+    }
+    > i.fa {
+      font-size: $font-size-base;
+    }
+  }
+  /* .card-img-top {
+    // Only temporary due holder.js attr ======
+    width: 100% !important;
+    height: auto !important;
+    // ========================================
+    padding: 0 2rem;
+  } */
+  .card-body {
+    position: relative;
+  }
+  .card-title {
+    display: block;
+    height: 32px;
+    overflow: hidden;
+  }
+  .price {
+    position: absolute;
+    top: -1.5rem;
+    right: .5rem;
+    padding: .25rem .5rem;
+    background-color: #fff;
+    box-shadow: $box-shadow-sm;
+    font-size: 1rem;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .card-product {
+    .card-body {
+      padding: .5rem;
+    }
+    .price {
+      right: 0;
+      font-size: .8rem;
+      box-shadow: none;
+    }
+  }
+}
+
+// Product Card List View
+@include media-breakpoint-up(sm) {
+  .card-product-list {
+    flex-direction: row;
+    > a {
+      flex: 0 0 200px;
+    }
+    .card-title {
+      height: auto;
+    }
+    .price {
+      position: static;
+      margin-right: .5rem;
+    }
+    .wishlist {
+      right: auto;
+      left: 170px;
+    }
+    p {
+      display: block;
+    }
+  }
+}
+@include media-breakpoint-only(xs) {
+  .card-product-list {
+    .card-title {
+      font-size: $h6-font-size; // reduce font size
+    }
+    p {
+      display: none; // hide description
+    }
+    button {
+      float: right;
+    }
+  }
+}

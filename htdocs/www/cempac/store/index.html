@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>CEMPAC - Distribuidor mayorista de papeleria e insumos para oficinas y escolares.</title>
+	<meta charset="utf-8">
+    <meta property="og:image" content="https://cempac.co/images/logo-teal.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Distribuidor mayorista de papeleria e insumos para oficinas y escolares."/>
+	<meta name="keywords" content="Papelería, suministros, resmas, papel, lapiz, carpetas, cartulinas, escolar"/>
+	<meta property="og:url" content="https://cempac.co">
+	<meta property="og:type" content="Platform" />
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async 
+	src="https://www.googletagmanager.com/gtag/js?id=UA-18808296-1"></script>
+	<script>
+	   window.dataLayer = window.dataLayer || [];
+	   function gtag(){dataLayer.push(arguments);}
+	   gtag('js', new Date());
+
+	   gtag('config', 'UA-18808296-1');
+	</script>
+	
+	<script src="js/jquery-1.12.0.min.js"></script>
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+	
+	<script>imfoo = "home";</script>
+
+    <!-- Third Party CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+
+    <!-- Mimity CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+  
+    <div id = "loaderDiv" class="loaderDiv">
+		<img src = "images/loader.gif"/>
+	</div>
+	
+	<!-- Offcanvas Menu -->
+    <nav class="offcanvas">
+      <div class="offcanvas-content">
+        <div id="list-menu" class="list-menu list-group" data-children=".sub-menu1">
+          <a href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a>
+          <!-- <a href="products.html"><i class="fa fa-fw fa-tags"></i> Productos </a> -->
+          <a href="#" onclick="goCart()"><i class="fa fa-fw fa-shopping-cart"></i> Carrito de compra </a>
+		  <a href="#" onclick="goReg()"><i class="fa fa-fw fa-shopping-cart"></i> Registro </a>
+          <!-- <a href="#" onclick="goProfile()"><i class="fa fa-fw fa-check"></i> Perfíl de usuario</a> -->
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="content-overlay"></div>
+
+    <!-- Top Header -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              
+			  <nav class="nav">
+				
+				<a class="nav-item nav-link d-none d-sm-block" href="#"><i class="fa fa"></i> ¡Todo en útiles escolares y de oficina al mejor precio!</a>
+				
+				<div id="logBoxMout">
+                
+				
+                <li class="nav-item d-sm-none">
+                  <a href="#" class="nav-link" data-toggle="modal" data-target="#LoginModal"><i class="fa fa-sign-in"></i>Ingresar</a>
+                </li>
+				</div>
+				
+				<div id="logBoxMin"  class="nav-item nav-link d-sm-block"></div>
+				
+              </nav>
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <!-- Middle Header -->
+    <div class="middle-header">
+      <div class="container">
+        <div class="row py-2 py-lg-0">
+          <div class="col-2 col-sm-1 d-block d-lg-none">
+            <div class="d-flex align-items-center h-100 justify-content-center menu-btn-wrapper">
+              <button class="btn btn-lg border-0 btn-link offcanvas-btn p-0" type="button">
+                <i class="fa fa-bars"></i/>
+              </button>
+            </div>
+          </div>
+          <div class="col-2 col-sm-1 col-lg-3 pr-0">
+            <div class="d-flex align-items-center h-100 logo-wrapper">
+              <a href="index.html" class="d-lg-none"><img alt="Logo" src="images/logo-teal-small.png" class="img-fluid"/></a>
+              <a href="index.html" class="d-none d-lg-flex mb-2 mb-lg-0"><img alt="Logo" src="images/logo-teal.png" class="img-fluid"/></a>
+            </div>
+          </div>
+          <div class="col-8 col-sm-6 col-md-7 col-lg-6">
+            <div class="d-flex align-items-center h-100">
+              <div class="input-group input-group-search">
+                <input type="text" class="form-control" id="search-input" placeholder="Buscar..." aria-label="Search here..." autocomplete="off">
+                <span class="input-group-append">
+                  <button class="btn btn-theme btn-search" type="button"onclick="search()"><i class="fa fa-search"></i></button>
+                </span>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-2 col-sm-2  d-sm-none d-md-none d-lg-none marginTB noPadLeft">
+				<div class="navbar p-0 d-sm-block d-lg-block text-right"> 
+					<div class="dropdown dropdown-cart">
+						<a class="d-block pos-r" href="#" role="button" id="dropdown-cart" onclick="goCart()">
+							<img src="images/cart.png" alt="" width="31"><span id="cartCountM" class=" badge-counter badge-theme">0</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		  
+		  
+			<div class="col-4 col-sm-4 col-md-3 col-lg-3 d-none d-sm-block">
+				<div class="d-flex align-items-center h-100 float-right abg-secondary">
+
+
+					<div id = "logBoxOut" class="btn-group btn-group-sm mr-3" role="group" aria-label="Login Sign Up">
+						<button type="button" class="btn btn-outline-theme" data-toggle="modal" data-target="#LoginModal"><i class="fa fa-sign-in d-none d-lg-inline-block"></i> Ingresar</button>
+						<a class="btn btn-outline-theme" href="register.html" role="button"><i class="fa fa-user-plus d-none d-lg-inline-block"></i>Registrarse</a>
+					</div>
+
+					<div id = "logBoxIn" class="btn-group btn-group-sm mr-3" role="group" aria-label="Login Sign Up"> </div>
+
+
+					<!-- <div class="navbar p-0 mr-3" hidden> -->
+						<!-- <div class="dropdown"> -->
+							<!-- <button class="btn btn-light active btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+							<!-- Hi, John Thor -->
+							<!-- </button> -->
+								<!-- <div class="dropdown-menu dropdown-menu-right smooth" aria-labelledby="dropdownMenuButton"> -->
+								<!-- <a class="dropdown-item" href="account-order.html"><i class="fa fa-fw fa-shopping-bag"></i> Orders</a> -->
+								<!-- <a class="dropdown-item" href="account-profile.html"><i class="fa fa-fw fa-user"></i> Profile</a> -->
+								<!-- <a class="dropdown-item" href="account-wishlist.html"><i class="fa fa-fw fa-heart"></i> Wishlist (3)</a> -->
+								<!-- <div class="dropdown-divider"></div> -->
+								<!-- <a class="dropdown-item" href="#"><i class="fa fa-fw fa-sign-out"></i> Logout</a> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					<!-- </div> -->
+
+
+
+					<!-- Cart link area-->
+					<a href="#" onclick="goCart()" class="d-lg-none pos-r"><img src="images/cart.png" alt="" width="31"><span id="cartCountX" class="badge-counter badge-theme">0</span></a>
+					<div class="navbar p-0 d-none d-lg-block"> 
+						<div class="dropdown dropdown-cart">
+						<a class="d-block pos-r" href="#" role="button" id="dropdown-cart" onclick="goCart()">
+						<img src="images/cart.png" alt="" width="31"><span id="cartCount" class=" badge-counter badge-theme">0</span>
+						</a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 d-none d-lg-flex navbar-theme">
+        <div class="container">
+          <div class="pos-r d-flex w-100">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="#">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" onclick="goCart()">Carrito de compra</a></li>
+              <li id="profileLink" class="nav-item"><a class="nav-link" href="#" onclick="goProfile()">Perfil de cliente e historial de pedidos</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="#" onclick="goCheckOut()">Finalizar pedido</a></li> -->
+			  <li class="nav-item "><a id="menuContact" class="nav-link" href="#" onclick="openContact()">Contáctanos</a></li>
+			</ul>
+            <span class="navbar-text">
+              <a><i class="fa ml-4 fa-truck"></i><b id="topInfoLabel"> </b></a>
+            </span>
+          </div>
+        </div>
+      </nav>
+	  
+
+      <!-- Breadcrumb -->
+      <div class="breadcrumb-container">
+        <div class="container">
+          <nav aria-label="breadcrumb" role="navigation">
+            
+			
+			<ol class="breadcrumb">
+              
+			  <div class="infoArea">
+				
+				<span id="topGuide" class="topGuide" aria-current="page"></span>
+			  
+				<span id="discountLabel" class="discountLabel" aria-current="page"></span>
+				
+			   </div>
+			  
+            </ol>
+			
+          </nav>
+        </div>
+      </div>
+		
+		
+	<div class="bannerText" >
+		<marquee id="bannerText" behavior="scroll" direction="left" scrollamount="6"></marquee>
+	</div>
+	
+	
+      <!-- Main Container -->
+      <div class="container">
+        <div class="row">
+
+          <!-- Filter Sidebar -->
+          <div class="col-lg-3 col-md-4 mb-3">
+            <button class="btn btn-outline-theme btn-block dropdown-toggle d-md-none" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+              Filtros
+            </button>
+            <div class="collapse d-md-block pt-3 pt-md-0" id="collapseFilter">
+			
+              <!-- <div class="filter-sidebar"> -->
+                <!-- <div class="title"><span>Enabled Filters</span></div> -->
+                <!-- <ul> -->
+                    <!-- <li>Categories: T-Shirts <a href="#" class="remove-filter" data-toggle="tooltip" title="" data-original-title="Remove"><i class="fa fa-remove"></i></a></li> -->
+                    <!-- <li>Availability: In Stock <a href="#" class="remove-filter" data-toggle="tooltip" title="" data-original-title="Remove"><i class="fa fa-remove"></i></a></li> -->
+                    <!-- <li>Brand: Brand Name 1 <a href="#" class="remove-filter" data-toggle="tooltip" title="" data-original-title="Remove"><i class="fa fa-remove"></i></a></li> -->
+                <!-- </ul> -->
+              <!-- </div> -->
+			  
+			  <div class="filter-sidebar">
+                <div class="title"><span>Ubicación de pedido</span></div>
+                
+				<div >
+					<select id = "locationPicker" class="custom-control custom-select" onchange="locationSearch(this)"></select>
+				</div>
+
+                <div class="custom-control custom-checkbox">
+                  <input onchange="setPickup(this)" type="checkbox" class="custom-control-input" id="willPick">
+                  <label class="custom-control-label" for="willPick">Recogeré el pedido en CEMPAC</span>
+                </div>
+				
+
+              </div>
+			  
+              <div class="filter-sidebar">
+                
+				<div class="title"><span>Categorías</span></div>
+				<div id="catListBox"></div>
+				
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-9 col-md-8">
+            <div class="title"><span>Productos</span></div>
+
+            <!-- Product Listing -->
+            <div id="plistBox" class="row equal-height" add-class-on-xs="no-gutters">
+
+            </div>
+			
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+	  
+		<div class="container">
+			<div class="row equal-height">
+
+				<div class="col-lg-3 col-md-6">
+					<div class="title-footer"><span>Enlaces</span></div>
+					<ul>
+						<li>
+						<ul class="footer-icon">
+							<li><a href="index.html">Inicio</a></li>
+							<li onclick = "goCart()">Carrito</li>
+							<!-- <li onclick = "goCheckOut()">Finalizar pedido</li> -->
+							<li onclick = "showTerms()">Terminos y Condiciones</li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="title-footer"><span>Encuéntranos</span></div>
+					<div id="list-menu" class="list-menu list-group pointerSpan" data-children=".sub-menu1">
+						<span id="timings"></span>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="title-footer"><span>Contáctanos</span></div>
+					<div id="list-menu" class="list-menu list-group pointerSpan" data-children=".sub-menu1">
+						<span id="infooter2"></span>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+				<div class="title-footer"><span>Síguenos</span></div>
+				<ul>
+					<li>
+						<ul class="follow-us">
+							<li><a id="sLinkFB" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a id="sLinkTW" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a id="sLinkGP" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a id="sLinkIG" href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+
+			</div>
+
+		</div>
+			
+		<!-- Contact modal -->
+		<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<!-- Contact header -->
+					<div class="modal-header">
+						<h5 class="modal-title" >Contáctanos</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+					<!-- Contact body -->
+					<div class="modal-body">
+						<!-- Contact name -->
+						<div class="form-group">
+							<label class="font-weight-bold">Nombre</label>
+							<input type="text" class="form-control" id="nameField" placeholder="Tu nombre"/>
+						</div>
+						<!-- Contact mail -->
+						<div class="form-group">
+							<label class="font-weight-bold">Email</label>
+							<input type="text" class="form-control" id="mailField" placeholder="Tu email"/>
+						</div>
+						<!-- Contact message -->
+						<div class="form-group">
+							<label class="font-weight-bold">Tu mensaje</label>
+							<textarea type="textarea" class="form-control" id="messageField" rows="5"></textarea>
+						</div>
+					</div>
+					<!-- Contact footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+						<button type="button" class="btn btn-theme btn-sm" onclick="contactSend()">Entrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- Terms Modal -->
+			  <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 id="termsTitle" class="modal-title">Terminos y condiciones de uso</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div id="modalTerms" class="modalTerms"></div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-theme btn-sm" onclick="closeTerms()">Salir</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  
+      <!-- Login Modal -->
+      <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="LoginModalLabel">Ingresar usuario</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="InputUsername" class="font-weight-bold">Email</label>
+                <input type="text" class="form-control" id="InputUsername" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="InputPassword" class="font-weight-bold">Contraseña</label>
+                <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+				
+                <a href="#" onclick="passForgot()" class="float-right text-default creci"><small>¿Olvidaste tu clave?</small></a> 
+				<a class="float-right text-default creci" >&nbsp - &nbsp</a>
+				<a href="#" onclick="goReg()" class="float-right text-default creci"><small>Registrarme</small></a>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-theme btn-sm" onclick="login()">Entrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+	  <!-- Pass Rec Modal -->
+      <div class="modal fade" id="pssRecModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="LoginModalLabel">Escribe tu email</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="InputPassrec" class="font-weight-bold">Email</label>
+                <input type="text" class="form-control" id="InputPassrec" placeholder="Email">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-theme btn-sm" onclick="pssRecCheck()">Recuperar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+	  <!-- alert pass rec not Modal -->
+		<div class="modal fade" id="pssRecNotModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<label class="font-weight-bold ">¡Este Email no se encuentra registrado!</label>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+		</div>
+		
+		<!-- alert pass rec yes Modal -->
+		<div class="modal fade" id="pssRecYesModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<label class="font-weight-bold ">¡En unos minutos recibirás un correo para recuperar tu contraseña, si no lo encuentras revisa las carpetas de Spam o correo no deseado!</label>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+		</div>
+
+      <!-- Quick View Modal -->
+      <div class="modal fade" id="QuickViewModal" tabindex="-1" role="dialog" aria-labelledby="QuickViewModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-quickview" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+			  <h5 class="modal-title" id="detBoxTitle"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body nplr">
+              <div class="container-fluid nplr5">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <span class="imgRefLabel">Imágen de referencia</span>
+					<div class="owl-carousel owl-theme quickview-slider">
+                      <div><img id="detaImg" src="" alt="image"></div>
+                      <!-- <div><img src="images/product/polo2.jpg" alt="image"></div> -->
+                      <!-- <div><img src="images/product/polo3.jpg" alt="image"></div> -->
+                    </div>
+					
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    
+					<table class="table">
+                      <tbody>
+
+						<tr >
+                          <td colspan = 2class="border-top-0"><span id="topDetailInfo"></span></td>
+						</tr>
+						
+						<tr>
+                          <td class="border-top-0">Precio</td>
+                          <td class="border-top-0">
+                            <ul class="list-inline mb-0">
+                              <li class="list-inline-item"><span id="modalP2" class="activePrice"></span></li>
+							  
+							  <br>
+							  <li class="list-inline-item"><span id="modalP1" class="lockedPrice"></span></li>
+							  
+                            </ul>
+                          </td>
+                        </tr>
+                        
+						<tr>
+                          <td>Referencia</td>
+                          <td>
+                            <div id="refListBox" class="refListBox"></div>
+                          </td>
+                        </tr>
+						
+						<tr>
+                          <td>Cantidad</td>
+                          <td>
+                            <div class="input-group input-group-sm input-group-qty fWidth">
+                              <div class="input-group-prepend">
+                                <button class="btn btn-theme btn-down" type="button"><i class="fa fa-minus"></i></button>
+                              </div>
+                              <input id="addQtyField" type="text" class="form-control" aria-label="Quantity" value="1" data-min="1" data-max="100000">
+                              <div class="input-group-append">
+                                <button class="btn btn-theme btn-up" type="button"><i class="fa fa-plus"></i></button>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        
+						
+						
+						<tr>
+                          <td colspan=2>
+                            <div id="lonDesc" class="lonDesc"></div>
+                          </td>
+                        </tr>
+						
+                        <tr>
+                          <td >
+                            <button id="itemAdder" class="btn btn-sm btn-theme btn-block btn-add-quickview fWidth" onclick="addToCart()">Agregar al carrito</button>
+
+                          </td>
+						  
+						  <td >
+                            <button id= "pExit" class="btn btn-sm btn-theme btn-block btn-add-quickview fWidth" onclick="exitProduct()">Volver al catálogo</button>
+                          </td>
+                        </tr>
+						
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		
+		<!-- Alert modal -->
+		<div class="modal fade" id="alertsBox" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<!-- Alert header -->
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="alertsBoxTitle"></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<!-- Alert content -->
+					<div id="alertsBoxMessage" class="modal-body text-center"></div>
+					<!-- Alert footer -->
+					<div class="modal-footer ">
+					<button id="acceptButton" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		
+		<!-- alert must Location Modal -->
+		<div class="modal fade" id="alertLocModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<label class="font-weight-bold ">¡Seleccione la zona de entrega del pedido!</label>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+		</div>
+		
+		<!-- alert must Items Modal -->
+		<div class="modal fade" id="alertEmptyModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<label class="font-weight-bold ">¡Tu carrito de compra se encuentra vacio!</label>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+		</div>
+		
+		<!-- alert wrong pass Modal -->
+		<div class="modal fade" id="alertWrongPass" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<label class="font-weight-bold ">¡Usuario o contraseña incorrectos!</label>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+			
+		</div>
+
+		<!-- alert zone and discount info -->
+		<div class="modal fade" id="alertZoneData" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información Importante</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<span id="mainInfoData" class=" bigFont"></span>
+					<span id= "deliverPop" class=" bigFont"></span>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+		</div>
+		
+		<!-- alert zone first than detail -->
+		<div class="modal fade" id="alertZoneFirst" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información Importante</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<span  class=" bigFont" style='color: red;'>Selecciona tu zona de envío o recolección del pedido</span>
+					<br>
+					<br>
+					<div >
+						<select id = "locationPickerFloat" class="custom-control custom-select" onchange="locationSearch(this)"></select>
+					</div>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+		</div>
+		
+		<!-- alert not valid for pickup detail -->
+		<div class="modal fade" id="alertInvalidPick" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				
+				<div class="modal-header">
+				  <h5 class="modal-title text-center" id="LoginModalLabel">Información Importante</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				
+				<div class="modal-body text-center">
+					<img src="secure/irsc/infoIcon.png"/>
+					<br>
+					<br>
+					<span  class=" bigFont">Solo puedes recoger en CEMPAC en nuestros álmacenes de: <b>Armenia, Ibague, Manizales, Neiva, Pereira, Pasto, Pitalito, Florencia o Tuluá</b>, para la ubicación seleccionada solo hay opción de envío.</b></span>
+					<br>
+				</div>
+				
+				<div class="modal-footer ">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+				</div>
+				
+			  </div>
+			  
+			</div>
+		</div>
+		
+		
+      <a href="#top" class="back-top text-center" onclick="$('body,html').animate({scrollTop:0},500); return false">
+        <i class="fa fa-angle-double-up"></i>
+      </a>
+
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then required plugins -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap3-typeahead.min.js"></script>
+
+    <!-- Third Party JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+
+    <!-- Mimity JS -->
+    <script src="js/mimity.min.js"></script>
+	
+	<script src="js/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include '_required-css.twig' %}
+
+    {% include '_template-css.twig' %}
+
+    <title>Checkout - {{title}}</title>
+  </head>
+  <body>
+
+    {% include '_header.twig' %}
+
+    <div class="container-fluid" id="main-container">
+      <div class="row">
+
+        {% include '_sidebar.twig' with {'active':'pages','sub':'checkout'} %}
+
+        <div class="col" id="main-content">
+
+          <div class="row">
+            <div class="col-md-8">
+              <h3 class="title"><i class="fa fa-credit-card"></i> Payment</h3>
+              <span class="text-muted">Step 2 of 3</span>
+              <hr>
+              <div class="bg-light p-3 border shadow-sm">
+                <ul class="nav nav-pills payment-nav mb-4" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="cc-tab" data-toggle="pill" href="#cc" role="tab" aria-controls="cc" aria-selected="true">
+                      <i class="fa fa-fw fa-credit-card"></i> Pay with Credit Card
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="paypal-tab" data-toggle="pill" href="#paypal" role="tab" aria-controls="paypal" aria-selected="false">
+                      <i class="fa fa-fw fa-paypal"></i> Pay with PayPal
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="redeem-tab" data-toggle="pill" href="#redeem" role="tab" aria-controls="redeem" aria-selected="false">
+                      <i class="fa fa-fw fa-database"></i> Redeem Points
+                    </a>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="cc" role="tabpanel" aria-labelledby="cc-tab">
+                    <div class='card-wrapper mb-3'></div>
+                    <form id="ccForm">
+                      <div class="form-row">
+                        <div class="form-group col-sm-6">
+                          <input type="text" name="number" class="form-control" placeholder="Card Number">
+                        </div>
+                        <div class="form-group col-sm-6">
+                          <input type="text" name="name" class="form-control" placeholder="Full Name">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-sm-3">
+                          <input type="text" name="expiry" class="form-control" placeholder="Expiry Date">
+                        </div>
+                        <div class="form-group col-sm-3">
+                          <input type="text" name="cvc" class="form-control" placeholder="CVC Code">
+                        </div>
+                        <div class="form-group col-sm-6">
+                          <a href="checkout-3.html" class="btn btn-primary btn-block">NEXT <i class="fa fa-angle-right"></i></a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="tab-pane fade" id="paypal" role="tabpanel" aria-labelledby="paypal-tab">
+                    <form id="paypalForm" class="p-sm-5 mx-sm-5">
+                      <h5>Log in to your PayPal account</h5>
+                      <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                        <a href="checkout-3.html" class="btn btn-primary">NEXT <i class="fa fa-angle-right"></i></a>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="tab-pane fade" id="redeem" role="tabpanel" aria-labelledby="redeem-tab">
+                    <div class="text-center">
+                      <div class="alert alert-primary" role="alert">
+                        You currently have <strong>9,386</strong> Points to spend.
+                      </div>
+                      <div class="custom-control custom-checkbox mb-3">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Use my Points to pay for this order.</label>
+                      </div>
+                      <a href="checkout-3.html" class="btn btn-primary">NEXT <i class="fa fa-angle-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-5">
+              <h4 class="title mb-3">Order summary</h4>
+              {% for item in cart %}
+              <div class="media border-bottom mb-3">
+                <img src="../img/product/{{ item.img }}" width="50" height="50" alt="{{ item.name }}">
+                <div class="media-body ml-3">
+                  <h6>{{ item.name }}</h6>
+                  <div>{{ item.qty }} x <span class="price">{{ item.price }}</span></div>
+                </div>
+              </div>
+              {% endfor %}
+              <div class="d-flex justify-content-between">
+                <span>Items</span>
+                <span>$1,297.48</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>Estimated tax</span>
+                <span>$20.00</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>Shipping</span>
+                <span>$9.95</span>
+              </div>
+              <hr>
+              <div class="box-total">
+                  <h4>TOTAL</h4>
+                  <h4><span class="price">$1,297.48</span></h4>
+              </div>
+            </div>
+          </div>
+
+          {% include '_footer.twig' %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include '_modal-cart.twig' %}
+
+    {% include '_required-js.twig' %}
+
+    <!-- PLUGINS FOR CURRENT PAGE -->
+    <script src="../plugins/card/jquery.card.min.js"></script>
+
+    {% include '_template-js.twig' %}
+  </body>
+</html>

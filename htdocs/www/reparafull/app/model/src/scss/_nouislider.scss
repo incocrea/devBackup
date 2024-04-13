@@ -1,0 +1,44 @@
+.noUi-target {
+  border: 0;
+  background: #dbdbdb;
+  box-shadow: none;
+}
+.noUi-connect {
+  background: $info;
+  box-shadow: none;
+}
+.noUi-horizontal {
+  height: 5px;
+  .noUi-handle {
+    top: -6px;
+    right: -8.5px !important;
+    width: 17px;
+    height: 17px;
+    &:before,
+    &:after {
+      content: none;
+    }
+  }
+}
+.noUi-vertical {
+  width: 5px;
+  .noUi-handle {
+    top: -9px;
+    left: -6px;
+    width: 17px;
+    height: 17px;
+    &:before,
+    &:after {
+      content: none;
+    }
+  }
+}
+.noUi-handle {
+  border: 0;
+  border-radius: 50%;
+  background: $info;
+  box-shadow: none;
+  &:focus {
+    outline: 0;
+  }
+}

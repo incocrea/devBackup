@@ -1,0 +1,12 @@
+.css_enlace_imagen_label, .css_enlace_imagen_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_enlace_imagen_grid_line, .css_enlace_imagen_grid_line:hover {vertical-align: top;text-align: right;}
+.css_informacion_label, .css_informacion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_informacion_grid_line, .css_informacion_grid_line:hover {vertical-align: top;text-align: right;}
+.css_modalidad_label, .css_modalidad_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_modalidad_grid_line, .css_modalidad_grid_line:hover {vertical-align: top;text-align: right;}
+.css_activo_label, .css_activo_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_activo_grid_line, .css_activo_grid_line:hover {vertical-align: middle;text-align: center;}
+.css_curxinst_id_label, .css_curxinst_id_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_curxinst_id_grid_line, .css_curxinst_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_id_certificado_label, .css_id_certificado_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_certificado_grid_line, .css_id_certificado_grid_line:hover {vertical-align: top;text-align: right;}

@@ -1,0 +1,14 @@
+Cliente: QUALA S.A;Detalle de Orden: 5
+
+Actividades;
+
+Item;Detalle;Actividad;Valor Unidad;Cantidad;Subtotal
+"d9e4a2-Locativas";"Locativas";"ADECUACIÓN BAÑO DE TRANSPORTADORES";"1105037";"1";"1105037"
+
+Repuestos;
+
+Item;Detalle;;Valor Unidad;Cantidad;Subtotal
+
+Otros Costos;
+
+Tipo de costo;Detalle;Documento/Factura;Valor Unidad;Cantidad;Subtotal

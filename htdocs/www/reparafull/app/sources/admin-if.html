@@ -1,0 +1,392 @@
+<div id="cover" class="detCover"></div>
+<!-- <link rel="stylesheet" href="fonts/fira-sans.css"> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
+<!-- REQUIRED CSS: BOOTSTRAP, FONTAWESOME, PERFECT-SCROLLBAR  -->
+<link rel="stylesheet" href="dist/css/vendor.min.css">
+<!-- PLUGINS FOR CURRENT PAGE -->
+<link rel="stylesheet" href="plugins/swiper/swiper.min.css">
+<link rel="stylesheet" href="plugins/photoswipe/photoswipe.min.css">
+<link rel="stylesheet" href="plugins/photoswipe/photoswipe-default-skin/default-skin.min.css">
+
+<div class="row">
+	<div class="col">
+
+	  <div class="row fullcontainer">
+
+		<div id="generalTabs">
+		<ul class="nav nav-tabs" role="tablist">
+				
+			<li class="nav-item">
+				<a class="nav-link text-body active" id="users-tab" data-toggle="tab" href="#usersTab" onclick="tabLoad('users')" role="tab" aria-controls="comments" aria-selected="false">Usuarios</a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link text-body" id="works-tab" data-toggle="tab" href="#worksTab" onclick="tabLoad('jobs')" role="tab" aria-controls="review" aria-selected="false">Trabajos</a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link text-body" id="parts-tab" data-toggle="tab" href="#partsTab" onclick="tabLoad('parts')" role="tab" aria-controls="review" aria-selected="false">Repuestos</a>
+			</li>
+			
+			 <li class="nav-item">
+				<a class="nav-link text-body" id="comments-tab" data-toggle="tab" href="#commentsTab" onclick="tabLoad('comments')" role="tab" aria-controls="review" aria-selected="false">Comentarios</a>
+			 </li>
+			
+			<li class="nav-item">
+				<a class="nav-link text-body" id="offers-tab" data-toggle="tab" href="#offersTab" onclick="tabLoad('offers')" role="tab" aria-controls="review" aria-selected="false">Ofertas</a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link text-body" id="cats-tab" data-toggle="tab" href="#catsTab" onclick="tabLoad('cats')" role="tab" aria-controls="review" aria-selected="false">Categorías</a>
+			</li>
+				
+		</ul>
+		  
+		<div class="tab-content mb-4">
+		
+			<div class="tab-pane border border-top-0 p-3 fade show active" id="usersTab" role="tabpanel" aria-labelledby="users-tab">
+				
+				<div class="row filtersDiv">
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="userNameF" class="form-control" placeholder="Nombre"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="userIdF" class="form-control" placeholder="# Identificación"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="listGet('users')" class="btn btn-warning">Filtrar</button>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="clearFilters('users')" class="btn btn-light">Limpiar</button>
+					</div>
+				</div>
+				
+				<div class="table-responsive">
+					<div id='usersList' class='table'>
+						<div class='table-head'>
+							<div class='column' data-label='Nombre'>Nombre</div>
+							<div class='column' data-label='Tipo Id.'>Tipo Id.</div>
+							<div class='column' data-label='Número Id.' >Número Id.</div>
+							<div class='column' data-label='Tipo usuario'>Tipo usuario</div>
+							<div class='column' data-label='Creados'>Creados</div>
+							<div class='column' data-label='Ejecutados'>Ejecutados</div>
+							<div class='column' data-label='Cancelados'>Cancelados</div>
+							<div class='column' data-label='Puntaje'>Puntos</div>
+							<div class='column' data-label='Opciones'>Opciones</div>
+						</div>
+					</div>
+				</div>
+			  
+			</div>
+			
+			<div class="tab-pane border border-top-0 p-3 fade" id="worksTab" role="tabpanel" aria-labelledby="works-tab">
+				
+				<div class="row filtersDiv">
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="jobsNameF" class="form-control" placeholder="Nombre"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-2 noPadds5">
+						<select id="jobsModeF" class="form-control">
+							<option value="">Todos</option>
+							<option value="1">Creado por</option>
+							<option value="2">Asignado a</option>
+						</select>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-2 noPadds5">
+						<select id="jobsStateF" class="form-control">
+							<option value="">Estado</option>
+							<option value="0">Nuevo</option>
+							<option value="1">Asignado</option>
+							<option value="2">Completado</option>
+							<option value="3">Cancelado</option>
+						</select>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="jobsLocationF" class="form-control" placeholder="Ubicación"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="listGet('jobs')" class="btn btn-warning">Filtrar</button>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="clearFilters('jobs')" class="btn btn-light">Limpiar</button>
+					</div>
+				</div>
+				
+				<div class="table-responsive">
+					<div id='worksListA' class='table'>
+						<div class='table-head'>
+							<div class='column' data-label='Nombre'>Autor</div>
+							<div class='column' data-label='Detalle'>Detalle</div>
+							<div class='column' data-label='Fecha'>Fecha</div>
+							<div class='column' data-label='Estado'>Estado</div>
+							<div class='column' data-label='Calificación'>Calificación</div>
+							<div class='column' data-label='Opciones'>Opciones</div>
+						</div>
+					</div>
+				</div>
+			  
+			</div>
+			
+			<div class="tab-pane border border-top-0 p-3 fade" id="partsTab" role="tabpanel" aria-labelledby="parts-tab">
+				
+				<div class="row filtersDiv">
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="partsNameF" class="form-control" placeholder="Nombre"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-2 noPadds5">
+						<select id="partsModeF" class="form-control">
+							<option value="">Todos</option>
+							<option value="1">Vendedor</option>
+							<option value="2">Comprador</option>
+						</select>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-2 noPadds5">
+						<select id="partsStateF" class="form-control">
+							<option value="">Estado</option>
+							<option value="0">Nuevo</option>
+							<option value="1">Asignado</option>
+							<option value="2">Completado</option>
+							<option value="3">Cancelado</option>
+						</select>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="partsLocationF" class="form-control" placeholder="Ubicación"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="listGet('parts')" class="btn btn-warning">Filtrar</button>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="clearFilters('parts')" class="btn btn-light">Limpiar</button>
+					</div>
+				</div>
+				
+				<div class="table-responsive">
+					<div id='partsListA' class='table'>
+						<div class='table-head'>
+							<div class='column' data-label='Fecha'>Fecha</div>
+							<div class='column' data-label='Estado'>Estado</div>
+							<div class='column' data-label='Detalle'>Detalle</div>
+							<div class='column' data-label='Nombre'>Vendedor</div>
+							<div class='column' data-label='Nombre'>Comprador</div>
+							<div class='column' data-label='Precio'>Precio</div>
+							<div class='column' data-label='Opciones'>Opciones</div>
+						</div>
+					</div>
+				</div>
+			  
+			</div>
+			
+			<div class="tab-pane border border-top-0 p-3 fade" id="commentsTab" role="tabpanel" aria-labelledby="comments-tab">
+	
+				
+				<div class="row filtersDiv">
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="commNameF" class="form-control" placeholder="Nombre"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="commWordF" class="form-control" placeholder="Texto"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="commDateF" class="form-control" placeholder="Fecha creación"/>
+					</div>
+
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="listGet('comments')" class="btn btn-warning">Filtrar</button>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="clearFilters('comments')" class="btn btn-light">Limpiar</button>
+					</div>
+				</div>
+				
+				<div class="table-responsive">
+					<div id='commentsList' class='table'>
+						<div class='table-head'>
+							<div class='column' data-label='Autor'>Autor</div>
+							<div class='column' data-label='Contenido'>Contenido</div>
+							<div class='column' data-label='Fecha'>Fecha</div>
+							<div class='column' data-label='Opciones'>Opciones</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tab-pane border border-top-0 p-3 fade" id="offersTab" role="tabpanel" aria-labelledby="offers-tab">
+
+				<div class="row filtersDiv">
+					<div class="col-sm-12 col-md-12 col-lg-3 noPadds5">
+						<input id="offersNameF" class="form-control" placeholder="Nombre"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-2 noPadds5">
+						<input id="offersWordF" class="form-control" placeholder="Texto"/>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-2 noPadds5">
+						<input id="offersDateF" class="form-control" placeholder="Fecha creación"/>
+					</div>
+					
+					<div class="col-sm-12 col-md-12 col-lg-2 noPadds5">
+						<select id="offersStateF" class="form-control">
+							<option value="">Estado</option>
+							<option value="0">Sin aceptar</option>
+							<option value="1">Aceptada</option>
+						</select>
+					</div>
+					
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="listGet('offers')" class="btn btn-warning">Filtrar</button>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-1 noPadds5">
+						<button type="button" onclick="clearFilters('offers')" class="btn btn-light">Limpiar</button>
+					</div>
+				</div>
+
+				<div class="table-responsive">
+					<div id='offersList' class='table'>
+						<div class='table-head'>
+							<div class='column' data-label='Nombre'>Autor</div>
+							<div class='column' data-label='Tipo Id.'>Contenido</div>
+							<div class='column' data-label='Número Id.'>Fecha</div>
+							<div class='column' data-label='Estado'>Estado</div>
+							<div class='column' data-label='Valor'>Valor</div>
+							<div class='column' data-label='Comisión'>Comisión</div>
+							<div class='column' data-label='Opciones'>Opciones</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tab-pane border border-top-0 p-3 fade" id="catsTab" role="tabpanel" aria-labelledby="cats-tab">
+
+				<div class="row filtersDiv">
+					
+					<div class="col-sm-12 col-md-12 col-lg-6 noPadds5">
+						<div class="text-center">
+							<button type="button" onclick="createCat('main')" class="btn btn-warning">Crear Categoria principal</button>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-6 noPadds5">
+						<div class="text-center">
+							<button type="button" onclick="createCat('sub')" class="btn btn-light">Crear Sub categoría</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="table-responsive">
+					<div id='catsList' class='table'>
+						<div class='table-head'>
+							<div class='column' data-label='Nombre'>Nombre</div>
+							<div class='column' data-label='Tipo'>Tipo</div>
+							<div class='column' data-label='Estado'>Estado</div>
+							<div class='column' data-label='Opciones'>Opciones</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+	  </div>
+	  <!-- </div> -->
+	  <hr>
+	  
+	  
+
+	</div>
+  </div>
+	
+<!-- Review Form Modal -->
+<div class="modal fade" id="reviewFormModal" tabindex="-1" role="dialog" aria-labelledby="reviewFormModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title" id="reviewFormModalLabel">Calificar servicio</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+	  
+		<div class="modal-body">
+		  <div class="form-group">
+			<label for="inputDesc">Si el servicio se ha prestado, por favor escriba sus comentarios y calificación para el profesional, esto se mostrará a sus posibles clientes.<br></label>
+			<textarea class="form-control" id="inputDesc" rows="3" placeholder="Sus comentarios u opiniones sobre el servicio recibido, estas se publicarán en el perfíl del profesional"></textarea>
+		  </div>
+		  <div class="form-group">
+			<label>Basandose en la atención, puntualidad y calidad por favor califique el servicio recibido</label>
+			<div id="star-rating" class="text-warning h5"></div>
+		  </div>
+
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+		  <button onclick="setRate()" class="btn btn-primary">Aceptar</button>
+		</div>
+	  
+	</div>
+  </div>
+</div>
+
+<!-- Create main modal -->
+<div class='modal fade' id='mainCreateModal' tabindex='-1' role='dialog' aria-labelledby='pssSetModal' aria-hidden='true'>
+	<div class='modal-dialog modal-sm' role='document'>
+		<div class='modal-content'>
+			<!-- Passrec header -->
+			<div class='modal-header'>
+				<h5 class='modal-title' id=''>Crear categoría principal</h5>
+				<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+				<span aria-hidden='true'>&times;</span>
+				</button>
+			</div>
+			<!-- Passrec body -->
+			<div class='modal-body'>
+				<!-- Passrec mail -->
+				<div class='form-group'>
+					<label for='InputPassrec' class='font-weight-bold'>Nombre de categoría</label>
+					<input type='text' class='form-control' id='mainField' placeholder='Nombre de categoría'>
+				</div>
+			</div>
+			<!-- Passrec footer -->
+			<div class='modal-footer'>
+				<button type='button' class='btn btn-secondary btn-sm' data-dismiss='modal'>Salir</button>
+				<button type='button' class='btn btn-primary btn-sm' onclick="saveCat('main')">Crear categoría</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Create sub modal -->
+<div class='modal fade' id='subCreateModal' tabindex='-1' role='dialog' aria-labelledby='pssSetModal' aria-hidden='true'>
+	<div class='modal-dialog modal-sm' role='document'>
+		<div class='modal-content'>
+			<!-- Passrec header -->
+			<div class='modal-header'>
+				<h5 class='modal-title' id=''>Crear categoría secundaria</h5>
+				<button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+				<span aria-hidden='true'>&times;</span>
+				</button>
+			</div>
+			<!-- Passrec body -->
+			<div class='modal-body'>
+				<!-- Passrec mail -->
+				<div class='form-group'>
+					<label for='InputPassrec' class='font-weight-bold'>Categoría principal</label>
+					<select id="mainPicker" class="form-control"></select>
+				</div>
+				<div class='form-group'>
+					<label for='InputPassrec' class='font-weight-bold'>Nombre de categoría</label>
+					<input type='text' class='form-control' id='subField' placeholder='Nombre de categoría'>
+				</div>
+			</div>
+			<!-- Passrec footer -->
+			<div class='modal-footer'>
+				<button type='button' class='btn btn-secondary btn-sm' data-dismiss='modal'>Salir</button>
+				<button type='button' class='btn btn-primary btn-sm' onclick="saveCat('sub')">Crear categoría</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Mimity JS  -->
+<script src="dist/js/script.min.js"></script>
+
+

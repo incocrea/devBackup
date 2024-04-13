@@ -1,0 +1,84 @@
+// Modal Shopping Cart
+.modal-cart {
+  padding-right: 0 !important;
+  .modal-dialog {
+    max-width: $modal-cart-width;
+    margin: 0;
+    margin-left: auto;
+  }
+  .modal-dialog,
+  .modal-content {
+    height: 100%;
+  }
+  .modal-content {
+    border: 0;
+  }
+  .modal-body {
+    padding: .5rem;
+    .media {
+      padding: .5rem 0;
+      > a {
+        margin-right: .5rem;
+      }
+      &:not(:last-child) {
+        border-bottom: 1px solid $border-color;
+      }
+    }
+    .media-body {
+      position: relative;
+      > a {
+        @include text-truncate;
+        max-width: $modal-cart-width - 100px;
+        margin-bottom: 2px;
+        display: block;
+        color: $body-color;
+        &:hover {
+          color: $link-hover-color;
+        }
+      }
+      .input-spinner {
+        display: inline-block;
+        > .form-control {
+          border-top: 0;
+          border-right: 0;
+          border-left: 0;
+          border-bottom-style: dotted;
+        }
+        > .btn-group-vertical {
+          top: 0;
+          right: 0;
+          > .btn {
+            background-color: #fff;
+            border-color: #fff;
+          }
+        }
+      }
+      > .price {
+        margin-left: .5rem;
+      }
+      .close {
+        position: absolute;
+        top: 25px;
+        right: 2px;
+      }
+    }
+  }
+  .modal-header,
+  .modal-footer {
+    flex-shrink: 0;
+  }
+  .modal-body,
+  .modal-footer {
+    background-color: $modal-content-bg;
+  }
+  .modal-footer {
+    padding: .5rem;
+  }
+  &.fade .modal-dialog {
+    transform: translateX(20px);
+    transition: transform .25s;
+  }
+  &.show .modal-dialog {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,18 @@
+.css_cliente_nombre_label, .css_cliente_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cliente_nombre_grid_line, .css_cliente_nombre_grid_line:hover {font-size:16px;font-weight:bold;vertical-align: top;text-align: left;}
+.css_docxpais_id_label, .css_docxpais_id_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_docxpais_id_grid_line, .css_docxpais_id_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cliente_num_doc_label, .css_cliente_num_doc_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cliente_num_doc_grid_line, .css_cliente_num_doc_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cliente_telefono_label, .css_cliente_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cliente_telefono_grid_line, .css_cliente_telefono_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cliente_direccion_label, .css_cliente_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cliente_direccion_grid_line, .css_cliente_direccion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_cliente_email_label, .css_cliente_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_cliente_email_grid_line, .css_cliente_email_grid_line:hover {vertical-align: top;text-align: left;}
+.css_pais_id_label, .css_pais_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pais_id_grid_line, .css_pais_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_users_login_label, .css_users_login_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_users_login_grid_line, .css_users_login_grid_line:hover {vertical-align: top;text-align: left;}
+.css_id_cliente_label, .css_id_cliente_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_cliente_grid_line, .css_id_cliente_grid_line:hover {vertical-align: top;text-align: right;}

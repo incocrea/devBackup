@@ -1,0 +1,14 @@
+Cliente: QUALA S.A;Detalle de Orden: 7
+
+Actividades;
+
+Item;Detalle;Actividad;Valor Unidad;Cantidad;Subtotal
+"3d75ae-Locativas";"Locativas";"DESMONTE DE MOBILIARIO BODEGA CROSS";"1441200";"1";"1441200"
+
+Repuestos;
+
+Item;Detalle;;Valor Unidad;Cantidad;Subtotal
+
+Otros Costos;
+
+Tipo de costo;Detalle;Documento/Factura;Valor Unidad;Cantidad;Subtotal

@@ -1,0 +1,31 @@
+$theme-colors: (
+  "primary": #2196F3,
+  "success": #4CAF50,
+  "danger": #F44336,
+  "pink": #e83e8c,
+  "purple": #6f42c1,
+  "brown": #795548,
+);
+$enable-rounded: false;
+$body-color: #495057;
+$font-size-base: .875rem;
+$font-family-sans-serif: 'Fira Sans', sans-serif;
+$alert-bg-level: -7;
+$alert-border-radius: .4rem;
+$input-btn-focus-width: 0;
+$component-active-bg: #495057;
+$custom-select-focus-box-shadow: 0;
+$enable-caret: false;
+$dropdown-padding-y: .25rem;
+$dropdown-link-hover-bg: #e9ecef;
+$list-group-hover-bg: #e9ecef;
+$link-hover-decoration: none;
+$dropdown-min-width: 5rem;
+$dropdown-item-padding-x: 1rem;
+$alert-bg-level: -11;
+$alert-border-level: -5;
+$carousel-control-color: #212529;
+$breadcrumb-bg: #f8f9fa;
+$breadcrumb-divider: '\203a';
+$pagination-color: $body-color;
+$pagination-hover-color: $body-color;

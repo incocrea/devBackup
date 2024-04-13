@@ -1,0 +1,91 @@
+<?php
+class grid_tb_clientes_lookup
+{
+//  
+   function lookup_docxpais_id(&$conteudo , $docxpais_id) 
+   {   
+      static $save_conteudo = "" ; 
+      static $save_conteudo1 = "" ; 
+      $tst_cache = $docxpais_id; 
+      if ($tst_cache === $save_conteudo && $conteudo != "&nbsp;") 
+      { 
+          $conteudo = $save_conteudo1 ; 
+          return ; 
+      } 
+      $save_conteudo = $tst_cache ; 
+      if (trim($docxpais_id) === "" || trim($docxpais_id) == "&nbsp;")
+      { 
+          $conteudo = "&nbsp;";
+          $save_conteudo  = ""; 
+          $save_conteudo1 = ""; 
+          return ; 
+      } 
+      $nm_comando = "select Tipodocumento from tb_documentosxpais where Id_docxpais = $docxpais_id order by Tipodocumento" ; 
+      $conteudo = "" ; 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando; 
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = ''; 
+      if ($rx = $this->Db->Execute($nm_comando)) 
+      { 
+          if (isset($rx->fields[0]))  
+          { 
+              $conteudo = trim($rx->fields[0]); 
+          } 
+          $save_conteudo1 = $conteudo ; 
+          $rx->Close(); 
+      } 
+      elseif ($GLOBALS["NM_ERRO_IBASE"] != 1)  
+      { 
+          $this->Erro->mensagem(__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+          exit; 
+      } 
+      if ($conteudo === "") 
+      { 
+          $conteudo = "&nbsp;";
+          $save_conteudo1 = $conteudo ; 
+      } 
+   }  
+//  
+   function lookup_pais_id(&$conteudo , $pais_id) 
+   {   
+      static $save_conteudo = "" ; 
+      static $save_conteudo1 = "" ; 
+      $tst_cache = $pais_id; 
+      if ($tst_cache === $save_conteudo && $conteudo != "&nbsp;") 
+      { 
+          $conteudo = $save_conteudo1 ; 
+          return ; 
+      } 
+      $save_conteudo = $tst_cache ; 
+      if (trim($pais_id) === "" || trim($pais_id) == "&nbsp;")
+      { 
+          $conteudo = "&nbsp;";
+          $save_conteudo  = ""; 
+          $save_conteudo1 = ""; 
+          return ; 
+      } 
+      $nm_comando = "select Pais from tb_paises where Id_Pais = $pais_id order by Pais" ; 
+      $conteudo = "" ; 
+      $_SESSION['scriptcase']['sc_sql_ult_comando'] = $nm_comando; 
+      $_SESSION['scriptcase']['sc_sql_ult_conexao'] = ''; 
+      if ($rx = $this->Db->Execute($nm_comando)) 
+      { 
+          if (isset($rx->fields[0]))  
+          { 
+              $conteudo = trim($rx->fields[0]); 
+          } 
+          $save_conteudo1 = $conteudo ; 
+          $rx->Close(); 
+      } 
+      elseif ($GLOBALS["NM_ERRO_IBASE"] != 1)  
+      { 
+          $this->Erro->mensagem(__FILE__, __LINE__, "banco", $this->Ini->Nm_lang['lang_errm_dber'], $this->Db->ErrorMsg()); 
+          exit; 
+      } 
+      if ($conteudo === "") 
+      { 
+          $conteudo = "&nbsp;";
+          $save_conteudo1 = $conteudo ; 
+      } 
+   }  
+}
+?>

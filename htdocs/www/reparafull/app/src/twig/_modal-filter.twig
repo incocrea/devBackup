@@ -1,0 +1,51 @@
+<!-- Modal filter -->
+    <div class="modal fade modal-filter" id="filterModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="filterSortBy">Sort by</label>
+                <select class="form-control custom-select" id="filterSortBy">
+                  <option>Popular</option>
+                  <option>Price: low to high</option>
+                  <option>Price: high to low</option>
+                </select>
+              </div>
+              <hr>
+              <div class="form-group">
+                <label for="filterCategory">Category</label>
+                <select id="filterCategory" class="form-control custom-select">
+                  <option>Laptops</option>
+                  <option>Desktops</option>
+                  <option>PC Gaming</option>
+                  <option>Monitors</option>
+                  <option>Tablets</option>
+                  <option>Computer Accessories</option>
+                  <option>Networking</option>
+                  <option>Computer Components</option>
+                  <option>Storage &amp; Hard Drives</option>
+                </select>
+              </div>
+              <hr>
+              <div class="form-group">
+                <label class="mb-5">Price Range</label>
+                <div id="price-range"></div>
+              </div>
+              <hr>
+              <div class="form-group">
+                <label>Rating</label>
+                <div id="star-rating" data-score="4.5"></div>
+              </div>
+              <hr>
+              <div class="form-group text-center">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="reset" class="btn btn-light">CLEAR ALL</button>
+                  <button type="button" class="btn btn-info" data-dismiss="modal" aria-label="Close">DONE</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>

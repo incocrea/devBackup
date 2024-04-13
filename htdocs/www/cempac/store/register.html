@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Registro cliente</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Third Party CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Mimity CSS -->
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.min.css">
+    
+  </head>
+  <body class="body-pattern">
+
+    <!-- Offcanvas Menu -->
+    <nav class="offcanvas">
+      <div class="offcanvas-content">
+        <div id="list-menu" class="list-menu list-group" data-children=".sub-menu1">
+          <a href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a>
+          <!-- <a href="products.html"><i class="fa fa-fw fa-tags"></i> Productos </a> -->
+          <a href="#" onclick="goCart()"><i class="fa fa-fw fa-shopping-cart"></i> Carrito de compra </a>
+		  
+          <a href="#" onclick="goCheckOut()"><i class="fa fa-fw fa-check"></i> Finalizar pedido</a>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="content-overlay"></div>
+
+    <!-- Top Header -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              
+			  <nav class="nav">
+				
+				<a class="nav-item nav-link d-none d-sm-block" href="#"><i class="fa fa"></i> ¡Todo en útiles escolares y de oficina al mejor precio!</a>
+				
+				<div id="logBoxMout">
+                
+				
+                <li class="nav-item d-sm-none">
+                  <a href="#" class="nav-link" data-toggle="modal" data-target="#LoginModal"><i class="fa fa-sign-in"></i>Ingresar</a>
+                </li>
+				</div>
+				
+				<div id="logBoxMin"  class="nav-item nav-link d-sm-block"></div>
+				
+              </nav>
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle Header -->
+    <div class="middle-header">
+      <div class="container">
+        <div class="row py-2 py-lg-0">
+          <div class="col-2 col-sm-1 d-block d-lg-none">
+            <div class="d-flex align-items-center h-100 justify-content-center menu-btn-wrapper">
+              <button class="btn btn-lg border-0 btn-link offcanvas-btn p-0" type="button">
+                <i class="fa fa-bars"></i/>
+              </button>
+            </div>
+          </div>
+          <div class="col-2 col-sm-1 col-lg-3 pr-0">
+            <div class="d-flex align-items-center h-100 logo-wrapper">
+              <a href="index.html" class="d-lg-none"><img alt="Logo" src="images/logo-teal-small.png" class="img-fluid"/></a>
+              <a href="index.html" class="d-none d-lg-flex mb-2 mb-lg-0"><img alt="Logo" src="images/logo-teal.png" class="img-fluid"/></a>
+            </div>
+          </div>
+          <div class="col-8 col-sm-6 col-md-7 col-lg-6">
+            <div class="d-flex align-items-center h-100">
+              <div class="input-group input-group-search">
+
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-sm-4 col-md-3 col-lg-3 d-none d-sm-block">
+            <div class="d-flex align-items-center h-100 float-right abg-secondary">
+			
+              <div id = "logBoxOut" class="btn-group btn-group-sm mr-3" role="group" aria-label="Login Sign Up">
+                <button type="button" class="btn btn-outline-theme" data-toggle="modal" data-target="#LoginModal"><i class="fa fa-sign-in d-none d-lg-inline-block"></i> Ingresar</button>
+				
+              </div>
+			  
+			  <div id = "logBoxIn" class="btn-group btn-group-sm mr-3" role="group" aria-label="Login Sign Up"> </div>
+
+			  
+              <div class="navbar p-0 mr-3" hidden>
+                <div class="dropdown">
+                  <button class="btn btn-light active btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Hi, John Thor
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right smooth" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="account-order.html"><i class="fa fa-fw fa-shopping-bag"></i> Orders</a>
+                    <a class="dropdown-item" href="account-profile.html"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    <a class="dropdown-item" href="account-wishlist.html"><i class="fa fa-fw fa-heart"></i> Wishlist (3)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="fa fa-fw fa-sign-out"></i> Logout</a>
+                  </div>
+                </div>
+              </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 d-none d-lg-flex navbar-theme">
+        <div class="container">
+          <div class="pos-r d-flex w-100">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item "><a class="nav-link" href="index.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" onclick="goCart()">Carrito de compra</a></li>
+              <li class="nav-item "><a class="nav-link" href="#" onclick="goCheckOut()">Finalizar pedido</a></li>
+			  <li class="nav-item "><a id="menuContact" class="nav-link" href="#" onclick="openContact()">Contáctanos</a></li>
+			</ul>
+          </div>
+        </div>
+      </nav>
+	  
+      <!-- Breadcrumb -->
+      <div class="breadcrumb-container"> </div>
+
+      <!-- Main Container -->
+      <div class="container">
+        <div class="row justify-content-center mt-4">
+          <div class="col-xs-12 col-lg-6 col-md-8">
+            <div class="card">
+              <div class="card-body pt-2">
+                <div class="text-center">
+                  <div class="d-inline-block border border-secondary rounded-circle text-center m-auto">
+                    <h1 class="px-1"><i class="fa fa-user fa-fw"></i></h1>
+                  </div>
+                </div>
+                <h5 class="card-title text-center">Registro Cliente</h5>
+					
+					<span id="regWarning" class="regWarning"></span>
+					<span id="regWarning2" class="regWarning2">Pago anticipado por medio de transferencia para 
+su primer pedido</span>
+					<div class="form-row">
+					<div class="form-group col-md-6">
+                      <label for="rName">Regimen (para facturación)</label>
+                      <select class="form-control" id="rIdtype" add-class-on-xs="form-control-sm">
+						<option value="1">Persona natural</option>
+						<option value="2">Persona Juridica</option>
+					  </select>
+                    </div>
+					
+					<div class="form-group col-md-6">
+                      <label for="rEmail">Cédula o NIT (para facturación)</label></label>
+                      <input type="text" class="form-control" id="rId" placeholder="Cédula o NIT con dígito de verificación" add-class-on-xs="form-control-sm">
+                    </div>
+					
+					 <div class="form-group col-md-6">
+                      <label for="rName">Nombre completo o razón social</label>
+                      <input type="text" class="form-control" id="rName" placeholder="Nombre completo o razón social" add-class-on-xs="form-control-sm">
+                    </div>
+					
+					<div class="form-group col-md-6">
+                      <label for="rEmail">Email</label>
+                      <input type="email" class="form-control" id="rEmail" placeholder="Email" add-class-on-xs="form-control-sm">
+                    </div>
+					
+					<div class="form-group col-md-6">
+                      <label for="rAddress">Dirección</label>
+                      <input type="text" class="form-control" id="rAddress" placeholder="Dirección" add-class-on-xs="form-control-sm">
+                    </div>
+					
+                    <div class="form-group col-md-6">
+                      <label for="rPhone">Teléfono</label>
+                      <input type="email" class="form-control" id="rPhone" placeholder="Teléfono" add-class-on-xs="form-control-sm">
+                    </div>
+					
+                    <div class="form-group col-md-6">
+                      <label for="rPassword1">Contraseña</label>
+                      <input type="password" class="form-control" id="rPassword1" placeholder="Contraseña" add-class-on-xs="form-control-sm">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="rPassword2">Confirmar contraseña</label>
+                      <input type="password" class="form-control" id="rPassword2" placeholder="Confirmar contraseña" add-class-on-xs="form-control-sm">
+                    </div>
+                  </div>
+				  
+				   <div class="form-group col-md-12 ">
+						<span class="condsLink" id="conditionsAcceptText"></span>
+				   </div>
+				   
+				  
+                  <button  class="btn btn-theme btn-sm btn-block my-3" onclick="register()">Registrarme</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+		<!-- Footer -->
+		<div class="footer">
+
+			<div class="container">
+			<div class="row equal-height">
+
+				<div class="col-lg-3 col-md-6">
+					<div class="title-footer"><span>Enlaces</span></div>
+					<ul>
+						<li>
+						<ul class="footer-icon">
+							<li><a href="index.html">Inicio</a></li>
+							<li onclick = "goCart()">Carrito</li>
+							<li onclick = "goCheckOut()">Finalizar pedido</li>
+							<li onclick = "showTerms()">Terminos y Condiciones</li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="title-footer"><span>Encuéntranos</span></div>
+					<div id="list-menu" class="list-menu list-group pointerSpan" data-children=".sub-menu1">
+						<span id="timings"></span>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="title-footer"><span>Contáctanos</span></div>
+					<div id="list-menu" class="list-menu list-group pointerSpan" data-children=".sub-menu1">
+						<span id="infooter2"></span>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+				<div class="title-footer"><span>Síguenos</span></div>
+				<ul>
+					<li>
+						<ul class="follow-us">
+							<li><a id="sLinkFB" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a id="sLinkTW" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a id="sLinkGP" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a id="sLinkIG" href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</li>
+				</ul>
+				</div>
+
+			</div>
+
+		</div>
+			
+		<!-- Contact modal -->
+		<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<!-- Contact header -->
+					<div class="modal-header">
+						<h5 class="modal-title" >Contáctanos</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+					<!-- Contact body -->
+					<div class="modal-body">
+						<!-- Contact name -->
+						<div class="form-group">
+							<label class="font-weight-bold">Nombre</label>
+							<input type="text" class="form-control" id="nameField" placeholder="Tu nombre"/>
+						</div>
+						<!-- Contact mail -->
+						<div class="form-group">
+							<label class="font-weight-bold">Email</label>
+							<input type="text" class="form-control" id="mailField" placeholder="Tu email"/>
+						</div>
+						<!-- Contact message -->
+						<div class="form-group">
+							<label class="font-weight-bold">Tu mensaje</label>
+							<textarea type="textarea" class="form-control" id="messageField" rows="5"></textarea>
+						</div>
+					</div>
+					<!-- Contact footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+						<button type="button" class="btn btn-theme btn-sm" onclick="contactSend()">Entrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Alert modal -->
+		<div class="modal fade" id="alertsBox" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<!-- Alert header -->
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="alertsBoxTitle"></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<!-- Alert content -->
+					<div id="alertsBoxMessage" class="modal-body text-center"></div>
+					<!-- Alert footer -->
+					<div class="modal-footer ">
+					<button id="acceptButton" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+			<!-- Terms Modal -->
+			  <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 id="termsTitle" class="modal-title">Terminos y condiciones de uso</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					<div id="modalTerms" class="modalTerms"></div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-theme btn-sm" onclick="closeTerms()">Salir</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+      
+		  <!-- Login Modal -->
+		  <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="LoginModalLabel">Ingresar usuario</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <div class="form-group">
+					<label for="InputUsername" class="font-weight-bold">Email</label>
+					<input type="text" class="form-control" id="InputUsername" placeholder="Email">
+				  </div>
+				  <div class="form-group">
+					<label for="InputPassword" class="font-weight-bold">Contraseña</label>
+					<input type="password" class="form-control" id="InputPassword" placeholder="Password">
+					<a href="#" onclick="passForgot()" class="float-right text-default creci"><small>¿Olvidaste tu clave?</small></a> 
+				<a class="float-right text-default creci" >&nbsp - &nbsp</a>
+				<a href="#" onclick="goReg()" class="float-right text-default creci"><small>Registrarme</small></a>
+				  </div>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+				  <button type="button" class="btn btn-theme btn-sm" onclick="login()">Entrar</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <!-- Pass Rec Modal -->
+		  <div class="modal fade" id="pssRecModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="LoginModalLabel">Escribe tu email</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <div class="form-group">
+					<label for="InputPassrec" class="font-weight-bold">Email</label>
+					<input type="text" class="form-control" id="InputPassrec" placeholder="Email">
+				  </div>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+				  <button type="button" class="btn btn-theme btn-sm" onclick="pssRecCheck()">Recuperar</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <!-- alert pass rec not Modal -->
+			<div class="modal fade" id="pssRecNotModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">¡Este Email no se encuentra registrado!</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+			
+			<!-- alert pass rec yes Modal -->
+			<div class="modal fade" id="pssRecYesModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">¡En unos minutos recibirás un correo para recuperar tu contraseña, si no lo encuentras revisa las carpetas de Spam o correo no deseado!</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+			
+		  <!-- alert wrong pass Modal -->
+			<div class="modal fade" id="alertWrongPass" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">¡Usuario o contraseña incorrectos!</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+
+			<!-- alert user exists Modal -->
+			<div class="modal fade" id="alertExistPass" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">¡Este email ya se encuentra registrado, da da click en recuperar contraseña si has olvidado tu clave!</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+			
+			<!-- alert reg succes Modal -->
+			<div class="modal fade" id="alertRegSuccess" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/yespromo.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">¡Felicidades te has registrado ahora podrás realizar pedidos!</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+			
+			<!-- alert must fields Modal -->
+			<div class="modal fade" id="alertMustFields" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">Debes llenar todos los campos para el registro.</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+			
+			<!-- alert must check Modal -->
+			<div class="modal fade" id="alertMustCheck" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">Debes aceptar los términos y condiciones de uso.</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+			
+			<!-- alert pass match Modal -->
+			<div class="modal fade" id="alertPassMatch" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">Las contraseñas no coinciden.</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+			
+			<!-- alert must Items Modal -->
+			<div class="modal fade" id="alertEmptyModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+				  <div class="modal-content">
+					
+					<div class="modal-header">
+					  <h5 class="modal-title text-center" id="LoginModalLabel">Información</h5>
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+					
+					<div class="modal-body text-center">
+						<img src="secure/irsc/infoIcon.png"/>
+						<br>
+						<br>
+						<label class="font-weight-bold ">¡Tu carrito de compra se encuentra vacio!</label>
+					</div>
+					
+					<div class="modal-footer ">
+					  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Aceptar</button>
+					</div>
+					
+				  </div>
+				  
+				</div>
+			</div>
+
+		  <a href="#top" class="back-top text-center" onclick="$('body,html').animate({scrollTop:0},500); return false">
+			<i class="fa fa-angle-double-up"></i>
+		  </a>
+
+		</div>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS, then required plugins -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap3-typeahead.min.js"></script>
+
+		<!-- Third Party JS -->
+
+		<!-- Mimity JS -->
+		<script src="js/mimity.min.js"></script>
+		<script src="js/mainReg.js"></script>
+
+  </body>
+</html>

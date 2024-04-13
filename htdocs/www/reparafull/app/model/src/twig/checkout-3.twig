@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include '_required-css.twig' %}
+
+    {% include '_template-css.twig' %}
+
+    <title>Checkout - {{title}}</title>
+  </head>
+  <body>
+
+    {% include '_header.twig' %}
+
+    <div class="container-fluid" id="main-container">
+      <div class="row">
+
+        {% include '_sidebar.twig' with {'active':'pages','sub':'checkout'} %}
+
+        <div class="col" id="main-content">
+
+          <div class="row">
+            <div class="col-sm-7 col-md-8">
+              <h3 class="title"><i class="fa fa-list"></i> Review your order</h3>
+              <span class="text-muted">Step 3 of 3</span>
+              <hr>
+              {% for item in cart %}
+              <div class="media border-bottom mb-3">
+                <img src="../img/product/{{ item.img }}" width="50" height="50" alt="{{ item.name }}">
+                <div class="media-body ml-3">
+                  <h6>{{ item.name }}</h6>
+                  <div>{{ item.qty }} x <span class="price">{{ item.price }}</span></div>
+                </div>
+              </div>
+              {% endfor %}
+              <a href="cart.html" class="btn btn-outline-secondary btn-sm">Edit Cart</a>
+            </div>
+            <div class="col-sm-5 col-md-4 pt-5">
+              <h4>Shipping to</h4>
+              <div>John Thor</div>
+              <div>212 Lorem Ipsum. Dolor Sit, Amet</div>
+              <div>client@example.com</div>
+              <div>+123-456-789</div>
+              <hr>
+              <h4>Payment Method</h4>
+              <p>Credit Card: **** **** **** 4567</p>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <span>Items</span>
+                <span>$200.00</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>Estimated tax</span>
+                <span>$20.00</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>Shipping</span>
+                <span>$9.95</span>
+              </div>
+              <hr>
+              <div class="box-total">
+                  <h4>TOTAL</h4>
+                  <h4><span class="price">$1,297.48</span></h4>
+              </div>
+              <hr>
+              <a href="checkout-complete.html" class="btn btn-primary btn-block">COMPLETE MY ORDER</a>
+            </div>
+          </div>
+
+          {% include '_footer.twig' %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include '_modal-cart.twig' %}
+
+    {% include '_required-js.twig' %}
+
+    {% include '_template-js.twig' %}
+  </body>
+</html>

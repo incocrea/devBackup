@@ -1,0 +1,52 @@
+<div class="container-fluid px-4 row">
+	
+	<h3 id="answersAdminTit" class="mt-4"></h3>
+	
+	<div class="row">
+	<!-- <div class="grid"> -->
+		
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<span id="ansTrueLabel" class="fieldLabel"></span>
+			
+			<select id="ansTrueFilter" type="text" class="form-control">
+				<option id="ansTrue" value = "1"></option>
+				<option id="ansFalse" value = "0"></option>
+			</select>
+		</div>
+		
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<span id="ansIniDateLabel" class="fieldLabel"></span>
+			<input id="STARTDATE" type="text" class="form-control">
+		</div>
+		
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<span id="ansEndDateLabel" class="fieldLabel"></span>
+			<input id="ENDATE" type="text" class="form-control">
+		</div>
+		
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<span id="ansUserLabel" class="fieldLabel"></span>
+			<input id="ansUserFilter" type="text" class="form-control">
+		</div>
+
+		<div class="form-floating col-lg-3 ">
+			<button id = "searchBut" class="btn btn-primary filterButton1" onclick="listGet('answers')">
+		</div>
+
+	</div>
+
+	<div class="table-responsive tableBox">
+		<div id='answersList' class='table'>
+			<div class='table-head'>
+				<div class='column' id="answersTT0"></div>
+				<div class='column' id="answersTT1"></div>
+				<div class='column' id="answersTT2"></div>
+				<div class='column' id="answersTT3"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+               
+
+

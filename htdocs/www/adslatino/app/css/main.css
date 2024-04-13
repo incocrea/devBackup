@@ -1,0 +1,1891 @@
+select{padding-top: 3px !important;}
+
+/* POP FORM STYLES */
+.popFormTitle
+{
+	float: left;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.popFormFieldBox
+{
+	float: left !important;
+	margin-bottom: 25px;
+}
+.fieldLabel
+{
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.formField
+{
+	float: left;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 13px;
+	height: 33px;
+
+}
+.popFormButtonsBox
+{
+	margin-top: 25px;
+	text-align: center;
+}
+.popFormExitButton
+{
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #000000;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	margin-right: 15px;
+}
+.popFormSaveButton
+{
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	margin-left: 15px;
+}
+/* POP FORM STYLES */
+
+/* CLIENT DETAIL STYLES */
+.clientBanner
+{
+	position: relative;
+	height: 525px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.clientTitle
+{
+	position: relative;
+	top: 70%;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+#clientDetails
+{
+	margin-top: 10px;
+	padding: 15px !important;
+	/* line-height: 1.2em !important; */
+	/* text-align: justify !important; */
+}
+.clientDetails
+{
+	/* position: relative; */
+	
+}
+
+.sampleTitSpan
+{
+	text-align: center;
+	border-bottom: 2px solid red;
+	margin-bottom:15px;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+.cFormBox
+{
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+.addPicBox
+{
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.floatList
+{
+	float: left;
+	width: 100%;
+	height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.listPic
+{
+	width: 120px !important;
+}
+.cr-vp-square
+{
+	border: 1px solid green;
+}
+
+.mapouter 
+{
+	height: 480px !important;
+}
+.gmap_canvas 
+{
+	height: 480px !important;
+}
+.clientLogo
+{
+	width: 250px;
+	margin-left: -20px;
+}
+.linksDiv
+{
+	margin-top: 12px;
+	text-align: center;
+	display: inline !important;
+	float: left;
+	width: 100%;
+}
+.linkImage
+{
+	width: 25%;
+	max-width: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+	cursor: pointer;
+}
+.linksData p
+{
+	margin-bottom: 5px;
+}
+h1
+{
+	font-size: 20px !important;
+}
+.sectionTitle
+{
+	border: solid 1px #31a01b;
+}
+.catPickeBox
+{
+	text-align: center;
+}
+.catPicker
+{
+	width: 40%;
+	border-radius: 5px;
+	padding: 5px !important;
+	margin-bottom: 15px;
+}
+.catContent
+{
+	/* border: solid 1px #31a01b; */
+}
+.wsbox
+{
+	bottom: 15%;
+	right: -5px;
+	position: fixed;
+	border: solid 5px #31a01b;
+	z-index: 999999;
+	text-align: center;
+	background: #ffffff;
+	border-radius: 10px 0px 0px 10px;
+	padding-top: 5px;
+	
+}
+.contactLabel
+{
+	float: right;
+	width: 100%;
+	font-size: 12px !important;
+	font-weight: bold;
+}
+.wsboton
+{
+	width: 60px;
+	cursor: pointer;
+}
+.dButton
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	background: #F58434;
+	color: #ffffff;
+	border: 0px solid white;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.clientDiv
+{
+	margin-bottom: 20px;
+	/* border-bottom: 1px solid #efefef; */
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+.nmsides
+{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.pdsides5
+{
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.resultsPic
+{
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 5px 5px 0px 0px;
+	
+}
+#footer-widgets
+{
+	padding: 3% 0 0 !important;
+	
+}
+.footer-widget
+{
+	
+	margin-bottom: 1% !important;
+}
+.socialFooterBox
+{
+	float: left;
+	min-width: 150px;
+}
+.footerSocialIcon
+{
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.resTit
+{
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	font-size: 16px;
+	color: #0393d9;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.resSubTitle
+{
+	float: left;
+	width: 90%;
+	color: #ffffff;
+	margin-left: 5%;
+	font-size: 14px;
+	text-align: center;
+	background: #F58434;
+	border-radius: 0px 0px 5px 5px;
+	padding: 5px;
+	
+
+}
+
+.contactBox
+{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	
+}
+
+.formButton
+{
+	float: left;
+	width: 100%;	
+	height: 26px;
+	background: #31a01b;
+	color: #ffffff;
+	border: 0px solid white;
+	font-size: 12px;
+	margin-top: -5px;
+	border-radius: 5px;
+}
+.clientsListBox
+{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+.tableIcon
+{
+	font-size: 16px !important;
+   margin-left: 3%;
+   margin-right: 3%;
+   cursor: pointer;
+	text-align: center;
+}
+
+.clientDetailsBox
+{
+	margin-top: 0px !important;
+	width: 100%;
+	height: 350px;
+	font-size: 13px;
+}
+.picsPanel
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1.1%;
+	padding-bottom: 0px;
+	padding-top: 1.8%;
+}
+.picsPanel img
+{
+	margin-bottom: 20px;
+	float: left;
+	width: 32.3%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	cursor: pointer;
+}
+.picShow
+{
+	float: left;
+	width: 100%;
+}
+.videoBox
+{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+	height: 600px;
+}
+.getBack
+{
+	position: absolute;
+	right: 1%;
+	top: -6%;
+	font-size: 13px;
+	cursor: pointer;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	background: red;
+	padding: 3px;
+}
+.mapouter
+{
+	height: auto !important;
+}
+
+/*----------------TABLES--------------------*/
+.tableBox
+{
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+	overflow-x: hidden;
+	/* max-height: 310px; */
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+.table
+{
+	display:table;	/* Defines a Table */
+	font-size:14px;
+	border-bottom:1px solid #dddddd;
+	border-left:1px solid #dadada;
+	color:#8d8d8d;
+	width: 100%;
+	-o-user-select: text !important;
+    -moz-user-select: text !important;
+    -webkit-user-select: text !important;
+    user-select: text !important;
+}
+.table-head
+{
+	 display: table-header-group; /* Defines a table header group */
+         
+}
+.table-head .column
+{ 
+	background: #31a01b;
+	/* font-weight: bold; */
+	color: #ffffff;
+	border-right:1px solid #ffffff;
+	border-bottom:none;
+	cursor: pointer;
+
+}
+.table-head .column:hover
+{ 
+	background #ebfbff;
+}
+.rowT
+{
+	display:table-row; /* Defines a table row */
+}
+.rowT:hover
+{
+        background:#ebfbff;
+}
+.rowT .column:nth-child(1)
+{ 
+	/* border-left:1px solid #eeeeee; */
+}
+.rowT:last-child .column
+{  
+	border-bottom:none;
+}
+.column
+{
+	display:table-cell; /* Defines a table cell */
+	padding: 5px 2px !important;
+	border-bottom:1px solid #dadada;
+	border-right:1px solid #dadada;
+	min-width: 90px;
+	font-size: 12px;
+	text-align: center;
+}
+.columnWhite
+{
+	cursor: pointer;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	/* border-bottom:1px solid #eeeeee; */
+	font-size: 12px;
+}
+.checks
+{
+	text-align: center !important; 
+	max-width: 10px;
+	vertical-align: middle;
+}
+.checks input[type=checkbox]
+{
+	width: 20px !important; 
+	margin-left: 0.5%;
+	vertical-align: middle;
+	margin-right: 0.5%;
+	cursor: pointer;
+}
+/* Responsive table */
+@media all and (max-width: 768px){
+	.table,
+	.rowT,
+	.column,
+	.column:before
+        {
+		display:block;	/* Converts a table, table row, table column and table column:before into a block element */
+                
+	}
+	.table,
+	.rowT .column:last-child
+	{
+		border-bottom:none;
+	}
+	.table-head
+	{
+		position:absolute;	/* Hides table head but not using display none */
+		top:-1000em;
+		left:-1000em;
+                
+	}
+	.rowT
+	{
+		border:1px solid #eeeeee;
+		border-top:0px solid #dddddd;
+		border-bottom: 0px solid #31a01b;
+		border-top: 3px solid #31a01b;
+
+	}
+	.rowT .column:nth-child(1)
+	{ 
+		border-left:none;
+	}
+	.rowT .column:last-child
+	{
+		border-right:none;
+	}
+	.rowT:last-child .column,
+	.column
+	{ 
+		border-bottom:1px solid #eeeeee;
+		padding: 2px 5px;
+		text-align: left;
+	}
+	.column:before
+	{ 
+		padding-right:0px;
+		font-size: 13px;
+		color: #31a01b;
+		content:""attr(data-label)"";
+	}
+	.opts img
+	{
+			width: 30px !important; 
+			margin-left: 5%;
+			margin-right: 5%;
+	}
+	.pbox
+	{
+			float: left;
+			width: 80%;
+			padding-left: 5px !important;
+			padding-right: 5px !important;
+			font-size: 13px;
+	}
+	.uMailBotDiv
+	{
+		float: right;
+		width: 100%;
+		margin-top: 5px;
+		text-align: justify;
+		box-sizing: border-box;
+		height: 240px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		color: #272E36;
+		font-size: 14px;
+		box-sizing: border-box;
+	}
+	.legalAdviseBox
+	{
+		float: left;
+		width: 100%;
+		margin-top: 10px;
+		text-align: justify;
+		background:  rgba(255, 255, 255, 0.7);
+		box-sizing: border-box;
+		border-radius: 5px;
+		padding: 15px;
+		max-height: 300px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		color: #272E36;
+		font-size: 13px;
+		overflow-y: auto;
+	}
+	.weltitle
+	{
+		float: left !important;
+		width: 100% !important;
+		text-align: center !important;
+		font-size: 18px !important;
+		padding-left: 0%;
+		padding-right: 0%;
+		margin-top: 2%;
+		margin-bottom: 5%;
+	}
+	.tline
+	{
+		display: flex;
+	}
+	.promoHomeVid
+	{
+		width: 100%;
+		background-image: url("../irsc/headerStartM.jpg");
+		background-position: top center;
+		background-repeat: no-repeat;
+		/* background-attachment: fixed; */
+	}
+	
+	.locPickerSebutton
+	{
+		min-width: 10px;
+	}
+	.card-img-top
+	{
+		height: 32vw;
+	}
+	
+}
+.blankProducts
+{
+	margin-top: 5px;
+	font-size: 12px;
+	color: #3E4095 !important;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+.opts
+{
+	text-align: center !important;
+	min-width: 90px;
+}
+.opts img
+{
+		width: 18px; 
+		margin-left: 2%;
+		margin-right: 2%;
+		cursor: pointer;
+}
+.loneIconCell
+{
+        /* text-align: center !important;  */
+        /* vertical-align: middle; */
+}
+.loneIconCell img
+{
+        width: 18px !important; 
+        margin-left: 2px;
+        margin-right: 2px;
+        cursor: pointer;
+}
+/*----------------END TABLES--------------------*/
+
+
+
+/*----------------SOCIAL SHARE BOX--------------------*/ 
+.socialShareBox
+{
+	position: fixed;
+	bottom: 12%;
+	left: 5px;
+	max-width: 50px;
+	text-align: center;
+	
+}
+.socialIcon
+{
+	margin-bottom: 8px;
+	width: 40px;
+}
+/*----------------SOCIAL SHARE BOX--------------------*/ 
+/*----------------HOME--------------------*/ 
+.contactTitle
+{
+	float: left;
+	width: 100%;
+	color: #0393d9;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.langPicker
+{
+	position: absolute;
+	top: 28px;
+	left: 15px;
+	width: 25px;
+	cursor: pointer;	
+	z-index: 1;
+}
+.langPickerLogued
+{
+	position: fixed;
+	top: 20px;
+	left: 15px;
+	width: 25px;
+	cursor: pointer;	
+	z-index: 1;
+}
+.langPickerAb
+{
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	width: 25px;
+	cursor: pointer;	
+	z-index: 1;
+}
+.langOpt
+{
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+	color: #000000;
+}
+.langIcon
+{
+	width: 25px;
+	margin-right: 10px;
+}
+.imgLoader 
+{
+	width: 250px;
+}
+.textInput
+{
+	width: 100%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height: 26px;
+	margin-top: 6px !important;
+	padding: 5px;
+	padding-left: 10px !important;
+	font-size: 13px;
+}
+.textRecoverInput
+{
+	text-align: center;
+	width: 80%;
+	margin-left: 10% !important;
+	margin-top: -20px !important;
+	margin-bottom: 10px !important;
+	padding-left: 3px !important;
+	
+}
+.textInput:disabled
+{
+	background: #ebebeb !important;
+}
+.textInputContact
+{
+	width: 48%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height: 26px;
+	margin-top: 6px !important;
+	padding: 5px;
+	padding-left: 10px !important;
+	font-size: 13px;
+}
+.floatSideL
+{
+	float: left;
+}
+.floatSideR
+{
+	float: right;
+}
+.textArea
+{
+	float: left;
+	border: 1px solid #cccccc;
+	width: 100%;
+	/* height: 130px; */
+	line-height: 19px !important;
+	font-size: 13px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 6px !important;
+	padding-left: 10px !important;
+	
+}
+.buttonG
+{
+	width: 100% !important;
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 6px !important;
+	cursor: pointer;
+	border: 0px solid;
+}
+.contactButton
+{
+	float: left;
+	background: #F58434 !important;
+}
+.acceptButtonAlert
+{
+	
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 120px;
+	
+}
+.cancelConfirmButton
+{
+	
+	float: left;
+	margin-left: 10%;
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #000000;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	
+}
+.acceptConfirmButton
+{
+	
+	float: right;
+	margin-right: 10%;
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #ef0002;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	
+}
+.loginButton
+{
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	
+}
+.grayC
+{
+	background: #000000;
+}
+.colorLike
+{
+	color: #31a01b !important;
+	font-style: italic;
+	cursor: pointer;
+}
+.colorLikeLogo
+{
+	color: #31a01b !important;
+}
+.likeBlack
+{
+	color: #000000 !important;
+}
+.recoverLink
+{
+	color: #31a01b;
+	float: left;
+	width: 100%;
+	font-size:11px;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.acceptCondsLink
+{
+	color: #a8a2a2;
+	font-size:14px;
+	/* font-weight: bold; */
+	
+}
+.condsCheck
+{
+	/* float: left; */
+	margin-top: 8px;
+	margin-left: 8px;
+	vertical-align: top;
+	border-radius: 2px;
+}
+.condLinkAction
+{
+	font-weight: bold;
+	cursor: pointer;
+	color: #31a01b;
+}
+.homePhrase
+{
+	font-size: 26px !important;
+}
+.homeautor
+{
+	font-size:16px !important;
+}
+.alerText
+{
+	font-size: 14px !important;
+}
+.fastPopText
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 14px !important;
+	color: #000000;
+	margin-top: -20px;
+}
+.textLogo
+{
+	width: 70px;
+	vertical-align: top;
+	margin-top: 3px;
+}
+/*----------------HOME--------------------*/
+ /*----------------HEADER MENU--------------------*/
+ .menubar
+ {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+ }
+ .logoitem
+ {
+	float:left;
+	width: 20%;
+	display: inline-block;
+	/* border: 1px solid red; */
+	cursor: pointer;
+ }
+ .menuitem
+ {
+	float:left;
+	display: inline-block;
+	width: 16%;
+	position: relative;
+	cursor: pointer;
+ }
+ .menuIcon
+ {
+	width: 25px;
+	margin-top:4px;
+	margin-bottom:5px;
+	margin-right: 0px;
+	margin-left: 0px;
+	vertical-align: middle;
+ }
+ .menuLabel
+ {
+	font-size: 12px;
+	display: inline;
+ }
+.fixedHeader
+{
+	background: #cccccc;
+}
+.mainLogobg
+{
+	margin-top: 3px;
+	width: 130px;
+}
+.mainLogosm
+{
+	display: none;
+}
+.homelogo
+{
+	width: 100%;
+	max-width: 170px;
+}
+.notiAlertV
+{
+	text-align: center;
+	font-size: 9px;
+	padding: 4px;
+	padding-top:  0px;
+	padding-bottom:  2px;
+	background: red;
+	border-radius: 20px;
+	color: #ffffff;
+}
+.notiAlertH
+{
+	display: none;
+}
+
+/*----------------HEADER MENU--------------------*/
+/*----------------CONTACTS--------------------*/
+.contactsBox
+{
+	background: #cccccc;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid red;
+	min-height: 60px;
+}
+.textInputInvite
+{
+	float: left;
+	width: 80%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height: 26px;
+	margin-top: 6px !important;
+	padding: 5px;
+	padding-left: 10px !important;
+	font-size: 13px;
+	
+}
+.buttonAddContact
+{
+	float: left;
+	width: 18% !important;
+	margin-left: 2%;
+	height: 26px !important;
+	padding-top: 2px ; 
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	cursor: pointer;
+	font-size: 13px;
+	
+}
+.cBox
+{
+	float: left;
+	padding-top: 20px !important;
+}
+.contactsPanel
+{
+	float: left;
+	width: 98%;
+	margin-left: 1%;
+}
+
+.avatarContactImg
+{
+	width: 85px;
+	border: 1px solid #efefef;
+	border-radius: 20px;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 8px;
+}
+.avatarBox
+{
+	text-align: center;
+	
+}
+
+.pdsides0
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.nameSpan
+{
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	font-weight: bold;
+}
+.emailSpan
+{
+	float: left;
+	width: 100%;
+	font-size: 12px;
+}
+.optionText
+{
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	color: #31a01b;
+}
+.actionsDiv
+{
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+.optionButtonL
+{
+	width: 35% !important;
+	float: left;
+	margin-left: 10%;
+	height: 26px !important;
+	background: #000000;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 2px ;
+}
+.optionButtonR
+{
+	width: 35% !important;
+	float: right;
+	margin-right: 10%;
+	height: 26px !important;
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 2px ;
+}
+.inviteFromListButton
+{
+	width: 80% !important;
+}
+.optionButtonUnique
+{
+	width: 36% !important;
+	float: right;
+	margin-right: 10%;
+	height: 26px !important;
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 2px ;
+}
+.optionButtonUniqueCenter
+{
+	width: 40% !important;
+	float: right;
+	margin-right: 30%;
+	height: 26px !important;
+	background: #31a01b;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 0px ;
+	border: 0px solid #ffffff;
+	margin-top: -20px;
+}
+.likeB
+{
+	background: #83af5c !important;
+}
+.friendsLabel
+{
+	color: #83af5c !important;
+}
+.bordered
+{
+	border: 1px solid red !important;
+}
+.borderedG
+{
+	border: 1px solid green !important;
+}
+.delIcon
+{
+	position: absolute;
+	top: 5%;
+	right: 7%;
+	width: 22px;
+	cursor: pointer;
+	z-index: 2;
+}
+.lovedToday
+{
+	position: absolute;
+	top: 32%;
+	right: 7%;
+	width: 22px;
+	cursor: pointer;
+	z-index: 2;
+}
+.lovedMsg
+{
+	width: 24%;
+	margin-left: 38%;
+	margin-right: 38%;
+	float: left;
+	margin-bottom: 10px;
+}
+.friendFriendsTitle
+{
+	font-size: 16px !important;
+	font-weight: bold;
+}
+/*----------------CONTACTS--------------------*/
+/*----------------PROFILE--------------------*/
+.iconsBox
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.pickerIcon
+{
+	max-width: 18% !important;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.profileIcon
+{
+	max-width: 90px;
+	cursor: pointer;
+}
+.changeIconLabel
+{
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 13px;
+	color: #31a01b;
+}
+/*----------------PROFILE--------------------*/
+/*----------------LIKES--------------------*/
+.likeTipePicker
+{
+	margin-left: 10%;
+	width: 80%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height: 26px;
+	margin-bottom: 6px !important;
+	padding: 5px;
+	padding-left: 10px !important;
+	font-size: 13px;
+}
+.likePopText
+{
+	font-size: 14px !important;
+	float: left;
+	width: 100%;
+	margin-top: -20px;
+}
+.emosBox
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.emoPickerLike
+{
+	margin-left: 40%;
+	width: 20%;
+	margin-bottom: 15px;
+	cursor: pointer;
+	margin-top:-5px;
+}
+.pickerEmo
+{
+	max-width: 25% !important;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 12px;
+	
+}
+.emoChangeLabel
+{
+	
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 15px;
+	color: #31a01b;
+	cursor: pointer;
+	font-weight: bold;
+}
+.likesFeedBox
+{
+	float: left;
+	width:99%;
+	background: #f7f7f7;
+	padding: 2%;
+	
+}
+.likeBox
+{
+	width: 70%;
+	border: 1px solid #ece7e7;
+	margin-bottom: 30px;
+	border-radius:10px;
+	padding-left: 1%;
+	padding-right: 1%;
+	background: #ffffff;
+	position: relative;
+}
+.likeProfilePic
+{
+	width: 12%;
+	margin-top:  2%;
+}
+.likeContentBox
+{
+	width:85%;
+}
+.likeIconPic
+{
+	width: 22px;
+}
+.likeTitleSpan
+{
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+	padding: 5px;
+}
+.likeMessageSpan
+{
+	font-size: 14px;
+	width: 100%;
+	padding: 5px;
+}
+.likeDateSpan
+{
+	width: 100%;
+	font-size: 12px;
+	color: #b0afaf;
+	padding: 5px;
+}
+.floatLeft
+{
+	float: left;
+}
+.floatRight
+{
+	float: right;
+}
+.textLeft
+{
+	text-align: left;
+}
+.textRight
+{
+	text-align: right;
+}
+.likesHeader
+{
+	float: left;
+	width:99%;
+	background: #f7f7f7;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.likeFilter
+{
+	float: right;
+	font-size: 13px;
+	color: #31a01b;
+	padding: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.likeDove
+{
+	position: absolute;
+	width: 18px;
+	top: 8px;
+}
+.doveLeft
+{
+	right: 8px;
+}
+.doveRight
+{
+	left: 8px;
+}
+.dayBar
+{
+	float: left;
+    width: 15%;
+    margin-left: 42%;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    z-index: 2;
+    margin-top: -10px;
+	color: #b7b7b7;
+	font-weight: bold;
+}
+.dayBarLine
+{
+	float: left;
+	margin-top: 0px;
+	width: 100%;
+	font-size: 0px;
+	border-bottom: 1px solid #b7b7b7;
+}
+/*----------------LIKES--------------------*/
+/*----------------STATS--------------------*/
+.statsBox
+{
+	border-bottom: 1px solid #efefef;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.statLabelBox
+{
+	float: left; 
+	width: 60%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	font-weight: bold;
+	color: #31a01b
+}
+.statLabelBoxText
+{
+	float: left; 
+	width: 60%;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 70px;
+	line-height: 70px;
+	
+}
+.statQtyBox
+{
+	
+	float: left; 
+	width: 39%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	border-radius: 10px;
+	color: #31a01b
+}
+.statQtyBoxText
+{
+	float: left; 
+	font-size: 14px;
+	width: 29%;
+	text-align: center;
+
+}
+.fullWidth
+{
+	width: 100%;
+}
+/*----------------ABOUT--------------------*/
+.thediff
+{
+	float: left;
+	width: 100%;
+	font-size: 24px !important;
+	color: #000000;
+	font-weight: bold !important;
+}
+.likeLink
+{
+	color: #000000 !important;
+	float: left;
+	width: 30%;
+	margin-left: 35%;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 12px;
+	border-radius: 10px;
+	border: 5px solid #ff6600;
+}
+.linkLogo
+{
+	width: 160px;
+	margin-top: -10px;
+}
+.boutTitle
+{
+	float: left;
+	width: 100%;
+	/* border: 1px solid red; */
+	font-size: 18px;
+	/* font-weight: bold; */
+	margin-top: -20px;
+	color: #000000;
+	font-style: italic;
+	text-align: center !important;
+}
+.aboutDesc
+{
+	float: left;
+	width: 100%;
+	/* border: 1px solid red; */
+	font-size: 15px;
+	margin-top: -15px;
+}
+.quoteLike
+{
+	float: left;
+	width: 100%;
+	font-size: 20px !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #31a01b;
+	font-style: italic;
+	font-weight: bold;
+}
+/*----------------ABOUT--------------------*/
+
+/* Responsive*/
+@media all and (max-width: 768px)
+{
+	
+	.getBack
+	{
+		position: absolute;
+		right: 1%;
+		top: -24%;
+		font-size: 15px;
+		cursor: pointer;
+		color: white;
+		border-radius: 5px;
+		font-weight: bold;
+		background: red;
+		padding: 5px;
+	}
+	
+	.cFormBox
+{
+	float: left;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 5%;
+}
+	
+	.clientTitle
+	{
+		position: relative;
+		top: 12%;
+		width: 100%;
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+	}
+	
+	.clientBanner
+	{
+		height: 180px;
+	
+	}
+	
+	
+	.mapouter 
+	{
+		width: 100% !important;
+	}
+	.gmap_canvas 
+	{
+		height: 180px !important;
+	}
+	.picsPanel img
+	{
+
+		width: 99.2%;
+
+	}
+	.videoBox
+	{
+		margin-top: 25px;
+		height: 200px;
+	}
+	.catPicker
+	{
+		width: 90%;
+	}
+	.wsbox
+	{
+		bottom: 18%;
+		right: -3px;
+		position: fixed;
+		border: solid 3px #31a01b;
+	}
+	.contactLabel
+	{
+		display: none;
+	}
+	.wsboton
+	{
+		width: 40px;
+	}
+	
+	.socialShareBox
+	{
+		position: fixed;
+		bottom: 7%;
+		max-width: 34px;
+		left: 0px;
+		text-align: right;
+	}
+	.socialIcon
+	{
+		width: 30px;
+	}
+	.likeLink
+	{
+		float: left;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.dayBar
+	{
+		width: 24%;
+		margin-left: 38%;
+	}
+	.dayBarLine
+	{
+		float: left;
+		margin-top: 15px;
+	}
+	.delIcon
+	{
+		top: 4%;
+		right: 7%;
+		width: 23px;
+	}
+	.lovedToday
+	{
+		top: 4.5%;
+		left: 7%;
+		width: 25px;
+	}
+	.langPicker
+	{
+		position: absolute;
+		left: 9%;
+		top: 32px;
+		width: 25px;
+	}
+	.langPickerLogued
+	{
+		position: fixed;
+		left: 5px;
+		top: 95px;
+		width: 25px;
+	}
+	.inviteFromListButton
+	{
+		width: 60% !important;
+		margin-right: 20%;
+	}
+	.contactTitle
+	{
+		text-align: center;
+	}
+	.textInputContact
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+	.aboutTitle
+	{
+		float: left;
+		width: 100%;
+		/* border: 1px solid red; */
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: -10px;
+	}
+	.aboutDesc
+	{
+		margin-top: -30px;
+		font-size: 16px;
+		padding: 30px;
+	}
+	.recoverLink
+	{
+		font-size:12px;
+		font-weight: bold;
+	}
+	.statsBox
+	{
+		margin-bottom: 10px;
+	}
+	.statLabelBox
+	{
+		text-align: center;
+		width: 100%;
+	}
+	.statLabelBoxText
+	{
+		text-align: center;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+	}
+	.statQtyBox
+	{
+		text-align: center;
+		width: 100%;
+	}
+	.statQtyBoxText
+	{
+		text-align: center;
+		width: 100%;
+		
+	}
+	.textLogo
+	{
+		width: 55px;
+		vertical-align: top;
+		margin-top: 3px;
+	}
+	.likeDove
+	{
+		width: 13px;
+		top: 5px;
+	}
+	.doveLeft
+	{
+		right: 5px;
+	}
+	.doveRight
+	{
+		left: 5px;
+	}
+	.notiAlertV
+	{
+		position: absolute;
+		bottom:30%;
+		right: 20%;
+		font-size: 9px;
+		padding: 5px;
+		padding-top:  0px;
+		padding-bottom:  0px;
+		background: red;
+		border-radius: 10px;
+		display: block;
+		color: #ffffff;
+	}
+	.likeTitleSpan
+	{
+		font-size: 12px;
+	}
+	.likeMessageSpan
+	{
+		font-size: 12px;
+	}
+	.likeDateSpan
+	{
+		font-size: 10px;
+	}
+	.likeBox
+	{
+		width: 98%;
+	}
+	.likeContentBox
+	{
+		width:80%;
+	}
+	.likeProfilePic
+	{
+		width: 20%;
+		margin-top:  3%;
+	}
+	.menuLabel
+	{
+		display: none;
+	}
+	.mainLogobg
+	{
+		display: none;
+	}
+	.mainLogosm
+	{
+		width: 25px;
+		display: inline-block;
+		margin-top:8px;
+		margin-bottom:5px;
+		margin-right: 4px;
+		margin-left: 4px;
+		vertical-align: middle;
+	}
+	.logoitem
+	{
+		width: 20%;
+		text-align: center;
+	}
+	.menuitem
+	{
+		width: 16%;
+	}
+	 .menuIcon
+	 {
+		width: 28px;
+		margin-top:7px;
+	 }
+	.buttonAddContact
+	{
+		float: left;
+		width: 25% !important;
+	}
+	.textInputInvite
+	{
+		float: left;
+		width: 73%;
+	}
+	.avatarContactImg
+	{
+		width: 100px;
+	}
+	.emailSpan
+	{
+		text-align: center;
+	}
+	.nameSpan
+	{
+		text-align: center;
+	}
+	.optionText
+	{
+		text-align: center;
+	}
+	.optionButtonUnique
+	{
+		width: 36% !important;
+		margin-right: 32%;
+	}
+	.alerText
+	{
+		font-size: 15px !important;
+	}
+	.pickerIcon
+	{
+		max-width: 25% !important;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-bottom: 12px;
+	}
+	
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include '_required-css.twig' %}
+
+    {% include '_template-css.twig' %}
+
+    <title>My Wishlist - {{title}}</title>
+  </head>
+  <body>
+
+    {% include '_header.twig' %}
+
+    <div class="container-fluid" id="main-container">
+      <div class="row">
+
+        {% include '_sidebar.twig' with {'active':'pages','sub':'account-wishlist'} %}
+
+        <div class="col" id="main-content">
+
+          <div class="card user-card">
+            <div class="card-body">
+              {% include '_user-card.twig' with {'active':'account-wishlist'} %}
+              <hr>
+              <table class="table table-cart">
+                <tbody>
+                  {% for item in wishlist %}
+                  <tr>
+                    <td>
+                      <button class="btn btn-sm btn-outline-warning rounded-circle" title="Remove"><i class="fa fa-close"></i></button>
+                    </td>
+                    <td>
+                      <a href="detail.html"><img src="../img/product/{{ item.img }}" width="50" height="50" alt="{{ item.name }}"></a>
+                      <button class="btn btn-sm btn-outline-warning rounded">Remove</button>
+                    </td>
+                    <td>
+                      <h6><a href="detail.html" class="text-body">{{ item.name }}</a></h6>
+                      <h6 class="text-muted">{{ item.price }}</h6>
+                      {% if item.name == 'Sony Alpha a6500 Mirrorless Digital Camera' %}
+                        <span class="badge badge-dark font-weight-light">Out of Stock</span>
+                      {% else %}
+                        <span class="badge badge-success font-weight-light">In Stock</span>
+                      {% endif %}
+                    </td>
+                    <td>
+                      <button class="btn btn-info btn-sm">BUY NOW</button>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                  <tr>
+                    <td colspan="4">
+                      <button class="btn btn-outline-secondary">CLEAR ALL</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {% include '_footer.twig' %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include '_modal-cart.twig' %}
+
+    {% include '_required-js.twig' %}
+
+    {% include '_template-js.twig' %}
+  </body>
+</html>

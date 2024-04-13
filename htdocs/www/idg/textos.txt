@@ -1,0 +1,140 @@
+Ingles
+<?php
+
+$lang = array(
+
+    "Slogan" => "We create experience that make people happy",
+    
+	"Idioma_activo"=>"English",
+    "en" => "English",
+    "es" => "Spanish",
+    "po" => "Portuguese",
+	/////////////menu/////////////
+	"Home"=>"Home",
+	"About"=>"About us",
+	"Customers"=>"Customers",
+	"Services"=>"Services",
+	"Contact"=>"Contact",
+	//////////////////service/////////////
+	"Title_slide"=>"Our Services",
+	"S_service1"=>"We",
+	"S_service2"=>"help you build and grow",
+	"S_service3"=>"your business",
+	"Titulo1_s"=>"Operational web interface to run your business effectively",
+	"Descripcion1_s"=>"High-performance tool to administrate and manage the business resources. As personnel, materials, tooling, mobilization, expenses, and more",
+	"Titulo_2_s"=>"Safety & Quality Certification Storage",
+	"Descripcion_2_s"=>"The best place to keep and track all the business and personnel certifications in one place. This tracking system will inform you about the certifications status and expiration dates, so your business is on top of certifications compliance",
+	"Titulo3_s"=>"Training Online Safety Training",
+	"Descripcion3_s"=>"Safety is always first. Keep all the resources up to date with the latest Safety Training.",
+	"Titulo4_s"=>"Quality Inspections High Quality",
+	"Descripcion4_s"=>"Keep track of all the quality inspections in one place",
+	"Titulo5_s"=>"Safety Inspections",
+	"Descripcion5_s"=>"Keep track of all the quality inspections in one place",
+	"Titulo6_s"=>"Blade Inspections",
+	"Descripcion6_s"=>"Inspect the blades internally and externally with highly qualified inspection technicians.",
+	"Titulo7_s"=>"Drones Inspections",
+	"Descripcion7_s"=>"Using the latest technology in drone equipment, get a full inspection of wind turbines using manual and autonomous drones. Get blades, nacelle, and tower inspection: spot checks and damage monitoring.",
+	//////////////////About as.///////////////////////////
+	"Subtitulo_a"=>"Is a company built by a team of professionals with over 15 years of experience in the wind energy industry.",
+	"descripcion_a"=>"We offer the expertise of working with multi-brand platforms to assess and manage valuable resources in the industry.<br>
+With high-qualified technicians that can support turbine inspections using high-resolution cameras and drones.<br>
+We offer top-of-the-line tools to track company assets, resources, qualifications, and certifications in one place."
+	
+);
+
+?>
+
+Español
+
+<?php
+
+$lang = array(
+
+    "Slogan" => "Creamos experiencias que hacen felices a las personas",
+    
+	"Idioma_activo"=>"Español",
+    "en" => "Inglés",
+    "es" => "Español",
+	"po" => "Portugues",
+	/////////////menu/////////////
+	"Home"=>"Inicio",
+	"About"=>"Nosotros",
+	"Customers"=>"Clientes",
+	"Services"=>"Servicios",
+	"Contact"=>"Contacto",
+	//////////////////service/////////////
+	"Title_slide"=>"Nuestros Servicios",
+	"S_service1"=>"Te",
+	"S_service2"=>"ayudamos a construir y hacer crecer",
+	"S_service3"=>"tu negocio",
+	"Titulo1_s"=>"Web operativa para administrar su negocio de manera efectiva",
+	"Descripcion1_s"=>"Herramienta de alto rendimiento para administrar y gestionar los recursos del negocio. Como personal, materiales, utillajes, movilización, gastos y más",
+	"Titulo_2_s"=>"Certificación de seguridad y calidad Almacenamiento",
+	"Descripcion_2_s"=>"El mejor lugar para guardar y rastrear todas las certificaciones comerciales y de personal en un solo lugar. Este sistema de seguimiento le informará sobre el estado de las certificaciones y las fechas de vencimiento, para que su empresa esté al tanto del cumplimiento de las certificaciones.",
+	"Titulo3_s"=>"Capacitación de seguridad en línea",
+	"Descripcion3_s"=>"La seguridad es siempre lo primero. Mantenga todos los recursos actualizados con la última capacitación en seguridad.",
+	"Titulo4_s"=>"Inspecciones de calidadAlta calidad",
+	"Descripcion4_s"=>"Mantenga un registro de todas las inspecciones de calidad en un solo lugar",
+	"Titulo5_s"=>"Inspecciones de seguridad",
+	"Descripcion5_s"=>"Mantenga un registro de todas las inspecciones de calidad en un solo lugar",
+	"Titulo6_s"=>"Inspecciones de hojas",
+	"Descripcion6_s"=>"Inspeccione las palas interna y externamente con técnicos de inspección altamente calificados.",
+	"Titulo7_s"=>"Inspecciones con drones",
+	"Descripcion7_s"=>"Con la última tecnología en equipos de drones, obtenga una inspección completa de las turbinas eólicas utilizando drones manuales y autónomos. Inspeccione las palas, la góndola y la torre: verificaciones puntuales y monitoreo de daños.",
+	//////////////////About as.///////////////////////////
+	"Subtitulo_a"=>"Es una empresa formada por un equipo de profesionales con más de 15 años de experiencia en el sector de la energía eólica.",
+	"descripcion_a"=>"Ofrecemos la experiencia de trabajar con plataformas multimarca para evaluar y gestionar recursos valiosos de la industria.<br>
+Con técnicos altamente calificados que pueden apoyar las inspecciones de turbinas utilizando cámaras de alta resolución y drones.<br>
+Ofrecemos herramientas de primera línea para realizar un seguimiento de los activos, los recursos, las calificaciones y las certificaciones de la empresa en un solo lugar."
+);
+	
+
+
+?>
+Portugués
+
+<?php
+
+$lang = array(
+
+    "Slogan" => "Criamos experiências que fazem as pessoas felizes",
+     
+	
+	"Idioma_activo"=>"Português",
+    "en" => "Inglês",
+    "es" => "Espanhol",
+	"po" => "Português",
+	/////////////menu/////////////
+	"Home"=>"Início",
+    "About"=>"Nosotros",
+	"Customers"=>"Clientes",
+	"Services"=>"Serviços",
+	"Contact"=>"Contato",
+	//////////////////service/////////////
+	"Title_slide"=>"Nossos serviços",
+	"S_service1"=>"Ajudamos você",
+	"S_service2"=>"a construir e expandir",
+	"S_service3"=>"seus negócios",
+	"Titulo1_s"=>"Web operacional para gerir o seu negócio de forma eficaz",
+	"Descripcion1_s"=>"Ferramenta de alto desempenho para administrar e gerenciar os recursos do negócio. Como pessoal, materiais, ferramentas, mobilização, despesas e muito mais",
+	"Titulo_2_s"=>"Certificação de segurança e qualidade Armazenamento",
+	"Descripcion_2_s"=>"O melhor lugar para manter e rastrear todas as certificações de negócios e pessoal em um só lugar. Este sistema de rastreamento irá informá-lo sobre o status das certificações e as datas de vencimento, para que sua empresa esteja ciente da conformidade das certificações.",
+	"Titulo3_s"=>"Treinamento de segurança on-line",
+	"Descripcion3_s"=>"A segurança está sempre em primeiro lugar. Mantenha todos os recursos atualizados com o treinamento de segurança mais recente.",
+	"Titulo4_s"=>"Inspeções de Qualidade Alta Qualidade",
+	"Descripcion4_s"=>"Acompanhe todas as inspeções de qualidade em um só lugar",
+	"Titulo5_s"=>"Inspeções de segurança",
+	"Descripcion5_s"=>"Acompanhe todas as inspeções de qualidade em um só lugar",
+	"Titulo6_s"=>"Inspeções de lâmina",
+	"Descripcion6_s"=>"Inspecione as palhetas interna e externamente com técnicos de inspeção altamente qualificados.",
+	"Titulo7_s"=>"Inspeções de drones",
+	"Descripcion7_s"=>"Usando a mais recente tecnologia em equipamentos de drones, faça uma inspeção completa de turbinas eólicas usando drones manuais e autônomos. Obtenha lâminas, nacele e inspeção de torre: verificações pontuais e monitoramento de danos.",
+	//////////////////About as.///////////////////////////
+	"Subtitulo_a"=>"é uma empresa formada por uma equipe de profissionais com mais de 15 anos de experiência no setor de energia eólica.",
+	"descripcion_a"=>"Oferecemos a experiência de trabalhar com plataformas multimarcas para avaliar e gerenciar recursos valiosos no setor.<br>
+Com técnicos altamente qualificados que podem dar suporte a inspeções de turbinas usando câmeras de alta resolução e drones.<br>
+Oferecemos ferramentas de ponta para rastrear ativos, recursos, qualificações e certificações da empresa em um lugar."
+);
+
+
+?>

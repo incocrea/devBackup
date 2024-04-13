@@ -1,0 +1,41 @@
+// Services Box
+.services-box {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  .fa {
+    font-size: 3em;
+    width: 1.28571429em;
+    text-align: center;
+  }
+  .media-body {
+    line-height: 1;
+    h6 {
+      margin-bottom: .25rem;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  .services-box {
+    .media-body {
+      height: 42px;
+      align-items: center;
+      display: flex;
+    }
+    .col-6:first-child {
+      margin-bottom: 1rem;
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+  .services-box {
+    .fa {
+      font-size: 2em;
+    }
+    .media-body {
+      height: 30px;
+    }
+  }
+}

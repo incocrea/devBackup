@@ -1,0 +1,82 @@
+<div class="container-fluid px-4 row">
+	
+	<h3 id="usersAdminTit" class="mt-4"></h3>
+	
+	<div class="row">
+	<!-- <div class="grid"> -->
+		
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+			<span id="userNameFilterLabel" class="fieldLabel"></span>
+			<input id="userNameFilter" type="text" class="form-control">
+		</div>
+		
+		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+			<span id="userProgressFilterLabel" class="fieldLabel"></span>
+			
+			<select id="userProgressFilter" type="text" class="form-control">
+				<option id="progress100" value = "100"></option>
+				<option id="progressLess" value = "99.9"></option>
+				<option id="progress75" value = "75"></option>
+				<option id="progress50" value = "50"></option>
+				<option id="progress25" value = "25"></option>
+			</select>
+		</div>
+		
+		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-1">
+			<span id="userActiveFilterLabel" class="fieldLabel"></span>
+			
+			<select id="userActiveFilter" type="text" class="form-control">
+				<option id="activeYes" value = "1"></option>
+				<option id="activeNo" value = "0"></option>
+			</select>
+		</div>
+		
+		
+		
+		<div class="form-floating col-lg-3 ">
+			<button id = "searchBut" class="btn btn-primary filterButton1" onclick="listGet('users')">
+			<button id = "createBut" class="btn btn-warning filterButton2" onclick="createItem('users')">
+			<button id = "exportUsers" class="btn btn-info filterButton3" onclick="listExport('users')">
+		</div>
+		
+		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-3">
+			<span id="userMultiOpsLabel" class="fieldLabel"></span>
+			<select id="userMultiActions" type="text" class="form-control" onchange="multiActionUser(this.value)">
+				<option id="multiSetNone" value = ""></option>
+				<option id="multiSetIndi" value = "1"></option>
+				<option id="multiSetBundle" value = "2"></option>
+			</select>
+		</div>
+		
+		
+		<hr class="divider">
+		
+		<div id="plainLoadBox" class="form-floating col-lg-4 ">
+			<div id="plainBox" class="container-fluid px-4 plainLoadBox"></div>
+		</div>
+
+	</div>
+	
+	<a href id="downframe" download></a>
+	
+	<div class="table-responsive tableBox">
+		<div id='usersList' class='table'>
+			<div class='table-head'>
+				<div class='column' ></div>
+				<div class='column' id="usersTT0"></div>
+				<div class='column' id="usersTT1"></div>
+				<div class='column' id="usersTT4"></div>
+				<div class='column' id="usersTT2"></div>
+				<div class='column' id="usersTT3"></div>
+				<div class='column' id="usersTT7"></div>
+				<div class='column' id="usersTT5"></div>
+				<div class='column' id="usersTT6"></div>
+				<div class='column' id="usersTTO"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+               
+
+

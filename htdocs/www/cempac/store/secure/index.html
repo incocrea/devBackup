@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Administración CEMPAC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+	
+	<link href="css/main.css" rel="stylesheet">
+	
+	<script src="libs/locations/locationsCO.js"></script>
+	
+	<script src = "libs/cb/cropbox-min.js"></script>
+	
+	<script src = "libs/ko/knockout-3.4.2.js"></script>
+	<script type="text/javascript" src="js/aes.js"></script>
+	<script type="text/javascript" src="js/aes-json-format.js"></script>
+	<script src = "libs/modal/modal.js"></script>
+	<!-- <script src="js/live.js"></script> -->
+	<script src="js/main.js"></script>
+	<script src = "libs/modal/modal.js"></script>
+	<link href="libs/modal/modal.css" rel="stylesheet"/>
+	<link href="libs/dp/jquery.datetimepicker.css" rel="stylesheet"/>
+	<script src="libs/dp/build/jquery.datetimepicker.full.min.js"></script>
+
+  </head>
+
+  <body id="page-top">
+			
+		<div id="loginArea" class="loginArea">
+							
+			<div  id="loginBox" class="col-md-12 col-lg-12" >
+			
+				<div class="loginBox">
+						
+					<div id="loginScreen" class="loginScreen">
+					
+						<img class="" src="irsc/infoGeneral.png"/>
+						<br>
+						<br>
+						<div id="loginTitle1" class="loginTitle1"></div>
+							
+						<div id="loginTitle2" class="loginTitle2"></div>
+
+						<div id="accessBox" class="centField fields">
+
+								<input type="text" class = "centField" id="userLoginBox" value=""/>
+								<input type="password" class = "centField" id="userPassBox" value=""/>
+								<div id="loginButton" class="loginButton1" onclick="login()"></div>
+								
+								
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div id = "loaderDiv" class="loaderDiv">
+			<img src = "irsc/loader.gif"/>
+		</div>
+		
+		<div id="mainContainerWeb" class="mainContainerWeb">
+
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+			
+			  <a class="navbar-brand js-scroll-trigger" >
+				<span class="d-block d-lg-none">Menu</span>
+				
+				<div class="d-none d-lg-block">
+
+					<img id="imageSample" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="irsc/infoGeneral.png" alt="">
+
+				</div>
+			  
+			  </a>
+
+			  
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  
+				<ul id = "mainMenu" class="navbar-nav"></ul>
+				
+			  </div>
+			  
+			</nav>
+			
+			<a href id="downframe" download></a>
+			
+			<div class="container-fluid p-0">
+
+			  <section class="resume-section p-3 p-lg-5 d-flex d-column" id="sProd">
+				<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+					
+					<h5>Carga y administración de listados</h5>
+					
+					<div class="row panelButtFull" >
+
+						<div  class="col-lg-2" >
+							<select id="loadPicker" onchange="reportPick(this)">
+								<option value="" selected>Seleccione tabla</option>
+								<option value="RFLIST" >Extensiones</option>
+								<option value="CATS" >Categorías</option>
+								<option value="PLIST" >Listas de precios</option>
+								<option value="UNABLE" >Días inhabiles y festivos</option>
+								<option value="BANNER" >Banner Informativo</option>
+								
+								
+							</select>
+						</div>
+						
+						<div  class="col-lg-2" >
+							<form action="libs/php/plainLoad.php" method="post" enctype="multipart/form-data" target="upload_target" class="upForm">
+									<input id="plainSelector" name="plainFile" type="file" class="fileBox hiddenSubmit"/>
+									<input type="submit" id="upPlainButton" name="submitBtn" value="Upload" class="hidden" style="display: none;"/>
+							</form>
+						</div>
+						<div  class="col-lg-1" >
+							<button onclick="loadPlainFile()">Cargar</button>
+						</div>
+						<div  class="col-lg-2" >
+							<button onclick="invCreate()">Crear inventario</button>
+						</div>
+						<div  class="col-lg-2" >
+							<button onclick="getClients()">Descarga clientes</button>
+						</div>
+						<div  class="col-lg-2" >
+							<button onclick="synchronizeInventories()">Sincronizar </button>
+						</div>
+						<div  class="col-lg-1" >
+							<button onclick="deleteInventories()">Eliminar</button>
+						</div>
+						
+						<iframe id="upload_target" name="upload_target" src="" style="display: none; background: #ebebeb; width:100%;height:200;border:0px solid #fff;"></iframe>
+					
+					
+					</div>
+					
+					<hr>
+					
+					<div>
+						<div id="repFilterBox" class="row fLabel fields panelButtFull"></div>
+					</div>
+					
+					<div class="tableBox">
+							
+							<div id="reporTableBox">
+							
+							
+								<div id="productsList" class="table" style="display: none;">
+									<div class="table-head">
+										<div class="column" data-label="Código" >Código</div>
+										<div class="column" data-label="Descripción original" >Detalle original</div>
+										<div class="column" data-label="Línea" >Línea</div>
+										<div class="column" data-label="Detalle" >Detalle</div>
+										<div class="column" data-label="Descripción" >Descripción</div>
+										<div class="column" data-label="Foto" >Foto</div>
+										<div class="column" data-label="Oferta" >Oferta</div>
+										<div class="column" data-label="Oferta G" >Oferta G</div>
+										<div class="column" data-label="Visible" >Visible</div>
+										<div class="column" data-label="Cantidad" >Cantidad</div>
+									</div>
+								</div>
+								
+								<div id="catsList" class="table" style="display: none;">
+									<div class="table-head">
+										<div class="column" data-label="Código" >Código</div>
+										<div class="column" data-label="Detalle Original" >Detalle Original</div>
+										<div class="column" data-label="Detalle" >Detalle</div>
+										<div class="column" data-label="Visible" >Visible</div>
+									</div>
+								</div>
+								
+								<div id="pList" class="table" style="display: none;">
+									<div class="table-head">
+										<!-- <div class="column" data-label="Código" >Código</div> -->
+										<!-- <div class="column" data-label="Detalle Original" >Detalle Original</div> -->
+										<!-- <div class="column" data-label="Detalle" >Detalle</div> -->
+										<!-- <div class="column" data-label="Visible" >Visible</div> -->
+									</div>
+								</div>
+								
+								<div id="rfList" class="table" style="display: none;">
+									<div class="table-head">
+											<div class="column" data-label="Extensión" >Extensión</div>
+											<div class="column" data-label="Detalle Original" >Detalle Original</div>
+											<div class="column" data-label="Detalle" >Detalle</div>
+											<div class="column" data-label="Visible" >Visible</div>
+											<div class="column" data-label="Color" >Color</div>
+									</div>
+								</div>
+								
+								<div id="unableList" class="table" style="display: none;">
+									<div class="table-head">
+											<div class="column" data-label="Fecha" >Fecha</div>
+											<div class="column" data-label="Eliminar" >Eliminar</div>
+									</div>
+								</div>
+								
+								<div id="bannerDiv" class="table" style="display: none;">
+								</div>
+								
+								
+								
+							</div>
+							
+					</div>
+						
+				</div>
+
+			  </section>
+
+			  <section class="resume-section p-3 p-lg-5 d-flex flex-column " id="sShopAd">
+				<div class="fullSec col-lg-12 fLabel fields lower panelButtFull" >
+					
+					<h5>Zonas de distribucion</h5>
+					
+					<div class="row panelButtFull" >
+						
+						<div class="col-lg-2">
+							<span>Nombre</span>
+							<input type="text" id="zDetail" placeholder="Nombre">
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Inventario</span>
+							<select id="zArea">
+								<option value="" >Inventario</option>
+								<!-- <option value="INVARMENIA" >Inventario Armenia</option> -->
+								<!-- <option value="INVIBAGUE" >Inventario Ibague</option> -->
+								<!-- <option value="INVMANIZALES" >Inventario Manizales</option> -->
+								<!-- <option value="INVNEIVA" >Inventario Neiva</option> -->
+								<!-- <option value="INVPEREIRA" >Inventario Pereira</option> -->
+								<!-- <option value="INVTULUA" >Inventario Tuluá</option> -->
+								
+								<!-- <option value="INVPASTO" >Inventario Pasto</option> -->
+								<!-- <option value="INVFLORENCIA" >Inventario Florencia</option> -->
+								<!-- <option value="INVPITALITO" >Inventario Pitalito</option> -->
+							</select>
+							
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Lista Normal</span>
+							<select id="zPl1">
+								<option value="" >Selecciona</option>
+							</select>
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Lista Descuento</span>
+							<select id="zPl2">
+								<option value="" >Selecciona</option>
+							</select>
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Lista especial</span>
+							<select id="zPl5">
+								<option value="" >Selecciona</option>
+							</select>
+						</div>
+						
+												
+						<div class="col-lg-1">
+							<span>Tope desc.</span>
+							<input type="text" id="zBtop" placeholder="Tope descuento">
+						</div>
+						
+						<div class="col-lg-1">
+							<span>Descuento T.</span>
+							<input type="text" id="zBtopT" placeholder="Tope descuento T.">
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Tope envío</span>
+							<input type="text" id="zDtop" placeholder="Tope envío">
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Fecha Inicio</span>
+							<input type="text" id="zIniDate" placeholder="Fecha Inicio">
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Fecha Fin</span>
+							<input type="text" id="zEndDate" placeholder="Fecha Fin">
+						</div>
+						
+						<div class="col-lg-2">
+							<span>Pedido Mímino Inicial</span>
+							<input type="text" id="zMinFirst" placeholder="Pedido Mímino">
+						</div>
+						
+						<div class="col-lg-4">
+							<br class="hidden-xs">
+							<button id="pCreateB" onclick="saveZone(this)">Crear</button>
+						</div>
+					
+					</div>
+					
+					<hr>
+
+					<div class="tableBox">
+						<div id="zonesList" class="table">
+							<div class="table-head">
+									<div class="column" data-label="Nombre" >Nombre</div>
+									<div class="column" data-label="Inventario" >Inventario</div>
+									<div class="column" data-label="Lista 1" > Normal</div>
+									<div class="column" data-label="Lista 2" > Descuento</div>
+									<div class="column" data-label="Lista 3" > Especial</div>
+									<div class="column" data-label="Tope >" >Tope envío</div>
+									<div class="column" data-label="Tope" >Tope</div>
+									<div class="column" data-label="Tope T." >Tope T.</div>
+									<div class="column" data-label="Temporada" >Temporada</div>
+									<div class="column" data-label="Mínimo inicial" >Mínimo inicial</div>
+									
+									<div class="column" data-label="Acciones" >Acciones</div>
+							</div>
+						</div>
+					</div>
+						
+				</div>
+			  </section>
+			  
+			  <section class="resume-section p-3 p-lg-5 d-flex flex-column " id="sOrders">
+				<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+					
+					<h5>Administración de Pedidos</h5>
+					
+					<div class="row panelButtFull" >
+
+						<div  class="col-lg-4" >
+							<select id="orderPicker" onchange="reportPick(this)">
+								<option value="" selected>Seleccione</option>
+								<option value="ORDERS" >Pedidos</option>
+								<option value="CLIENTS" >Clientes</option>
+								<option value="LOSES" >Ventas perdidas</option>
+							</select>
+						</div>
+						
+						<div  class="col-lg-" >
+							<span id="orderWarn" onclick = "showOrders()" class="orderWlabel"><img src="irsc/bell.png"/></span>
+						</div>
+					
+					</div>
+					
+					<hr>
+					
+					<div>
+						<div id="repFilterBoxO" class="row fLabel fields panelButtFull"></div>
+					</div>
+					
+					<div class="tableBox">
+							
+						<div id="reporTableBoxO">
+						
+						
+							<div id="ordersList" class="table" style="display: none;">
+								<div class="table-head">
+									<div class="column" data-label="Cliente" >Cliente</div>
+									<div class="column" data-label="Ubicación" >Ubicación</div>
+									<div class="column" data-label="Dirección" >Dirección</div>
+									<div class="column" data-label="Teléfono" >Teléfono</div>
+									<div class="column" data-label="Fecha" >Fecha</div>
+									<div class="column" data-label="Pedido" >Pedido</div>
+									<div class="column" data-label="Vendido" >Vendido</div>
+									<div class="column" data-label="Entrega" >Entrega</div>
+									<div class="column" data-label="Estado" >Estado</div>
+									<div class="column" data-label="Opciones" >Opciones</div>
+								</div>
+							</div>
+							
+							<div id="clientList" class="table" style="display: none;">
+								<div class="table-head">
+										<div class="column" data-label="Nombre" >Nombre</div>
+										<div class="column" data-label="Tipo" >Tipo</div>
+										<div class="column" data-label="ID/NIT" >ID/NIT</div>
+										<div class="column" data-label="Email" >Email</div>
+										<div class="column" data-label="Dirección" >Dirección</div>
+										<div class="column" data-label="Teléfono" >Teléfono</div>
+										<div class="column" data-label="Acciones" >Acciones</div>
+								</div>
+							</div>
+							
+							<div id="losesList" class="table" style="display: none;">
+								<div class="table-head">
+									<div class="column" data-label="Código" >Código</div>
+									<div class="column" data-label="Producto" >Producto</div>
+									<div class="column" data-label="Fecha" >Fecha</div>
+									<div class="column" data-label="Inventario" >Inventario</div>
+									<div class="column" data-label="unidades" >unidades</div>
+									<div class="column" data-label="Valor" >Valor</div>
+								</div>
+							</div>
+
+						</div>
+							
+					</div>
+						
+				</div>
+
+			  </section>
+
+			  
+
+			</div>
+			
+			<!-- Bootstrap core JavaScript -->
+			<!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+			<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+			<!-- Plugin JavaScript -->
+			<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+			<!-- Custom scripts for this template -->
+			<script src="js/resume.min.js"></script>
+
+		</div>
+		
+		<div id = "hidden" class = "hiddenT">
+
+			<div id = "box" class = "modalCoverHidden">
+				
+				<div id="closeBa" class="closeB" onclick="hide_pop()"></div>
+				
+				<div id = "modalBox" class = "modalT">
+				
+					<div id = "boxHeader" class = "modalHeader">
+						<span id = "boxTitle" class = "modalTitle"></span>
+					</div>
+					
+					<div id = "boxContent" class = "modalContent"></div>
+					
+				</div>
+				
+			</div>
+
+			<div id = "modalCover" class = "modalCoverHidden">
+
+				<div id="closeB" class="closeB" onclick="hide_pop_form()"></div>
+
+				<div id = "modal" class = "modalForm">
+
+					<div id = "modalHeader" class = "modalHeader">
+						
+						<span id = "modalTitle" class = "modalTitle"></span>
+						
+					</div>
+					
+					<div id = "modalContent" class = "modalContentForm"></div>
+					
+				</div>
+				  
+			</div>
+			
+			<div id = "detailAddBox"></div>
+			<div id = "detailAddBoxCat"></div>
+			<div id = "lineSetBox"></div>
+			<div id = "stateSetBox"></div>
+			
+			<div id = "orderItemsBox" class="tableBox maxH350">
+				
+				<span id="clientDataLine" class="clientDataLine"></span>
+				
+				<div id="ordersItems" class="table floaTable fields">
+					
+					<div class="table-head">
+						<div class="column" data-label="Código" >Código</div>
+						<div class="column" data-label="Detalle" >Detalle</div>
+						<div class="column" data-label="Pedido" >Pedido</div>
+						<div class="column" data-label="Vendido" >Vendido</div>
+						<div class="column" data-label="Precio" >Precio</div>
+						<div class="column" data-label="Subtotal" >Subtotal</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div id = "deliverDatesBox" class="tableBox maxH350">
+			
+				<div class="row panelButtFull fields customRowMargin">
+					
+					<div class="col-6">
+						<input type="text" class = "centField" id="deliverDateField" value=""/>
+					</div>
+					
+					<div class="col-6">
+						<input type="button" value="Agregar" class="addDeliver" onclick="addDeliverDate()">
+					</div>
+					
+				</div>
+				
+				<div id="deliverDates" class=" table floaTable fields ">
+				
+					<div class="table-head">
+						<div class="column" data-label="Fecha" >Fecha</div>
+						<div class="column" data-label="Eliminar" >Eliminar</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div id = "setRemarkBox" class="tableBox maxH350">
+			
+				<div class="row panelButtFull fields customRowMargin">
+					
+					<div class="col-6">
+						<select class = "centField" id="markedStatePicker" value>
+							<option value="0">Normal</option>
+							<option value="2">Oferta</option>
+							<option value="1">Destacado</option>
+						</select>
+					</div>
+					
+					<div class="col-6">
+						<input type="button" value="Guardar" class="addDeliver" onclick="stChangerPromo()">
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div id = "setRemarkBoxG" class="tableBox maxH350">
+			
+				<div class="row panelButtFull fields customRowMargin">
+					
+					<div class="col-6">
+						<select class = "centField" id="markedStatePickerG" value>
+							<option value="0">Normal General</option>
+							<option value="2">Oferta General</option>
+							<option value="1">Destacado General</option>
+						</select>
+					</div>
+					
+					<div class="col-6">
+						<input type="button" value="Guardar" class="addDeliver" onclick="stChangerPromoG()">
+					</div>
+					
+				</div>
+				
+			</div>
+
+			<form action="libs/php/fileUpload.php" method="post" enctype="multipart/form-data" target="upload_target" class="upForm">
+									
+					
+					<input id="picSelector" name="userCode" type="file" class="fileBox hiddenSubmit"/>
+					<input type="submit" id="upButton" name="submitBtn" value="Upload" class="hidden" />
+					
+			</form>
+			
+			<div id="cropBoxBox" class="floatForm formPadder">
+			
+				<div class="imageBox" id="imgBox">
+						<div class="thumbBox"></div>
+						<div class="spinner" style="display: none">Loading...</div>
+				</div>
+				<div class="action">
+					
+					
+					
+					<input type="button" id="changePic" value="Cargar" class="changeBtn" onclick="pickpic()">
+					
+					<input type="button" id="deletePic" value="Borrar" class="changeBtn" onclick="picDeleteConfirm()">
+					
+					<input type="button" id="btnZoomIn" value="+" class="sizeBtn">
+					<input type="button" id="btnZoomOut" value="-" class="sizeBtn">
+					
+					<input type="button" id="btnCrop" value="Guardar" class="changeBtn">
+					
+				</div>
+				<div class="cropped"></div>
+			</div>
+			
+
+			
+
+
+		</div>
+	
+  </body>
+
+  
+  
+  
+</html>

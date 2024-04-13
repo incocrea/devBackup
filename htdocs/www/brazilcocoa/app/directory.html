@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mundo Brazil Cocoa</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+	
+	<link href="css/mainD.css" rel="stylesheet">
+	
+	<!-- Third Party CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+	
+	<!-- Mimity CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+	
+
+	<script src = "libs/ko/knockout-3.4.2.js"></script>
+	<script type="text/javascript" src="js/aes.js"></script>
+	<script type="text/javascript" src="js/aes-json-format.js"></script>
+	<!-- <script src = "libs/modal/modal.js"></script> -->
+	<!-- <script src="js/live.js"></script> -->
+	<script src="js/mainD.js"></script>
+	<!-- <script src = "libs/modal/modal.js"></script> -->
+	<link href="libs/modal/modal.css" rel="stylesheet"/>
+	<link href="libs/dp/jquery.datetimepicker.css" rel="stylesheet"/>
+	<script src="libs/dp/build/jquery.datetimepicker.full.min.js"></script>
+
+  </head>
+
+	<body id="page-top">
+
+		<div id="mainContainerWeb" class="mainContainerWeb">
+			<div class="container-fluid p-0">
+
+				
+
+				<section class="resume-section p-3 p-lg-5 d-column" id="sShop">
+				
+					<div class="row noPadR">
+					
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+							<div class="d-flex align-items-center h-100">
+								<div class="input-group input-group-search">
+									<input type="text" class="form-control" id="search-input" placeholder="Busca por ubicación o servicio..." aria-label="Search here..." autocomplete="off">
+									<span class="input-group-append">
+										<button id="searchBtn" class="btn btn-theme btn-search" type="button"onclick="search()"><i class="fa fa-search"></i></button>
+									</span>
+								</div>
+							</div>
+						</div>	
+						
+						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 certsBox">
+	
+							<span class="col-sm-12 col-xs-12 text-center certsTitle">
+								Certificaciones Brazil Cocoa (clic para ver detalle)
+							</span>
+							<div class="col-sm-12 col-xs-12">
+								<img src="../bcadmin/irsc/sp1.png" class="specExplain" onclick="showSpecDet('1')"/><span class="specTit visible-xs" onclick="showSpecDet('1')">Alisado</span>
+								<img src="../bcadmin/irsc/sp2.png" class="specExplain" onclick="showSpecDet('2')"/><span class="specTit visible-xs" onclick="showSpecDet('2')">Color</span>
+								<img src="../bcadmin/irsc/sp3.png" class="specExplain" onclick="showSpecDet('3')"/><span class="specTit visible-xs" onclick="showSpecDet('3')">Corte</span>
+								<img src="../bcadmin/irsc/sp4.png" class="specExplain" onclick="showSpecDet('4')"/><span class="specTit visible-xs" onclick="showSpecDet('4')">Balayaje</span>
+								<img src="../bcadmin/irsc/sp5.png" class="specExplain" onclick="showSpecDet('5')"/><span class="specTit visible-xs" onclick="showSpecDet('5')">Corporal</span>
+								<img src="../bcadmin/irsc/sp6.png" class="specExplain" onclick="showSpecDet('6')"/><span class="specTit visible-xs" onclick="showSpecDet('6')">Atención</span>
+								
+							
+							</div>
+								
+								
+						</div>
+							
+					</div>	
+
+				
+					<div id="plistBox" class="row  noPadR plistBox" add-class-on-xs="no-gutters"></div>
+
+				</section>
+
+			</div>
+
+			<!-- Bootstrap core JavaScript -->
+			<!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+			<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+			<!-- Plugin JavaScript -->
+			<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+			<!-- Custom scripts for this template -->
+			<script src="js/resume.min.js"></script>
+
+		</div>
+		
+		<!-- Quick view modal -->
+		<div class="modal fade" id="QuickViewModal" tabindex="-1" role="dialog" aria-labelledby="QuickViewModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-quickview" role="document">
+				<div class="modal-content">
+					<!-- Quick view header -->
+					<div class="modal-header">
+						<h5 class="modal-title" id="detBoxTitle"></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<!-- Quick view content -->
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<!-- Quick view image -->
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="fWidthO">
+										<img id="detImg"  src="" alt="image">
+									</div>
+								</div>
+								<!-- Quick view details -->
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<table class="table fullWidth">
+										<tbody>
+											<!-- Quick view price -->
+												
+											<tr>
+												<td colspan="6">
+													<span id="pDetail" class="pDetail"></span>
+												</td>
+											</tr>
+											<tr>
+												<td class="border-top-0" colspan="6">
+													<b style="color: #5212ab;">Certificaciones Brazil Cocoa</b>
+												</td>
+											<tr>
+												<td class="border-top-0">
+													<img id="detSp1" class="detIcon"/>
+												</td>
+												<td class="border-top-0">
+													<img id="detSp2" class="detIcon"/>
+												</td>
+												<td class="border-top-0">
+													<img id="detSp3" class="detIcon"/>
+												</td>
+												<td class="border-top-0">
+													<img id="detSp4" class="detIcon"/>
+												</td>
+												<td class="border-top-0">
+													<img id="detSp5" class="detIcon"/>
+												</td>
+												<td class="border-top-0">
+													<img id="detSp6" class="detIcon"/>
+												</td>
+											</tr>
+												<td class="border-top-0" colspan="6">
+													<span id="phoneDet"></span>
+												</td>
+											<tr>
+		
+											
+											<!-- Quick view add control -->
+											<tr>
+												<td colspan="3">
+													<button class="btn btn-sm btn-theme btn-block btn-add-quickview fullWidth" onclick="contactOpen()">Contactar</button>
+												</td>
+												<td colspan="3">
+													<button class="btn btn-sm btn-theme btn-block btn-add-quickview fullWidth" onclick="exitPop()">Salir</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Contact modal -->
+		<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<!-- Contact header -->
+					<div class="modal-header">
+						<h5 id="contactTitle" class="modal-title" >Contáctanos</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+						</div>
+					<!-- Contact body -->
+					<div class="modal-body">
+						<!-- Contact name -->
+						<div class="form-group">
+							<label class="font-weight-bold">Nombre</label>
+							<input type="text" class="form-control" id="nameField" placeholder="Tu nombre"/>
+						</div>
+						<!-- Contact mail -->
+						<div class="form-group">
+							<label class="font-weight-bold">Email</label>
+							<input type="text" class="form-control" id="mailField" placeholder="Tu email"/>
+						</div>
+						<!-- Contact message -->
+						<div class="form-group">
+							<label class="font-weight-bold">Tu mensaje</label>
+							<textarea type="textarea" class="form-control" id="messageField" rows="5"></textarea>
+						</div>
+					</div>
+					<!-- Contact footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+						<button type="button" class="btn btn-theme btn-sm" onclick="contactSend()">Entrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Alert modal -->
+		<div class="modal fade" id="alertsBox" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<!-- Alert header -->
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="alertsBoxTitle"></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<!-- Alert content -->
+					<div id="alertsBoxMessage" class="modal-body text-center"></div>
+					<!-- Alert footer -->
+					<div class="modal-footer ">
+					<button id="acceptButton" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id = "hidden" class = "hiddenT">
+
+			<div id = "loaderDiv" class="loaderDiv">
+				<img src = "irsc/loader.gif"/>
+			</div>
+			
+			<div id = "box" class = "modalCoverHidden">
+				
+				<div id="closeBa" class="closeB" onclick="hide_pop()"></div>
+				
+				<div id = "modalBox" class = "modalT">
+				
+					<div id = "boxHeader" class = "modalHeader">
+						<span id = "boxTitle" class = "modalTitle"></span>
+					</div>
+					
+					<div id = "boxContent" class = "modalContent"></div>
+					
+				</div>
+				
+			</div>
+			
+			<div id = "modalCover" class = "modalCoverHidden">
+
+				<div id="closeB" class="closeB" onclick="hide_pop_form()"></div>
+
+				<div id = "modal" class = "modalForm">
+
+					<div id = "modalHeader" class = "modalHeader">
+						
+						<span id = "modalTitle" class = "modalTitle"></span>
+						
+					</div>
+					
+					<div id = "modalContent" class = "modalContentForm"></div>
+					
+				</div>
+				  
+			</div>
+
+			<div id = "passCheckDiv" class="passCheckDiv"></div>
+
+			<div id="contactDiv" class="abuseReportDiv">
+				
+				<div class="contactBox">
+				
+					<img id="contactIcon" src='irsc/mainLogo2.png' class="contactIcon"/>
+					<br>
+					<input type="text" id="contactName" class="contactField1"/>
+					<input type="text" id="contactMail" class="contactField2"/>
+					<textarea type="text" id="contactMessage" class="abuseBox"></textarea>
+					
+				</div>
+				
+				<div class="dualButtonsDiv">
+				
+					<div id="sendContactButton" class="dualButtonPop" onclick="sendContact()"></div>
+					<div id="closeContactButton" class="dualButtonPop" onclick="hide_pop_form()"></div>
+					
+				</div>
+				
+			</div>
+
+
+		</div>
+	
+  </body>
+  
+</html>

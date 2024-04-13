@@ -1,0 +1,23 @@
+.css_course_title_label, .css_course_title_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_course_title_grid_line, .css_course_title_grid_line:hover {vertical-align: top;text-align: left;}
+.css_course_lenght_label, .css_course_lenght_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_course_lenght_grid_line, .css_course_lenght_grid_line:hover {vertical-align: top;text-align: left;}
+.css_course_lang_label, .css_course_lang_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_course_lang_grid_line, .css_course_lang_grid_line:hover {vertical-align: top;text-align: left;}
+.css_course_img_label, .css_course_img_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_course_img_grid_line, .css_course_img_grid_line:hover {vertical-align: top;text-align: left;}
+.css_is_displayed_label, .css_is_displayed_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_is_displayed_grid_line, .css_is_displayed_grid_line:hover {vertical-align: top;text-align: right;}
+.css_fecha_inicio_label, .css_fecha_inicio_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_fecha_inicio_grid_line, .css_fecha_inicio_grid_line:hover {vertical-align: top;text-align: center;}
+.css_fecha_terminacion_label, .css_fecha_terminacion_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_fecha_terminacion_grid_line, .css_fecha_terminacion_grid_line:hover {vertical-align: top;text-align: center;}
+.css_estado_id_label, .css_estado_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_estado_id_grid_line, .css_estado_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_id_institucion_label, .css_id_institucion_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_institucion_grid_line, .css_id_institucion_grid_line:hover {vertical-align: top;text-align: right;}
+.css_upload_participantes_label, .css_upload_participantes_label:hover {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_upload_participantes_grid_line, .css_upload_participantes_grid_line:hover {text-align: center;}
+.css_course_descriptcion_label, .css_course_descriptcion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_course_descriptcion_grid_line, .css_course_descriptcion_grid_line:hover {vertical-align: top;text-align: left;}
+.css_alumos_inscritos_grid_line, .css_alumos_inscritos_grid_line:hover {text-align: left;}

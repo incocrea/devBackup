@@ -1,0 +1,8 @@
+@include media-breakpoint-down(xs) {
+  .table-wishlist {
+    th,
+    td {
+      padding: 0.3rem;
+    }
+  }
+}

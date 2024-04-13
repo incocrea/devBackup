@@ -1,0 +1,25 @@
+// Carousel Controls
+.carousel-control-prev, .carousel-control-next {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  opacity: .7;
+  z-index: 1;
+  &.swiper-button-disabled {
+    opacity: .2;
+    cursor: default;
+  }
+}
+.carousel-control-prev {
+  right: 30px;
+  left: auto;
+}
+
+// Content Slider
+.content-slider {
+  position: relative;
+  > .carousel-control-prev,
+  > .carousel-control-next {
+    top: -30px; // Make Carousel Controls position more to the top
+  }
+}

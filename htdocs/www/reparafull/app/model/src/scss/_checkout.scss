@@ -1,0 +1,13 @@
+@include media-breakpoint-down(xs) {
+  .payment-nav .nav-item {
+    width: 100%;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .jp-card-container {
+    width: 285px !important;
+  }
+  .jp-card {
+    min-width: 250px !important;
+  }
+}

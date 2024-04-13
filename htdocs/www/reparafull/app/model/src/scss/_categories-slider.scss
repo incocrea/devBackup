@@ -1,0 +1,16 @@
+// Categories Slider
+.categories-slider {
+  a.card {
+    border: 0;
+  }
+  h5 {
+    margin-bottom: 0;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .categories-slider {
+    .card-img-overlay > h5 {
+      font-size: .8rem;
+    }
+  }
+}

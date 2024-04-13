@@ -1,0 +1,1008 @@
+select{padding-top: 3px !important;}
+
+body:disabled
+{
+	background: #ccc !important;
+}
+
+input[type=number]
+{
+	min-width: 78px;
+}
+
+/*----------------RESPONSIVE MENU--------------------*/ 
+.topnav 
+{
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a 
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  min-height: 50px;
+}
+.topnav a:hover 
+{
+  background-color: #5fa280;
+  color: white;
+}
+.topnav a.active 
+{
+  background-color: #5fa280;
+  color: white;
+}
+.topnav .icon 
+{
+  display: none;
+}
+@media screen and (max-width: 600px) 
+{
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/*----------------RESPONSIVE MENU--------------------*/ 
+
+/* POP FORM STYLES */
+.popFormTitle
+{
+	float: left;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #000000;
+	font-size: 20px;
+}
+.popFormFieldBox
+{
+	float: left !important;
+	width: 90%;
+	margin-left: 5% !important;
+	padding-left:20%;
+	padding-right:20%;
+	margin-bottom: 25px;
+}
+.fieldLabel
+{
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	color: #5fa280;
+}
+.totaLabel
+{
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	color: #5fa280;
+	text-align: center;
+}
+.formField
+{
+	float: left;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 13px;
+	height: 33px;
+
+}
+.totalField
+{
+	float: left;
+	width: 100%;
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 33px;
+	border: 0px solid #fff !important;
+	text-align: center;
+	color: #187377 !important;
+
+}
+.formField:disabled
+{
+	background: #ccc !important;
+}
+
+#ITEM_DETAILS
+{
+	height: 100px !important;
+}
+
+.popFormButtonsBox
+{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+	text-align: center;
+}
+.popFormExitButton
+{
+	height: 35px !important;
+	padding-top: 0px ; 
+	background: #000000;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	margin-right: 15px;
+}
+.popFormSaveButton
+{
+	height: 35px !important;
+	padding-top: 0px ; 
+	background: #5fa280;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	margin-left: 15px;
+}
+.loadFileLink
+{
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #5fa280;
+	text-align: center;
+	border: 1px solid #5fa280;
+	padding: 5px;
+	cursor: pointer;
+	overflow: hidden;
+}
+/* POP FORM STYLES */
+
+.picPicker
+{
+	text-align: center;
+}
+.profilePic
+{
+	width: 120px;
+	cursor:pointer;
+}
+
+/*----------------HOME--------------------*/ 
+.homelogo
+{
+	width: 100%;
+	max-width: 220px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+.loginTitle
+{
+	float: left;
+	width: 100%;
+	margin-top: 10px !important;
+	font-size: 15px;
+	font-weight: bold;
+	color: #5fa280;
+}
+.recoverLink
+{
+	color: #5fa280;
+	float: left;
+	width: 100%;
+	font-size:13px;
+	font-weight: bold;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.recoverMessage
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+/*----------------HOME--------------------*/
+
+/*----------------INTERFACE BUILDER--------------------*/
+.ifTitle
+{
+	text-align: center;
+	float: left;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.mainInterface
+{
+	/* border: 1px solid red; */
+}
+.ifaceButtonsBox
+{
+	float: left;
+	width: 100%;
+	text-align: right;
+}
+.ifaceButton
+{
+	height: 35px !important;
+	padding-top: 0px ; 
+	background: #5fa280;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	min-width: 100px;
+	margin-left: 15px;
+	
+}
+.visitData
+{
+	color: #5fa280 !important;
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+	border: 0px solid #ffffff;
+	min-width: 100px;
+	margin-left: 15px;
+	
+}
+.filtersBox
+{
+	float: left;
+	width: 100%;
+	/* border: 1px solid red; */
+	margin-bottom: 15px;
+}
+.filtersButton
+{
+	cursor: pointer;
+	width: 100%;
+	background: #272E36;
+	color: #ffffff;
+	border: 0px solid;
+	height: 35px !important;
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+	text-shadow: 0px 1px #000000;
+}
+.headerLineDiv
+{
+	text-align: right;
+	float: left;
+	width: 100%;
+	margin-top: -25px;
+	margin-bottom: 10px;
+}
+.headerLine
+{
+	font-size: 13px;
+	font-weight: bold;
+	color: #5fa280;
+}
+.formHeaderLine
+{
+	float: left;
+	width: 100%;
+	padding: 5px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-align: left;
+}
+.tableLabelG
+{
+	color: #5fa280;
+}
+.blockBox
+{
+	float: left;
+	width: 100%;
+	border: 0px solid gray;
+	margin-top: 0px;
+}
+.cLinkBox
+{
+	float: left;
+	width: 100%;
+	border: 0px solid gray;
+	margin-top: 25px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	color: #5fa280;
+	/* background: #efefef; */
+	padding: 10px;
+	border-radius: 5px;
+}
+.callerBox
+{
+	float: left;
+	width: 100%;
+	border: 2px solid gray;
+	margin-top: 15px;
+}
+/*----------------INTERFACE BUILDER--------------------*/
+
+/*----------------GENERAL--------------------*/
+input[type=number]
+{
+  border: 1px solid #bbb;
+  padding-left: 5px;
+}
+.infoIcon
+{
+	width: 150px;
+}
+.buttonG
+{
+	width: 100% !important;
+	height: 35px !important;
+	background: #5fa280;
+	color: #ffffff !important;
+	border: solid 0px red;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px !important;
+	cursor: pointer;
+}
+.grayC
+{
+	background: #000000;
+}
+.textInput
+{
+	width: 100%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height: 35px;
+	margin-top: 6px !important;
+	padding: 5px;
+	padding-left: 10px !important;
+	font-size: 14px;
+}
+.textRecoverInput
+{
+	text-align: center;
+	width: 80%;
+	margin-left: 10% !important;
+	margin-top: -20px !important;
+	/* margin-bottom: 10px !important; */
+	padding-left: 3px !important;
+	margin-top: 20px !important;
+	
+}
+.textInput:disabled
+{
+	background: #ebebeb !important;
+}
+.textInputContact
+{
+	width: 48%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	height: 26px;
+	margin-top: 6px !important;
+	padding: 5px;
+	padding-left: 10px !important;
+	font-size: 13px;
+}
+.imgLoader 
+{
+	width: 250px;
+}
+.floatSideL
+{
+	float: left;
+}
+.floatSideR
+{
+	float: right;
+}
+.textArea
+{
+	float: left;
+	border: 1px solid #cccccc;
+	width: 100%;
+	/* height: 130px; */
+	line-height: 19px !important;
+	font-size: 13px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 6px !important;
+	padding-left: 10px !important;
+	
+}
+.contactButton
+{
+	float: left;
+}
+.acceptButtonAlert
+{
+	
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #5fa280;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 120px;
+	
+}
+.cancelConfirmButton
+{
+	
+	float: left;
+	margin-left: 10%;
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #000000;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	
+}
+.acceptConfirmButton
+{
+	
+	float: right;
+	margin-right: 10%;
+	height: 26px !important;
+	padding-top: 0px ; 
+	background: #5fa280;
+	color: #ffffff !important;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	/* font-weight: bold; */
+	margin-top: 6px !important;
+	margin-bottom: 15px !important;
+	border: 0px solid #ffffff;
+	cursor: pointer;
+	width: 100px;
+	
+}
+.acceptCondsLink
+{
+	color: #a8a2a2;
+	font-size:14px;
+	/* font-weight: bold; */
+	
+}
+.detailSpan
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+/*----------------GENERAL--------------------*/
+
+.contactTitle
+{
+	float: left;
+	width: 100%;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+}
+.condsCheck
+{
+	/* float: left; */
+	margin-top: 8px;
+	margin-left: 8px;
+	vertical-align: top;
+	border-radius: 2px;
+}
+.condLinkAction
+{
+	font-weight: bold;
+	cursor: pointer;
+	color: #5fa280;
+}
+.alerText
+{
+	font-size: 14px !important;
+}
+.fastPopText
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 15px !important;
+	color: #000000;
+	margin-top: -20px;
+}
+.textLogo
+{
+	width: 70px;
+	vertical-align: top;
+	margin-top: 3px;
+}
+.multiselectBox
+{
+	float: left;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 13px;
+	height: 120px;
+	border:1px solid #bbb;
+	padding: 10px;
+	overflow-y: auto;
+}
+.tableField
+{
+	/* float: left; */
+	margin-left: 10% !important;
+	width: 70%;
+	border-radius: 5px;
+	font-size: 13px;
+	min-height: 30px;
+	border:1px solid #bbb;
+	padding: 5px;
+	overflow-y: auto;
+	text-align: center;
+}
+.tableFieldInput
+{
+	/* float: left; */
+	width: 30%;
+	margin-left: 0%;
+	border-radius: 5px;
+	font-size: 13px;
+	border:1px solid #bbb;
+	overflow-y: auto;
+	text-align: center;
+	height: 33px;
+	
+	
+}
+.tableFieldInput:disabled
+{
+	background: #ccc !important;
+}
+.tableFieldInputDesc
+{
+	/* float: left; */
+	width: 80%;
+	margin-left: 0%;
+	border-radius: 5px;
+	font-size: 13px;
+	border:1px solid #bbb;
+	overflow-y: auto;
+	text-align: center;
+	height: 33px;
+	
+	
+}
+.tableFieldInputDesc:disabled
+{
+	background: #ccc !important;
+}
+.tableFieldSelect
+{
+	/* float: left; */
+	width: 90%;
+	/* margin-left: 5%; */
+	border-radius: 5px;
+	font-size: 13px;
+	border:1px solid #bbb;
+	overflow-y: auto;
+	text-align: center;
+	height: 33px;
+	
+	
+}
+.fieldSpacer
+{
+	float: left;
+	width: 100%;
+}
+.fieldName
+{
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #5fa280;
+}
+.fieldDetail
+{
+	text-align: left;
+	font-size: 12px;
+}
+.hr
+{
+	 border-top: 1px solid gray;
+	 float: left;
+    width: 100%;
+}
+ /*----------------HEADER MENU--------------------*/
+
+.logoitem
+{
+	float:left;
+	width: 280px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+.mainLogobg
+{
+	width: 180px;
+	margin-top: 10px;
+}
+.profilePicMenu
+{
+	float: right;
+	height: 50px;
+	margin-top: 0px;
+	margin-right: 5px;
+}
+/*----------------HEADER MENU--------------------*/
+
+
+/*----------------TABLES--------------------*/
+.tableBox
+{
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+	overflow-x: hidden;
+	/* max-height: 310px; */
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+.table
+{
+	display:table;	/* Defines a Table */
+	font-size:14px;
+	border-bottom:1px solid #dddddd;
+	border-left:0px solid #dadada;
+	color:#8d8d8d;
+	width: 100%;
+	-o-user-select: text !important;
+    -moz-user-select: text !important;
+    -webkit-user-select: text !important;
+    user-select: text !important;
+}
+.table-head
+{
+	display: table-header-group; /* Defines a table header group */
+}
+.table-head .column
+{ 
+	background: #5fa280;
+	color: #ffffff;
+	border-right:1px solid #ffffff;
+	border-bottom:none;
+	font-weight: bold;
+	/* cursor: pointer; */
+
+}
+.table-head .column:hover
+{ 
+	background #ebfbff;
+}
+.rowT
+{
+	display:table-row; /* Defines a table row */
+}
+.rowT:hover
+{
+	background:#efefef !important;
+}
+.rowT .column:nth-child(1)
+{ 
+	/* border-left:1px solid #eeeeee; */
+}
+.rowT:last-child .column
+{  
+	border-bottom:none;
+}
+.rowTotal
+{
+	width: 100%;
+	background:#ffffff !important;
+	display:table-row !important; /* Defines a table row */
+}
+.rowTotal div
+{
+	font-size: 14px !important;
+	font-weight: bold;
+	color: #187377;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+.rowHeader
+{
+	width: 100%;
+	background:#187377 !important;
+	display:table-row !important; /* Defines a table row */
+	
+}
+.rowHeader div
+{
+	
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	font-size: 14px !important;
+	font-weight: bold;
+	color: #ffffff;
+}
+.column
+{
+	display:table-cell; /* Defines a table cell */
+	padding: 5px 2px !important;
+	border-bottom:1px solid #dadada;
+	/* border-right:1px solid #dadada; */
+	/* border-left:1px solid #dadada; */
+	min-width: 90px;
+	font-size: 13px;
+	text-align: center;
+}
+.columnWhite
+{
+	cursor: pointer;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	/* border-bottom:1px solid #eeeeee; */
+	font-size: 12px;
+}
+.checks
+{
+	text-align: center !important; 
+	max-width: 10px;
+	vertical-align: middle;
+}
+.checks input[type=checkbox]
+{
+	width: 20px !important; 
+	margin-left: 0.5%;
+	vertical-align: middle;
+	margin-right: 0.5%;
+	cursor: pointer;
+}
+.tableIcon
+{
+	font-size: 16px !important;
+	margin-left: 3%;
+	margin-right: 3%;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+/* Responsive table */
+@media all and (max-width: 768px){
+	.table,
+	.rowT,
+	.column,
+	.column:before
+	{
+		display:block;	/* Converts a table, table row, table column and table column:before into a block element */
+                
+	}
+	.table,
+	.rowT .column:last-child
+	{
+		border-bottom:none;
+	}
+	.table-head
+	{
+		position:absolute;	/* Hides table head but not using display none */
+		top:-1000em;
+		left:-1000em;
+                
+	}
+	.rowT
+	{
+		border:1px solid #eeeeee;
+		border-top:0px solid #dddddd;
+		border-bottom: 0px solid #5fa280;
+		border-top: 8px solid #5fa280;
+
+	}
+	.rowT .column:nth-child(1)
+	{ 
+		border-left:none;
+	}
+	.rowT .column:last-child
+	{
+		border-right:none;
+	}
+	.rowT:last-child .column,
+	.rowTotal
+	{
+		width: 100%;
+		background:#ffffff !important;
+		display:block !important; /* Defines a table row */
+	}
+	.rowTotal div
+	{
+		font-size: 18px !important;
+		font-weight: bold;
+		margin-bottom:-8px;
+		color: #000000;
+		text-align: center;
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	.rowHeader
+	{
+		width: 100%;
+		background:#187377 !important;
+		display:block !important; /* Defines a table row */
+		margin-top:20px;
+	}
+	.rowHeader div
+	{
+		font-size: 14px !important;
+		font-weight: bold;
+		margin-bottom:-8px;
+		color: #ffffff;
+		text-align: center;
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	.column
+	{ 
+		border-bottom:0px solid #eeeeee;
+		padding: 2px 5px;
+		text-align: left;
+	}
+	.column:before
+	{ 
+		padding-right:0px;
+		font-size: 13px;
+		color: #5fa280;
+		content:""attr(data-label)"";
+		font-weight: bold;
+	}
+	.opts img
+	{
+		width: 30px !important; 
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+/* Responsive table */
+
+/* Responsive*/
+@media all and (max-width: 768px)
+{
+	.tableField
+	{
+		/* float: left; */
+		margin-left: 5% !important;
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
+		width: 90%;
+		border-radius: 5px;
+		font-size: 13px;
+		min-height: 30px;
+		border:1px solid #bbb;
+		padding: 5px;
+		overflow-y: auto;
+		text-align: center;
+	}
+	.filtersBox
+	{
+		float: none;
+		width: 100%;
+		/* border: 1px solid red; */
+		margin-bottom: 15px;
+		margin-left: 0px !important;
+	}
+	.ifaceButtonsBox
+	{
+		float: none;
+		margin-left: 0px !important;
+	}
+	.tableFieldInput
+	{
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.tableFieldSelect
+	{
+		margin-left: 5%;
+	}
+	.formHeaderLine
+	{
+		text-align: center;
+	}
+	.ifaceButton
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+	.profilePicMenu
+	{
+		margin-top: -3px;
+	}
+	.popFormFieldBox
+	{
+		width: 100%;
+		margin-left: 0% !important;
+		padding-left:0%;
+		padding-right:0%;
+		margin-bottom: 25px;
+	}
+	.logoitem
+	{
+		float:none;
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.mainLogobg
+	{
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+}

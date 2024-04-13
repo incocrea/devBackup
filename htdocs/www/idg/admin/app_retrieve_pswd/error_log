@@ -1,0 +1,28 @@
+[08-Mar-2023 15:08:04 America/Chicago] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/vrcrenew/public_html/admin/app_retrieve_pswd/app_retrieve_pswd_apl.php on line 2434
+[08-Mar-2023 16:08:24 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Failed to authenticate on SMTP server with username "contact@vrcrenewable.com" using 2 possible authenticators in /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/EsmtpTransport.php(333): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_api.php(905): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/vrcrenew/public_html/admin/app_retrieve_pswd/app_retrieve_pswd_apl.php(2563): sc_send_mail_api(Array)
+#5 /home4/vrcrenew/public_html/admin/app_retrieve_psw in /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[13-Apr-2023 12:06:54 America/Chicago] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/vrcrenew/public_html/admin/app_retrieve_pswd/app_retrieve_pswd_apl.php on line 2434
+[13-Apr-2023 13:07:17 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Failed to authenticate on SMTP server with username "contact@vrcrenewable.com" using 2 possible authenticators in /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/EsmtpTransport.php(333): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_api.php(905): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/vrcrenew/public_html/admin/app_retrieve_pswd/app_retrieve_pswd_apl.php(2563): sc_send_mail_api(Array)
+#5 /home4/vrcrenew/public_html/admin/app_retrieve_psw in /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[13-Apr-2023 13:09:02 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Failed to authenticate on SMTP server with username "contact@vrcrenewable.com" using 2 possible authenticators in /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/EsmtpTransport.php(333): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/vrcrenew/public_html/admin/_lib/lib/php/nm_api.php(905): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/vrcrenew/public_html/admin/app_retrieve_pswd/app_retrieve_pswd_apl.php(2563): sc_send_mail_api(Array)
+#5 /home4/vrcrenew/public_html/admin/app_retrieve_psw in /home4/vrcrenew/public_html/admin/_lib/prod/third/swift/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[14-Apr-2023 11:14:46 America/Chicago] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/vrcrenew/public_html/admin/app_retrieve_pswd/app_retrieve_pswd_apl.php on line 2434
+[02-May-2023 15:57:53 America/Chicago] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/vrcrenew/public_html/admin/app_retrieve_pswd/app_retrieve_pswd_apl.php on line 2434

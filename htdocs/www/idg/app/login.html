@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Login - IDG</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script> -->
+        <script src="plugins/fa 5.15/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bg-primary">
+        <div id="layoutAuthentication">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div class="container ">
+					
+                        <div class="row loginBox">
+
+							<div class="col-lg-7">
+								<div class="content">
+									<h1></h1>
+									<h1 id="loginTit" class="loginTit"></h1>
+									<h5 id="loginSubTit" class="loginTit"></h5>
+								</div>
+							</div>
+                            <div class="col-lg-4">
+                                <div class="card shadow-lg border-0 rounded-lg mt-5 ">
+                                    
+									<div id="welcomeText" class="card-header"></div>
+									<div class="card-header">
+										<div class="flag-lang flagBox">
+											<img src="img/es_es.png" onclick="setLangGeneral('ES')"></a>
+											<img src="img/en_us.png" onclick="setLangGeneral('EN')"></a>
+											<img src="img/pt_br.png" onclick="setLangGeneral('PT')"></a>
+										</div>
+									</div>
+									
+									<div class="card-body">
+											
+											
+											<div class="col-12">
+												<span id="inputPlatformLabel" class="fieldLabel"></span>
+												<select id="inputPlatform" type="text" class="form-control" onchange = 'platPick(this.value)'> 
+													<option id="platform1" value = "0"></option>
+													<option id="platform2" value = "1"></option>
+												</select>
+											</div>
+											
+											<div class="col-12">
+												<span id="inputTypeLabel" class="fieldLabel"></span>
+												<select id="inputType" type="text" class="form-control">
+												
+													<option id="utypeOptH" value = ""></option>
+													<option id="utypeOpt0H" value = "0"></option>
+													<option id="utypeOpt1H" value = "1"></option>
+													<option id="utypeOpt9H" value = "4"></option>
+													<option id="utypeOpt2H" value = "2"></option>
+													<option id="utypeOpt3H" value = "3"></option>
+												
+												</select>
+											</div>
+											
+											<div class="col-12">
+												<span id="inputEmailLabel" class="fieldLabel"></span>
+												<input id="inputEmail" type="text" class="form-control">
+											</div>
+											
+											
+											
+											<div class="col-12">
+												<span id="inputPasswordLabel"  class="fieldLabel"></span>
+												<input id="inputPassword" type="Password" class="form-control">
+											</div>
+											
+											<div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+												<a id = "forgotPss" class="small" onclick="passForgot()"></a>
+												<a id = "goRegister" class="small" href="register.html"></a>
+												<a id = "loginButton" class="btn btn-primary filterButton1" onclick="login()">Login</a>
+											</div>
+										
+									</div>
+								</div>
+                         
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+			
+        </div>
+		
+		
+		<!-- Alert modal -->
+		<div class="modal fade" style="z-index: 5000;" id="alertsBox" tabindex="-1" role="dialog" aria-hidden="true">
+			<div id="alertBoxBox" class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<!-- Alert header -->
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="alertsBoxTitle"></h5>
+						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<!-- Alert content -->
+					<div id="alertsBoxMessage" class="modal-body text-center"></div>
+					<!-- Alert footer -->
+					<div class="modal-footer ">
+					<button id="acceptButton" type="button" class="btn btn-primary btn-sm filterButton1" data-bs-dismiss="modal"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Confirm modal -->
+		<div class='modal fade' id='confirmModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div class='modal-content'>
+					<!-- Passrec header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='confirmModalLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					<!-- Confirm body -->
+					<div class='modal-body'>
+						<div class="form-floating mb-3">
+							<span id="confirmQuestion"></span>
+						</div>
+					</div>
+					<!-- Confirm footer -->
+					<div class='modal-footer'>
+						<button type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'>Cancelar</button>
+						<button id= "confirmButton" type='button' class='btn btn-primary btn-sm filterButton2'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Pass Rec modal -->
+		<div class='modal fade' id='pssRecModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div class='modal-content'>
+					<!-- Passrec header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='LoginModalLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					<!-- Passrec body -->
+					<div class='modal-body'>
+						<!-- Passrec mail -->
+						<div class="col-12">
+							<span id="inputPasswordRecLabel" class="fieldLabel"> curso</span>
+							<input id="InputPassrec" type="text" class="form-control">
+						</div>
+					</div>
+					<!-- Passrec footer -->
+					<div class='modal-footer'>
+						<button id="recCancel" type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'></button>
+						<button id= "recSend" type='button' class='btn btn-primary btn-sm filterButton2' onclick='pssRecCheck()'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		            
+		<!-- Pass set modal -->
+		<div class='modal fade' id='pssSetModal' tabindex='-1' role='dialog' aria-labelledby='LoginModalLabel' aria-hidden='true'>
+			<div class='modal-dialog modal-dialog-centered' role='document'>
+				<div class='modal-content'>
+					<!-- Passrec header -->
+					<div class='modal-header'>
+						<h5 class='modal-title' id='pssChangeLabel'></h5>
+						<button type='button' class='close' data-bs-dismiss='modal' aria-label='Close'>
+						<span aria-hidden='true'>&times;</span>
+						</button>
+					</div>
+					<!-- Passrec body -->
+					<div class='modal-body'>
+						<!-- Passrec mail -->
+						<div class="col-12">
+							<span id="inputPassword1" class="fieldLabel"></span>
+							<input id="InputPass1" type="text" class="form-control">
+						</div>
+						<div class="col-12">
+							<span id="inputPassword2" class="fieldLabel"> curso</span>
+							<input id="InputPass2" type="text" class="form-control">
+						</div>
+					</div>
+					<!-- Passrec footer -->
+					<div class='modal-footer'>
+						<button id="recCancel2" type='button' class='btn btn-secondary btn-sm filterButton1' data-bs-dismiss='modal'></button>
+						<button id= "setSend" type='button' class='btn btn-primary btn-sm filterButton2' onclick='pssSetCheckRec()'></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+	
+	
+	
+	<!-- ************************ -->
+	
+	<script>imfoo = "login";</script>
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="js/jsLoader.js"></script>
+	
+	
+	<!-- ************************ -->
+	
+</html>

@@ -1,0 +1,14 @@
+Cliente: QUALA S.A;Detalle de Orden: 8
+
+Actividades;
+
+Item;Detalle;Actividad;Valor Unidad;Cantidad;Subtotal
+"3d75ae-Locativas";"Locativas";"Desmonte de modulo de oficina por traslado de bodega";"1828760";"1";"1828760"
+
+Repuestos;
+
+Item;Detalle;;Valor Unidad;Cantidad;Subtotal
+
+Otros Costos;
+
+Tipo de costo;Detalle;Documento/Factura;Valor Unidad;Cantidad;Subtotal

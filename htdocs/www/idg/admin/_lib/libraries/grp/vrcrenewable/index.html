@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>{lang_titulo_sistema}</title>
+		<meta name="description" content="{lang_descripcion_login}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{SC_LIB_PROJECT}vrcrenewable/main.css">
+		
+		<!--SC_JS_LIB-->
+        <!--SC_PAGE_CHARSET-->	
+    </head>
+    <body class="page-sidebar page-background bg-half-img" style="background-image:url('{SC_LIB_PROJECT}vrcrenewable/login.jpg');">
+        <div class="page">
+            <div class="container">
+                <div class="grid">
+                    <div class="col-7">
+                        <div class="content">
+                            <h1>
+                                {lang_titulo_login}
+                            </h1>
+                            <p>
+                                {lang_descripcion_login}
+                            </p>
+							<p>{lang_descargar_sc}</p>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-4">
+                        <form class="form half-size" action="" {SC_FORM_ATTR}>
+                            <!--SC_FORM_HIDDEN-->
+                            <h2 class="">
+                                {lang_lbl_bienvenida}
+                            </h2>
+							<div class="flag-lang">
+								<a class="flags" href="../app_login/app_login.php?lang=es"><img src="{SC_LIB_PROJECT}vrcrenewable/es_es.png"></a>
+								<a class="flags" href="../app_login/app_login.php?lang=en"><img src="{SC_LIB_PROJECT}vrcrenewable/en_us.png"></a>
+								<a class="flags" href="../app_login/app_login.php?lang=pt"><img src="{SC_LIB_PROJECT}vrcrenewable/pt_br.png"></a>
+							</div>
+                            <div class="control">
+                                <label class="label" for="name">{lang_campo_usuario}</label>
+                                <input class="input {SC_FIELD_CLASS}" {SC_FIELD_INFO_login} type="text" placeholder="{lang_campo_usuario}">
+                            </div>
+                            <div class="control">
+                                <label class="label" for="pass">{lang_campo_pass}</label>
+                                <input class="input {SC_FIELD_CLASS}" {SC_FIELD_INFO_pswd} type="password" placeholder="{lang_campo_pass}">
+                            </div>		
+							
+													
+							<!--SC_REQUIRED_MSG-->
+							<!--SC_CAPTCHA-->
+                            <div class="submit">
+                                <input class="button" type="submit" {SC_FORM_SUBMIT_CALL} value="{lang_btn_iniciar_Sesion}" />
+                              <p>&nbsp;</p>
+                            </div>
+							<div class="links-box">
+								{SC_FIELD_INFO_Links}
+							</div>
+														
+                        </form>
+                    </div>
+                </div>
+            </div>			
+        </div>				
+    </body>
+</html>

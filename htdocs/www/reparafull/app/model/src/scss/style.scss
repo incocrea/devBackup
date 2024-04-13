@@ -1,0 +1,211 @@
+@import "variables-vendor";
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "variables";
+@import "webkit-scrollbar";
+@import "perfect-scrollbar";
+@import "header";
+@import "sidebar";
+@import "modal-cart";
+@import "input-spinner";
+@import "carousel";
+@import "services-box";
+@import "categories-slider";
+@import "card-product";
+@import "brands-slider";
+@import "categories";
+@import "modal-filter";
+@import "nouislider";
+@import "cart";
+@import "detail";
+@import "checkout";
+@import "login";
+@import "user";
+@import "wishlist";
+
+// Main Container
+#main-container {
+  margin-top: 55px; // Because the header has a fixed position, so the main container must be be given a top margin
+}
+
+// Main Content
+#main-content {
+  padding-top: ($grid-gutter-width / 2);
+}
+@include media-breakpoint-up(lg) {
+  #main-content {
+    padding-left: $sidebar-width + ($grid-gutter-width / 2); // Because the sidebar has a fixed position, so the main content must be be given a left padding
+  }
+}
+
+// Dropdown
+.dropdown-menu {
+  padding: $dropdown-padding-y;
+  box-shadow: $box-shadow-sm;
+}
+.dropdown-item {
+  &.has-icon {
+    padding-left: .625rem;
+    > .fa {
+      margin-right: .25rem;
+    }
+  }
+  &.has-badge {
+    position: relative;
+    padding-right: 2.25rem;
+    > .badge {
+      min-width: 16px;
+      line-height: 1;
+      border-radius: 50%;
+      position: absolute;
+      top: 7px;
+      right: 15px;
+    }
+  }
+}
+
+// Price Color
+.price {
+  color: $price-color;
+}
+
+// Rating Tag
+.rating {
+  color: $yellow;
+  font-size: 0;
+  > .fa {
+    font-size: $font-size-base;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .rating > .fa {
+    font-size: .75rem;
+  }
+}
+
+// Title
+@include media-breakpoint-down(xs) {
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+// Badge Counter
+.badge-count {
+  position: absolute;
+  bottom: 50%;
+  left: 70%;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+// Background Cover
+[data-cover] {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+// Bottom Image Overlay
+.card-img-overlay-bottom {
+  top: inherit;
+  background-color: rgba(#000, .7);
+  color: #fff;
+}
+@each $color, $value in $theme-colors {
+  @if $color != 'dark' and $color != 'secondary' {
+    .card-img-overlay.#{$color} { // Bottom Image Overlay Color Variant
+      background-color: rgba($value, .7);
+      color: color-yiq($value);
+    }
+  }
+}
+
+// Alternative Gutters ('no-gutters' must be included)
+.gutters-1 {
+  margin-right: -.125rem;
+  margin-left: -.125rem;
+  > .col,
+  > [class*="col-"] {
+    padding-right: .125rem;
+    padding-left: .125rem;
+  }
+}
+.gutters-2 {
+  margin-right: -.25rem;
+  margin-left: -.25rem;
+  > .col,
+  > [class*="col-"] {
+    padding-right: .25rem;
+    padding-left: .25rem;
+  }
+}
+.gutters-3 {
+  margin-right: -.5rem;
+  margin-left: -.5rem;
+  > .col,
+  > [class*="col-"] {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+}
+
+// Navbar Footer
+.navbar-footer {
+  background-color: #f8f9fa;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  margin-left: -($grid-gutter-width / 2);
+  margin-right: -($grid-gutter-width / 2);
+}
+
+// Tags Button
+.btn-tags .btn {
+  border-radius: 24px;
+  margin-bottom: 5px;
+  &:not(:hover) {
+    background-color: #eee;
+  }
+}
+
+// Pagination
+.pagination .page-link {
+  border-bottom-width: 2px;
+}
+
+// Box total
+.box-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $gray-200;
+  width: 100%;
+  padding: .5rem;
+  > h4 {
+    margin-bottom: 0;
+  }
+}
+.custom-control-label {
+  line-height: 1.8;
+}
+
+// Embed
+.embed-map {
+  height: 345px;
+}
+@include media-breakpoint-only(sm) {
+  .embed-map {
+    height: 419px;
+  }
+}
+
+// Nav pills color
+.nav-pills .nav-link:not(.active) {
+  color: $body-color;
+}

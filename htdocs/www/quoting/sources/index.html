@@ -1,0 +1,3504 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Quoting application</title>
+		<meta property="og:title" content="Quoting application">
+		<meta name="description" content="Quoting application">
+		<meta name="keywords" content="">
+		<meta name="author" content="Christian Saenz">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                
+		<link href="bs/css/bootstrap.css" rel="stylesheet">
+		<!-- <link href="css/main.css" rel="stylesheet"> -->
+                
+		<!-- <script src="js/jquery-1.12.0.min.js"></script> -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+		
+                
+		<link href="libs/dp/jquery.datetimepicker.css" rel="stylesheet"/>
+		<script src="libs/dp/jquery.js"></script>
+		<script src="libs/dp/build/jquery.datetimepicker.full.min.js"></script>
+		
+		<meta name="viewport" content="user-scalable=0">
+		<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
+		
+		<script src = "bs/js/bootstrap.js"></script>
+		
+		<!-- DUNNO WHY WAS CHANGED -->
+		<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+		<link href="libs/modal/modal.css" rel="stylesheet"/>
+		<script src = "libs/modal/modal.js"></script>
+		<script src="js/typeahead.js"></script>
+		
+		
+		<script src = "libs/bscal/bootstrap-year-calendar.js"></script>
+		<!-- <script src = "libs/bscal/bootstrap-year-calendar.d.ts"></script> -->
+		<link href="libs/bscal/bootstrap-year-calendar.css" rel="stylesheet"/>
+		
+		
+		<!-- <script src="js/main.js"></script> -->
+		<!-- <script src="js/live.js"></script> -->
+        
+	</head>
+	<body>
+		
+		<div id="coverX" class="coverX" style="position: absolute; top: 0; 	left: 0;  right: 0;	bottom: 0; background: #ffffff; z-index: 2;">
+		</div>
+		<div id="mainContainerWeb" class="mainContainerWeb">
+			
+			<div class="mainHead"> 
+				<div id="headerArea" class="containerMine">
+					<img src="irsc/mainLogo.png" id="homeLogo" class="homeLogo"/>
+					<span id="userTypeInfo" class="userTypeInfo"></span>
+				</div>
+				<img src="irsc/msgIcon.png" id="msgIcon" class="msgIcon" onclick="contactOpen()"/>
+				<span class="msgIconTXT" onclick="contactOpen()">Contact us</span>
+				<img src="irsc/exit.png" id="exitIcon" class="exitIcon" onclick="logout()"/>
+				
+			</div>
+
+			<div id="mainMid" class="mainMid"> 
+				<div id="middleArea" class="containerMine">
+					<div id="mainMiddleContent" class="mainMiddleContent">
+						<div id="loginArea" class="mainArea">
+							<div  id="loginBox" class="col-md-12 col-lg-12" >
+								<div class="loginBox">
+										
+									<div id="loginScreen" class="loginScreen">
+										<div id="loginTitle1" class="loginTitle1"></div>
+										
+										<div id="loginTitle2" class="loginTitle2"></div>
+
+										<div id="accessBox" class="centField fields">
+												<select type="text" class="" id="userTypeBox">
+													<option value = "">User Type</option> 
+													<option value = "A">Administrator</option> 
+													<option value = "JZ">Advanced Specialist</option>
+													<option value = "CO">Commercial</option>
+													<option value = "FB">Financial Business Analyst</option>
+													<option value = "PL">Planning</option>
+													<option value = "PM">Project Manager</option>
+													<option value = "SM">Site Manager</option>
+													<option value = "SP">Supervisor</option>
+													<option value = "S">Technical Specialist</option>
+													<option value = "UC">Contractor</option>
+												
+												<input type="text" class = "centField" id="userLoginBox" value=""/>
+												<input type="password" class = "centField" id="userPassBox" value=""/>
+												<div id="loginButton" class="loginButton" onclick="login()"></div>
+												<br>
+												<span id="pssRecoverLink" onclick="pssRec()" class="pssRecLink"></span>
+
+												<span id="backHome" onclick="backHome()" class="backHome"></span>
+												
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<ul id="mymenu" class="topnav"></ul>
+						<div id="workArea" class="mainArea">
+                                                        
+							<div id="wa" class="workarea"></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="mainBottom"> 
+					<!--<a href="http://www.incocrea.com/" target="blank"><span id="copyright"></span></a>-->
+					<a><span id="copyright"></span></a>
+			</div>
+		</div>
+		
+		<div id = "hidden" class = "hiddenT">
+                        
+			<li class="icon" id= "respIcon"><a href="javascript:void(0);" onclick="respMenu()">&#9776;</a></li>
+                        
+			<div id = "box" class = "modalCoverHidden">
+				<div id = "modalBox" class = "modalT">
+					<div id = "boxHeader" class = "modalHeader">
+						<span id = "boxTitle" class = "modalTitle"></span>
+					</div>
+					<div id = "boxContent" class = "modalContent"></div>
+				</div>
+			</div>
+			
+			<div id = "modalCover" class = "modalCoverHidden">
+				  <div id = "modal" class = "modalForm">
+					<div id = "modalHeader" class = "modalHeader">
+						<span id = "modalTitle" class = "modalTitle"></span>
+					</div>
+					<div id = "modalContent" class = "modalContentForm"></div>
+				  </div>
+			</div>
+			
+			<div id = "loaderDiv" class="loaderDiv">
+				<img src = "irsc/loader.GIF"/>
+			</div>
+			
+			<div id = "conditionsBox" class="legalBox">
+				<div id="conditionsTextBox" class="legalAdviseBox"></div>
+				<div class="dualButtonsDiv">
+					<button id="closeConditionsButton" class="singleButtonPop" onclick="hideConds()"></button>
+				</div>
+			</div>
+			
+			<div id = "instructionsBox" class="legalBox">
+				<div id="platInstrucctions" class="legalAdviseBox">
+				</div>
+				<div class="dualButtonsDiv">
+					<button id="closeInstrButton" class="singleButtonPop" onclick="hide_pop_form()"></button>
+				</div>
+			</div>
+			
+			<div id = "passCheckDiv"></div>
+			
+			<div id = "pssRecBox"></div>
+			<div id = "reqSetBox"></div>
+                        
+			<div id = "pssChangeBox"></div>
+			
+			<div id = "setLimitBox">
+				<select id="limitSelector" onchange="setLimitOptions(this.value)" class="recMailBox">
+					<option value="">All Visible</option>
+					<option value="all">None Visible</option>
+					<option value="list">Select from list</option>
+					<option value="write">Write codes manually</option>
+				</select>
+				<input id="limitsField" type="text" class="recMailBox"/>
+				<div class="floatList limitList" >
+					<div id="qlimitTable" class="table">
+						<div class="table-head">
+							<div class="column" data-label=""></div>
+							<div class="column" data-label="Detail">Detail</div>
+						</div>
+					</div>
+				</div>
+				
+				<button class="dualButtonPopL" onclick="hide_pop_form()">Exit</button>
+				<button class="dualButtonPopR" onclick="saveLimits()">Save limits</button>
+			</div>
+			
+			<div id = "cloneLaborBox">
+
+				<select id="actiResponsibleClone" onchange="setUserListClone(this.value)" class="recMailBox">
+					<option value="">Pick a responsible</option>
+					<option value="Composite Field Specialist">Composite Field Specialist</option>
+					<option value="Drone & Composite Field Specialist">Drone & Composite Field Specialist</option>
+					<option value = "Mechanical & Electrical Field Specialist">Mechanical & Electrical Field Specialist</option>
+					<option value = "Drone & Mechanical & Electrical Field Specialist">Drone & Mechanical & Electrical Field Specialist</option>
+					<option value="Contractor">Contractor</option>
+					<option value="Site technician">Site technician</option>
+					<option value="Traveler troubleshooter">Traveler troubleshooter</option>
+					<option value="Specialist engineer">Specialist engineer</option>
+				</select>
+				
+				<input id="actiRespClone" type="text" class="recMailBox" placeholder="Name"/>
+				<select id="actiRespCloneS" class="recMailBox"></select>
+			
+				<button id="clonePopCancel" class="dualButtonPopL" onclick="hide_pop_form()">Exit</button>
+				<button id="clonePopSave" class="dualButtonPopR" onclick="saveClone()">Create line</button>
+			</div>
+			
+			<div id = "templateNameBox">
+
+				<input id="tmpName" type="text" class="recMailBox" placeholder="Template name"/>
+			
+				<button class="dualButtonPopL" onclick="hide_pop_form()">Exit</button>
+				<button class="dualButtonPopR" onclick="saveTemplateSend()">Save</button>
+			</div>
+			
+			<div id = "addActType"></div>
+			
+			<div id = "addInvQty"></div>
+			
+			<!-- <div id = "maquiManage"></div> -->
+			
+			<div id = "actPriceEdit"></div>
+			
+			<div id = "partPriceEdit"></div>
+			
+			<div id = "otherPriceEdit"></div>
+			
+			<div id = "modalPicBox"></div>
+			
+			<div id = "asignTechBox"></div>
+
+			<a href id="downframe" download></a>
+
+			<div id = "helpBox" class="regBox">
+				<div class="manualPicker">
+					<div id="manualGButton" class="dualButtonPopS" onclick="helpVideoStart('0')"></div>
+					<div id="manualEButton" class="dualButtonPopS" onclick="helpVideoStart('1')"></div>
+					<div id="manualCButton" class="dualButtonPopS" onclick="helpVideoStart('2')"></div>
+				</div>
+				
+				<div id="helpVid" class="helpVid">
+				
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<button id="closeHelpButton" class="singleButtonPop" onclick="hideHelpBox()"></button>
+				</div>
+				
+			</div>
+			
+			<div id = "ifPassRec">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12" >
+                                                
+						<div class="row fLabel fields panelButtFull centereDiv">
+							<span>New password</span>
+							<input id="newUpass" type="text"/>
+							<button id="clientSaveButton" value="Crear" onclick="setNewPass()">Set</button>
+						</div>
+                                                
+					</div>
+				</div>
+			</div>
+
+			<div id = "ifMasterT">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12" >
+						<div id = "techiAdminBS" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Name</span>
+									<input id="a-techiName" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Email</span>
+									<input id="a-techiEmail" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+								
+									<span>User Type</span>
+									<select id="a-techiCat">
+										<option value = "">User type</option>
+											<option value = "JZ">Advanced Specialist</option>
+											<option value = "CO">Commercial</option>
+											<option value = "FB">Financial Business Analyst</option>
+											<option value = "PL">Planning</option>
+											<option value = "PM">Project Manager</option>
+											<option value = "SM">Site Manager</option>
+											<option value = "SP">Supervisor</option>
+											<option value = "S">Technical Specialist</option>
+											<option value = "UC">Contractor</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>GID#</span>
+									<input id="uGID" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Position</span>
+									<select id="uPos">
+										<option value = "">Select User position</option>
+										<option value = "Contractor">Contractor</option>
+										<option value="Composite Field Specialist">Composite Field Specialist</option>
+										<option value="Drone & Composite Field Specialist">Drone & Composite Field Specialist</option>
+										<option value = "Mechanical & Electrical Field Specialist">Mechanical & Electrical Field Specialist</option>
+										<option value = "Drone & Mechanical & Electrical Field Specialist">Drone & Mechanical & Electrical Field Specialist</option>
+										<option value = "Commercial">Commercial</option>
+										<option value = "Financial Business Analyst">Financial Business Analyst</option>
+										<option value = "Drone Specialist">Drone Specialist</option>
+										
+										
+										<option value = "Planning">Planning</option>
+										<option value = "Project Manager">Project Manager</option>
+										<option value = "Site Manager">Site Manager</option>
+										<option value = "Supervisor">Supervisor</option>
+										<option value = "Technical Specialist">Technical Specialist</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Em. Contact</span>
+									<input id="emContact" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-1 col-lg-1 ">
+									<span>Phone</span>
+									<input id="uPhone" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Truck Vin#</span>
+									<input id="uTruck" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Truck Plate#</span>
+									<input id="uPlate" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Truck Model#</span>
+									<input id="uModel" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-1 col-lg-1 ">
+									<span>Hire Date</span>
+									<input id="uHdate" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Gamesa Tech Id</span>
+									<input id="uGTI" type="text"/>
+								</div>
+
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="techiSaveButton" value="Crear" onclick="techisSave(this)">Create</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="s-clearerTechis" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div id = "techiSearchBS">
+							<div class="row fLabel fields panelButtFull">
+								 <div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+										<span>User Type</span>
+										<select id="f-techiCat">
+											<option value = "">All</option>
+											<option value = "JZ">Advanced Specialist</option>
+											<option value = "CO">Commercial</option>
+											<option value = "FB">Financial Business Analyst</option>
+											<option value = "PL">Planning</option>
+											<option value = "PM">Project Manager</option>
+											<option value = "SM">Site Manager</option>
+											<option value = "SP">Supervisor</option>
+											<option value = "S">Technical Specialist</option>
+											<option value = "UC">Contractor</option>
+											
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+										<span>Name</span>
+										<input  id="f-techiName" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+										<span>Position</span>
+										<select id="f-techiLocation">
+											<option value = "">Select User position</option>
+											<option value = "Contractor">Contractor</option>
+											<option value="Composite Field Specialist">Composite Field Specialist</option>
+										<option value="Drone & Composite Field Specialist">Drone & Composite Field Specialist</option>
+										<option value = "Mechanical & Electrical Field Specialist">Mechanical & Electrical Field Specialist</option>
+										<option value = "Drone & Mechanical & Electrical Field Specialist">Drone & Mechanical & Electrical Field Specialist</option>
+											<option value = "Commercial">Commercial</option>
+											<option value = "Financial Business Analyst">Financial Business Analyst</option>
+											<option value = "Project Manager">Project Manager</option>
+											<option value = "Site Manager">Site Manager</option>
+											<option value = "Supervisor">Supervisor</option>
+											<option value = "Technical Specialist">Technical Specialist</option>
+										</select>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										
+										<button value="Search" onclick="techisGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										
+										<button id="f-clearerTechis" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id="techisTable" class="table">
+							<div class="table-head">
+									<div class="column" data-label="Name">Name</div>
+									<div class="column" data-label="Type">Type</div>
+									<div class="column" data-label="Email">Email</div>
+									<div class="column" data-label="Position">Position</div>
+									<div class="column" data-label="Em. Contact">Em. Contact</div>
+									<div class="column" data-label="Limits">Project Limits</div>
+									<div class="column" data-label="Actions">Actions</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id = "ifMasterReq">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12" >
+						<div id = "reqsAdminBS" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Date</span>
+									<input id="a-reqDate" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Requester</span>
+									<input id="a-reqAutor" type="text"/>
+								</div>
+										
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Windfarm</span>
+									<input id="a-reqWindfarm" onclick="windFarmPicker(this)" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Type of work</span>
+									<select id="a-reqDetail">
+										<option value = "">Pick type of work</option>
+										<option value = "Electrical">Electrical</option>
+										<option value = "Mechanical">Mechanical</option>
+										<option value = "Composite">Composite</option>
+										<option value = "Planning">Planning</option>
+										<option value = "Drones">Drones</option>
+										<option value = "Other">Other</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span># techs</span>
+									<select id="a-reqTechs"></select>
+								</div>
+								
+									
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Support Provided</span>
+									
+									<select id="a-reqProvided">
+										<option value = "Remote Technical Support">Remote Technical Support</option>
+										<option value = "Remote Technical Support">Remote Technical Support Scheduled</option>
+										<option value = "Planning Provided">Planning Provided</option>
+										<option value = "Field Specialist Provided">Field Specialist Provided</option>
+										<option value = "Field Specialist Provided">Field Specialist Provided Scheduled</option>
+										<option value = "No Resources Available">No Resources Available</option>
+										<option value = "PM Support">PM Support</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Time (Operational hours)</span>
+									<select id="a-reqDays"></select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Author</span>
+									
+									<select id="a-reqAutor2">
+										<option value = "">Pick an author</option>
+										<!-- <option value = "Cristhian Saenz-Botero">Cristhian Saenz-Botero</option> -->
+										<option value = "Andrew Hrlevich">Andrew Hrlevich</option>
+										<option value = "Christa Arroyo">Christa Arroyo</option>
+										<option value = "Jordan Webb">Jordan Webb</option>
+										<option value = "Juan Miguel Alvarez">Juan Miguel Alvarez</option>
+										<option value = "Luis Mercado">Luis Mercado</option>
+										<option value = "Norberto Fabre">Norberto Fabre</option>
+										<option value = "Robert Brown">Robert Brown</option>
+										<option value = "Rossano Zampieri">Rossano Zampieri</option>
+										<option value = "Oscar Arcila">Oscar Arcila</option>
+										<option value = "Other">Other</option>
+										
+									
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-6 col-lg-1 ">
+									<span>Request type</span>
+									<select id="a-reqType">
+										<option value = "Internal SGRE">Internal SGRE</option>
+										<option value = "Aftermarket">Aftermarket</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-6 col-lg-1 ">
+									<span>Status</span>
+									<select id="a-reqState">
+										<option value = "Pending">Pending</option>
+										<option value = "Progress">Progress</option>
+										<option value = "Completed">Completed</option>
+										
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-6 col-lg-4 ">
+									<span>Comments</span>
+									<input id="a-reqComments" type="text"/>
+								</div>
+
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="reqSaveButton" value="Crear" onclick="reqSave(this)">Create</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="s-clearerReq" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div id = "reqSearchBS">
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Request type</span>
+									<select id="f-reqType">
+										<option value = "">Pick request type</option>
+										<option value = "Internal SGRE">Internal SGRE</option>
+										<option value = "Aftermarket">Aftermarket</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Windfarm</span>
+									
+									<input id="f-reqWindfarm" onclick="windFarmPicker(this)" type="text"/>
+									
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Type of work</span>
+									<select id="f-reqDistrict">
+									
+										<option value = "">Pick type of work</option>
+										<option value = "Electrical">Electrical</option>
+										<option value = "Mechanical">Mechanical</option>
+										<option value = "Composite">Composite</option>
+										<option value = "Other">Other</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Provided</span>
+									
+									<select id="f-reqProvided">
+										<option value = "Remote Technical Support">Remote Technical Support</option>
+										<option value = "Remote Technical Support Scheduled">Remote Technical Support Scheduled</option>
+										<option value = "Planning Provided">Planning Provided</option>
+										<option value = "Field Specialist Provided">Field Specialist Provided</option>
+										<option value = "Field Specialist Provided Scheduled">Field Specialist Provided Scheduled</option>
+										<option value = "No Resources Available">No Resources Available</option>
+										<option value = "PM Support">PM Support</option>
+									</select>
+								</div>
+								
+								<!-- <div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 "> -->
+									<!-- <span>Provided</span> -->
+									<!-- <input id="f-reqProvided" type="text"/> -->
+								<!-- </div> -->
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Code</span>
+									<input id="f-reqNum" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Initial date</span>
+									<input id="f-reqInidate" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Final date</span>
+									<input id="f-reqEndate" type="text"/>
+								</div>
+								
+								
+								
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										<button value="Search" onclick="reqsGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										<button value="Search" onclick="reqsGet('ex')" >Export</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										<button id="f-clearerReq" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id="reqsTable" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Type">Type</div>
+								<div class="column" data-label="Code">Code</div>
+								<div class="column" data-label="Date">Date</div>
+								<div class="column" data-label="Author">Author</div>
+								<div class="column" data-label="Requester">Requester</div>
+								<div class="column" data-label="District">District</div>
+								<div class="column" data-label="Windfarm">Windfarm</div>
+								<div class="column" data-label="Type of work">Type of work</div>
+								<div class="column" data-label="# Techs"># Techs</div>
+								<div class="column" data-label="Support Provided">Support Provided</div>
+								<div class="column" data-label="Time (days)">Time (hours)</div>
+								<div class="column" data-label="Type">Type</div>
+								<div class="column" data-label="Comments">Comments</div>
+								<div class="column" data-label="State">State</div>
+								<div class="column" data-label="Options">Options</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div id = "ifMasterReqUP">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12" >
+						<div id = "reqsUPAdminBS" >
+							<div class="row fLabel fields panelButtFull">
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Speciality</span>
+									<select id="a-reqUPProvided" onchange="pickedLevelRS('1')"></select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Requester</span>
+									<input id="a-reqUPAutor" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Date</span>
+									<input id="a-reqUPDate" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Windfarm</span>
+									<input id="a-reqUPWindfarm" onclick="windFarmPicker(this)" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-1 col-lg-1 ">
+									<span>Request type</span>
+									<select id="a-reqUPTypeProp">
+										<option value = "Internal SGRE">Internal SGRE</option>
+										<option value = "Aftermarket">Aftermarket</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Address</span>
+									<input id="a-reqUPAddress" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Turbine #</span>
+									<input id="a-reqUPturbNum" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Windhub case</span>
+									<input id="a-reqUPcaseNum" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Project manager</span>
+									<input id="a-reqUPpm" type="text"/>
+								</div>
+								
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Support required</span>
+									<select id="a-reqUrequired">
+										<option value = "">Pick support type</option>
+										<option value = "Site Support">Site Support</option>
+										<option value = "Repair">Repair</option>
+										<option value = "Inspection">Inspection</option>
+										<option value = "Replacement">Replacement</option>
+										<option value = "Training">Training</option>
+										<option value = "Planning">Planning</option>
+										<option value = "Other">Other</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 ">
+									<span>Platform</span>
+									<input id="a-reqUplat" onclick="platformPicker(this)" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Tower height</span>
+									<input id="a-reqUtowH" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Component</span>
+									<select id="a-reqUComponent" onchange="pickedLevelRS('2')"></select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Brand</span>
+									<select id="a-reqUbrand"></select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Serial Number</span>
+									<input id="a-reqUSN" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Turbine state</span>
+									<select id="a-reqUtState">
+										<option value = "">Pick turbine state</option>
+										<option value = "Run">Run</option>
+										<option value = "Limited">Limited</option>
+										<option value = "Down turbine">Down turbine</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Tooling</span>
+									<select id="a-reqUtool">
+										<option value = "">Pick tooling</option>
+										<option value = "Required">Required</option>
+										<option value = "Provided by site">Provided by site</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Parts</span>
+									<select id="a-reqUpart">
+										<option value = "">Pick parts</option>
+										<option value = "Required">Required</option>
+										<option value = "Provided by site">Provided by site</option>
+									</select>
+								</div>
+
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-3 ">
+									<span>Failure description</span>
+									<input id="a-reqUDesc" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-3 ">
+									<span>Comments</span>
+									<input id="a-reqUComments" type="text"/>
+								</div>
+
+
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="reqUPSaveButton" value="Crear" onclick="reqSaveUP(this)">Create</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="s-clearerReqUP" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div id = "reqUPSearchBS">
+							<div class="row fLabel fields panelButtFull">
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Speciality</span>
+									<select id="f-reqUPspeciality">
+									
+										<option value = "">Pick type of work</option>
+										<option value = "Electrical">Electrical</option>
+										<option value = "Mechanical">Mechanical</option>
+										<option value = "Composite">Composite</option>
+										<option value = "Other">Other</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Required</span>
+									
+									<select id="f-reqUrequired">
+										<option value = "">Pick support type</option>
+										<option value = "Site Support">Site Support</option>
+										<option value = "Repair">Repair</option>
+										<option value = "Inspection">Inspection</option>
+										<option value = "Replacement">Replacement</option>
+										<option value = "Training">Training</option>
+										<option value = "Other">Other</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Request type</span>
+									<select id="f-reqUPType">
+										<option value = "">Pick request type</option>
+										<option value = "Internal SGRE">Internal SGRE</option>
+										<option value = "Aftermarket">Aftermarket</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Windfarm</span>
+									
+									<input id="f-reqUPWindfarm" onclick="windFarmPicker(this)" type="text"/>
+									
+								</div>
+								
+								
+								
+								<!-- <div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 "> -->
+									<!-- <span>Provided</span> -->
+									<!-- <input id="f-reqProvided" type="text"/> -->
+								<!-- </div> -->
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 ">
+									<span>Code</span>
+									<input id="f-reqUPNum" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Initial date</span>
+									<input id="f-reqUPInidate" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Final date</span>
+									<input id="f-reqUPEndate" type="text"/>
+								</div>
+								
+								
+								
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										<button value="Search" onclick="reqUPsGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										<button value="Search" onclick="reqUPsGet('ex')" >Export</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-1 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										<button id="f-clearerReqUP" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id="reqsUPTable" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Code">Code</div>
+								<div class="column" data-label="Date">Date</div>
+								<div class="column" data-label="Requester">Requester</div>
+								<div class="column" data-label="Speciality">Speciality</div>
+								<div class="column" data-label="Required">Required</div>
+								<div class="column" data-label="Windfarm">Windfarm</div>
+								<div class="column" data-label="Platform">Platform</div>
+								<div class="column" data-label="Type">Type</div>
+								<div class="column" data-label="Description">Description</div>
+								<div class="column" data-label="Comments">Comments</div>
+								<div class="column" data-label="State">State</div>
+								<div class="column" data-label="Options">Options</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div id = "ifMasterSH">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12" >
+						<div id = "schSearchBS">
+							<div class="row fLabel fields panelButtFull">
+								 <div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+										<span>User Type</span>
+										<select id="f-schTechiCat">
+											<option value = "">All</option>
+											<option value = "JZ">Advanced Specialist</option>
+											<option value = "CO">Commercial</option>
+											<option value = "FB">Financial Business Analyst</option>
+											<option value = "PL">Planning</option>
+											<option value = "PM">Project Manager</option>
+											<option value = "SM">Site Manager</option>
+											<option value = "SP">Supervisor</option>
+											<option value = "S">Technical Specialist</option>
+											<option value = "UC">Contractor</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+										<span>Name</span>
+										<input  id="f-schTechiName" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+										<span>Position</span>
+										<input  id="f-schTechmail" type="text"/>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										
+										<button value="Search" onclick="schGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										
+										<button id="f-clearerSch" value="Clear">Clear</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+										<br class="hidden-xs">
+										
+										<button id="f-weekSch" onclick="goThisWeek()" value="Clear">Week Detail</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id = "schAdminBS" >
+							<div id="schTable" class="table">
+								<div class="table-head">
+									<div class="column" data-label="Name">Name</div>
+									<div class="column" data-label="Type">Type</div>
+									<div class="column" data-label="Position">Position</div>
+									<div class="column" data-label="Email">Email</div>
+									
+									<div class="column" data-label="Schedule">Schedule</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id = "ifMasterMonth">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12 paletteLine" >
+						<span class="uSchTitle" id="uSchTitle"></span>
+						<button class="backButton button" onclick="showProfile()" value="Clear">User profile</button>
+						<button class="backButton button" onclick="ifLoad('ifMasterSH')" value="Clear">Go back</button>
+						
+						<span id="colorPaletteM"></span>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div id="calendar" data-provide="calendar"></div>
+					</div>
+				</div>
+					
+		
+			</div>
+			
+			<div id = "ifMasterTraining">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12 paletteLine2" >
+						<span class="uSchTitle" id="trTitle">Training for:</span>
+						<button class="backButton button" onclick="showProfile()" value="Clear">User profile</button>
+						<button class="backButton button" onclick="ifLoad('ifMasterSH')" value="Clear">Go back</button>
+						<span id="colorPaletteTr">lol</span>
+					</div>
+					
+					<div class="col-md-12 col-lg-12" >
+					
+						<div id = "oTraSection" >
+						
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-10 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Course name</span>
+									<input id="CNAME" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Provider</span>
+									<input id="PROVIDER" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Training type</span>
+										<select id="TRTYPE">
+											<option value = "">Select type</option>
+											<option value = "STC">Safety Training & Certifications</option>
+											<option value = "ASTC">Advanced Safety Training & Certifications</option>
+											<option value = "DC">DOT Compliance</option>
+											<option value = "E">Environmental</option>
+											<option value = "TT">Technical Training</option>
+										</select>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Valid from</span>
+									<input id="INIDATE" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Valid until</span>
+									<input id="ENDATE" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Comments</span>
+									<input id="COMMENTS" type="text" class="form-control" placeholder=""/>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addTrButton" onclick="addTraining()">Add Training </button>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="exportTrButton" onclick="exportXLS('training','')">Export </button>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="downTrButton" onclick="downZip('tr')">Get all files</button>
+								</div>
+								
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="trainingsTable" class="table" style="min-height: 0px;">
+										<div class="table-head">
+											<div class="column" data-label=""></div>
+											<div class="column" data-label="Course name">Course name</div>
+											<div class="column" data-label="Provider">Provider</div>
+											<div class="column" data-label="Training type">Training type</div>
+											<div class="column" data-label="Valid from">Valid from</div>
+											<div class="column" data-label="Valid until">Valid until</div>
+											<div class="column" data-label="Comments">Comments</div>
+											
+										
+											<div class="column" data-label="Options">Options</div>
+										</div>
+									</div>
+								</div>
+							</div>
+										
+						</div>
+					</div>
+					
+				</div>
+					
+		
+			</div>
+			
+			<div id = "ifMasterPPE">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12 paletteLine2" >
+						<span class="uSchTitle" id="ppeTitle">PPE and Tools for:</span>
+						<button class="backButton button" onclick="showProfile()" value="Clear">User profile</button>
+						<button class="backButton button" onclick="ifLoad('ifMasterSH')" value="Clear">Go back</button>
+						<span id="colorPalettePPE">lol</span>
+					</div>
+					
+					<div class="col-md-12 col-lg-12" >
+					
+						<div id = "oPPESection" >
+						
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-10 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Type of equipment</span>
+									<input id="TOEQUI" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Serial</span>
+									<input id="EQSERIAL" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>SKU</span>
+									<input id="EQSKU" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Manufacturing date</span>
+									<input id="EQMDATE" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Delivery date</span>
+									<input id="EQDDATE" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Useful until</span>
+									<input id="EQENDATE" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Brand</span>
+									<input id="EQBRAND" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Model</span>
+									<input id="EQMODEL" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Condition</span>
+									<input id="EQSTATE" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+									<span>Comments</span>
+									<input id="EQCOMMENTS" type="text" class="form-control" placeholder=""/>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addPpeButton" onclick="addPPE()">Add Equipment </button>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="exportPPButton" onclick="exportXLS('PPE','')">Export </button>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="downPPButton" onclick="downZip('pp')">Get all files</button>
+								</div>
+								
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="ppeTable" class="table" style="min-height: 0px;">
+										<div class="table-head">
+											<div class="column" data-label=""></div>
+											<div class="column" data-label="Type">Type</div>
+											<div class="column" data-label="Serial">Serial</div>
+											<div class="column" data-label="SKU">SKU</div>
+											<div class="column" data-label="Manufactured">Manufactured</div>
+											<div class="column" data-label="delivered">delivered</div>
+											<div class="column" data-label="Use until">Use until</div>
+											<div class="column" data-label="Brand">Brand</div>
+											<div class="column" data-label="Model">Model</div>
+											<div class="column" data-label="Condition">Condition</div>
+											<div class="column" data-label="Comments">Comments</div>
+											<div class="column" data-label="Options">Options</div>
+										</div>
+									</div>
+								</div>
+							</div>
+										
+						</div>
+					</div>
+					
+				</div>
+					
+		
+			</div>
+			
+			<div id = "ifMasterWeek">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12 paletteLine" >
+						<span id="colorPalette"></span>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div class="row fLabel fields panelButtFull">
+							<div class = "col-xs-12 col-sm-6 col-md-1 col-lg-1 ">
+								<span>Year</span>
+								<input  id="schYearField" type="text"/>
+							</div>
+							
+							<div class = "col-xs-12 col-sm-6 col-md-1 col-lg-1 ">
+								<span>Week</span>
+								<select id="schWeekField" onchange="getWeekScheduleF()"></select>
+							</div>
+							
+							<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+								<span>Position</span>
+								<input  id="schTypeField" type="text"/>
+							</div>
+							
+							<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+								<span>Name</span>
+								<input  id="schNameField" type="text"/>
+							</div>
+							
+							<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+								<br class="hidden-xs">
+								<button id="f-weekSch" onclick="getWeekScheduleF()" value="Clear">Filter</button>
+							</div>
+							
+							<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+								<br class="hidden-xs">
+								<button onclick="ifLoad('ifMasterSH')" value="Clear">Go back</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id="weekTable" class="table">
+							<div class="table-head">
+								<div class="column"  data-label="Name">Name</div>
+								<div class="column" style="width: 8% !important; text-align: center !important;"data-label="Sunday">Sunday</div>
+								<div class="column" style="width: 8% !important; text-align: center !important;"data-label="Monday">Monday</div>
+								<div class="column" style="width: 8% !important; text-align: center !important;"data-label="Tuesday">Tuesday</div>
+								<div class="column" style="width: 8% !important; text-align: center !important;"data-label="Wednesday">Wednesday</div>
+								<div class="column" style="width: 8% !important; text-align: center !important;"data-label="Thursday">Thursday</div>
+								<div class="column" style="width: 8% !important; text-align: center !important;"data-label="Friday">Friday</div>
+								<div class="column" style="width: 8% !important; text-align: center !important;"data-label="Saturday">Saturday</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+		
+			</div>
+
+			<div id = "ifMasterL">
+				<div class = "ifBox">
+					<div class="col-md-12 col-lg-12" >
+						<div id = "logSearchBS">
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Responsable</span>
+									<input id="f-logResp" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Fecha Inicial</span>
+									<input id="f-logInidate" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Fecha Final</span>
+									<input id="f-logEndate" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-1 ">
+									<span>Tipo</span>
+									<select id="f-logType">
+										<option value="">Tipo</option>
+										<option value="A">Administrador</option>
+										<option value="AC">Actividad</option>
+										<option value="C">Cliente</option>
+										<option value="I">Inventario</option>
+										<option value="M">Equipo</option>
+										<option value="S">Sucursal</option>
+										<option value="T">Técnico</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Objetivo</span>
+									<input id="f-logTarget" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-1 ">
+									<span>Movimiento</span>
+									<select id="f-logMove">
+										<option value="">Tipo</option>
+										<option value="Creación">Creación</option>
+										<option value="Edición">Edición</option>
+										<option value="Eliminación">Eliminación</option>
+										<option value="Ingreso">Ingreso</option>
+										<option value="Cambio Password">Cambio Password</option>
+
+									</select>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									
+									<button value="Search" onclick="logGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									
+									<button id="f-clearerLog" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id="logTable" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Responsable">Responsable</div>
+								<div class="column" data-label="Fecha/Hora">Fecha/Hora</div>
+								<div class="column" data-label="Tipo de objetivo">Tipo de objetivo</div>
+								<div class="column" data-label="Objetivo">Objetivo</div>
+								<div class="column" data-label="Tipo de Movimiento">Tipo de Movimiento</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+                        
+			<div id = "ifMasterO">
+				<div class = "ifBox">
+					
+					<div class="col-md-12 col-lg-12" >
+						<div id = "ocreateAdminBS" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-2 col-md-1 col-lg-2 ">
+									<span>Type</span>
+									<select id="a-ptype" onchange="pickedPtype(this.value)">
+										<option value="1">Standard Project</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-2 ">
+									<span>Client</span>
+									<input id="a-orderParent" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Address</span>
+									<input id="a-orderAddress" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Contact Name</span>
+									<input id="a-orderContact1" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-6 col-lg-2 ">
+									<span>Contact Phone & Email</span>
+									<input id="a-orderPhone1" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Internal contact name</span>
+									<input id="a-orderContact2" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-6 col-lg-2 ">
+									<span>Internal contact phone & Email</span>
+									<input id="a-orderPhone2" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 ">
+									<span>Windfarm</span>
+									<input id="a-orderWindFarm" onclick="windFarmPicker(this)" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-1 col-lg-1 ">
+									<span>Platform</span>
+									<input id="a-platform" onclick="platformPicker(this)" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-2 ">
+									<span>Windfarm Type</span>
+									<select id="a-orderWindFarmType">
+										<option value = "">Windfarm Type</option>
+										<option value = "OffShore">OffShore</option>
+										<option value = "OnShore">OnShore</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-1 col-lg-1 ">
+									<span>Department</span>
+									<select id="a-Department">
+										<option value = "Specialist">Specialist</option>
+										<option value = "Services projects">Services projects</option>
+										<option value = "Major projects">Major projects</option>
+										<option value = "Heavy lifts">Heavy lifts</option>
+									</select>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-1 col-lg-1 ">
+									<span>Request type</span>
+									<select id="a-reqTypeProp">
+										<option value = "Internal SGRE">Internal SGRE</option>
+										<option value = "Aftermarket">Aftermarket</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Work details</span>
+									<input id="a-orderDetail" type="text"/>
+								</div>
+
+								
+								<div class = "col-xs-6 col-sm-2 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="orderSaveButton" value="Crear" onclick="orderSave(this)">Crear</button>
+								</div>
+								<div class = "col-xs-6 col-sm-2 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="s-clearerOrders" value="Clear">Clear</button>
+								</div>
+											
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div id = "orderSearchBS">
+							<div class="row fLabel fields panelButtFull">
+								
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-1 ">
+									<span>Type</span>
+									<select id="f-orderType">
+										<option value="">Proposal type</option>
+										<option value="1">Standard Project</option>
+										<option value="0">Template</option>
+										<option value="2">Created from template</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-1 ">
+									<span>District</span>
+									<input id="f-orderParent" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+									<span>Wind farm</span>
+									<input id="f-orderWindFarm" onclick="windFarmPicker(this)" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 ">
+									<span>Order number</span>
+									<input  id="f-orderTurbine" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 ">
+									<span>Quote status</span>
+									
+									<select id="f-orderStatus" type="text">
+										<option value="">All</option>
+										<option value="1">New</option>
+										<option value="2">Approved</option>
+									</select>
+								</div>
+								
+								
+								<div class = "col-xs-12 col-sm-6 col-md-1 col-lg-2 ">
+									<span>Work details</span>
+									<input  id="f-orderDetail" type="text"/>
+								</div>
+
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									
+									<button value="Search" onclick="ordeGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									
+									<button id="f-clearerOrders" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id="ordersTable" class="table">
+							<div class="table-head">
+								<div class="column" data-label="#">Num</div>
+								<div class="column" data-label="Type">Type</div>
+								<div class="column" data-label="Client">Client</div>
+								<div class="column" data-label="Wind Farm">Wind Farm</div>
+								<div class="column" data-label="Address">Address</div>
+								<div class="column" data-label="Contact">Contact</div>
+								<div class="column" data-label="Contact Phone">Contact phone & email</div>
+								<div class="column" data-label="Internal Contact">Internal contact name</div>
+								<!-- <div class="column" data-label="Internal  Phone">Internal phone & email</div> -->
+								<div class="column" data-label="District">District</div>
+								<div class="column" data-label="Work Details">Work Details</div>
+								<div class="column" data-label="Status">Status</div>
+								<div class="column" data-label="Author">Author</div>
+								<div class="column" data-label="Actions">Actions</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id = "iforderMain">
+				<div class = "ifBoxShort">
+					<div class="col-sm-12 col-md-12 col-lg-12" >
+						
+						<div id = "oResumeSection" >
+							<div class="row fLabel fields panelButtFull">
+								<div class="fuLine">
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Client</span>
+										<br>
+										<span id="oResClient" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Wind farm</span>
+										<br>
+										<span id="oResWindFarm" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Address</span>
+										<br>
+										<span id="oResAddress" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Contact</span>
+										<br>
+										<span id="oResContact1" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Contact phone & email</span>
+										<br>
+										<span id="oResPhone1" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Internal contact name</span>
+										<br>
+										<span id="oResContact2" class="resSpan"></span>
+									</div>
+								</div>
+								<div>
+									<div class = "col-xs-12 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Intern contact phone & email</span>
+										<br>
+										<span id="oResPhone2" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-3 col-md-2 col-lg-2 ">
+										<span>District</span>
+										<br>
+										<span id="oResDistrict" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-10 col-md-6 col-lg-2 ">
+										<span>Turbines</span>
+										<br>
+										<span id="oResTurbine" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+										<span>Work Details</span>
+										<br>
+										<span id="oResWkDetail" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+										<span>Quote Status</span>
+										<br>
+										<span id="oResState" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+										<span>Creation Date</span>
+										<br>
+										<span id="oResCrDate" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+										<span>Platform</span>
+										<br>
+										<span id="oPlatform" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+										<span>Service Order</span>
+										<input id="oResServOrder" type="text" class="form-control" placeholder="">
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+										<span>WBS element</span>
+										<input id="oResWorkOrder" type="text" class="form-control" placeholder="">
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+										<span>Cost Order</span>
+										<input id="oResCostOrder" type="text" class="form-control" placeholder="">
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+										<span>Purchase Order</span>
+										<input id="oResPurchaseOrder" type="text" class="form-control" placeholder="">
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addActButton" onclick="oAprobe()">Set this quote as approved</button>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="setAsTemplateButton" onclick="setAsTemplate()">Convert to template</button>
+									</div>
+									
+								</div>
+									
+							</div>
+						</div>
+						
+						<div id = "oTurbSection" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-10 col-sm-2 col-md-2 col-lg-2 ">
+									<span>Name</span>
+									<input id="turbName" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Hours</span>
+									<input id="turbHours" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Workorder</span>
+									<input id="turbWO" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Service Order</span>
+									<input id="turbSO" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Cost Order</span>
+									<input id="turbCO" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>WBS</span>
+									<input id="turbWBS" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Wh# or Sf#</span>
+									<input id="turbwhsf" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-4 ">
+									<span>Comments</span>
+									<input id="turbComm" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Identified</span>
+									<input id="turbIdDate" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Requested start</span>
+									<input id="turbReqStartDate" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-10 col-sm-2 col-md-2 col-lg-1 ">
+									<span>Priority</span>
+									<select id="turbPriority" onchange="setUserList(this.value)">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+								
+								<!-- BLADES BLOCK -->
+								<div id="bladesBlock" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderBox" >
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade A S/N</span>
+										<input id="turbAsn" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade A Planed shells</span>
+										<input id="turbAplanedSh" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade A Preparation time</span>
+										<input id="turbAprepTime" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade A Install time</span>
+										<input id="turbAinstTime" type="text" class="form-control" placeholder=""/>
+									</div>
+
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade B S/N</span>
+										<input id="turbBsn" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade B Planed shells</span>
+										<input id="turbBplanedSh" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade B Preparation time</span>
+										<input id="turbBprepTime" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade B Install time</span>
+										<input id="turbBinstTime" type="text" class="form-control" placeholder=""/>
+									</div>
+										
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade C S/N</span>
+										<input id="turbCsn" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade C Planed shells</span>
+										<input id="turbCplanedSh" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade C Preparation time</span>
+										<input id="turbCprepTime" type="text" class="form-control" placeholder=""/>
+									</div>
+									
+									<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+										<span>Blade C Install time</span>
+										<input id="turbCinstTime" type="text" class="form-control" placeholder=""/>
+									</div>
+
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button onclick="showBlades()">Show blade fields </button>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addActButton" onclick="addTurbine()">Add Turbine </button>
+								</div>
+								
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="oTurbsTable" class="table" style="min-height: 0px;">
+										<div class="table-head">
+											<div class="column" data-label="Name">Name</div>
+											<div class="column" data-label="Hours">Hours</div>
+											<!-- <div class="column" data-label="Blade A S/N">Blade A S/N</div> -->
+											<!-- <div class="column" data-label="Blade B S/N">Blade B S/N</div> -->
+											<!-- <div class="column" data-label="Blade C S/N">Blade C S/N</div> -->
+											<!-- <div class="column" data-label="Workorder">Workorder</div> -->
+											<!-- <div class="column" data-label="Service Order">Service Order</div> -->
+											<!-- <div class="column" data-label="Cost Order">Cost Order</div> -->
+											<!-- <div class="column" data-label="WBS">WBS</div> -->
+											<div class="column" data-label="whsfd">Wh# or Sf#</div>
+											<div class="column" data-label="Identified">Identified</div>
+											<div class="column" data-label="Workorder">Workorder</div>
+											<div class="column" data-label="Comments">Comments</div>
+											<div class="column" data-label="Delete">Delete</div>
+										</div>
+									</div>
+								</div>
+							</div>
+										
+						</div>
+						
+						<div id = "oActisSection" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-10 col-sm-2 col-md-2 col-lg-1 ">
+									<span>Responsible</span>
+									<select id="actiResponsible" onchange="setUserList(this.value)">
+										<option value="">Pick a responsible</option>
+										<option value="Composite Field Specialist">Composite Field Specialist</option>
+										<option value="Drone & Composite Field Specialist">Drone & Composite Field Specialist</option>
+										<option value = "Mechanical & Electrical Field Specialist">Mechanical & Electrical Field Specialist</option>
+										<option value = "Drone & Mechanical & Electrical Field Specialist">Drone & Mechanical & Electrical Field Specialist</option>
+										<option value="Contractor">Contractor</option>
+										<option value="Site technician">Site technician</option>
+										<option value="Traveler troubleshooter">Traveler troubleshooter</option>
+										<option value="Specialist engineer">Specialist engineer</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Price/Unit</span>
+									<input id="actiPriceUnit" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div id="actiNameTbox" class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Name</span>
+									<input id="actiName" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div id="actiNameSbox" class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Name</span>
+									<select id="actiNameS"></select>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Company</span>
+									<input id="actiCompany" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Mob I/O hourly cost</span>
+									<input id="actiMiMo" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Mob I/O Qty hourly</span>
+									<input id="actiMiMoQ" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Labor description</span>
+									<input id="actiDesc" type="text" class="form-control" placeholder="" maxlength="120"/>
+								</div>
+								<!-- <div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 "> -->
+									<!-- <span>Days</span> -->
+									<!-- <input id="actiDays" type="text" class="form-control" placeholder=""/> -->
+								<!-- </div> -->
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Hours</span>
+									<input id="actiTime" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addActButton" onclick="addLabor()">Add Labor </button>
+								</div>
+								
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="oActsTable" class="table" style="min-height: 0px;">
+										<div class="table-head">
+											<div class="column" data-label="Responsible">Responsible</div>
+											<div class="column" data-label="Price/Unit">Price/Unit</div>
+											<div class="column" data-label="Name">Name</div>
+											<div class="column" data-label="Company">Company</div>
+											<div class="column" data-label="Mob In/Out">Mob In/Out</div>
+											<div class="column" data-label="Mob In/Out">Mob In/Out Qty</div>
+											<div class="column" data-label="Description">Description</div>
+											<div class="column" data-label="Hours">Hours </div>
+											<div id="laborActualCol" class="column" data-label="Hours">Hours (execution)</div>
+											<div class="column" data-label="Subtotal">Subtotal</div>
+											<div id="laborActualSCol" class="column" data-label="Subtotal(execution)">Subtotal(execution)</div>
+											<div class="column" data-label="Delete">Delete</div>
+										</div>
+									</div>
+								</div>
+							</div>
+										
+						</div>
+						
+						<div id = "oPartsSection" >
+							<div class="row fLabel fields panelButtFull">
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Part number</span>
+									<input id="partNumber" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-4">
+									<span>Description</span>
+									<input id="partDetail" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Cost/Unit</span>
+									<input id="partCost" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Vendor</span>
+									<input id="partVendor" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Shipping</span>
+									<input id="partShipping" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 ">
+									<span>Quantity</span>
+									<input id="partQty" type="text" class="form-control" placeholder=""/>
+								</div>
+
+								<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addPartButton" onclick="addPart()">Add Part</button>
+								</div>
+								
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="oPartsTable" class="table">
+										<div class="table-head">
+											<div class="column" data-label="Part number">Part number</div>
+											<div class="column" data-label="Description">Description</div>
+											<div class="column" data-label="Cost/Unit">Cost/Unit</div>
+											<div class="column" data-label="Vendor">Vendor</div>
+											<div class="column" data-label="Shipping cost">Shipping cost</div>
+											<div class="column" data-label="Quantity estimated">Quantity </div>
+											<div id="partActualCol" class="column" data-label="Quantity execution">Quantity (execution)</div>
+
+											<div class="column" data-label="Subtotal">Subtotal</div>
+											<div id="partActualSCol" class="column" data-label="Subtotal(execution)">Subtotal(execution)</div>
+											<div class="column" data-label="Delete">Delete</div>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+						
+						<div id = "oToolsSection" >
+							<div class="row fLabel fields panelButtFull">
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Tool number</span>
+									<input id="toolNumber" type="text" class="form-control" placeholder=""/>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Description</span>
+									<input id="toolDetail" type="text" class="form-control" placeholder=""/>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Cost/Unit</span>
+									<input id="toolCost" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Vendor</span>
+									<input id="toolVendor" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Mode</span>
+									<select id="toolMode" onchange="setToolMode(this.value)">
+										<option value = "Buy">Buy</option>
+										<option value = "Rental">Rental</option>
+									</select>
+
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Unit</span>
+									<select id="toolUnit">
+										<option value="">Pick a unit</option>
+										<!-- <option value="Hourly">Hourly</option> -->
+										<option value="Daily">Daily</option>
+										<option value="Weekly">Weekly</option>
+										<option value="Monthly">Monthly</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Shipping</span>
+									<input id="toolShipping" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Quantity</span>
+									<input id="toolQty" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addOtherButton"  onclick="addOther()">Add Tool</button>
+								</div>
+									
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="oOthersTable" class="table">
+										<div class="table-head">
+											<div class="column" data-label="Tool number">Tool number</div>
+											<div class="column" data-label="Description">Description</div>
+											<div class="column" data-label="Cost/Unit">Cost/Unit</div>
+											<div class="column" data-label="Vendor">Vendor</div>
+											<div class="column" data-label="Mode">Mode</div>	
+											<div class="column" data-label="Unit">Unit</div>	
+											<div class="column" data-label="Shipping cost">Shipping cost</div>
+											<div class="column" data-label="Quantity">Quantity </div>
+											<div id="toolActualCol" class="column" data-label="Quantity execution">Quantity (execution)</div>
+											<div class="column" data-label="Subtotal">Subtotal</div>
+											<div id="toolActualSCol" class="column" data-label="Subtotal(execution)">Subtotal(execution)</div>
+											<div class="column" data-label="Delete">Delete</div>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+						
+						<div id = "oAccessSection" >
+							<div class="row fLabel fields panelButtFull">
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Added Cost</span>
+									<select id="accMethod">
+										<option value="">Pick a method</option>
+										<option value="Admin Word">Admin Word</option>
+										<option value="Bronto">Bronto</option>
+										<option value="Bronto 65">Bronto 65</option>
+										<option value="Bronto 78">Bronto 78</option>
+										<option value="Bronto 90">Bronto 90</option>
+										<option value="Bronto 100+">Bronto 100+</option>
+										<option value="Cold Weather Platform">Cold Weather Platform</option>
+										<option value="Contractor Suspended Access Platform">Contractor Suspended Access Platform</option>
+										<option value="Crane">Crane</option>
+										<option value="Drone">Drone</option>
+										<option value="Hermes (Data Analysis, Storage)">Hermes (Data Analysis, Storage)</option>
+										<option value="Perdiem">Perdiem</option>
+										<option value="Rope Access">Rope Access</option>
+										<option value="SGRE Suspended Access Platform # SN530">SGRE Suspended Access Platform # SN530</option>
+										<option value="SGRE Suspended Access Platform # SN584">SGRE Suspended Access Platform # SN584</option>
+										<option value="Vehicle Rental">Vehicle Rental</option>
+										<option value="Other Charges">Other Charges</option>
+									</select>
+									
+									
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Vendor</span>
+									<input id="accVendor" type="text" class="form-control" placeholder=""/>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Unit</span>
+									<select id="accUnit">
+										<!-- <option value="">Pick a unit</option> -->
+										<!-- <option value="Hourly">Hourly</option> -->
+										<option value="Hourly">Hourly</option>
+										<option value="Daily">Daily</option>
+										<option value="Weekly">Weekly</option>
+										<option value="Monthly">Monthly</option>
+									</select>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Cost/Unit</span>
+									<input id="accCost" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								
+								
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2">
+									<span>Mob In/Out</span>
+									<input id="accMimo" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2">
+									<span>Mob In/Out Qty</span>
+									<input id="accMimoQ" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1">
+									<span>Quantity</span>
+									<input id="accQty" type="text" class="form-control" placeholder=""/>
+								</div>
+								
+								
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="addAccButton"  onclick="addAccess()">Add Access</button>
+								</div>
+									
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="oAccTable" class="table">
+										<div class="table-head">
+											<div class="column" data-label="Added Cost">Added Cost</div>
+											<div class="column" data-label="Vendor">Vendor</div>
+											<div class="column" data-label="Unit">Unit</div>
+											<div class="column" data-label="Cost/Unit">Cost/Unit</div>
+											<div class="column" data-label="Mob In/Out">Mob In/Out</div>
+											<div class="column" data-label="Mob In/Out Qty">Mob In/Out Qty</div>
+											<div class="column" data-label="Quantity estimated">Quantity </div>
+											<div id="accessActualCol" class="column" data-label="Quantity execution">Quantity (execution)</div>
+											<div class="column" data-label="Subtotal">Subtotal</div>
+											<div  id="accessActualSCol" class="column" data-label="Subtotal(execution)">Subtotal(execution)</div>
+											<div class="column" data-label="Delete">Delete</div>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+						
+						<div id = "oSupporSection" >
+							<div class="row fLabel fields panelButtFull">
+
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Labor</span>
+									<input id="stLabors" type="text" class="form-control"  onblur="saveSupport()"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Parts</span>
+									<input id="stParts" type="text" class="form-control"   onblur="saveSupport()"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Tools</span>
+									<input id="stTools" type="text" class="form-control"  onblur="saveSupport()"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Access</span>
+									<input id="stAccess" type="text" class="form-control"  onblur="saveSupport()"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Documents</span>
+									<input id="stDocs" type="text" class="form-control"  onblur="saveSupport()"/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2">
+									<span>Quoting Support Hours</span>
+									<br>
+									<span id="oStTotal" class="resSpan"></span>
+								</div>
+								
+								
+							
+							</div>
+						</div>
+						
+						<div id = "oTimesSection" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span># of techs</span>
+									<br>
+									<span id="oLaborsQty" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Labor hours</span>
+									<br>
+									<span id="oEstimated" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Labor cost</span>
+									<br>
+									<span id="oActotal" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Parts cost</span>
+									<br>
+									<span id="oReptotal" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Tools cost</span>
+									<br>
+									<span id="oOtherstotal" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Access cost</span>
+									<br>
+									<span id="oAccesstotal" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Total cost</span>
+									<br>
+									<span id="oSubtotal" class="resSpan"></span>
+								</div>
+								
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Standby hours</span>
+									<br>
+									<input id="oStandBy" type="text" class="form-control" onblur="saveSbLab()"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 col-lg-offset-0">
+									<br class="">
+									<button id="oCloseButton"onclick="exportXLS('order', '1')">Export to Excel</button>
+								</div>
+
+							</div>
+						</div>
+						
+						<div id = "oTimesSectionA" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span># of techs</span>
+									<br>
+									<span id="oLaborsQtyA" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Labor hours</span>
+									<br>
+									<span id="oEstimatedA" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Labor cost</span>
+									<br>
+									<span id="oActotalA" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Parts cost</span>
+									<br>
+									<span id="oReptotalA" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Tools cost</span>
+									<br>
+									<span id="oOtherstotalA" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Access cost</span>
+									<br>
+									<span id="oAccesstotalA" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Total cost</span>
+									<br>
+									<span id="oSubtotalA" class="resSpan"></span>
+								</div>
+								<div class = "col-xs-9 col-sm-4 col-md-2 col-lg-1 ">
+									<span>Standby hours</span>
+									<br>
+									<input id="oStandByA" type="text" class="form-control" onblur="saveSbLabA()"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 col-lg-offset-0">
+									<br class="">
+									<button id="oCloseButton"onclick="exportXLS('order', '2')">Export to Excel</button>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id = "ifMasterREP">
+				<div class = "ifBox">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 onTop" >
+						<select id="reportSelector" onchange="reportPick(this.value)" class="reporPicker">
+
+						</select>
+						<br>
+						<br>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div id = "reportsSearchBS">
+							<div id="repFilterBox" class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-4 col-md-4 col-lg-2">
+									<span>Cliente</span>
+									<select id="f-repParent"></select>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-1">
+									<br class="hidden-xs">
+									<button value="Search" onclick="repGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-3 col-lg-1">
+									<br class="hidden-xs">
+									<button id="f-clearerRep" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="reporTableBox" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						
+						<div id="generalP" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Client">Client</div>
+								<div class="column" data-label="Wind Farm">Wind Farm</div>
+								<div class="column" data-label="Address">Address</div>
+								<div class="column" data-label="Contact">Contact</div>
+								<div class="column" data-label="Contact Phone">Contact Phone</div>
+								<div class="column" data-label="Internal Contact">Internal contact name</div>
+								<div class="column" data-label="Internal  Phone">Internal phone & email</div>
+								<div class="column" data-label="District">District</div>
+								
+								<div class="column" data-label="Turbine">Turbine</div>
+								<div class="column" data-label="Work Details">Work Details</div>
+								<div class="column" data-label="Status">Status</div>
+								<div class="column" data-label="Author">Author</div>
+								<div class="column" data-label="Actions">Actions</div>
+							</div>
+						</div>
+						
+						<div id="generalPA" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Client">Client</div>
+								<div class="column" data-label="Wind Farm">Wind Farm</div>
+								<div class="column" data-label="Address">Address</div>
+								<div class="column" data-label="Contact">Contact</div>
+								<div class="column" data-label="Contact Phone">Contact Phone</div>
+								<div class="column" data-label="Internal Contact">Internal contact name</div>
+								<div class="column" data-label="Internal  Phone">Internal phone & email</div>
+								<div class="column" data-label="District">District</div>
+								
+								<div class="column" data-label="Turbine">Turbine</div>
+								<div class="column" data-label="Work Details">Work Details</div>
+								<div class="column" data-label="Status">Status</div>
+								<div class="column" data-label="Author">Author</div>
+								<div class="column" data-label="Actions">Actions</div>
+							</div>
+						</div>
+						
+						<div id="accessUse" class="table">
+							<div class="table-head">
+								<div class="column" data-label="dummy">dummy</div>
+							</div>
+						</div>
+						
+						<div id="techBench" class="table">
+							<div class="table-head">
+								<div class="column" data-label="dummy">dummy</div>
+							</div>
+						</div>
+						
+						<div id="techHours" class="table">
+							<div class="table-head">
+								<div class="column" data-label="dummy">dummy</div>
+							</div>
+						</div>
+						
+						<div id="labHours" class="table">
+							<div class="table-head">
+								<div class="column" data-label="dummy">dummy</div>
+							</div>
+						</div>
+						
+						<div id="projectHours" class="table">
+							<div class="table-head">
+								<div class="column" data-label="dummy">dummy</div>
+							</div>
+						</div>
+						
+						<div id="generalPtype" class="table">
+							<div class="table-head">
+								<div class="column" data-label="dummy">dummy</div>
+							</div>
+						</div>
+						
+						
+
+							
+							
+					</div>
+					</div>
+			</div>
+			
+			<div id = "ifMasterPOD">
+				<div class = "ifBox">
+					
+					<div class="col-md-12 col-lg-12" >
+						<div id = "podCreateAdminBS" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-2 nlnr10 ">
+									<span>Quote Number</span>
+									
+									<select id="a-quoteParent" onchange="setQdata(this.value)"/></select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-2 nlnr10">
+									<span>Windfarm</span>
+									<input id="a-podWF" onclick="windFarmPicker(this)" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 nlnr10">
+									<span>Service Order</span>
+									<input id="a-podSO" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 nlnr10">
+									<span>WBS element</span>
+									<input id="a-podWO" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 nlnr10">
+									<span>Cost Order</span>
+									<input id="a-podCO" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 nlnr10 ">
+									<span>Purchase Order</span>
+									<input id="a-podPO" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-2 nlnr10">
+									<span>Start date</span>
+									<input id="a-podInidate" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 nlnr10">
+									<span>Category</span>
+									
+									<select id="a-podG4"></select>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-1 ">
+									<span>Job type</span>
+									<select id="a-podType">
+										<option value = "">Select job type</option>
+										<option value = "TSA - Siemens New Unit Warranty">TSA - Siemens New Unit Warranty</option>
+										<option value = "LTP - Siemens Service Warranty">LTP - Siemens Service Warranty</option>
+										<option value = "TSA & LTP Siemens - shared responsibility">TSA & LTP Siemens - shared responsibility</option>
+										<option value = "TFA - Labor only">TFA - Labor only</option>
+										<option value = "Open Market - Customer responsibility">Open Market - Customer responsibility</option>
+										<option value = "TFA - Labor only">TFA - Labor only</option>
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 nlnr10">
+									<span>Platform</span>
+									<input id="a-podPlatform" onclick="platformPicker(this)" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-1 nlnr10">
+									<span>Type of work</span>
+									<select id="a-podTow">
+										<option value = "">Pick type of work</option>
+										<option value = "Composite">Composites</option>
+										<option value = "Drone">Drone</option>
+										<option value = "Electrical">Electrical</option>
+										<option value = "Mechanical">Mechanical</option>
+										<option value = "Other">Other</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-1 col-lg-1 ">
+									<span>Department</span>
+									<select id="p-Department">
+										<option value = "Specialist">Specialist</option>
+										<option value = "Services projects">Services projects</option>
+										<option value = "Major projects">Major projects</option>
+										<option value = "Heavy lifts">Heavy lifts</option>
+									</select>
+								</div>
+
+								<div class = "col-xs-12 col-sm-2 col-md-1 col-lg-1 ">
+									<span>Request type</span>
+									<select id="p-reqTypeProp">
+										<option value = "Internal SGRE">Internal SGRE</option>
+										<option value = "Aftermarket">Aftermarket</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-3 col-md-3 col-lg-2 ">
+									<span>Windfarm Type</span>
+									<select id="a-projectWindFarmType">
+										<option value = "">Windfarm Type</option>
+										<option value = "OffShore">OffShore</option>
+										<option value = "OnShore">OnShore</option>
+									</select>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 nlnr10">
+									<span>Project description</span>
+									<input id="a-podDetail" type="text"/>
+								</div>
+								
+								
+
+								<div class = "col-xs-6 col-sm-2 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="podSaveButton" value="Crear" onclick="podSave(this)">Create</button>
+								</div>
+								<div class = "col-xs-6 col-sm-2 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="s-clearerPod" value="Clear">Clear</button>
+								</div>
+											
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-12" >
+						<div id = "podSearchBS">
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 ">
+									<span>Quote Number</span>
+									<input id="f-quoteParent" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 ">
+									<span>District</span>
+									<input id="f-pdistrict" type="text"/>
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 ">
+									<span>Windfarm</span>
+									<input id="f-podWindfarm" onclick="windFarmPicker(this)" type="text"/>
+								</div>
+								
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 ">
+									<span>Open/Closed</span>
+									<select id="f-podSO">
+										<option value = "">All</option>
+										<option value = "1">Open</option>
+										<option value = "2">Closed</option>
+									</select>
+									
+								</div>
+								<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-2 ">
+									<span>Type of work</span>
+									<select id="f-podWO">
+										<option value = "">Pick type of work</option>
+										<option value = "Electrical">Electrical</option>
+										<option value = "Mechanical">Mechanical</option>
+										<option value = "Composite">Composite</option>
+										<option value = "Other">Other</option>
+									
+									</select>
+								</div>
+								
+								
+								<div class = "col-xs-12 col-sm-6 col-md-1 
+
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									
+									<button value="Search" onclick="podGet()" >Search</button>
+								</div>
+								<div class = "col-xs-6 col-sm-3 col-md-2 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									
+									<button id="f-clearerPOD" value="Clear">Clear</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+						<div id="podTable" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Quote">Quote</div>
+								<div class="column" data-label="Windfarm">Windfarm</div>
+								<div class="column" data-label="District">District</div>
+								<div class="column" data-label="Service Order">Service Order</div>
+								<div class="column" data-label="Workorder">WBS element</div>
+								<div class="column" data-label="Cost Order">Cost Order</div>
+								<div class="column" data-label="Purchase Order">Purchase Order</div>
+								<div class="column" data-label="Category">Category</div>
+								<div class="column" data-label="Open/Closed">Open/Closed</div>
+								<div class="column" data-label="Start date">Start date</div>
+								<div class="column" data-label="Job type">Job type</div>
+								<div class="column" data-label="Description">Description</div>
+								
+								<div class="column" data-label="Actions">Actions</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id = "ifPodMain">
+				<div class = "ifBoxShort">
+					<div class="statusBar">
+						<span id="statusBarTitle" class="statusBarTitle">Project state:</span>
+					</div>
+					<div class="pBar">
+						<span class="pBarTitle" class="pBarTitle">Quote vs Execution</span>
+						<div id="cBarBox" class="cBarBox">
+							<div id="bFill" class="bFill">
+								<span id="bFillTitle">50%</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-12" >
+						
+						<div id = "pResumeSection" >
+							<div class="row fLabel fields panelButtFull">
+								<div class="fuLine">
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Quote</span>
+										<br>
+										<span id="podQuoteLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Wind farm</span>
+										<br>
+										<span id="podFarmLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>District</span>
+										<br>
+										<span id="podTurbineLabel" class="resSpan"></span>
+									</div>
+									
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Service Order</span>
+										<br>
+										<span id="podSOLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>WBS element</span>
+										<br>
+										<span id="podWOLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Cost Order</span>
+										<br>
+										<span id="podCOLabel" class="resSpan"></span>
+									</div>
+								</div>
+								<div>
+									<div class = "col-xs-12 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Purchase Order</span>
+										<br>
+										<span id="podPOLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-3 col-md-2 col-lg-2 ">
+										<span>Category</span>
+										<br>
+										<span id="podG4Label" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-10 col-md-6 col-lg-2 ">
+										<span>Start date</span>
+										<br>
+										<span id="podIniDateLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 ">
+										<span>Job type</span>
+										<br>
+										<span id="podJobLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-9 col-sm-3 col-md-1 col-lg-1 ">
+										<span>Platform</span>
+										<br>
+										<span id="podPlatformLabel" class="resSpan"></span>
+									</div>
+									<div class = "col-xs-12 col-sm-2 col-md-2 col-lg-3 ">
+										<span>Description</span>
+										<br>
+										<span id="podDetailLabel" class="resSpan"></span>
+									</div>
+							
+									
+								</div>
+									
+							</div>
+						</div>
+						
+						<div id = "pDaySection" >
+							<div class="row fLabel fields panelButtFull">
+								<div class = "col-xs-10 col-sm-2 col-md-2 col-lg-1 ">
+									<span>Date</span>
+									<input id="dayDate" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Day status</span>
+									<select id="dayWeather">
+										<option value="">Pick a day status</option>
+										<option value="No delays">No delays</option>
+										<option value="Awaiting Parts">Awaiting Parts</option>
+										<option value="Awaiting Materials">Awaiting Materials</option>
+										<option value="Access Malfunctions">Access Malfunctions</option>
+										<option value="Customer Delay">Customer Delay</option>
+										<option value="Customer Delay">Customer Production Day</option>
+										<option value="Fog">Fog</option>
+										<option value="High Winds">High Wind</option>
+										<option value="Low Winds">Low Wind</option>
+										<option value="Lightning">Lightning</option>
+										<option value="High/Low Temp">High/Low Temp</option>
+										<option value="High Humidity">High Humidity</option>
+										<option value="Ice">Ice</option>
+										<option value="On Going or In Progress">On Going or In Progress</option>
+										<option value="Rain">Rain</option>
+										<option value="Snow">Snow</option>
+										<option value="Site/Safety Delay">Site/Safety Delay</option>
+										<option value="Tooling/Parts/Material Missing">Tooling/Parts/Material Missing</option>
+										<option value="Tooling Malfunctions">Tooling Malfunctions</option>
+										
+									</select>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Project Plan of day</span>
+									<input id="dayPlan" type="text" class="form-control" placeholder=""/>
+								</div>
+								<!-- <div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 "> -->
+									<!-- <span>Added Cost</span> -->
+									<!-- <input id="dayAccess" type="text" class="form-control" placeholder=""/> -->
+								<!-- </div> -->
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Cost Order</span>
+									<input id="dayWO" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>Service Order</span>
+									<input id="daySO" type="text" class="form-control" placeholder=""/>
+								</div>
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-2 ">
+									<span>WBS</span>
+									<input id="dayWBS" type="text" class="form-control" placeholder=""/>
+								</div>
+								<!-- <div class = "col-xs-12 col-sm-2 col-md-2 col-lg-2 "> -->
+									<!-- <span>Techs</span> -->
+									<!-- <input id="dayTechs" type="text" class="form-control" placeholder="" maxlength="120"/> -->
+								<!-- </div> -->
+								<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-1 col-lg-offset-0 col-md-offset-0 ">
+									<br class="hidden-xs">
+									<button id="dayAddButton" onclick="addDay()">Add Day </button>
+								</div>
+								
+								
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+									<div id="pDaysTable" class="table" style="min-height: 0px;">
+										<div class="table-head">
+											<div class="column" data-label="Date">Date</div>
+											<div class="column" data-label="Day status">Day status</div>
+											<div class="column" data-label="Plan of day">Plan of day</div>
+											<div class="column" data-label="Cost order">Cost order</div>
+											<div class="column" data-label="Service order">Service order</div>
+											<div class="column" data-label="WBS">WBS</div>
+											<div class="column" data-label="Data">Data</div>
+										</div>
+									</div>
+								</div>
+							</div>
+										
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div id="contactDiv" class="abuseReportDiv">
+				
+				<div class="contactBox">
+					<img id="contactIcon" src='irsc/mainLogo2.png' class="contactIcon"/>
+					<br>
+					<input type="text" id="contactName" class="contactField1"/>
+					<input type="text" id="contactMail" class="contactField2"/>
+					<textarea type="text" id="contactMessage" class="abuseBox"></textarea>
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div id="sendContactButton" class="dualButtonPop" onclick="sendContact()"></div>
+					<div id="closeContactButton" class="dualButtonPop" onclick="hide_pop_form()"></div>
+				</div>
+				
+			</div>
+			
+			<div id="dayItemsBox" class="abuseReportDiv">
+				<div class="contactBox">
+					<!-- <img id="contactIcon" src='irsc/mainLogo2.png' class="timesIcon"/> -->
+					<!-- <br> -->
+					<div class="floatList">
+						<div id="techsHoursTable" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Responsible">
+								Responsible</div>
+								<div class="column" data-label="Name">Name</div>
+								<div class="column" data-label="Quote">Quote</div>
+								<div class="column" data-label="Executed">Executed</div>
+								<div class="column" data-label="Start hour">Start hour</div>
+								<div class="column" data-label="End hour">End hour</div>
+								<!-- <div class="column" data-label="Details">Tech plan of day</div> -->
+								<div class="column" data-label="Mob In/Out">Mob In/Out</div>
+								<div class="column" data-label="Details">Details</div>
+								<div class="column" data-label="Labor">Labor</div>
+								<div class="column" data-label="Details">Details</div>
+								<div class="column" data-label="Standby">Standby hours</div>
+								<div class="column" data-label="Details">Standby reasons</div>
+								<div class="column" data-label="NC">NC</div>
+								<div class="column" data-label="Details">Details</div>
+								<div class="column" data-label="Out of Scope">Out of Scope</div>
+								<div class="column" data-label="Details">Details</div>
+								<!-- <div class="column" data-label="WBS">WBS</div> -->
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<div id="accessHoursTable" class="table">
+						<div class="table-head">
+							<div class="column" data-label="Added Cost">
+							Added Cost</div>
+							<div class="column" data-label="Used">Used</div>
+							<div class="column" data-label="Cost order">Cost order</div>
+							<div class="column" data-label="Service order">Service order</div>
+							<div class="column" data-label="Unit">Unit</div>
+							<div class="column" data-label="Quote">Quote</div>
+							<div class="column" data-label="Executed">Executed</div>
+							
+						</div>
+					</div>
+					
+					<div class="floatList">
+						<div id="turbineHoursTable" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Name">Name</div>
+								<div class="column" data-label="Quote">Quote</div>
+								<div class="column" data-label="Executed">Executed</div>
+								<div class="column" data-label="Workorder">Workorder</div>
+								<div class="column" data-label="Service Order">Service Order</div>
+								<div class="column" data-label="Cost Order">Cost Order</div>
+								<div class="column" data-label="WBS">WBS</div>
+								<div class="column" data-label="Hours">Hours</div>
+								<div class="column" data-label="Status">Status</div>
+								<div class="column" data-label="Complete date">Complete date</div>
+								
+								<div class="column" data-label="File">File</div>
+							</div>
+						</div>
+					
+					</div>
+					
+					<!-- BLADES BLOCK -->
+					<div id="bladesBlockProgress" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderBoxFloat floatBladeBox" >
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<br>
+							<span id="bladeATit">-</span>
+							<!-- <input id="turbAsnP" type="text" class="form-control" placeholder=""/> -->
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Planed shells</b> Quote: <b id="psAQuote">-</b> Executed: <b id="psAExecuted">-</b></span>
+							<input id="turbAplanedShP" type="text" class="form-control " placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Preparation time</b> - Quote: <b id="ptAQuote">-</b> Executed: <b id="ptAExecuted">-</b></span>
+							<input id="turbAprepTimeP" type="text" class="form-control" placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Install time</b> - Quote: <b id="itAQuote">-</b> Executed: <b id="itAExecuted">-</b></span>
+							<input id="turbAinstTimeP" type="text" class="form-control" placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<br>
+							<span id="bladeBTit">-</span>
+							<!-- <input id="turbAsnP" type="text" class="form-control" placeholder=""/> -->
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Planed shells</b> Quote: <b id="psBQuote">-</b> Executed: <b id="psBExecuted">-</b></span>
+							<input id="turbBplanedShP" type="text" class="form-control " placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Preparation time</b> - Quote: <b id="ptBQuote">-</b> Executed: <b id="ptBExecuted">-</b></span>
+							<input id="turbBprepTimeP" type="text" class="form-control" placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Install time</b> - Quote: <b id="itBQuote">-</b> Executed: <b id="itBExecuted">-</b></span>
+							<input id="turbBinstTimeP" type="text" class="form-control" placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<br>
+							<span id="bladeCTit">-</span>
+							<!-- <input id="turbAsnP" type="text" class="form-control" placeholder=""/> -->
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Planed shells</b> Quote: <b id="psCQuote">-</b> Executed: <b id="psCExecuted">-</b></span>
+							<input id="turbCplanedShP" type="text" class="form-control " placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Preparation time</b> - Quote: <b id="ptCQuote">-</b> Executed: <b id="ptCExecuted">-</b></span>
+							<input id="turbCprepTimeP" type="text" class="form-control" placeholder="" onblur="updateBlades(this)"/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-3 ">
+							<span><b>Install time</b> - Quote: <b id="itCQuote">-</b> Executed: <b id="itCExecuted">-</b></span>
+							<input id="turbCinstTimeP" type="text" class="form-control" placeholder="" onblur="updateBlades(this)"/>
+						</div>
+
+						
+
+					</div>
+					
+					<span id="mandatoryTitle" class="mandatoryTitle">Mandatory field</span> 
+					
+					<!-- DAY OBS BLOCK -->
+					<div id="dayObsBlock" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderBoxFloat floatBladeBox" >
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-6 ">
+							<br>
+							<span id="">Safety Observations: </span>
+							<input id="safetyObsField" onblur="updateObs(this)" type="text" class="form-control" placeholder=""/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-6 ">
+							<br>
+							<span id="">Challenges or Quality Issues: </span>
+							<input id="challengeObsField" onblur="updateObs(this)" type="text" class="form-control" placeholder=""/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-6 ">
+							<br>
+							<span id="">Tool/Material Issues: </span>
+							<input id="toolObsField" onblur="updateObs(this)" type="text" class="form-control" placeholder=""/>
+						</div>
+						
+						
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-6 ">
+							<br>
+							<span id="">PPE Safety Inspection Completed  (any observations): </span>
+							<input id="ppeObsField" onblur="updateObs(this)" type="text" class="form-control" placeholder=""/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-6 ">
+							<br>
+							<span id="">General Project Update: </span>
+							<input id="generalObsField" onblur="updateObs(this)" type="text" class="form-control" placeholder=""/>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-2 col-md-3 col-lg-6 ">
+							<br>
+							<span id="">Technical Issues: </span>
+							<input id="techObsField" onblur="updateObs(this)" type="text" class="form-control" placeholder=""/>
+						</div>
+						
+					</div>
+					
+					
+					
+					<textarea type="text" id="dayObs" class="abuseBox" placeholder="General comments field" onblur="saveObs()"></textarea>
+					
+					
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div id="closeHoursButton" class="dualButtonPopD" onclick="hide_pop_form()">Close</div>
+					
+				</div>
+				
+			</div>
+			
+			<div id="weekReportPop" class="abuseReportDiv">
+				<div class="contactBox noPads">
+					<!-- <img id="contactIcon" src='irsc/mainLogo2.png' class="timesIcon"/> -->
+					<!-- <br> -->
+					<div class="floatList2 specialTable">
+						<div id="weekHoursTable" class="table ">
+							<div class="table-head">
+								<div class="column customHead" data-label="Responsible">
+								Responsible</div>
+								<div class="column customHead" data-label="Name">Name</div>
+								<!-- <div class="column customHead" data-label="Quote">Quote</div> -->
+								<!-- <div class="column customHead" data-label="Executed">Executed</div> -->
+								<div class="column customHeadDay" data-label="Monday">
+									<span class="floatTitle">
+										Monday
+										<span id="dd0" class="dayDate">2200-10-10</span>
+									</span>
+									
+									LAB
+								</div>
+								<div class="column customHeadDay" data-label="Monday">STB</div>
+								<div class="column customHeadDay" data-label="Monday">MOB</div>
+								<div class="column customHeadDay" data-label="Monday">NC</div>
+								<div class="column customHeadDay" data-label="Monday">OSC</div>
+								
+								<div class="column customHeadDay" data-label="Monday">
+									<span class="floatTitle">
+										Tuesday
+										<span id="dd1" class="dayDate">2200-10-10</span>
+									</span>
+									LAB
+								</div>
+								<div class="column customHeadDay" data-label="Monday">STB</div>
+								<div class="column customHeadDay" data-label="Monday">MOB</div>
+								<div class="column customHeadDay" data-label="Monday">NC</div>
+								<div class="column customHeadDay" data-label="Monday">OSC</div>
+								
+								<div class="column customHeadDay" data-label="Monday">
+									<span class="floatTitle">
+										Wednesday
+										<span id="dd2" class="dayDate">2200-10-10</span>
+									</span>
+									LAB
+								</div>
+								<div class="column customHeadDay" data-label="Monday">STB</div>
+								<div class="column customHeadDay" data-label="Monday">MOB</div>
+								<div class="column customHeadDay" data-label="Monday">NC</div>
+								<div class="column customHeadDay" data-label="Monday">OSC</div>
+								
+								<div class="column customHeadDay" data-label="Monday">
+									<span class="floatTitle">
+										Thursday
+										<span id="dd3" class="dayDate">2200-10-10</span>
+									</span>
+									LAB
+								</div>
+								<div class="column customHeadDay" data-label="Monday">STB</div>
+								<div class="column customHeadDay" data-label="Monday">MOB</div>
+								<div class="column customHeadDay" data-label="Monday">NC</div>
+								<div class="column customHeadDay" data-label="Monday">OSC</div>
+								
+								<div class="column customHeadDay" data-label="Monday">
+									<span class="floatTitle">
+										Friday
+										<span id="dd4" class="dayDate">2200-10-10</span>
+									</span>
+									LAB
+								</div>
+								<div class="column customHeadDay" data-label="Monday">STB</div>
+								<div class="column customHeadDay" data-label="Monday">MOB</div>
+								<div class="column customHeadDay" data-label="Monday">NC</div>
+								<div class="column customHeadDay" data-label="Monday">OSC</div>
+								
+								<div class="column customHeadDay" data-label="Monday">
+									<span class="floatTitle">
+										Saturday
+										<span id="dd5" class="dayDate">2200-10-10</span>
+									</span>
+									LAB
+								</div>
+								<div class="column customHeadDay" data-label="Monday">STB</div>
+								<div class="column customHeadDay" data-label="Monday">MOB</div>
+								<div class="column customHeadDay" data-label="Monday">NC</div>
+								<div class="column customHeadDay" data-label="Monday">OSC</div>
+								
+								<div class="column customHeadDay" data-label="Monday">
+									<span class="floatTitle">
+										Sunday
+										<span id="dd6" class="dayDate">2200-10-10</span>
+									</span>
+									LAB
+								</div>
+								<div class="column customHeadDay" data-label="Monday">STB</div>
+								<div class="column customHeadDay" data-label="Monday">MOB</div>
+								<div class="column customHeadDay" data-label="Monday">NC</div>
+								<div class="column customHeadDay" data-label="Monday">OSC</div>
+								<div class="column customHeadDay" data-label="Monday">Total LAB</div>
+								<div class="column customHeadDay" data-label="Monday">Total STB</div>
+								<div class="column customHeadDay" data-label="Monday">Total MOB</div>
+								<div class="column customHeadDay" data-label="Monday">Total NC</div>
+								<div class="column customHeadDay" data-label="Monday">Total OSC</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="dualButtonsDiv">
+					<div class="dualButtonPopD" onclick="hide_pop_form()">Close</div>
+				</div>
+				
+			</div>
+			
+			<div id="setSchePop" class="abuseReportDiv">
+				
+				<div class="contactBox">
+
+					<input id="schSD"  type="text" placeholder="Start Date" class="dateRange"/>
+					<input id="schED"  type="text" placeholder="End Date" class="dateRange"/>
+					<select id="schType"  type="text"  class="dateRange">
+						<option value="">Select type</option>
+						<option value="HOL">HOLIDAY</option>
+						<option value="NPR">NON PRODUCTIVE</option>
+						<option value="OTH">OTHER</option>
+						<option value="PRJ">PROJECT</option>
+						<option value="PTO">PTO</option>
+						<option value="R&R">R&R</option>
+						<option value="TRN">TRAINING</option>
+						<option value="TVL">TRAVEL DAY</option>
+					</select>
+					<textarea type="text" id="schObs" class="abuseBox2" placeholder="Event details" ></textarea>
+					
+				</div>
+				
+
+				<div class="sessionsBox ">
+					
+					<span class="sessionsTit">Day sessions</span>
+					<hr>
+					<div class="container row fields">
+							
+						<div class="col-lg-2">
+						
+							<select id="sessType"  type="text"  >
+								<option value="">Select type</option>
+								<option value="HOL">HOLIDAY</option>
+								<option value="NPR">NON PRODUCTIVE</option>
+								<option value="OTH">OTHER</option>
+								<option value="PRJ">PROJECT</option>
+								<option value="PTO">PTO</option>
+								<option value="R&R">R&R</option>
+								<option value="TRN">TRAINING</option>
+								<option value="TVL">TRAVEL DAY</option>
+							</select>
+							
+						</div>
+						
+						<div class="col-lg-2 overTop">
+						
+							<input id="sessCO"  type="text" placeholder="Cost order" />
+						
+						</div>
+						
+						<div class="col-lg-2 overTop">
+						
+							<input id="sessSO"  type="text" placeholder="Service order" />
+						
+						</div>
+						
+						<div class="col-lg-2 overTop">
+						
+							<input id="sessWBS"  type="text" placeholder="WBS element" />
+						
+						</div>
+						
+						<div class="col-lg-1">
+						
+							<select id="sessIni">
+								<option value="">Start hour</option>
+								
+								<option value="0">00:00 am</option>
+								<option value="0.25">00:15 am</option>
+								<option value="0.5">00:30 am</option>
+								<option value="0.75">00:45 am</option>
+								
+								<option value="1">01:00 am</option>
+								<option value="1.25">01:15 am</option>
+								<option value="1.5">01:30 am</option>
+								<option value="1.75">01:45 am</option>
+								
+								<option value="2">02:00 am</option>
+								<option value="2.25">02:15 am</option>
+								<option value="2.5">02:30 am</option>
+								<option value="2.75">02:45 am</option>
+								
+								<option value="3">03:00 am</option>
+								<option value="3.25">03:15 am</option>
+								<option value="3.5">03:00 am</option>
+								<option value="3.75">03:45 am</option>
+								
+								<option value="4">04:00 am</option>
+								<option value="4.25">04:15 am</option>
+								<option value="4.5">04:30 am</option>
+								<option value="4.75">04:45 am</option>
+								
+								<option value="5">05:00 am</option>
+								<option value="5.25">05:15 am</option>
+								<option value="5.5">05:30 am</option>
+								<option value="5.75">05:45 am</option>
+								
+								<option value="6">06:00 am</option>
+								<option value="6.25">06:15 am</option>
+								<option value="6.5">06:30 am</option>
+								<option value="6.75">06:45 am</option>
+								
+								<option value="7">07:00 am</option>
+								<option value="7.25">07:15 am</option>
+								<option value="7.5">07:30 am</option>
+								<option value="7.75">07:45 am</option>
+								
+								<option value="8">08:00 am</option>
+								<option value="8.25">08:15 am</option>
+								<option value="8.5">08:30 am</option>
+								<option value="8.75">08:45 am</option>
+								
+								<option value="9">09:00 am</option>
+								<option value="9.25">09:15 am</option>
+								<option value="9.5">09:30 am</option>
+								<option value="9.75">09:45 am</option>
+								
+								<option value="10">10:00 am</option>
+								<option value="10.25">10:15 am</option>
+								<option value="10.5">10:30 am</option>
+								<option value="10.75">10:45 am</option>
+								
+								<option value="11">11:00 am</option>
+								<option value="11.25">11:15 am</option>
+								<option value="11.5">11:30 am</option>
+								<option value="11.75">11:45 am</option>
+								
+								<option value="12">12:00 m</option>
+								<option value="12.25">12:15 m</option>
+								<option value="12.5">12:30 m</option>
+								<option value="12.75">12:45 m</option>
+								
+								<option value="13">01:00 pm</option>
+								<option value="13.25">01:15 pm</option>
+								<option value="13.5">01:30 pm</option>
+								<option value="13.75">01:45 pm</option>
+								
+								<option value="14">02:00 pm</option>
+								<option value="14.25">02:15 pm</option>
+								<option value="14.5">02:30 pm</option>
+								<option value="14.75">02:45 pm</option>
+								
+								<option value="15">03:00 pm</option>
+								<option value="15.25">03:15 pm</option>
+								<option value="15.5">03:30 pm</option>
+								<option value="15.75">03:45 pm</option>
+								
+								<option value="16">04:00 pm</option>
+								<option value="16.25">04:15 pm</option>
+								<option value="16.5">04:30 pm</option>
+								<option value="16.75">04:45 pm</option>
+								
+								<option value="17">05:00 pm</option>
+								<option value="17.25">05:15 pm</option>
+								<option value="17.5">05:30 pm</option>
+								<option value="17.75">05:45 pm</option>
+								
+								<option value="18">06:00 pm</option>
+								<option value="18.25">06:15 pm</option>
+								<option value="18.5">06:30 pm</option>
+								<option value="18.75">06:45 pm</option>
+								
+								<option value="19">07:00 pm</option>
+								<option value="19.25">07:15 pm</option>
+								<option value="19.5">07:30 pm</option>
+								<option value="19.75">07:45 pm</option>
+								
+								<option value="20">08:00 pm</option>
+								<option value="20.25">08:15 pm</option>
+								<option value="20.5">08:30 pm</option>
+								<option value="20.75">08:45 pm</option>
+								
+								<option value="21">09:00 pm</option>
+								<option value="21.25">09:15 pm</option>
+								<option value="21.5">09:30 pm</option>
+								<option value="21.75">09:45 pm</option>
+								
+								<option value="22">10:00 pm</option>
+								<option value="22.25">10:15 pm</option>
+								<option value="22.5">10:30 pm</option>
+								<option value="22.75">10:45 pm</option>
+								
+								<option value="23">11:00 pm</option>
+								<option value="23.25">11:15 pm</option>
+								<option value="23.5">11:30 pm</option>
+								<option value="23.75">11:45 pm</option>
+								
+							</select>
+						
+						</div>
+						
+						<div class="col-lg-1">
+						
+							<select id="sessEnd">
+							
+								<option value="">End hour</option>
+								
+								<option value="0">00:00 am</option>
+								<option value="0.25">00:15 am</option>
+								<option value="0.5">00:30 am</option>
+								<option value="0.75">00:45 am</option>
+								
+								<option value="1">01:00 am</option>
+								<option value="1.25">01:15 am</option>
+								<option value="1.5">01:30 am</option>
+								<option value="1.75">01:45 am</option>
+								
+								<option value="2">02:00 am</option>
+								<option value="2.25">02:15 am</option>
+								<option value="2.5">02:30 am</option>
+								<option value="2.75">02:45 am</option>
+								
+								<option value="3">03:00 am</option>
+								<option value="3.25">03:15 am</option>
+								<option value="3.5">03:00 am</option>
+								<option value="3.75">03:45 am</option>
+								
+								<option value="4">04:00 am</option>
+								<option value="4.25">04:15 am</option>
+								<option value="4.5">04:30 am</option>
+								<option value="4.75">04:45 am</option>
+								
+								<option value="5">05:00 am</option>
+								<option value="5.25">05:15 am</option>
+								<option value="5.5">05:30 am</option>
+								<option value="5.75">05:45 am</option>
+								
+								<option value="6">06:00 am</option>
+								<option value="6.25">06:15 am</option>
+								<option value="6.5">06:30 am</option>
+								<option value="6.75">06:45 am</option>
+								
+								<option value="7">07:00 am</option>
+								<option value="7.25">07:15 am</option>
+								<option value="7.5">07:30 am</option>
+								<option value="7.75">07:45 am</option>
+								
+								<option value="8">08:00 am</option>
+								<option value="8.25">08:15 am</option>
+								<option value="8.5">08:30 am</option>
+								<option value="8.75">08:45 am</option>
+								
+								<option value="9">09:00 am</option>
+								<option value="9.25">09:15 am</option>
+								<option value="9.5">09:30 am</option>
+								<option value="9.75">09:45 am</option>
+								
+								<option value="10">10:00 am</option>
+								<option value="10.25">10:15 am</option>
+								<option value="10.5">10:30 am</option>
+								<option value="10.75">10:45 am</option>
+								
+								<option value="11">11:00 am</option>
+								<option value="11.25">11:15 am</option>
+								<option value="11.5">11:30 am</option>
+								<option value="11.75">11:45 am</option>
+								
+								<option value="12">12:00 m</option>
+								<option value="12.25">12:15 m</option>
+								<option value="12.5">12:30 m</option>
+								<option value="12.75">12:45 m</option>
+								
+								<option value="13">01:00 pm</option>
+								<option value="13.25">01:15 pm</option>
+								<option value="13.5">01:30 pm</option>
+								<option value="13.75">01:45 pm</option>
+								
+								<option value="14">02:00 pm</option>
+								<option value="14.25">02:15 pm</option>
+								<option value="14.5">02:30 pm</option>
+								<option value="14.75">02:45 pm</option>
+								
+								<option value="15">03:00 pm</option>
+								<option value="15.25">03:15 pm</option>
+								<option value="15.5">03:30 pm</option>
+								<option value="15.75">03:45 pm</option>
+								
+								<option value="16">04:00 pm</option>
+								<option value="16.25">04:15 pm</option>
+								<option value="16.5">04:30 pm</option>
+								<option value="16.75">04:45 pm</option>
+								
+								<option value="17">05:00 pm</option>
+								<option value="17.25">05:15 pm</option>
+								<option value="17.5">05:30 pm</option>
+								<option value="17.75">05:45 pm</option>
+								
+								<option value="18">06:00 pm</option>
+								<option value="18.25">06:15 pm</option>
+								<option value="18.5">06:30 pm</option>
+								<option value="18.75">06:45 pm</option>
+								
+								<option value="19">07:00 pm</option>
+								<option value="19.25">07:15 pm</option>
+								<option value="19.5">07:30 pm</option>
+								<option value="19.75">07:45 pm</option>
+								
+								<option value="20">08:00 pm</option>
+								<option value="20.25">08:15 pm</option>
+								<option value="20.5">08:30 pm</option>
+								<option value="20.75">08:45 pm</option>
+								
+								<option value="21">09:00 pm</option>
+								<option value="21.25">09:15 pm</option>
+								<option value="21.5">09:30 pm</option>
+								<option value="21.75">09:45 pm</option>
+								
+								<option value="22">10:00 pm</option>
+								<option value="22.25">10:15 pm</option>
+								<option value="22.5">10:30 pm</option>
+								<option value="22.75">10:45 pm</option>
+								
+								<option value="23">11:00 pm</option>
+								<option value="23.25">11:15 pm</option>
+								<option value="23.5">11:30 pm</option>
+								<option value="23.75">11:45 pm</option>
+								
+							</select>
+						
+						</div>
+						
+						<div class="col-lg-2">
+						
+							<button class="endRowButton" onclick="addSession()">Add session</button>
+						
+						</div>
+					</div>
+					
+					<div id="sessionsTable" class="table">
+						<div class="table-head">
+								<div class="column" data-label="Type">Type</div>
+								<div class="column" data-label="Cost Order">Cost Order</div>
+								<div class="column" data-label="Service Order">Service Order</div>
+								<div class="column" data-label="WBS element">WBS element</div>
+								<div class="column" data-label="Start hour">Start hour</div>
+								<div class="column" data-label="End hour">End hour</div>
+								<div class="column" data-label="Time">Time</div>
+								<div class="column" data-label="Delete"></div>
+						</div>
+					</div>
+					
+					
+					
+					
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div class="dualButtonPopSh" onclick="saveSch()">Save</div>
+					<div class="dualButtonPopSh" onclick="hide_pop_form()">Close</div>
+					
+				</div>
+				
+			</div>
+			
+
+			
+			<div id="subReqPop" class="abuseReportDiv">
+				
+				<div class="reqStoryBox ">
+					
+					<div class="row fields">
+							
+						<div class="col-lg-2 overTop">
+							<input id="subReqDate"  type="text" placeholder="Date" />
+						</div>
+						
+						<div class="col-lg-4 overTop">
+							<input id="subReqComments"  type="text" placeholder="Comments" />
+						</div>
+						
+						<div class = "col-xs-12 col-sm-6 col-md-2 col-lg-2 ">
+							<select id="subReqSpent"></select>
+						</div>
+						
+						<div class = "col-xs-12 col-sm-6 col-md-6 col-lg-2 ">
+							<select id="subReqStatus">
+								<option value = "Pending">Pending</option>
+								<option value = "Progress">Progress</option>
+								<option value = "Completed">Completed</option>
+							</select>
+						</div>
+
+						
+						<div class="col-lg-2">
+							<button class="endRowButton" onclick="additionalSave(this)">Add request</button>
+						</div>
+						
+					</div>
+					
+					<div id="subRequestTable" class="table">
+						<div class="table-head">
+							<div class="column" data-label="Code">Code</div>
+							<div class="column" data-label="Date">Date</div>
+							<div class="column" data-label="Comments">Comments </div>
+							<div class="column" data-label="Time spent">Time spent</div>
+							<div class="column" data-label="State">State</div>
+							<div class="column" data-label="Delete">Delete</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div class="dualButtonPopD" onclick="hide_pop_form()">Close</div>
+					
+				</div>
+				
+			</div>
+			
+
+			
+			<div id="lockDiv" class="abuseReportDiv">
+				
+				<div class="contactBox">
+					<img id="contactIcon" src='irsc/mainLogo2.png' class="contactIcon"/>
+					<br>
+					<select id="lockState" class="contactField1">
+						<option value="3">Won</option>
+						<option value="4">Lost</option>
+					</select>
+					<input type="text" class = "contactField1" id="closeDateQuote" value=""/>
+					<textarea type="text" id="LockComments" class="abuseBox"placeholder="Lock Comments"></textarea>
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div class="dualButtonPop" onclick="lockOrderNow()">Lock now</div>
+					<div class="dualButtonPop" onclick="hide_pop_form()">Cancel</div>
+				</div>
+				
+			</div>
+			
+			<div id="contactDivOrder" class="abuseReportDiv">
+				
+				<div class="contactBox">
+					<img id="contactIcon" src='irsc/mainLogo2.png' class="contactIcon"/>
+					<br>
+					<select id="contactRecipient" class="contactField1"></select>
+					<textarea type="text" id="contactMessageOrder" class="abuseBox"></textarea>
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div id="" class="dualButtonPop" onclick="sendContactOrder()">Send</div>
+					<div id="" class="dualButtonPop" onclick="hide_pop_form()">Cancel</div>
+				</div>
+				
+			</div>
+			
+			<div id="windfarmPickerBox" class="abuseReportDiv">
+				
+				<div class="contactBox">
+					<select id="areaPicker" class="contactField1" onchange="pickedLevelWF('1')"></select>
+					<select id="countryPicker" class="contactField1" onchange="pickedLevelWF('2')"></select>
+					<select id="districtPicker" class="contactField1" onchange="pickedLevelWF('3')"></select>
+					<select id="windfarmPicker" class="contactField1"></select>
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div id="" class="dualButtonPop" onclick="hide_pop_form()">Cancel</div>
+					<div id="" class="dualButtonPop" onclick="setWindFarm()">Select Windfarm</div>
+				</div>
+				
+			</div>
+			
+			<div id="platformPickerBox" class="abuseReportDiv">
+				
+				<div class="contactBox">
+					<select id="tPlatformPicker" class="contactField1" onchange="pickedLevelPL('1')"></select>
+					<select id="tSeriePicker" class="contactField1" onchange="pickedLevelPL('2')"></select>
+					<select id="tModelPicker" class="contactField1"></select>
+				</div>
+				
+				<div class="dualButtonsDiv">
+					<div id="" class="dualButtonPop" onclick="hide_pop_form()">Cancel</div>
+					<div id="" class="dualButtonPop" onclick="setPlatform()">Select Platform</div>
+				</div>
+				
+			</div>
+			
+			<div id="budgetFileLoad">
+			
+			<form action="loadBudget.php" method="post" enctype="multipart/form-data" target="upload_target" >
+			<!-- <form action="http://192.168.0.60:9090/www/quoting/loadBudget.php" method="post" enctype="multipart/form-data" target="upload_target" > -->
+				<input id="budgetSelectorOrder" name="myfile" type="file" placeholder="Imagen" class="fileBox"/>
+				<input type="submit" id="upButtonBudget" name="submitBtn" value="Upload" class="hiddenSubmit" />
+			</form>
+			
+			<form action="loadDay.php" method="post" enctype="multipart/form-data" target="upload_target" >
+			<!-- <form action="http://192.168.0.60:9090/www/quoting/loadDay.php" method="post" enctype="multipart/form-data" target="upload_target" > -->
+				<input id="budgetSelectorDay" name="myfile" type="file" placeholder="Imagen" class="fileBox"/>
+				<input type="submit" id="upButtonDay" name="submitBtn" value="Upload" class="hiddenSubmit" />
+			</form>
+			
+			<form action="loadReq.php" method="post" enctype="multipart/form-data" target="upload_target" >
+			<!-- <form action="http://192.168.0.60:9090/www/quoting/loadReq.php" method="post" enctype="multipart/form-data" target="upload_target" > -->
+				<input id="budgetSelectorReq" name="myfile" type="file" placeholder="Imagen" class="fileBox"/>
+				<input type="submit" id="upButtonReq" name="submitBtn" value="Upload" class="hiddenSubmit" />
+			</form>
+			
+			<form action="loadTurbine.php" method="post" enctype="multipart/form-data" target="upload_target" >
+			<!-- <form action="http://192.168.0.60:9090/www/quoting/loadTurbine.php" method="post" enctype="multipart/form-data" target="upload_target" > -->
+				<input id="budgetSelectorTurbine" name="myfile" type="file" placeholder="Imagen" class="fileBox"/>
+				<input type="submit" id="upButtonTurbine" name="submitBtn" value="Upload" class="hiddenSubmit" />
+			</form>
+			
+			<form action="loadTr.php" method="post" enctype="multipart/form-data" target="upload_target" >
+			<!-- <form action="http://192.168.0.60:9090/www/quoting/loadTr.php" method="post" enctype="multipart/form-data" target="upload_target" > -->
+				<input id="budgetSelectorTr" name="myfile" type="file" placeholder="Imagen" class="fileBox"/>
+				<input type="submit" id="upButtonTr" name="submitBtn" value="Upload" class="hiddenSubmit" />
+			</form>
+			
+			<iframe id="upload_target" name="upload_target" src="" style="display: block; background: #red; width:100%;height:200;border:2px solid #fff;"></iframe>    
+			
+			<img src="irsc/mainLogo.png"/>
+			<img src="irsc/mainLogo2.png"/>
+			<img src="irsc/infoGeneral.png"/>
+			<img src="irsc/exit.png"/>
+		</div>
+		
+		<!-- Custom JS -->
+			<script src="js/jsLoader.js"></script>
+		<!-- Custom JS -->
+		
+	</body>
+
+</html>

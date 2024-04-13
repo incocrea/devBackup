@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mundo Brazil Cocoa</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- <script src="js/jquery-1.12.0.min.js"></script> -->
+	<script src='js/jquery-3.3.1.min.js'></script>
+	
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+	
+	<!-- Croppie image -->
+	<script src = 'libs/croppie/croppie.js'></script>
+	<link href='libs/croppie/croppie.css' rel='stylesheet'>
+	
+	<link href="css/main.css" rel="stylesheet">
+	
+	<!-- Third Party CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+	
+	<!-- Mimity CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+	
+	<script src="libs/locations/locationsCO.js"></script>
+	
+	<script src = "libs/cb/cropbox-min.js"></script>
+	
+	<script src = "libs/ko/knockout-3.4.2.js"></script>
+	<script type="text/javascript" src="js/aes.js"></script>
+	<script type="text/javascript" src="js/aes-json-format.js"></script>
+	<script src = "libs/modal/modal.js"></script>
+	<script src="js/main.js"></script>
+	<script src = "libs/modal/modal.js"></script>
+	<link href="libs/modal/modal.css" rel="stylesheet"/>
+	<link href="libs/dp/jquery.datetimepicker.css" rel="stylesheet"/>
+	<script src="libs/dp/build/jquery.datetimepicker.full.min.js"></script>
+	
+	
+
+  </head>
+
+  <body id="page-top">
+			
+		<div id="loginArea" class="loginArea">
+							
+			<div  id="loginBox" class="col-md-12 col-lg-12" >
+			
+				<div class="loginBox">
+						
+					<div id="loginScreen" class="loginScreen">
+						
+						<img src="irsc/logombcB.png"/ class="logoHome">
+						
+						<div id="loginTitle1" class="loginTitle1"></div>
+							
+						<div id="loginTitle2" class="loginTitle2"></div>
+
+						<div id="accessBox" class="centField fields">
+								
+								<input type="text" class = "centField" id="userLoginBox" value=""/>
+								<input type="password" class = "centField" id="userPassBox" value=""/>
+								<div id="regButton" class="loginButton" onclick="openRegForm()"></div>
+								<div id="loginButton" class="loginButton" onclick="login()"></div>
+								
+								<br>
+								<span id="pssRecoverLink" onclick="pssRec()" class="pssRecLink"></span>
+
+								<span id="backHome" onclick="backHome()" class="backHome"></span>
+								
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	
+		<div id="mainContainerWeb" class="mainContainerWeb">
+
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+			
+			  <a href="#sHome" class="navbar-brand js-scroll-trigger" onclick="clearCa()">
+				<span class="d-block d-lg-none"><img src="irsc/logombc.png" class="movilogo"/></span>
+				
+				<div class="d-none d-lg-block">
+				  
+				  <div class="ppicbox">
+					<img id="" class="smalogo" src="irsc/smalogo.png" alt="">
+					<br>
+					<!-- <img id="imageSample" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="ppics/dummy.jpg" alt=""> -->
+					
+					<!-- <img src="irsc/profileIcon.png" class="edIcon1" onclick="openPicSelector()" /> -->
+
+				  </div>
+
+				</div>
+			  
+			  </a>
+
+			  
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  
+				<ul id = "mainMenu" class="navbar-nav"></ul>
+				
+			  </div>
+			  
+			</nav>
+
+		<div class="containeSections" id="sHome">
+				
+			<div class ="row mainHeader text-center" >
+				<div class="col-xs-12 col-lg-6">
+					<span id="welcometit" class="welcometit"></span>						
+				</div>
+				<div class="col-lg-6 col-xs-12">
+					<span id="actualCoins" class="actualCoins"></span>	
+				</div>
+			
+			</div>
+				
+			<section class="resume-section p-3 p-lg-5 d-column" >
+
+				
+				<div class="introText">
+					<h3>¡Estas en el Mundo Brazil Cocoa!</h3>Un portal lleno de beneficios que podrás adquirir usando Brazil Coins, las monedas especiales de nuestra marca.
+
+				</div>
+				
+				<div class="homeImageBox">
+					<img src="irsc/hImg.jpg"/>
+				</div>
+
+
+			</section>
+			
+			<section id="sPromo" class="resume-section p-3 p-lg-5 " >
+
+				<span   class="sectionTitlePromo"><img src="irsc/secTitlePromo.png"/></span>
+				<div class="promoImageBox">
+					<img id="promoBanner" src="irsc/hImg.jpg"/>
+				</div>
+				
+				<div class="row">
+					<span id="pInfo" class="promoDetail"></span>
+					<br>
+					<span id="pCons" class="promoDetailConds" onclick="showPconds(this)">Mecánica del concurso y condiciones</span>
+
+				</div>
+				
+				<div class="row promoBg">
+					<div class=" introTextOther col-xs-12 col-lg-4 -col-md-4 col-sm-12">	
+						<div class="row codeBox">
+							<div class = "col-xs-12 col-lg-6 -col-md-6 col-sm-12">Inserta código</div>
+							<div class = "col-xs-12 col-lg-6 -col-md-6 col-sm-12"><input type="text" id="pcodeInput"/><img src="../bcadmin/irsc/buyCoins.png" title="Ingresar código" class="insertCodeIcon" onclick="insertPromoCode()"></div>
+							
+						</div>
+					</div>
+
+					<div class=" introTextOther col-xs-12 col-lg-4 -col-md-4 col-sm-12">	
+						<div class="row codeBox">
+								<div class = "col-12">Mis puntos: <span id="promoScore"></span></div>
+						</div>
+					</div>
+					
+					<div class=" introTextOther col-xs-12 col-lg-4 -col-md-4 col-sm-12">	
+						<div class="row codeBox">
+								<div class = "col-12" onclick = "showRanking()">Ver ranking</div>
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+			
+			<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sControl">
+				<span class="sectionTitle"><img src="irsc/secTitleControl.png"/></span>
+				
+				<div class="fullSec col-lg-12 fLabel fields panelButtFull" >
+
+					<h5>Módulo Administrativo</h5>
+
+					<div class="row panelButtFull" >
+						
+						<div class="col-lg-3">
+							<br class="hidden-xs">
+							<button onclick="pickMoveMode('1')">Venta servicios</button>
+						</div>
+						<div class="col-lg-3">
+							<br class="hidden-xs">
+							<button onclick="pickMoveMode('2')">Venta Productos</button>
+						</div>
+						<div class="col-lg-3">
+							<br class="hidden-xs">
+							<button onclick="pickMoveMode('3')">Gastos de caja</button>
+						</div>
+						<div class="col-lg-3">
+							<br class="hidden-xs">
+							<button onclick="pickMoveMode('4')">Fichas técnicas</button>
+						</div>
+						
+						<div class="col-lg-12">
+							<hr>
+							<span id="moveTile">Control venta servicios</span>
+							<hr>
+						</div>
+						
+						
+						<div id="serviceSale" class="row col-lg-12">
+							<div class="col-lg-2">
+								<span># Celular</span>
+								<input type="text" id="scCell" placeholder="# Celular" onblur="getCdata(this.value)">
+									
+								</select>
+							</div>
+
+							<div class="col-lg-2">
+								<span>Nombre</span>
+								<input type="text" id="scname" placeholder="Nombre">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Email</span>
+								<input type="text" id="scmail" placeholder="Email">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Servicio</span>
+								<select id="scservice" onchange="setActualPoints(this.value)"></select>
+							</div>
+
+							<div class="col-lg-2">
+								<span>Estilista</span>
+								<br>
+								<select class ="shortField1" id="scpro" />
+								<input class = "shortField2" type="text" id="scpercentage" placeholder="%">
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Valor</span>
+								<input type="text" id="scprice" placeholder="Valor servicio">
+							</div>
+							<div class="col-lg-8">
+								<span>Observaciones</span>
+								<input type="text" id="scobs" placeholder="Observaciones">
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Bonificación</span>
+								<select id="scBonus">
+									<option value="0">No</option>
+									<option value="1">Si</option>
+								</select>
+							</div>
+							
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button id = "saveSaleB1" onclick="saveSale()">Guardar</button>
+							</div>
+						</div>
+						
+						<div id="productSale" class="row col-lg-12" style="display: none;">
+							<div class="col-lg-6">
+								<span>Productos</span>
+								<input type="text" id="scproduct" placeholder="Producto">
+							</div>
+							<div class="col-lg-2">
+								<span>Cantidad</span>
+								<input type="text" id="scppqty" placeholder="Cantidad productos">
+							</div>
+							<div class="col-lg-2">
+								<span>Valor</span>
+								<input type="text" id="scpprice" placeholder="Valor productos">
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Bonificación</span>
+								<select id="prBonus">
+									<option value="0">No</option>
+									<option value="1">Si</option>
+								</select>
+							</div>
+							
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button  id = "saveSaleB2" onclick="saveSale()">Guardar</button>
+							</div>
+						</div>
+						
+						<div id="boxSale" class="row col-lg-12" style="display: none;">
+							<div class="col-lg-5">
+								<span>Concepto del gasto</span>
+								<input type="text" id="spendDet" placeholder="Producto">
+							</div>
+							<div class="col-lg-5">
+								<span>Valor gasto</span>
+								<input type="text" id="spendPrice" placeholder="Valor gasto">
+							</div>
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button  id = "saveSaleB3" onclick="saveSale()">Guardar</button>
+							</div>
+						</div>
+						
+						<div id="statesSale" class="row col-lg-12" style="display: none;">
+							
+							<div class="col-lg-2">
+								<span># Celular</span>
+								<input type="text" id="stcCell" placeholder="# Celular" onblur="getCdata(this.value)">
+									
+								</select>
+							</div>
+
+							<div class="col-lg-2">
+								<span>Nombre</span>
+								<input type="text" id="stcname" placeholder="Nombre">
+							</div>
+
+							<div class="col-lg-2">
+								<span>Email</span>
+								<input type="text" id="stcmail" placeholder="Email">
+							</div>
+							
+							<div class="col-lg-2">
+								<span>Servicio</span>
+								<select id="stcservice" ></select>
+							</div>
+							
+							<div class="col-lg-4">
+								<span>Descripción Cabello</span>
+								<input type="text" id="stcdesc" placeholder="Descripción cabello">
+							</div>
+							
+							<div class="col-lg-10">
+								<span>Observaciones</span>
+								<input type="text" id="stcobs" placeholder="Observaciones">
+							</div>
+
+							
+							
+							<div class="col-lg-2">
+								<br class="hidden-xs">
+								<button  id = "saveSaleB4" onclick="saveSale()">Guardar</button>
+							</div>
+						</div>
+						
+
+					</div>
+
+					<hr>
+
+					<h5>Listado de movimientos </h5>
+
+					<div>
+						<div id = "providerSearchBox">
+
+							<div class="row fLabel fields panelButtFull">
+							
+								<div id="cellBoxF" class = "col-lg-2">
+									<span># Celular</span>
+									<input  id="fscCell" type="text" placeholder="# Celular"/>
+								</div>
+								
+								<div id="servBoxF" class = "col-lg-2">
+									<span>Servicio</span>
+									<input  id="fscservice" type="text" placeholder="Servicio"/>
+								</div>
+								
+								<div class = "col-lg-2 ">
+									<span>Fecha inicial</span>
+									<input  id="finidate" type="text" placeholder="Fecha inicial"/>
+								</div>
+								
+								<div class = "col-lg-2 ">
+									<span>Fecha Final</span>
+									<input  id="fenddate" type="text" placeholder="Fecha final"/>
+								</div>
+
+								<div class = "col-lg-2 ">
+									<br class="hidden-xs">
+									<button value="Buscar" onclick="controlRefresh(0)" >Buscar</button>
+								</div>
+								
+								<div class = "col-lg-2 ">
+								<br class="hidden-xs">
+								<button value="Exportar" class="marginBot" onclick="controlRefresh(1)">Exportar</button>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					<div class="tableBox">
+						<div id="controListS" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Fecha" >Fecha</div>
+								<div class="column" data-label="Nombre" >Nombre</div>
+								<div class="column" data-label="Celular" >Celular</div>
+								<div class="column" data-label="Email" >Email</div>
+								<div class="column" data-label="Servicio" >Servicio</div>
+								<div class="column" data-label="Estilista" >Estilista</div>
+								<div class="column" data-label="%" >%</div>
+								<div class="column" data-label="Valor" >Valor</div>
+								<div class="column" data-label="Notas" >Notas</div>
+							</div>
+						</div>
+						
+						<div id="controListP" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Fecha" >Fecha</div>
+								<div class="column" data-label="Productos" >Productos</div>
+								<div class="column" data-label="Cantidad" >Cantidad</div>
+								<div class="column" data-label="Valor unitario" >Valor unitario</div>
+								<div class="column" data-label="Subtotal" >Subtotal</div>
+							</div>
+						</div>
+						
+						<div id="controListG" class="table" style="display: none;">
+							<div class="table-head">
+								<div class="column" data-label="Fecha" >Fecha</div>
+								<div class="column" data-label="Concepto" >Concepto</div>
+								<div class="column" data-label="Valor" >Valor</div>
+							</div>
+						</div>
+						
+						<div id="controListSt" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Fecha" >Fecha</div>
+								<div class="column" data-label="Nombre" >Nombre</div>
+								<div class="column" data-label="Celular" >Celular</div>
+								<div class="column" data-label="Email" >Email</div>
+								<div class="column" data-label="Servicio" >Servicio</div>
+								<div class="column" data-label="Descripción cabello" >Descripción cabello</div>
+								<div class="column" data-label="Observaciones" >Observaciones</div>
+								
+								
+							</div>
+						</div>
+						
+						
+					</div>
+
+				</div>
+					
+					<!-- Courses Listing -->
+
+					
+
+			</section>
+			
+	
+				
+			  <section id="sAgenda" class="resume-section p-3 p-lg-5 d-column ">
+				<p   class="sectionTitle"><img src="irsc/secTitleAgenda.png"/></p>
+					
+					<div class="container">
+					  <div class="calendar light">
+						<div class="calendar_plan">
+						  
+						  <div id="agPanelE" class="cl_plan row nmlt fields">
+							<div  class="cl_title col-lg-1"><span class="agTitle">Estilistas</span></div>
+							<select id="mbcSelect" class="col-lg-2 mbcSelect"></select>
+							<div  class="cl_title col-lg-1">
+								<div class="agTitle">
+									<img src="../bcadmin/irsc/addPro.png" class="addProB" onclick="addPro()"/>
+									<img src="../bcadmin/irsc/delPro.png" class="delProB" onclick="delProCheck()"/>
+								</div>
+							</div>
+							<div  class="cl_title col-lg-2">
+								<div class="skillsButton" onclick="pickSkills()">
+										Habilidades
+								</div>
+							</div>
+							<div  class="cl_title col-lg-2">
+								<span class="agTitle">
+									Horario de atención
+								</span>
+							</div>
+							
+							<select id="mbcServTime" class="col-lg-4 mbcSelect" onchange="saveServTime(this.value)">
+								<option value="">Sin horario de atención</option>
+
+								<option value="1-5-6-14">Lunes a viernes 6:00 am a 2:00 pm continuo</option>
+								<option value="1-5-6-18">Lunes a viernes 6:00 am a 6:00 pm continuo</option>
+								<option value="1-5-8-14">Lunes a viernes 8:00 am a 2:00 pm continuo</option>
+								<option value="1-5-8-18">Lunes a viernes 8:00 am a 6:00 pm continuo</option>
+								<option value="1-5-6-12-14-18">Lunes a viernes 6:00 am a 12:00 y 2:00 a 6:00 pm</option>
+								<option value="1-5-8-12-14-18">Lunes a viernes 8:00 am a 12:00 y 2:00 a 6:00 pm</option>
+								
+								<option value="1-6-8-18">Lunes a Sabado 8:00 am a 6:00 pm continuo</option>
+								<option value="1-6-6-18">Lunes a Sabado 6:00 am a 6:00 pm continuo</option>
+								<option value="1-6-6-14">Lunes a Sabado 6:00 am a 2:00 pm continuo</option>
+								<option value="1-6-8-14">Lunes a Sabado 8:00 am a 2:00 pm continuo</option>
+								<option value="1-6-8-12-14-18">Lunes a Sabado 8:00 am a 12:00 y 2:00 a 6:00 pm</option>
+								<option value="1-6-6-12-14-18">Lunes a Sabado 6:00 am a 12:00 y 2:00 a 6:00 pm</option>
+								
+								<option value="1-7-6-14">Lunes a Domingo 6:00 am a 2:00 pm continuo</option>
+								<option value="1-7-8-18">Lunes a Domingo 8:00 am a 6:00 pm continuo</option>
+								<option value="1-7-6-12-14-18">Lunes a Domingo 6:00 am a 12:00 y 2:00 a 6:00 pm</option>
+							</select>
+						  </div>
+							  
+						  <div id="agPanelC"  class="cl_plan row nmlt fields">
+						  
+							<div id="agendaToday" class="cl_title todayTitle col-lg-3"></div>
+							
+							<div  class="cl_title col-lg-2">
+								<!-- <div id="addDateButton" class="skillsButton" onclick="addDate()"> -->
+										<!-- Agendar cita + -->
+								<!-- </div> -->
+								<input type="text" id="iniDate" class=" mbcSelect" placeholder="Fecha inicial">
+								
+							</div>
+							
+							<div  class="cl_title col-lg-2">
+								<input type="text" id="endDate" class=" mbcSelect" placeholder="Fecha final">
+								
+							</div>
+							
+							<div  class="cl_title col-lg-2">
+								<span class="agTitle">
+									Filtro de citas
+								</span>
+							</div>
+							
+							<select id="filterDatePicker" class="col-lg-2 mbcSelect" onchange="">
+								<option value="0">Pendientes</option>
+								<option value="1">Pasadas</option>
+								<option value="2">Canceladas</option>
+							</select>
+							
+							<div class="cl_title col-lg-1">
+								<div class="skillsButton" onclick="showFiltered()">
+											Filtrar
+								</div>
+							</div>
+
+						  </div>
+						  
+						  
+						</div>
+						<div id="calendarContainer" class="calendar_events"></div>
+					  </div>
+
+			
+					</div>
+					
+					
+				<!-- </div> -->
+
+
+			  </section>
+			  
+			  
+			  
+			  
+			  <section class="resume-section p-3 p-lg-5 d-column " id="sShop">
+
+				<span class="sectionTitle"><img src="irsc/secTitleProducts.png"/></span>
+				
+				<div class="itemsBox">
+					<div id="plistBox" class="row noPadR" add-class-on-xs="no-gutters">
+						
+						<!-- Product Listing -->
+
+					</div>
+				</div>
+
+
+			  </section>
+			  
+			  
+			  
+			   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sServs">
+				<span class="sectionTitle"><img src="irsc/secTitleServices.png"/></span>
+				
+				<div class="row">
+				
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+					<select id="" class="saloonPicker">
+						<option id="" value="">Selecciona ciudad</option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+					<select id="saloonSelector" class="saloonPicker">
+						<option id="" value="">Selecciona un Salón</option>
+					</select>
+				</div>
+				
+				</div>
+				
+				<div class="itemsBox">
+				<div id="slistBox" class="row noPadR" add-class-on-xs="no-gutters">
+					
+					<!-- Services Listing -->
+
+				</div>
+					
+				</div>
+			  </section>
+
+			  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sBlog">
+				<span class="sectionTitle"><img src="irsc/secTitleCourses.png"/></span>
+				
+				<div class="itemsBox">
+					<div id="clistBox" class="row noPadR" add-class-on-xs="no-gutters">
+						
+						<!-- Courses Listing -->
+
+					</div>
+					
+				</div>
+			  </section>
+			  
+			  
+				
+			<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="bcClients">
+
+			<span class="sectionTitle"><img src="irsc/mycbc.png"/></span>
+
+				<div class="tableBox">
+					<div id="mycbcList" class="table">
+						<div class="table-head">
+							<div class="column" data-label="Nombre" >Nombre</div>
+							<div class="column" data-label="Email" >Email</div>
+							<div class="column" data-label="Teléfono" >Teléfono</div>
+							<div class="column" data-label="Brazil Coins" >Brazil Coins</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			
+			<!-- WEB ADMIN SECTION -->
+			
+			<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="goMyWeb">
+				
+				<span class="sectionTitle"><img src="irsc/secTitleMyweb.png"/></span>
+				
+				<div class="row">
+					
+					<div class="row">
+						<div class="col-sm-12 col-xs-12 col-lg-6  centered">
+							<img id="frontSample" src="mysite/img/frontPics/default.jpg" onclick="openSliderPick()" class="frontSample">
+						</div>
+						<div class="col-sm-12 col-xs-12 col-lg-6  centered">
+							<textarea id="aboutField" class="aboutField" maxlength="500" onblur="saveAbout()" placeholder="Escribe aquí una breve reseña sobre tu marca (máximo 500 carácteres)"></textarea>
+						</div>
+					</div>
+					
+					<div class="col-12 previewB">
+						<button onclick="goMyWeb()">Previsualizar mi sitio</button>
+					</div>
+						
+						
+				</div>
+				
+		  </section>
+		  
+		  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="goMyGames">
+				
+				<span class="sectionTitle"><img src="irsc/secTitleGames.png"/></span>
+				
+
+					
+					
+					<iframe onclick="connectAG" id="gamesFrame" class="gamesBox" src=""></iframe>
+						
+
+				
+		  </section>
+		  
+		  <!-- WEB ADMIN SECTION -->
+				
+			  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sGame">
+				
+				<span class="sectionTitle"><img src="irsc/secTitleMoves.png"/></span>
+				
+					<div class="tableBox">
+						<div id="transList" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Fecha" >Fecha</div>
+								<div class="column" data-label="Tipo" >Tipo</div>
+								<div class="column" data-label="Detalle" >Detalle</div>
+								<div class="column" data-label="Valor" >Valor</div>
+							</div>
+						</div>
+					</div>
+				
+			  </section>
+
+		</div>
+			
+			<!-- Bootstrap core JavaScript -->
+			<!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+			<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+			<!-- Plugin JavaScript -->
+			<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+			<!-- Custom scripts for this template -->
+			<script src="js/resume.min.js"></script>
+
+		</div>
+		
+		<div id = "hidden" class = "hiddenT">
+			
+			<div id="croppieBox" class="croppieBox"></div>
+			
+			<input id='picSelector2' name='userCode' type='file' class='fileBoxHidden'/>
+			
+			<div id = "homeVidBox" class="pssRecBox">
+				
+				<div id="homeVidiv" class="promoHomeVid"></div>
+			
+			</div>
+			
+			<div id="claimCodeDiv" class="abuseReportDiv formPadder">
+				
+				<div class="contactBox">
+				
+					<span id="claimPrizeDesc" class="claimPrizeDesc"></span>
+					<input type="text" style="text-transform:uppercase" id="codeCheckBox" class="codeCheckBox" maxlength="50"/>
+					<div id="codeCheckButton" class="codeCheckButton" onclick="verifyCode()"></div>
+					<div id="prizeResumeBox" class="prizeResumeBox"></div>
+					
+				</div>
+				
+				<div class="dualButtonsDiv2">
+				
+					<div id="claimPrizeButton" class="dualButtonPop" onclick="markPrize()"></div>
+					<div id="claimPrizeCloseButton" class="dualButtonPop" onclick="hide_pop_form()"></div>
+					
+				</div>
+				
+			</div>
+			
+			<div id = "loaderDiv" class="loaderDiv">
+				<img src = "irsc/loader.GIF"/>
+			</div>
+			
+			<div id = "box" class = "modalCoverHidden">
+				
+				<div id="closeBa" class="closeB" onclick="hide_pop()"></div>
+				
+				<div id = "modalBox" class = "modalT">
+				
+					<div id = "boxHeader" class = "modalHeader">
+						<span id = "boxTitle" class = "modalTitle"></span>
+					</div>
+					
+					<div id = "boxContent" class = "modalContent"></div>
+					
+				</div>
+				
+			</div>
+			
+			<div id = "modalCover" class = "modalCoverHidden">
+
+				<div id="closeB" class="closeB" onclick="hide_pop_form()"></div>
+
+				<div id = "modal" class = "modalForm">
+
+					<div id = "modalHeader" class = "modalHeader">
+						
+						<span id = "modalTitle" class = "modalTitle"></span>
+						
+					</div>
+					
+					<div id = "modalContent" class = "modalContentForm"></div>
+					
+				</div>
+				  
+			</div>
+			
+			<form action="libs/php/fileUpload.php" method="post" enctype="multipart/form-data" target="upload_target" class="upForm">
+									
+					<!-- <p id="f1_upload_process"><img src="irsc/loader.gif" /></p> -->
+					<input id="picSelector" name="userCode" type="file" class="fileBox hiddenSubmit"/>
+					<input type="submit" id="upButton" name="submitBtn" value="Upload" class="hidden" />
+					
+			</form>
+			
+			<div id="cropBoxBox" class="floatForm formPadder">
+				<div class="imageBox">
+						<div class="thumbBox"></div>
+						<div class="spinner" style="display: none">Loading...</div>
+				</div>
+				<div class="action">
+					<input type="button" id="btnCrop" value="Ok" class="cropBtn">
+					<input type="button" id="btnZoomIn" value="+" class="sizeBtn">
+					<input type="button" id="btnZoomOut" value="-" class="sizeBtn">
+				</div>
+				<div class="cropped"></div>
+			</div>
+			
+			<div id = "regBox" class="fLabel fields panelButtFull ">
+					
+					<div class="floatForm">
+					
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<input id="regUName" type="text" data-bind="value: regUName"/>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<input id="regUMail" type="text" data-bind="value: regUMail"/>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<input id="regUaddress" type="text" data-bind="value: regUaddress"/>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<input id="regUphone" type="text" data-bind="value: regUphone"/>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<input id="regUpass" type="text" data-bind="value: regUpass"/>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<!-- <select id="regCountrySelector" class="regFieldSelect"> -->
+								<!-- <option id="regCountryBlank" value=""></option> -->
+								<!-- <option value="COLOMBIA">Colombia</option> -->
+							<!-- </select> -->
+							<input id="regCountrySelector" type="text" data-bind="value: regCountrySelector"/>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<!-- <select id="regRegionSelector" class="regFieldSelect"  data-bind="value: regRegionSelector"> -->
+								<!-- <option id="regRegionBlank" value=""></option> -->
+							<!-- </select> -->
+							<input id="regRegionSelector" type="text" data-bind="value: regRegionSelector"/>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<!-- <select id="regCitySelector" class="regFieldSelect" data-bind="value: regCitySelector"> -->
+								<!-- <option id="regCityBlank" value=""></option> -->
+							<!-- </select> -->
+							<input id="regCitySelector" type="text" />
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<select id="regSexSelector" class="regFieldSelect" data-bind="value: regUsex">
+								<option id="sexSelector" value=""></option>
+								<option id="sexSelectorF" value="F"></option>
+								<option id="sexSelectorM" value="M"></option>
+								<option id="sexSelectorO" value="O"></option>
+							</select>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+							<input id="regBday" type="text" data-bind="value: regUbday"/>
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+							<select id="regTypeSelector" class="regFieldSelect" data-bind="value: regUtype">
+								<option id="typeSelector" value=""></option>
+								<!-- <option id="typeSelectorC" value="C"></option> -->
+								<option id="typeSelectorE" value="E"></option>
+							</select>
+						</div>
+						
+						<div id="conditionsAcceptLink" class="conditionsAcceptLink col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<span id="conditionsAcceptText"></span>
+						</div>
+					
+					</div>
+
+					<div class="dualButtonsDiv">
+						<div id="regAcceptButton" class="dualButton" onclick="checkReg()"></div>
+						<div id="regCancelButton" class="dualButton" onclick="hide_pop_form()"></div>
+					</div>
+				
+
+
+			</div>
+			
+			<div id = "pssRecBox" class="pssRecBox fields"></div>
+			
+			<div id = "skillsBox" class="pssRecBox fields"></div>
+			
+			<div id = "addDateBox" class="pssRecBox fields"></div>
+			
+			<div id = "passCheckDiv" class="passCheckDiv"></div>
+			
+			<div id = "buyOptions" class="passCheckDiv">
+				
+				<div class="buyOptions">
+
+					<img src="irsc/buyOpt2.png" class="buyOpt" onclick="openPriceDeliver()"/>
+					<img src="irsc/buyOpt1.png" class="buyOpt2" onclick="openbuyCplanBox()"/>
+				</div>
+				
+			</div>
+			
+			<div id = "myScores" class="passCheckDiv">
+				<div class="myScoreListBox">
+					<div class="tableBox">
+						<div id="myScoreList" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Salón" >Recibido de</div>
+								<div class="column" data-label="Tipo" >Brazil Coins</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id = "buyCplanBox" class="passCheckDiv">
+				
+				<div class="buyOptions ">
+					
+					<span><b>Selecciona la cantidad</b></span>
+					
+					<br>
+					<select id="coinPpicker" class="coinPpicker">
+						<option value="PR-1">1 mes Membresía Premium - $19 USD</option>
+						<option value="PR-2">2 meses Membresía Premium - $29 USD</option>
+						<option value="PR-3">3 meses Membresía Premium - $39 USD</option>
+						<option value="PR-6">6 meses Membresía Premium - $69 USD</option>
+						<option value="PR-12">12 meses Membresía Premium - $99 USD</option>
+					</select>
+					
+					<img src="irsc/payButtonEs.png" class="sendPayBtn" onclick="sendPayCO()"/>
+					
+					
+				</div>
+				
+			</div>
+			
+			<div id="ifAdmin" class="domoArigato"></div>
+
+			<div id="conditionsBox">
+			
+				<div id="conditionsTextBox" class="conditionsBox"></div>
+				
+				<div class="dualButtonsDiv">
+				
+					<div id="closeConditionsButton" class="singleButton" onclick="hideConds()"></div>
+					
+				</div>
+				
+			</div>
+			
+			<div id="conditionsBoxP">
+			
+				<div id="conditionsTextBoxP" class="conditionsBox"></div>
+				
+				<div class="dualButtonsDiv">
+				
+					<div id="closeConditionsButtonP" class="singleButton" onclick="hide_pop_form()">Salir</div>
+					
+				</div>
+				
+			</div>
+			
+			<div id="rankingBoxP">
+			
+				<div id="rankingTable" class="conditionsBox">
+					<div class="tableBox">
+						<div id="rankList" class="table">
+							<div class="table-head">
+								<div class="column" data-label="Puesto" >Puesto</div>
+								<div class="column" data-label="Nombre" >Nombre</div>
+								<div class="column" data-label="Puntos" >Puntos</div>
+								<div class="column" data-label="Ciudad" >Ciudad</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="dualButtonsDiv">
+				
+					<div class="singleButton" onclick="hide_pop_form()">Salir</div>
+					
+				</div>
+				
+			</div>
+			
+			<div id="contactDiv" class="abuseReportDiv">
+				
+				<div class="contactBox">
+				
+					<img id="contactIcon" src='irsc/mainLogo2.png' class="contactIcon"/>
+					<br>
+					<input type="text" id="contactName" class="contactField1"/>
+					<input type="text" id="contactMail" class="contactField2"/>
+					<textarea type="text" id="contactMessage" class="abuseBox"></textarea>
+					
+				</div>
+				
+				<div class="dualButtonsDiv">
+				
+					<div id="sendContactButton" class="dualButtonPop" onclick="sendContact()"></div>
+					<div id="closeContactButton" class="dualButtonPop" onclick="hide_pop_form()"></div>
+					
+				</div>
+				
+			</div>
+			
+			<iframe id="my_iframe" style="display:none;"></iframe>
+			
+			<a href id="downframe" download></a>
+
+			<form method="post" action="" id="payBox-CO">
+				<input id = "pbCO-meid" name="merchantId" type="hidden"  value="">
+				<input id = "pbCO-acid" name="accountId" type="hidden"  value="">
+				<input id = "pbCO-desc" name="description" type="hidden"  value="">
+				<input id = "pbCO-bref" name="referenceCode" type="hidden"  value="">
+				<input id = "pbCO-bamo" name="amount" type="hidden"  value="">
+				<input id = "pbCO-btax1" name="tax" type="hidden"  value="0">
+				<input id = "pbCO-btax2" name="taxReturnBase" type="hidden"  value="0">
+				<input id = "pbCO-currency" name="currency" type="hidden"  value="">
+				<input id = "pbCO-bsign" name="signature" type="hidden"  value="">
+				<input id = "pbCO-test" name="test" type="hidden"  value="" >
+				<input id = "pbCO-bname" name="payerFullName" type="hidden"  value="">
+				<input id = "pbCO-bemail" name="buyerEmail"    type="hidden"  value="">
+				<input id = "pbCO-brespurl" name="responseUrl" type="hidden"  value="">
+				<input id = "pbCO-bcomfurl" name="confirmationUrl" type="hidden"  value="">
+			</form>
+			
+
+
+		</div>
+		
+	
+  </body>
+
+  
+  
+  
+</html>

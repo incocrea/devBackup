@@ -1,0 +1,20 @@
+Cliente: QUALA S.A;Detalle de Orden: 15
+
+Actividades;
+
+Item;Detalle;Actividad;Valor Unidad;Cantidad;Subtotal
+"d9e4a2-Locativas";"Locativas";"Suministro de perfil en tubo cuadrado de 6,5"x3,5"x1-1/2" incluye fijación a vano de puerta para reconstrucción de marco ";"77510";"5";"387550"
+"d9e4a2-Locativas";"Locativas";"Suministro de perfil en tubo cuadrado de 6,5"x3,5" para lateral de puerta ";"57500";"5";"287500"
+"d9e4a2-Locativas";"Locativas";"Instalación de Guias metálicas para puerta deslizante -piso";"87400";"2";"174800"
+"d9e4a2-Locativas";"Locativas";"Bisagras reforzadas nuevas para cambio de sentido de apertura de puerta o nave batiente de izquierda a derecha";"36700";"5";"183500"
+"d9e4a2-Locativas";"Locativas";"Instalación de pasadores y porta candado, incluye perforaciones en piso para que ingresen los pasadores verticales ";"150000";"1";"150000"
+"d9e4a2-Locativas";"Locativas";"Corte de perfil laterial de puerta metálica nave derecha";"75000";"1";"75000"
+"d9e4a2-Locativas";"Locativas";"Suministro de angulo de hierro calibrado 1-1/2"x1" para tope de puerta y para anclar bisagras ";"29670";"10";"296700"
+
+Repuestos;
+
+Item;Detalle;;Valor Unidad;Cantidad;Subtotal
+
+Otros Costos;
+
+Tipo de costo;Detalle;Documento/Factura;Valor Unidad;Cantidad;Subtotal

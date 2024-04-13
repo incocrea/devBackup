@@ -1,0 +1,3277 @@
+06:02:59 p. m.  [main] 	Initializing Control Panel
+06:02:59 p. m.  [main] 	Windows Version:  Home  64-bit
+06:02:59 p. m.  [main] 	XAMPP Version: 7.3.24
+06:02:59 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:02:59 p. m.  [main] 	Running with Administrator rights - good!
+06:02:59 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:02:59 p. m.  [main] 	Checking for prerequisites
+06:02:59 p. m.  [main] 	All prerequisites found
+06:02:59 p. m.  [main] 	Initializing Modules
+06:02:59 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+06:02:59 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+06:02:59 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+06:02:59 p. m.  [main] 	The FileZilla module is disabled
+06:02:59 p. m.  [main] 	The Mercury module is disabled
+06:02:59 p. m.  [main] 	The Tomcat module is disabled
+06:02:59 p. m.  [main] 	Starting Check-Timer
+06:02:59 p. m.  [main] 	Control Panel Ready
+06:03:47 p. m.  [main] 	Deinitializing Modules
+06:03:47 p. m.  [main] 	Deinitializing Control Panel
+
+06:03:50 p. m.  [main] 	Initializing Control Panel
+06:03:50 p. m.  [main] 	Windows Version:  Home  64-bit
+06:03:50 p. m.  [main] 	XAMPP Version: 7.3.24
+06:03:50 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:03:50 p. m.  [main] 	Running with Administrator rights - good!
+06:03:50 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:03:50 p. m.  [main] 	Checking for prerequisites
+06:03:50 p. m.  [main] 	All prerequisites found
+06:03:50 p. m.  [main] 	Initializing Modules
+06:03:50 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+06:03:50 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+06:03:50 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+06:03:50 p. m.  [main] 	The FileZilla module is disabled
+06:03:50 p. m.  [main] 	The Mercury module is disabled
+06:03:50 p. m.  [main] 	The Tomcat module is disabled
+06:03:50 p. m.  [main] 	Enabling autostart for module "Apache"
+06:03:50 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:03:50 p. m.  [main] 	Starting Check-Timer
+06:03:50 p. m.  [main] 	Control Panel Ready
+06:03:50 p. m.  [Apache] 	Autostart aborted: Apache is already running
+06:03:50 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+06:04:08 p. m.  [main] 	Deinitializing Modules
+06:04:08 p. m.  [main] 	Deinitializing Control Panel
+
+06:04:11 p. m.  [main] 	Initializing Control Panel
+06:04:11 p. m.  [main] 	Windows Version:  Home  64-bit
+06:04:11 p. m.  [main] 	XAMPP Version: 7.3.24
+06:04:11 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:04:11 p. m.  [main] 	Running with Administrator rights - good!
+06:04:11 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:04:11 p. m.  [main] 	Checking for prerequisites
+06:04:11 p. m.  [main] 	All prerequisites found
+06:04:11 p. m.  [main] 	Initializing Modules
+06:04:11 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+06:04:11 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+06:04:11 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+06:04:11 p. m.  [main] 	The FileZilla module is disabled
+06:04:11 p. m.  [main] 	The Mercury module is disabled
+06:04:11 p. m.  [main] 	The Tomcat module is disabled
+06:04:11 p. m.  [main] 	Enabling autostart for module "Apache"
+06:04:11 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:04:11 p. m.  [main] 	Starting Check-Timer
+06:04:11 p. m.  [main] 	Control Panel Ready
+06:04:11 p. m.  [Apache] 	Autostart aborted: Apache is already running
+06:04:11 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+06:04:16 p. m.  [Apache] 	Attempting to stop Apache (PID: 7116)
+06:04:16 p. m.  [Apache] 	Attempting to stop Apache (PID: 2652)
+06:04:16 p. m.  [Apache] 	Status change detected: stopped
+06:04:16 p. m.  [mysql] 	Attempting to stop MySQL app...
+06:04:16 p. m.  [mysql] 	Status change detected: stopped
+06:04:21 p. m.  [main] 	Deinitializing Modules
+06:04:21 p. m.  [main] 	Deinitializing Control Panel
+
+08:52:21 p. m.  [main] 	Initializing Control Panel
+08:52:21 p. m.  [main] 	Windows Version:  Home  64-bit
+08:52:21 p. m.  [main] 	XAMPP Version: 7.3.24
+08:52:21 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:52:21 p. m.  [main] 	Running with Administrator rights - good!
+08:52:21 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:52:21 p. m.  [main] 	Checking for prerequisites
+08:52:23 p. m.  [main] 	All prerequisites found
+08:52:23 p. m.  [main] 	Initializing Modules
+08:52:23 p. m.  [main] 	The FileZilla module is disabled
+08:52:23 p. m.  [main] 	The Mercury module is disabled
+08:52:23 p. m.  [main] 	The Tomcat module is disabled
+08:52:23 p. m.  [main] 	Enabling autostart for module "Apache"
+08:52:23 p. m.  [main] 	Enabling autostart for module "MySQL"
+08:52:23 p. m.  [main] 	Starting Check-Timer
+08:52:23 p. m.  [main] 	Control Panel Ready
+08:52:24 p. m.  [Apache] 	Autostart active: starting...
+08:52:24 p. m.  [Apache] 	Attempting to start Apache app...
+08:52:24 p. m.  [mysql] 	Autostart active: starting...
+08:52:24 p. m.  [mysql] 	Attempting to start MySQL app...
+08:52:24 p. m.  [Apache] 	Status change detected: running
+08:52:24 p. m.  [mysql] 	Status change detected: running
+10:22:13 a. m.  [Apache] 	Attempting to stop Apache (PID: 3172)
+10:22:13 a. m.  [Apache] 	Attempting to stop Apache (PID: 964)
+10:22:13 a. m.  [mysql] 	Attempting to stop MySQL app...
+10:22:13 a. m.  [Apache] 	Status change detected: stopped
+10:22:13 a. m.  [mysql] 	Status change detected: stopped
+10:22:15 a. m.  [Apache] 	Attempting to start Apache app...
+10:22:15 a. m.  [Apache] 	Status change detected: running
+10:22:15 a. m.  [mysql] 	Attempting to start MySQL app...
+10:22:15 a. m.  [mysql] 	Status change detected: running
+11:43:01 p. m.  [main] 	Deinitializing Modules
+11:43:01 p. m.  [main] 	Deinitializing Control Panel
+
+05:28:51 p. m.  [main] 	Initializing Control Panel
+05:28:51 p. m.  [main] 	Windows Version:  Home  64-bit
+05:28:51 p. m.  [main] 	XAMPP Version: 7.3.24
+05:28:51 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:28:51 p. m.  [main] 	Running with Administrator rights - good!
+05:28:51 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:28:51 p. m.  [main] 	Checking for prerequisites
+05:28:53 p. m.  [main] 	All prerequisites found
+05:28:53 p. m.  [main] 	Initializing Modules
+05:28:53 p. m.  [main] 	The FileZilla module is disabled
+05:28:53 p. m.  [main] 	The Mercury module is disabled
+05:28:53 p. m.  [main] 	The Tomcat module is disabled
+05:28:53 p. m.  [main] 	Enabling autostart for module "Apache"
+05:28:53 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:28:53 p. m.  [main] 	Starting Check-Timer
+05:28:53 p. m.  [main] 	Control Panel Ready
+05:28:53 p. m.  [Apache] 	Autostart active: starting...
+05:28:53 p. m.  [Apache] 	Attempting to start Apache app...
+05:28:53 p. m.  [mysql] 	Autostart active: starting...
+05:28:53 p. m.  [mysql] 	Attempting to start MySQL app...
+05:28:54 p. m.  [Apache] 	Status change detected: running
+05:28:54 p. m.  [mysql] 	Status change detected: running
+11:31:58 a. m.  [Apache] 	Attempting to stop Apache (PID: 5944)
+11:31:58 a. m.  [Apache] 	Attempting to stop Apache (PID: 1528)
+11:31:58 a. m.  [Apache] 	Status change detected: stopped
+11:31:58 a. m.  [mysql] 	Attempting to stop MySQL app...
+11:31:58 a. m.  [mysql] 	Status change detected: stopped
+11:32:01 a. m.  [Apache] 	Attempting to start Apache app...
+11:32:01 a. m.  [Apache] 	Status change detected: running
+11:32:01 a. m.  [mysql] 	Attempting to start MySQL app...
+11:32:02 a. m.  [mysql] 	Status change detected: running
+11:32:21 a. m.  [main] 	Deinitializing Modules
+11:32:21 a. m.  [main] 	Deinitializing Control Panel
+
+11:32:23 a. m.  [main] 	Initializing Control Panel
+11:32:23 a. m.  [main] 	Windows Version:  Home  64-bit
+11:32:23 a. m.  [main] 	XAMPP Version: 7.3.24
+11:32:23 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:32:23 a. m.  [main] 	Running with Administrator rights - good!
+11:32:23 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:32:23 a. m.  [main] 	Checking for prerequisites
+11:32:23 a. m.  [main] 	All prerequisites found
+11:32:23 a. m.  [main] 	Initializing Modules
+11:32:23 a. m.  [Apache] 	XAMPP Apache is already running on port 80
+11:32:23 a. m.  [Apache] 	XAMPP Apache is already running on port 443
+11:32:23 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+11:32:23 a. m.  [main] 	The FileZilla module is disabled
+11:32:24 a. m.  [main] 	The Mercury module is disabled
+11:32:24 a. m.  [main] 	The Tomcat module is disabled
+11:32:24 a. m.  [main] 	Enabling autostart for module "Apache"
+11:32:24 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:32:24 a. m.  [main] 	Starting Check-Timer
+11:32:24 a. m.  [main] 	Control Panel Ready
+11:32:24 a. m.  [Apache] 	Autostart aborted: Apache is already running
+11:32:24 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+11:55:38 a. m.  [main] 	Deinitializing Modules
+11:55:38 a. m.  [main] 	Deinitializing Control Panel
+
+11:55:41 a. m.  [main] 	Initializing Control Panel
+11:55:41 a. m.  [main] 	Windows Version:  Home  64-bit
+11:55:41 a. m.  [main] 	XAMPP Version: 7.3.24
+11:55:41 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:55:41 a. m.  [main] 	Running with Administrator rights - good!
+11:55:41 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:55:41 a. m.  [main] 	Checking for prerequisites
+11:55:43 a. m.  [main] 	All prerequisites found
+11:55:43 a. m.  [main] 	Initializing Modules
+11:55:43 a. m.  [Apache] 	XAMPP Apache is already running on port 80
+11:55:43 a. m.  [Apache] 	XAMPP Apache is already running on port 443
+11:55:43 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+11:55:43 a. m.  [main] 	The FileZilla module is disabled
+11:55:43 a. m.  [main] 	The Mercury module is disabled
+11:55:43 a. m.  [main] 	The Tomcat module is disabled
+11:55:43 a. m.  [main] 	Enabling autostart for module "Apache"
+11:55:43 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:55:43 a. m.  [main] 	Starting Check-Timer
+11:55:43 a. m.  [main] 	Control Panel Ready
+11:55:44 a. m.  [Apache] 	Autostart aborted: Apache is already running
+11:55:44 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+11:55:46 a. m.  [Apache] 	Attempting to stop Apache (PID: 13448)
+11:55:46 a. m.  [Apache] 	Attempting to stop Apache (PID: 13000)
+11:55:46 a. m.  [Apache] 	Status change detected: stopped
+11:55:46 a. m.  [mysql] 	Attempting to stop MySQL app...
+11:55:47 a. m.  [mysql] 	Status change detected: stopped
+11:55:50 a. m.  [main] 	Deinitializing Modules
+11:55:50 a. m.  [main] 	Deinitializing Control Panel
+
+12:06:24 p. m.  [main] 	Initializing Control Panel
+12:06:24 p. m.  [main] 	Windows Version:  Home  64-bit
+12:06:24 p. m.  [main] 	XAMPP Version: 7.3.24
+12:06:24 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:06:24 p. m.  [main] 	Running with Administrator rights - good!
+12:06:24 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:06:24 p. m.  [main] 	Checking for prerequisites
+12:06:26 p. m.  [main] 	All prerequisites found
+12:06:26 p. m.  [main] 	Initializing Modules
+12:06:26 p. m.  [main] 	The FileZilla module is disabled
+12:06:26 p. m.  [main] 	The Mercury module is disabled
+12:06:26 p. m.  [main] 	The Tomcat module is disabled
+12:06:26 p. m.  [main] 	Enabling autostart for module "Apache"
+12:06:26 p. m.  [main] 	Enabling autostart for module "MySQL"
+12:06:26 p. m.  [main] 	Starting Check-Timer
+12:06:26 p. m.  [main] 	Control Panel Ready
+12:06:26 p. m.  [Apache] 	Autostart active: starting...
+12:06:26 p. m.  [Apache] 	Attempting to start Apache app...
+12:06:26 p. m.  [mysql] 	Autostart active: starting...
+12:06:26 p. m.  [mysql] 	Attempting to start MySQL app...
+12:06:27 p. m.  [Apache] 	Status change detected: running
+12:06:27 p. m.  [mysql] 	Status change detected: running
+12:07:14 p. m.  [Apache] 	Attempting to stop Apache (PID: 8360)
+12:07:14 p. m.  [Apache] 	Attempting to stop Apache (PID: 9396)
+12:07:14 p. m.  [mysql] 	Attempting to stop MySQL app...
+12:07:14 p. m.  [Apache] 	Status change detected: stopped
+12:07:14 p. m.  [mysql] 	Status change detected: stopped
+12:07:19 p. m.  [main] 	Deinitializing Modules
+12:07:19 p. m.  [main] 	Deinitializing Control Panel
+
+12:23:22 p. m.  [main] 	Initializing Control Panel
+12:23:22 p. m.  [main] 	Windows Version:  Home  64-bit
+12:23:22 p. m.  [main] 	XAMPP Version: 7.3.24
+12:23:22 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:23:22 p. m.  [main] 	Running with Administrator rights - good!
+12:23:22 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:23:22 p. m.  [main] 	Checking for prerequisites
+12:23:23 p. m.  [main] 	All prerequisites found
+12:23:23 p. m.  [main] 	Initializing Modules
+12:23:23 p. m.  [main] 	The FileZilla module is disabled
+12:23:23 p. m.  [main] 	The Mercury module is disabled
+12:23:23 p. m.  [main] 	The Tomcat module is disabled
+12:23:23 p. m.  [main] 	Enabling autostart for module "Apache"
+12:23:23 p. m.  [main] 	Enabling autostart for module "MySQL"
+12:23:23 p. m.  [main] 	Starting Check-Timer
+12:23:23 p. m.  [main] 	Control Panel Ready
+12:23:24 p. m.  [Apache] 	Autostart active: starting...
+12:23:24 p. m.  [Apache] 	Attempting to start Apache app...
+12:23:24 p. m.  [mysql] 	Autostart active: starting...
+12:23:24 p. m.  [mysql] 	Attempting to start MySQL app...
+12:23:24 p. m.  [Apache] 	Status change detected: running
+12:23:24 p. m.  [mysql] 	Status change detected: running
+12:28:07 p. m.  [Apache] 	Attempting to stop Apache (PID: 10172)
+12:28:07 p. m.  [Apache] 	Attempting to stop Apache (PID: 9856)
+12:28:07 p. m.  [mysql] 	Attempting to stop MySQL app...
+12:28:07 p. m.  [Apache] 	Status change detected: stopped
+12:28:07 p. m.  [mysql] 	Status change detected: stopped
+12:28:08 p. m.  [Apache] 	Attempting to start Apache app...
+12:28:08 p. m.  [Apache] 	Status change detected: running
+12:28:09 p. m.  [mysql] 	Attempting to start MySQL app...
+12:28:09 p. m.  [mysql] 	Status change detected: running
+12:28:33 p. m.  [Apache] 	Attempting to stop Apache (PID: 560)
+12:28:33 p. m.  [Apache] 	Attempting to stop Apache (PID: 3004)
+12:28:34 p. m.  [Apache] 	Status change detected: stopped
+12:28:34 p. m.  [mysql] 	Attempting to stop MySQL app...
+12:28:34 p. m.  [mysql] 	Status change detected: stopped
+12:28:55 p. m.  [mysql] 	Attempting to start MySQL app...
+12:28:55 p. m.  [mysql] 	Status change detected: running
+12:28:56 p. m.  [Apache] 	Attempting to start Apache app...
+12:28:56 p. m.  [Apache] 	Status change detected: running
+04:30:09 p. m.  [main] 	Deinitializing Modules
+04:30:09 p. m.  [main] 	Deinitializing Control Panel
+
+05:30:15 p. m.  [main] 	Initializing Control Panel
+05:30:15 p. m.  [main] 	Windows Version:  Home  64-bit
+05:30:15 p. m.  [main] 	XAMPP Version: 7.3.24
+05:30:15 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:30:15 p. m.  [main] 	Running with Administrator rights - good!
+05:30:15 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:30:15 p. m.  [main] 	Checking for prerequisites
+05:30:15 p. m.  [main] 	All prerequisites found
+05:30:15 p. m.  [main] 	Initializing Modules
+05:30:15 p. m.  [main] 	The FileZilla module is disabled
+05:30:15 p. m.  [main] 	The Mercury module is disabled
+05:30:15 p. m.  [main] 	The Tomcat module is disabled
+05:30:15 p. m.  [main] 	Enabling autostart for module "Apache"
+05:30:15 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:30:15 p. m.  [main] 	Starting Check-Timer
+05:30:15 p. m.  [main] 	Control Panel Ready
+05:30:16 p. m.  [Apache] 	Autostart active: starting...
+05:30:16 p. m.  [Apache] 	Attempting to start Apache app...
+05:30:16 p. m.  [mysql] 	Autostart active: starting...
+05:30:16 p. m.  [mysql] 	Attempting to start MySQL app...
+05:30:16 p. m.  [Apache] 	Status change detected: running
+05:30:16 p. m.  [mysql] 	Status change detected: running
+06:23:55 p. m.  [main] 	Deinitializing Modules
+06:23:55 p. m.  [main] 	Deinitializing Control Panel
+
+06:14:02 p. m.  [main] 	Initializing Control Panel
+06:14:02 p. m.  [main] 	Windows Version:  Home  64-bit
+06:14:02 p. m.  [main] 	XAMPP Version: 7.3.24
+06:14:02 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:14:02 p. m.  [main] 	Running with Administrator rights - good!
+06:14:02 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:14:02 p. m.  [main] 	Checking for prerequisites
+06:14:03 p. m.  [main] 	All prerequisites found
+06:14:03 p. m.  [main] 	Initializing Modules
+06:14:03 p. m.  [main] 	The FileZilla module is disabled
+06:14:03 p. m.  [main] 	The Mercury module is disabled
+06:14:03 p. m.  [main] 	The Tomcat module is disabled
+06:14:03 p. m.  [main] 	Enabling autostart for module "Apache"
+06:14:03 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:14:03 p. m.  [main] 	Starting Check-Timer
+06:14:03 p. m.  [main] 	Control Panel Ready
+06:14:03 p. m.  [Apache] 	Autostart active: starting...
+06:14:03 p. m.  [Apache] 	Attempting to start Apache app...
+06:14:03 p. m.  [mysql] 	Autostart active: starting...
+06:14:03 p. m.  [mysql] 	Attempting to start MySQL app...
+06:14:04 p. m.  [Apache] 	Status change detected: running
+06:14:04 p. m.  [mysql] 	Status change detected: running
+09:43:31 a. m.  [main] 	Deinitializing Modules
+09:43:31 a. m.  [main] 	Deinitializing Control Panel
+
+09:49:30 a. m.  [main] 	Initializing Control Panel
+09:49:30 a. m.  [main] 	Windows Version:  Home  64-bit
+09:49:30 a. m.  [main] 	XAMPP Version: 7.3.24
+09:49:30 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:49:30 a. m.  [main] 	Running with Administrator rights - good!
+09:49:30 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:49:30 a. m.  [main] 	Checking for prerequisites
+09:49:31 a. m.  [main] 	All prerequisites found
+09:49:31 a. m.  [main] 	Initializing Modules
+09:49:31 a. m.  [main] 	The FileZilla module is disabled
+09:49:31 a. m.  [main] 	The Mercury module is disabled
+09:49:31 a. m.  [main] 	The Tomcat module is disabled
+09:49:31 a. m.  [main] 	Enabling autostart for module "Apache"
+09:49:31 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:49:31 a. m.  [main] 	Starting Check-Timer
+09:49:31 a. m.  [main] 	Control Panel Ready
+09:49:31 a. m.  [Apache] 	Autostart active: starting...
+09:49:31 a. m.  [Apache] 	Attempting to start Apache app...
+09:49:31 a. m.  [mysql] 	Autostart active: starting...
+09:49:31 a. m.  [mysql] 	Attempting to start MySQL app...
+09:49:32 a. m.  [Apache] 	Status change detected: running
+09:49:32 a. m.  [mysql] 	Status change detected: running
+04:35:01 p. m.  [main] 	Deinitializing Modules
+04:35:01 p. m.  [main] 	Deinitializing Control Panel
+
+10:13:31 p. m.  [main] 	Initializing Control Panel
+10:13:31 p. m.  [main] 	Windows Version:  Home  64-bit
+10:13:31 p. m.  [main] 	XAMPP Version: 7.3.24
+10:13:31 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:13:31 p. m.  [main] 	Running with Administrator rights - good!
+10:13:31 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:13:31 p. m.  [main] 	Checking for prerequisites
+10:13:32 p. m.  [main] 	All prerequisites found
+10:13:32 p. m.  [main] 	Initializing Modules
+10:13:32 p. m.  [main] 	The FileZilla module is disabled
+10:13:32 p. m.  [main] 	The Mercury module is disabled
+10:13:32 p. m.  [main] 	The Tomcat module is disabled
+10:13:32 p. m.  [main] 	Enabling autostart for module "Apache"
+10:13:32 p. m.  [main] 	Enabling autostart for module "MySQL"
+10:13:32 p. m.  [main] 	Starting Check-Timer
+10:13:32 p. m.  [main] 	Control Panel Ready
+10:13:32 p. m.  [Apache] 	Autostart active: starting...
+10:13:32 p. m.  [Apache] 	Attempting to start Apache app...
+10:13:32 p. m.  [mysql] 	Autostart active: starting...
+10:13:32 p. m.  [mysql] 	Attempting to start MySQL app...
+10:13:33 p. m.  [Apache] 	Status change detected: running
+10:13:33 p. m.  [mysql] 	Status change detected: running
+10:20:06 p. m.  [Apache] 	Attempting to stop Apache (PID: 11124)
+10:20:06 p. m.  [Apache] 	Attempting to stop Apache (PID: 10848)
+10:20:06 p. m.  [Apache] 	Status change detected: stopped
+10:20:06 p. m.  [mysql] 	Attempting to stop MySQL app...
+10:20:07 p. m.  [mysql] 	Status change detected: stopped
+10:20:08 p. m.  [mysql] 	Attempting to start MySQL app...
+10:20:08 p. m.  [mysql] 	Status change detected: running
+10:20:09 p. m.  [Apache] 	Attempting to start Apache app...
+10:20:09 p. m.  [Apache] 	Status change detected: running
+10:26:52 p. m.  [mysql] 	Attempting to stop MySQL app...
+10:26:52 p. m.  [mysql] 	Status change detected: stopped
+10:26:52 p. m.  [Apache] 	Attempting to stop Apache (PID: 9348)
+10:26:52 p. m.  [Apache] 	Attempting to stop Apache (PID: 3776)
+10:26:53 p. m.  [Apache] 	Status change detected: stopped
+10:26:54 p. m.  [mysql] 	Attempting to start MySQL app...
+10:26:54 p. m.  [mysql] 	Status change detected: running
+10:26:55 p. m.  [Apache] 	Attempting to start Apache app...
+10:26:55 p. m.  [Apache] 	Status change detected: running
+10:27:23 p. m.  [mysql] 	Attempting to stop MySQL app...
+10:27:23 p. m.  [mysql] 	Status change detected: stopped
+10:27:24 p. m.  [Apache] 	Attempting to stop Apache (PID: 11088)
+10:27:24 p. m.  [Apache] 	Attempting to stop Apache (PID: 5860)
+10:27:24 p. m.  [Apache] 	Status change detected: stopped
+10:27:26 p. m.  [Apache] 	Attempting to start Apache app...
+10:27:27 p. m.  [Apache] 	Status change detected: running
+10:27:27 p. m.  [mysql] 	Attempting to start MySQL app...
+10:27:28 p. m.  [mysql] 	Status change detected: running
+11:54:04 p. m.  [main] 	Deinitializing Modules
+11:54:04 p. m.  [main] 	Deinitializing Control Panel
+
+09:35:09 a. m.  [main] 	Initializing Control Panel
+09:35:09 a. m.  [main] 	Windows Version:  Home  64-bit
+09:35:09 a. m.  [main] 	XAMPP Version: 7.3.24
+09:35:09 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:35:09 a. m.  [main] 	Running with Administrator rights - good!
+09:35:09 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:35:09 a. m.  [main] 	Checking for prerequisites
+09:35:10 a. m.  [main] 	All prerequisites found
+09:35:10 a. m.  [main] 	Initializing Modules
+09:35:10 a. m.  [main] 	The FileZilla module is disabled
+09:35:10 a. m.  [main] 	The Mercury module is disabled
+09:35:10 a. m.  [main] 	The Tomcat module is disabled
+09:35:10 a. m.  [main] 	Enabling autostart for module "Apache"
+09:35:10 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:35:10 a. m.  [main] 	Starting Check-Timer
+09:35:10 a. m.  [main] 	Control Panel Ready
+09:35:10 a. m.  [Apache] 	Autostart active: starting...
+09:35:10 a. m.  [Apache] 	Attempting to start Apache app...
+09:35:10 a. m.  [mysql] 	Autostart active: starting...
+09:35:10 a. m.  [mysql] 	Attempting to start MySQL app...
+09:35:11 a. m.  [Apache] 	Status change detected: running
+09:35:11 a. m.  [mysql] 	Status change detected: running
+10:50:20 a. m.  [Apache] 	Status change detected: stopped
+10:50:20 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+10:50:20 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+10:50:20 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+10:50:20 a. m.  [Apache] 	Press the Logs button to view error logs and check
+10:50:20 a. m.  [Apache] 	the Windows Event Viewer for more clues
+10:50:20 a. m.  [Apache] 	If you need more help, copy and post this
+10:50:20 a. m.  [Apache] 	entire log window on the forums
+10:50:20 a. m.  [mysql] 	Status change detected: stopped
+10:50:20 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+10:50:20 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+10:50:20 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+10:50:20 a. m.  [mysql] 	Press the Logs button to view error logs and check
+10:50:20 a. m.  [mysql] 	the Windows Event Viewer for more clues
+10:50:20 a. m.  [mysql] 	If you need more help, copy and post this
+10:50:20 a. m.  [mysql] 	entire log window on the forums
+10:50:20 a. m.  [main] 	Deinitializing Modules
+10:50:20 a. m.  [main] 	Deinitializing Control Panel
+
+10:25:32 a. m.  [main] 	Initializing Control Panel
+10:25:32 a. m.  [main] 	Windows Version:  Home  64-bit
+10:25:32 a. m.  [main] 	XAMPP Version: 7.3.24
+10:25:32 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:25:32 a. m.  [main] 	Running with Administrator rights - good!
+10:25:32 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:25:32 a. m.  [main] 	Checking for prerequisites
+10:25:34 a. m.  [main] 	All prerequisites found
+10:25:34 a. m.  [main] 	Initializing Modules
+10:25:34 a. m.  [main] 	The FileZilla module is disabled
+10:25:34 a. m.  [main] 	The Mercury module is disabled
+10:25:34 a. m.  [main] 	The Tomcat module is disabled
+10:25:34 a. m.  [main] 	Enabling autostart for module "Apache"
+10:25:34 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:25:34 a. m.  [main] 	Starting Check-Timer
+10:25:34 a. m.  [main] 	Control Panel Ready
+10:25:35 a. m.  [Apache] 	Autostart active: starting...
+10:25:35 a. m.  [Apache] 	Attempting to start Apache app...
+10:25:35 a. m.  [mysql] 	Autostart active: starting...
+10:25:35 a. m.  [mysql] 	Attempting to start MySQL app...
+10:25:35 a. m.  [Apache] 	Status change detected: running
+10:25:35 a. m.  [mysql] 	Status change detected: running
+12:42:07 a. m.  [Apache] 	Attempting to stop Apache (PID: 12072)
+12:42:07 a. m.  [Apache] 	Attempting to stop Apache (PID: 4144)
+12:42:07 a. m.  [Apache] 	Status change detected: stopped
+12:42:07 a. m.  [mysql] 	Attempting to stop MySQL app...
+12:42:07 a. m.  [mysql] 	Status change detected: stopped
+12:42:10 a. m.  [Apache] 	Attempting to start Apache app...
+12:42:10 a. m.  [Apache] 	Status change detected: running
+12:42:10 a. m.  [mysql] 	Attempting to start MySQL app...
+12:42:11 a. m.  [mysql] 	Status change detected: running
+03:43:44 a. m.  [Apache] 	Status change detected: stopped
+03:43:44 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+03:43:44 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+03:43:44 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+03:43:44 a. m.  [Apache] 	Press the Logs button to view error logs and check
+03:43:44 a. m.  [Apache] 	the Windows Event Viewer for more clues
+03:43:44 a. m.  [Apache] 	If you need more help, copy and post this
+03:43:44 a. m.  [Apache] 	entire log window on the forums
+03:43:44 a. m.  [mysql] 	Status change detected: stopped
+03:43:44 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+03:43:44 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+03:43:44 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+03:43:44 a. m.  [mysql] 	Press the Logs button to view error logs and check
+03:43:44 a. m.  [mysql] 	the Windows Event Viewer for more clues
+03:43:44 a. m.  [mysql] 	If you need more help, copy and post this
+03:43:44 a. m.  [mysql] 	entire log window on the forums
+03:43:44 a. m.  [main] 	Deinitializing Modules
+03:43:44 a. m.  [main] 	Deinitializing Control Panel
+
+09:38:57 a. m.  [main] 	Initializing Control Panel
+09:38:57 a. m.  [main] 	Windows Version:  Home  64-bit
+09:38:57 a. m.  [main] 	XAMPP Version: 7.3.24
+09:38:57 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:38:57 a. m.  [main] 	Running with Administrator rights - good!
+09:38:57 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:38:57 a. m.  [main] 	Checking for prerequisites
+09:38:58 a. m.  [main] 	All prerequisites found
+09:38:58 a. m.  [main] 	Initializing Modules
+09:38:58 a. m.  [main] 	The FileZilla module is disabled
+09:38:58 a. m.  [main] 	The Mercury module is disabled
+09:38:58 a. m.  [main] 	The Tomcat module is disabled
+09:38:58 a. m.  [main] 	Enabling autostart for module "Apache"
+09:38:58 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:38:58 a. m.  [main] 	Starting Check-Timer
+09:38:58 a. m.  [main] 	Control Panel Ready
+09:38:59 a. m.  [Apache] 	Autostart active: starting...
+09:38:59 a. m.  [Apache] 	Attempting to start Apache app...
+09:38:59 a. m.  [mysql] 	Autostart active: starting...
+09:38:59 a. m.  [mysql] 	Attempting to start MySQL app...
+09:38:59 a. m.  [Apache] 	Status change detected: running
+09:38:59 a. m.  [mysql] 	Status change detected: running
+06:17:40 p. m.  [main] 	Deinitializing Modules
+06:17:40 p. m.  [main] 	Deinitializing Control Panel
+
+05:02:21 p. m.  [main] 	Initializing Control Panel
+05:02:21 p. m.  [main] 	Windows Version:  Home  64-bit
+05:02:21 p. m.  [main] 	XAMPP Version: 7.3.24
+05:02:21 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:02:21 p. m.  [main] 	Running with Administrator rights - good!
+05:02:21 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:02:21 p. m.  [main] 	Checking for prerequisites
+05:02:23 p. m.  [main] 	All prerequisites found
+05:02:23 p. m.  [main] 	Initializing Modules
+05:02:23 p. m.  [main] 	The FileZilla module is disabled
+05:02:23 p. m.  [main] 	The Mercury module is disabled
+05:02:23 p. m.  [main] 	The Tomcat module is disabled
+05:02:23 p. m.  [main] 	Enabling autostart for module "Apache"
+05:02:23 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:02:23 p. m.  [main] 	Starting Check-Timer
+05:02:23 p. m.  [main] 	Control Panel Ready
+05:02:23 p. m.  [Apache] 	Autostart active: starting...
+05:02:23 p. m.  [Apache] 	Attempting to start Apache app...
+05:02:23 p. m.  [mysql] 	Autostart active: starting...
+05:02:23 p. m.  [mysql] 	Attempting to start MySQL app...
+05:02:24 p. m.  [Apache] 	Status change detected: running
+05:02:24 p. m.  [mysql] 	Status change detected: running
+08:16:03 p. m.  [Apache] 	Status change detected: stopped
+08:16:03 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+08:16:03 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+08:16:03 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+08:16:03 p. m.  [Apache] 	Press the Logs button to view error logs and check
+08:16:03 p. m.  [Apache] 	the Windows Event Viewer for more clues
+08:16:03 p. m.  [Apache] 	If you need more help, copy and post this
+08:16:03 p. m.  [Apache] 	entire log window on the forums
+08:16:03 p. m.  [mysql] 	Status change detected: stopped
+08:16:03 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+08:16:03 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+08:16:03 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+08:16:03 p. m.  [mysql] 	Press the Logs button to view error logs and check
+08:16:03 p. m.  [mysql] 	the Windows Event Viewer for more clues
+08:16:03 p. m.  [mysql] 	If you need more help, copy and post this
+08:16:03 p. m.  [mysql] 	entire log window on the forums
+08:16:04 p. m.  [main] 	Deinitializing Modules
+08:16:04 p. m.  [main] 	Deinitializing Control Panel
+
+08:20:06 p. m.  [main] 	Initializing Control Panel
+08:20:06 p. m.  [main] 	Windows Version:  Home  64-bit
+08:20:06 p. m.  [main] 	XAMPP Version: 7.3.24
+08:20:06 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:20:06 p. m.  [main] 	Running with Administrator rights - good!
+08:20:06 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:20:06 p. m.  [main] 	Checking for prerequisites
+08:20:07 p. m.  [main] 	All prerequisites found
+08:20:07 p. m.  [main] 	Initializing Modules
+08:20:07 p. m.  [main] 	The FileZilla module is disabled
+08:20:07 p. m.  [main] 	The Mercury module is disabled
+08:20:07 p. m.  [main] 	The Tomcat module is disabled
+08:20:07 p. m.  [main] 	Enabling autostart for module "Apache"
+08:20:07 p. m.  [main] 	Enabling autostart for module "MySQL"
+08:20:07 p. m.  [main] 	Starting Check-Timer
+08:20:07 p. m.  [main] 	Control Panel Ready
+08:20:07 p. m.  [Apache] 	Autostart active: starting...
+08:20:07 p. m.  [Apache] 	Attempting to start Apache app...
+08:20:07 p. m.  [mysql] 	Autostart active: starting...
+08:20:07 p. m.  [mysql] 	Attempting to start MySQL app...
+08:20:08 p. m.  [Apache] 	Status change detected: running
+08:20:08 p. m.  [mysql] 	Status change detected: running
+03:19:38 p. m.  [mysql] 	Attempting to stop MySQL app...
+03:19:38 p. m.  [mysql] 	Status change detected: stopped
+03:19:39 p. m.  [Apache] 	Attempting to stop Apache (PID: 6660)
+03:19:39 p. m.  [Apache] 	Attempting to stop Apache (PID: 13252)
+03:19:39 p. m.  [Apache] 	Status change detected: stopped
+03:19:44 p. m.  [mysql] 	Attempting to start MySQL app...
+03:19:44 p. m.  [Apache] 	Attempting to start Apache app...
+03:19:44 p. m.  [Apache] 	Status change detected: running
+03:19:44 p. m.  [mysql] 	Status change detected: running
+10:28:10 p. m.  [Apache] 	Attempting to stop Apache (PID: 15352)
+10:28:10 p. m.  [Apache] 	Attempting to stop Apache (PID: 17232)
+10:28:10 p. m.  [Apache] 	Status change detected: stopped
+10:28:10 p. m.  [mysql] 	Attempting to stop MySQL app...
+10:28:11 p. m.  [mysql] 	Status change detected: stopped
+10:28:11 p. m.  [Apache] 	Attempting to start Apache app...
+10:28:12 p. m.  [Apache] 	Status change detected: running
+10:28:12 p. m.  [mysql] 	Attempting to start MySQL app...
+10:28:12 p. m.  [mysql] 	Status change detected: running
+11:24:36 a. m.  [Apache] 	Status change detected: stopped
+11:24:36 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+11:24:36 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:24:36 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:24:36 a. m.  [Apache] 	Press the Logs button to view error logs and check
+11:24:36 a. m.  [Apache] 	the Windows Event Viewer for more clues
+11:24:36 a. m.  [Apache] 	If you need more help, copy and post this
+11:24:36 a. m.  [Apache] 	entire log window on the forums
+11:24:36 a. m.  [mysql] 	Status change detected: stopped
+11:24:36 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:24:36 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:24:36 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:24:36 a. m.  [mysql] 	Press the Logs button to view error logs and check
+11:24:36 a. m.  [mysql] 	the Windows Event Viewer for more clues
+11:24:36 a. m.  [mysql] 	If you need more help, copy and post this
+11:24:36 a. m.  [mysql] 	entire log window on the forums
+11:24:36 a. m.  [main] 	Deinitializing Modules
+11:24:36 a. m.  [main] 	Deinitializing Control Panel
+
+12:20:33 a. m.  [main] 	Initializing Control Panel
+12:20:33 a. m.  [main] 	Windows Version:  Home  64-bit
+12:20:33 a. m.  [main] 	XAMPP Version: 7.3.24
+12:20:33 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:20:33 a. m.  [main] 	Running with Administrator rights - good!
+12:20:33 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:20:33 a. m.  [main] 	Checking for prerequisites
+12:20:35 a. m.  [main] 	All prerequisites found
+12:20:35 a. m.  [main] 	Initializing Modules
+12:20:35 a. m.  [Apache] 	XAMPP Apache is already running on port 80
+12:20:35 a. m.  [Apache] 	XAMPP Apache is already running on port 443
+12:20:35 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+12:20:35 a. m.  [main] 	The FileZilla module is disabled
+12:20:35 a. m.  [main] 	The Mercury module is disabled
+12:20:35 a. m.  [main] 	The Tomcat module is disabled
+12:20:35 a. m.  [main] 	Enabling autostart for module "Apache"
+12:20:35 a. m.  [main] 	Enabling autostart for module "MySQL"
+12:20:35 a. m.  [main] 	Starting Check-Timer
+12:20:35 a. m.  [main] 	Control Panel Ready
+12:20:35 a. m.  [Apache] 	Autostart aborted: Apache is already running
+12:20:35 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+12:20:37 a. m.  [main] 	Deinitializing Modules
+12:20:37 a. m.  [main] 	Deinitializing Control Panel
+
+11:46:17 a. m.  [main] 	Initializing Control Panel
+11:46:17 a. m.  [main] 	Windows Version:  Home  64-bit
+11:46:17 a. m.  [main] 	XAMPP Version: 7.3.24
+11:46:17 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:46:17 a. m.  [main] 	Running with Administrator rights - good!
+11:46:17 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:46:17 a. m.  [main] 	Checking for prerequisites
+11:46:18 a. m.  [main] 	All prerequisites found
+11:46:18 a. m.  [main] 	Initializing Modules
+11:46:18 a. m.  [main] 	The FileZilla module is disabled
+11:46:18 a. m.  [main] 	The Mercury module is disabled
+11:46:18 a. m.  [main] 	The Tomcat module is disabled
+11:46:18 a. m.  [main] 	Enabling autostart for module "Apache"
+11:46:18 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:46:18 a. m.  [main] 	Starting Check-Timer
+11:46:18 a. m.  [main] 	Control Panel Ready
+11:46:18 a. m.  [Apache] 	Autostart active: starting...
+11:46:18 a. m.  [Apache] 	Attempting to start Apache app...
+11:46:18 a. m.  [mysql] 	Autostart active: starting...
+11:46:18 a. m.  [mysql] 	Attempting to start MySQL app...
+11:46:19 a. m.  [Apache] 	Status change detected: running
+11:46:19 a. m.  [mysql] 	Status change detected: running
+09:04:31 a. m.  [Apache] 	Attempting to stop Apache (PID: 16052)
+09:04:31 a. m.  [Apache] 	Attempting to stop Apache (PID: 14156)
+09:04:31 a. m.  [Apache] 	Status change detected: stopped
+09:04:32 a. m.  [mysql] 	Attempting to stop MySQL app...
+09:04:32 a. m.  [mysql] 	Status change detected: stopped
+09:04:33 a. m.  [Apache] 	Attempting to start Apache app...
+09:04:33 a. m.  [Apache] 	Status change detected: running
+09:04:33 a. m.  [mysql] 	Attempting to start MySQL app...
+09:04:34 a. m.  [mysql] 	Status change detected: running
+09:04:48 a. m.  [main] 	Deinitializing Modules
+09:04:48 a. m.  [main] 	Deinitializing Control Panel
+
+10:37:58 a. m.  [main] 	Initializing Control Panel
+10:37:58 a. m.  [main] 	Windows Version:  Home  64-bit
+10:37:58 a. m.  [main] 	XAMPP Version: 7.3.24
+10:37:58 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:37:58 a. m.  [main] 	Running with Administrator rights - good!
+10:37:58 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:37:58 a. m.  [main] 	Checking for prerequisites
+10:37:58 a. m.  [main] 	All prerequisites found
+10:37:58 a. m.  [main] 	Initializing Modules
+10:37:58 a. m.  [Apache] 	XAMPP Apache is already running on port 80
+10:37:58 a. m.  [Apache] 	XAMPP Apache is already running on port 443
+10:37:58 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+10:37:58 a. m.  [main] 	The FileZilla module is disabled
+10:37:58 a. m.  [main] 	The Mercury module is disabled
+10:37:58 a. m.  [main] 	The Tomcat module is disabled
+10:37:58 a. m.  [main] 	Enabling autostart for module "Apache"
+10:37:58 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:37:58 a. m.  [main] 	Starting Check-Timer
+10:37:58 a. m.  [main] 	Control Panel Ready
+10:37:58 a. m.  [Apache] 	Autostart aborted: Apache is already running
+10:37:58 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+10:38:01 a. m.  [main] 	Deinitializing Modules
+10:38:01 a. m.  [main] 	Deinitializing Control Panel
+
+10:39:13 a. m.  [main] 	Initializing Control Panel
+10:39:13 a. m.  [main] 	Windows Version:  Home  64-bit
+10:39:13 a. m.  [main] 	XAMPP Version: 7.3.24
+10:39:13 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:39:13 a. m.  [main] 	Running with Administrator rights - good!
+10:39:13 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:39:13 a. m.  [main] 	Checking for prerequisites
+10:39:14 a. m.  [main] 	All prerequisites found
+10:39:14 a. m.  [main] 	Initializing Modules
+10:39:14 a. m.  [main] 	The FileZilla module is disabled
+10:39:14 a. m.  [main] 	The Mercury module is disabled
+10:39:14 a. m.  [main] 	The Tomcat module is disabled
+10:39:14 a. m.  [main] 	Enabling autostart for module "Apache"
+10:39:14 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:39:14 a. m.  [main] 	Starting Check-Timer
+10:39:14 a. m.  [main] 	Control Panel Ready
+10:39:14 a. m.  [Apache] 	Autostart active: starting...
+10:39:14 a. m.  [Apache] 	Attempting to start Apache app...
+10:39:14 a. m.  [mysql] 	Autostart active: starting...
+10:39:14 a. m.  [mysql] 	Attempting to start MySQL app...
+10:39:15 a. m.  [Apache] 	Status change detected: running
+10:39:15 a. m.  [mysql] 	Status change detected: running
+10:44:16 a. m.  [main] 	Deinitializing Modules
+10:44:16 a. m.  [main] 	Deinitializing Control Panel
+
+04:38:42 p. m.  [main] 	Initializing Control Panel
+04:38:42 p. m.  [main] 	Windows Version:  Home  64-bit
+04:38:42 p. m.  [main] 	XAMPP Version: 7.3.24
+04:38:42 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+04:38:42 p. m.  [main] 	Running with Administrator rights - good!
+04:38:42 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+04:38:42 p. m.  [main] 	Checking for prerequisites
+04:38:43 p. m.  [main] 	All prerequisites found
+04:38:43 p. m.  [main] 	Initializing Modules
+04:38:43 p. m.  [main] 	The FileZilla module is disabled
+04:38:43 p. m.  [main] 	The Mercury module is disabled
+04:38:43 p. m.  [main] 	The Tomcat module is disabled
+04:38:43 p. m.  [main] 	Enabling autostart for module "Apache"
+04:38:43 p. m.  [main] 	Enabling autostart for module "MySQL"
+04:38:43 p. m.  [main] 	Starting Check-Timer
+04:38:43 p. m.  [main] 	Control Panel Ready
+04:38:44 p. m.  [Apache] 	Autostart active: starting...
+04:38:44 p. m.  [Apache] 	Attempting to start Apache app...
+04:38:44 p. m.  [mysql] 	Autostart active: starting...
+04:38:44 p. m.  [mysql] 	Attempting to start MySQL app...
+04:38:44 p. m.  [Apache] 	Status change detected: running
+04:38:44 p. m.  [mysql] 	Status change detected: running
+08:02:52 a. m.  [Apache] 	Status change detected: stopped
+08:02:52 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+08:02:52 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+08:02:52 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+08:02:52 a. m.  [Apache] 	Press the Logs button to view error logs and check
+08:02:52 a. m.  [Apache] 	the Windows Event Viewer for more clues
+08:02:52 a. m.  [Apache] 	If you need more help, copy and post this
+08:02:52 a. m.  [Apache] 	entire log window on the forums
+08:02:52 a. m.  [mysql] 	Status change detected: stopped
+08:02:52 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+08:02:52 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+08:02:52 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+08:02:52 a. m.  [mysql] 	Press the Logs button to view error logs and check
+08:02:52 a. m.  [mysql] 	the Windows Event Viewer for more clues
+08:02:52 a. m.  [mysql] 	If you need more help, copy and post this
+08:02:52 a. m.  [mysql] 	entire log window on the forums
+08:02:53 a. m.  [main] 	Deinitializing Modules
+08:02:53 a. m.  [main] 	Deinitializing Control Panel
+
+07:41:45 a. m.  [main] 	Initializing Control Panel
+07:41:45 a. m.  [main] 	Windows Version:  Home  64-bit
+07:41:45 a. m.  [main] 	XAMPP Version: 7.3.24
+07:41:45 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+07:41:45 a. m.  [main] 	Running with Administrator rights - good!
+07:41:45 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+07:41:45 a. m.  [main] 	Checking for prerequisites
+07:41:45 a. m.  [main] 	All prerequisites found
+07:41:45 a. m.  [main] 	Initializing Modules
+07:41:45 a. m.  [main] 	The FileZilla module is disabled
+07:41:45 a. m.  [main] 	The Mercury module is disabled
+07:41:45 a. m.  [main] 	The Tomcat module is disabled
+07:41:45 a. m.  [main] 	Enabling autostart for module "Apache"
+07:41:45 a. m.  [main] 	Enabling autostart for module "MySQL"
+07:41:45 a. m.  [main] 	Starting Check-Timer
+07:41:45 a. m.  [main] 	Control Panel Ready
+07:41:45 a. m.  [Apache] 	Autostart active: starting...
+07:41:45 a. m.  [Apache] 	Attempting to start Apache app...
+07:41:45 a. m.  [mysql] 	Autostart active: starting...
+07:41:45 a. m.  [mysql] 	Attempting to start MySQL app...
+07:41:46 a. m.  [Apache] 	Status change detected: running
+07:41:46 a. m.  [mysql] 	Status change detected: running
+06:23:00 p. m.  [Apache] 	Attempting to stop Apache (PID: 13292)
+06:23:00 p. m.  [Apache] 	Attempting to stop Apache (PID: 2592)
+06:23:00 p. m.  [Apache] 	Status change detected: stopped
+06:23:01 p. m.  [mysql] 	Attempting to stop MySQL app...
+06:23:01 p. m.  [mysql] 	Status change detected: stopped
+06:23:30 p. m.  [Apache] 	Attempting to start Apache app...
+06:23:30 p. m.  [mysql] 	Attempting to start MySQL app...
+06:23:30 p. m.  [Apache] 	Status change detected: running
+06:23:30 p. m.  [mysql] 	Status change detected: running
+08:43:20 a. m.  [main] 	Deinitializing Modules
+08:43:20 a. m.  [main] 	Deinitializing Control Panel
+
+06:56:38 p. m.  [main] 	Initializing Control Panel
+06:56:38 p. m.  [main] 	Windows Version:  Home  64-bit
+06:56:38 p. m.  [main] 	XAMPP Version: 7.3.24
+06:56:38 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:56:38 p. m.  [main] 	Running with Administrator rights - good!
+06:56:38 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:56:38 p. m.  [main] 	Checking for prerequisites
+06:56:39 p. m.  [main] 	All prerequisites found
+06:56:39 p. m.  [main] 	Initializing Modules
+06:56:39 p. m.  [main] 	The FileZilla module is disabled
+06:56:39 p. m.  [main] 	The Mercury module is disabled
+06:56:39 p. m.  [main] 	The Tomcat module is disabled
+06:56:39 p. m.  [main] 	Enabling autostart for module "Apache"
+06:56:39 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:56:39 p. m.  [main] 	Starting Check-Timer
+06:56:39 p. m.  [main] 	Control Panel Ready
+06:56:40 p. m.  [Apache] 	Autostart active: starting...
+06:56:40 p. m.  [Apache] 	Attempting to start Apache app...
+06:56:40 p. m.  [mysql] 	Autostart active: starting...
+06:56:40 p. m.  [mysql] 	Attempting to start MySQL app...
+06:56:41 p. m.  [Apache] 	Status change detected: running
+06:56:41 p. m.  [mysql] 	Status change detected: running
+12:45:05 p. m.  [main] 	Deinitializing Modules
+12:45:05 p. m.  [main] 	Deinitializing Control Panel
+
+10:34:12 p. m.  [main] 	Initializing Control Panel
+10:34:12 p. m.  [main] 	Windows Version:  Home  64-bit
+10:34:12 p. m.  [main] 	XAMPP Version: 7.3.24
+10:34:12 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:34:12 p. m.  [main] 	Running with Administrator rights - good!
+10:34:12 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:34:12 p. m.  [main] 	Checking for prerequisites
+10:34:12 p. m.  [main] 	All prerequisites found
+10:34:12 p. m.  [main] 	Initializing Modules
+10:34:12 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+10:34:12 p. m.  [main] 	The FileZilla module is disabled
+10:34:12 p. m.  [main] 	The Mercury module is disabled
+10:34:12 p. m.  [main] 	The Tomcat module is disabled
+10:34:12 p. m.  [main] 	Enabling autostart for module "Apache"
+10:34:12 p. m.  [main] 	Enabling autostart for module "MySQL"
+10:34:12 p. m.  [main] 	Starting Check-Timer
+10:34:12 p. m.  [main] 	Control Panel Ready
+10:34:12 p. m.  [Apache] 	Autostart active: starting...
+10:34:12 p. m.  [Apache] 	Attempting to start Apache app...
+10:34:12 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+10:34:13 p. m.  [Apache] 	Status change detected: running
+10:34:14 p. m.  [main] 	Deinitializing Modules
+10:34:14 p. m.  [main] 	Deinitializing Control Panel
+
+11:48:17 a. m.  [main] 	Initializing Control Panel
+11:48:17 a. m.  [main] 	Windows Version:  Home  64-bit
+11:48:17 a. m.  [main] 	XAMPP Version: 7.3.24
+11:48:17 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:48:17 a. m.  [main] 	Running with Administrator rights - good!
+11:48:17 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:48:17 a. m.  [main] 	Checking for prerequisites
+11:48:18 a. m.  [main] 	All prerequisites found
+11:48:18 a. m.  [main] 	Initializing Modules
+11:48:18 a. m.  [main] 	The FileZilla module is disabled
+11:48:18 a. m.  [main] 	The Mercury module is disabled
+11:48:18 a. m.  [main] 	The Tomcat module is disabled
+11:48:18 a. m.  [main] 	Enabling autostart for module "Apache"
+11:48:18 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:48:18 a. m.  [main] 	Starting Check-Timer
+11:48:18 a. m.  [main] 	Control Panel Ready
+11:48:19 a. m.  [Apache] 	Autostart active: starting...
+11:48:19 a. m.  [Apache] 	Attempting to start Apache app...
+11:48:19 a. m.  [mysql] 	Autostart active: starting...
+11:48:19 a. m.  [mysql] 	Attempting to start MySQL app...
+11:48:19 a. m.  [Apache] 	Status change detected: running
+11:48:19 a. m.  [mysql] 	Status change detected: running
+11:48:20 a. m.  [Apache] 	Status change detected: stopped
+11:48:20 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+11:48:20 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:48:20 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:48:20 a. m.  [Apache] 	Press the Logs button to view error logs and check
+11:48:20 a. m.  [Apache] 	the Windows Event Viewer for more clues
+11:48:20 a. m.  [Apache] 	If you need more help, copy and post this
+11:48:20 a. m.  [Apache] 	entire log window on the forums
+10:34:13 p. m.  [Apache] 	Status change detected: running
+10:34:15 p. m.  [main] 	Deinitializing Modules
+10:34:15 p. m.  [main] 	Deinitializing Control Panel
+
+12:16:20 a. m.  [main] 	Initializing Control Panel
+12:16:20 a. m.  [main] 	Windows Version:  Home  64-bit
+12:16:20 a. m.  [main] 	XAMPP Version: 7.3.24
+12:16:20 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:16:20 a. m.  [main] 	Running with Administrator rights - good!
+12:16:20 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:16:20 a. m.  [main] 	Checking for prerequisites
+12:16:20 a. m.  [main] 	All prerequisites found
+12:16:20 a. m.  [main] 	Initializing Modules
+12:16:20 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+12:16:20 a. m.  [main] 	The FileZilla module is disabled
+12:16:20 a. m.  [main] 	The Mercury module is disabled
+12:16:20 a. m.  [main] 	The Tomcat module is disabled
+12:16:20 a. m.  [main] 	Enabling autostart for module "Apache"
+12:16:20 a. m.  [main] 	Enabling autostart for module "MySQL"
+12:16:20 a. m.  [main] 	Starting Check-Timer
+12:16:20 a. m.  [main] 	Control Panel Ready
+12:16:21 a. m.  [Apache] 	Autostart active: starting...
+12:16:21 a. m.  [Apache] 	Attempting to start Apache app...
+12:16:21 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+12:16:21 a. m.  [Apache] 	Status change detected: running
+12:16:22 a. m.  [Apache] 	Status change detected: stopped
+12:16:22 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+12:16:22 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+12:16:22 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+12:16:22 a. m.  [Apache] 	Press the Logs button to view error logs and check
+12:16:22 a. m.  [Apache] 	the Windows Event Viewer for more clues
+12:16:22 a. m.  [Apache] 	If you need more help, copy and post this
+12:16:22 a. m.  [Apache] 	entire log window on the forums
+12:23:46 a. m.  [main] 	Deinitializing Modules
+12:23:46 a. m.  [main] 	Deinitializing Control Panel
+
+02:34:11 p. m.  [main] 	Initializing Control Panel
+02:34:11 p. m.  [main] 	Windows Version:  Home  64-bit
+02:34:11 p. m.  [main] 	XAMPP Version: 7.3.24
+02:34:11 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+02:34:11 p. m.  [main] 	Running with Administrator rights - good!
+02:34:11 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:34:11 p. m.  [main] 	Checking for prerequisites
+02:34:13 p. m.  [main] 	All prerequisites found
+02:34:13 p. m.  [main] 	Initializing Modules
+02:34:13 p. m.  [main] 	The FileZilla module is disabled
+02:34:13 p. m.  [main] 	The Mercury module is disabled
+02:34:13 p. m.  [main] 	The Tomcat module is disabled
+02:34:13 p. m.  [main] 	Enabling autostart for module "Apache"
+02:34:13 p. m.  [main] 	Enabling autostart for module "MySQL"
+02:34:13 p. m.  [main] 	Starting Check-Timer
+02:34:13 p. m.  [main] 	Control Panel Ready
+02:34:13 p. m.  [Apache] 	Autostart active: starting...
+02:34:13 p. m.  [Apache] 	Attempting to start Apache app...
+02:34:13 p. m.  [mysql] 	Autostart active: starting...
+02:34:13 p. m.  [mysql] 	Attempting to start MySQL app...
+02:34:14 p. m.  [Apache] 	Status change detected: running
+02:34:14 p. m.  [mysql] 	Status change detected: running
+02:34:14 p. m.  [Apache] 	Status change detected: stopped
+02:34:14 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+02:34:14 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+02:34:14 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+02:34:14 p. m.  [Apache] 	Press the Logs button to view error logs and check
+02:34:14 p. m.  [Apache] 	the Windows Event Viewer for more clues
+02:34:14 p. m.  [Apache] 	If you need more help, copy and post this
+02:34:14 p. m.  [Apache] 	entire log window on the forums
+12:16:21 a. m.  [Apache] 	Status change detected: running
+12:16:22 a. m.  [Apache] 	Status change detected: stopped
+12:16:22 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+12:16:22 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+12:16:22 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+12:16:22 a. m.  [Apache] 	Press the Logs button to view error logs and check
+12:16:22 a. m.  [Apache] 	the Windows Event Viewer for more clues
+12:16:22 a. m.  [Apache] 	If you need more help, copy and post this
+12:16:22 a. m.  [Apache] 	entire log window on the forums
+01:14:28 a. m.  [Apache] 	Attempting to start Apache app...
+01:14:29 a. m.  [Apache] 	Status change detected: running
+10:40:34 a. m.  [Apache] 	Attempting to stop Apache (PID: 2640)
+10:40:34 a. m.  [Apache] 	Attempting to stop Apache (PID: 6368)
+10:40:34 a. m.  [mysql] 	Attempting to stop MySQL app...
+10:40:34 a. m.  [Apache] 	Status change detected: stopped
+10:40:34 a. m.  [mysql] 	Status change detected: stopped
+10:44:27 a. m.  [main] 	Deinitializing Modules
+10:44:27 a. m.  [main] 	Deinitializing Control Panel
+
+10:44:29 a. m.  [main] 	Initializing Control Panel
+10:44:29 a. m.  [main] 	Windows Version:  Home  64-bit
+10:44:29 a. m.  [main] 	XAMPP Version: 7.3.24
+10:44:29 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:44:29 a. m.  [main] 	Running with Administrator rights - good!
+10:44:29 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:44:29 a. m.  [main] 	Checking for prerequisites
+10:44:29 a. m.  [main] 	All prerequisites found
+10:44:29 a. m.  [main] 	Initializing Modules
+10:44:29 a. m.  [mysql] 	Problem detected!
+10:44:29 a. m.  [mysql] 	Port 3306 in use by "D:\xamppOld\mysql\bin\mysqld.exe"!
+10:44:29 a. m.  [mysql] 	MySQL WILL NOT start without the configured ports free!
+10:44:29 a. m.  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+10:44:29 a. m.  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+10:44:29 a. m.  [main] 	The FileZilla module is disabled
+10:44:29 a. m.  [main] 	The Mercury module is disabled
+10:44:29 a. m.  [main] 	The Tomcat module is disabled
+10:44:29 a. m.  [main] 	Enabling autostart for module "Apache"
+10:44:29 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:44:29 a. m.  [main] 	Starting Check-Timer
+10:44:29 a. m.  [main] 	Control Panel Ready
+10:44:30 a. m.  [Apache] 	Autostart active: starting...
+10:44:30 a. m.  [Apache] 	Attempting to start Apache app...
+10:44:30 a. m.  [mysql] 	Autostart active: starting...
+10:44:30 a. m.  [mysql] 	Problem detected!
+10:44:30 a. m.  [mysql] 	Port 3306 in use by "D:\xamppOld\mysql\bin\mysqld.exe"!
+10:44:30 a. m.  [mysql] 	MySQL WILL NOT start without the configured ports free!
+10:44:30 a. m.  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+10:44:30 a. m.  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+10:44:30 a. m.  [mysql] 	Attempting to start MySQL app...
+10:44:30 a. m.  [Apache] 	Status change detected: running
+10:44:34 a. m.  [mysql] 	Problem detected!
+10:44:34 a. m.  [mysql] 	Port 3306 in use by "D:\xamppOld\mysql\bin\mysqld.exe"!
+10:44:34 a. m.  [mysql] 	MySQL WILL NOT start without the configured ports free!
+10:44:34 a. m.  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+10:44:34 a. m.  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+10:44:34 a. m.  [mysql] 	Attempting to start MySQL app...
+10:44:45 a. m.  [main] 	Deinitializing Modules
+10:44:45 a. m.  [main] 	Deinitializing Control Panel
+
+04:18:57 p. m.  [main] 	Initializing Control Panel
+04:18:57 p. m.  [main] 	Windows Version:  Home  64-bit
+04:18:57 p. m.  [main] 	XAMPP Version: 7.3.24
+04:18:57 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+04:18:57 p. m.  [main] 	Running with Administrator rights - good!
+04:18:57 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+04:18:57 p. m.  [main] 	Checking for prerequisites
+04:18:57 p. m.  [main] 	All prerequisites found
+04:18:57 p. m.  [main] 	Initializing Modules
+04:18:57 p. m.  [main] 	The FileZilla module is disabled
+04:18:57 p. m.  [main] 	The Mercury module is disabled
+04:18:57 p. m.  [main] 	The Tomcat module is disabled
+04:18:57 p. m.  [main] 	Enabling autostart for module "Apache"
+04:18:57 p. m.  [main] 	Enabling autostart for module "MySQL"
+04:18:57 p. m.  [main] 	Starting Check-Timer
+04:18:57 p. m.  [main] 	Control Panel Ready
+04:18:58 p. m.  [Apache] 	Autostart active: starting...
+04:18:58 p. m.  [Apache] 	Attempting to start Apache app...
+04:18:58 p. m.  [mysql] 	Autostart active: starting...
+04:18:58 p. m.  [mysql] 	Attempting to start MySQL app...
+04:18:58 p. m.  [Apache] 	Status change detected: running
+04:18:58 p. m.  [mysql] 	Status change detected: running
+12:00:09 p. m.  [main] 	Deinitializing Modules
+12:00:09 p. m.  [main] 	Deinitializing Control Panel
+
+09:20:49 a. m.  [main] 	Initializing Control Panel
+09:20:49 a. m.  [main] 	Windows Version:  Home  64-bit
+09:20:49 a. m.  [main] 	XAMPP Version: 7.3.24
+09:20:49 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:20:49 a. m.  [main] 	Running with Administrator rights - good!
+09:20:49 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:20:49 a. m.  [main] 	Checking for prerequisites
+09:20:51 a. m.  [main] 	All prerequisites found
+09:20:51 a. m.  [main] 	Initializing Modules
+09:20:51 a. m.  [main] 	The FileZilla module is disabled
+09:20:51 a. m.  [main] 	The Mercury module is disabled
+09:20:51 a. m.  [main] 	The Tomcat module is disabled
+09:20:51 a. m.  [main] 	Enabling autostart for module "Apache"
+09:20:51 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:20:51 a. m.  [main] 	Starting Check-Timer
+09:20:51 a. m.  [main] 	Control Panel Ready
+09:20:52 a. m.  [Apache] 	Autostart active: starting...
+09:20:52 a. m.  [Apache] 	Attempting to start Apache app...
+09:20:52 a. m.  [mysql] 	Autostart active: starting...
+09:20:52 a. m.  [mysql] 	Attempting to start MySQL app...
+09:20:52 a. m.  [Apache] 	Status change detected: running
+09:20:52 a. m.  [mysql] 	Status change detected: running
+12:14:08 a. m.  [main] 	Deinitializing Modules
+12:14:08 a. m.  [main] 	Deinitializing Control Panel
+
+12:15:46 a. m.  [main] 	Initializing Control Panel
+12:15:46 a. m.  [main] 	Windows Version:  Home  64-bit
+12:15:46 a. m.  [main] 	XAMPP Version: 7.3.24
+12:15:46 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:15:46 a. m.  [main] 	Running with Administrator rights - good!
+12:15:46 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:15:46 a. m.  [main] 	Checking for prerequisites
+12:15:48 a. m.  [main] 	All prerequisites found
+12:15:48 a. m.  [main] 	Initializing Modules
+12:15:48 a. m.  [main] 	The FileZilla module is disabled
+12:15:48 a. m.  [main] 	The Mercury module is disabled
+12:15:48 a. m.  [main] 	The Tomcat module is disabled
+12:15:48 a. m.  [main] 	Enabling autostart for module "Apache"
+12:15:48 a. m.  [main] 	Enabling autostart for module "MySQL"
+12:15:48 a. m.  [main] 	Starting Check-Timer
+12:15:48 a. m.  [main] 	Control Panel Ready
+12:15:48 a. m.  [Apache] 	Autostart active: starting...
+12:15:48 a. m.  [Apache] 	Attempting to start Apache app...
+12:15:48 a. m.  [mysql] 	Autostart active: starting...
+12:15:48 a. m.  [mysql] 	Attempting to start MySQL app...
+12:15:49 a. m.  [Apache] 	Status change detected: running
+12:15:49 a. m.  [mysql] 	Status change detected: running
+09:28:55 a. m.  [main] 	Deinitializing Modules
+09:28:55 a. m.  [main] 	Deinitializing Control Panel
+
+09:17:44 a. m.  [main] 	Initializing Control Panel
+09:17:44 a. m.  [main] 	Windows Version:  Home  64-bit
+09:17:44 a. m.  [main] 	XAMPP Version: 7.3.24
+09:17:44 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:17:44 a. m.  [main] 	Running with Administrator rights - good!
+09:17:44 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:17:44 a. m.  [main] 	Checking for prerequisites
+09:17:46 a. m.  [main] 	All prerequisites found
+09:17:46 a. m.  [main] 	Initializing Modules
+09:17:46 a. m.  [main] 	The FileZilla module is disabled
+09:17:46 a. m.  [main] 	The Mercury module is disabled
+09:17:46 a. m.  [main] 	The Tomcat module is disabled
+09:17:46 a. m.  [main] 	Enabling autostart for module "Apache"
+09:17:46 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:17:46 a. m.  [main] 	Starting Check-Timer
+09:17:46 a. m.  [main] 	Control Panel Ready
+09:17:46 a. m.  [Apache] 	Autostart active: starting...
+09:17:46 a. m.  [Apache] 	Attempting to start Apache app...
+09:17:46 a. m.  [mysql] 	Autostart active: starting...
+09:17:46 a. m.  [mysql] 	Attempting to start MySQL app...
+09:17:47 a. m.  [Apache] 	Status change detected: running
+09:17:47 a. m.  [mysql] 	Status change detected: running
+11:17:23 a. m.  [main] 	Deinitializing Modules
+11:17:23 a. m.  [main] 	Deinitializing Control Panel
+
+12:04:50 p. m.  [main] 	Initializing Control Panel
+12:04:50 p. m.  [main] 	Windows Version:  Home  64-bit
+12:04:50 p. m.  [main] 	XAMPP Version: 7.3.24
+12:04:50 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:04:50 p. m.  [main] 	Running with Administrator rights - good!
+12:04:50 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:04:50 p. m.  [main] 	Checking for prerequisites
+12:04:51 p. m.  [main] 	All prerequisites found
+12:04:51 p. m.  [main] 	Initializing Modules
+12:04:51 p. m.  [main] 	The FileZilla module is disabled
+12:04:51 p. m.  [main] 	The Mercury module is disabled
+12:04:51 p. m.  [main] 	The Tomcat module is disabled
+12:04:51 p. m.  [main] 	Enabling autostart for module "Apache"
+12:04:51 p. m.  [main] 	Enabling autostart for module "MySQL"
+12:04:51 p. m.  [main] 	Starting Check-Timer
+12:04:51 p. m.  [main] 	Control Panel Ready
+12:04:52 p. m.  [Apache] 	Autostart active: starting...
+12:04:52 p. m.  [Apache] 	Attempting to start Apache app...
+12:04:52 p. m.  [mysql] 	Autostart active: starting...
+12:04:52 p. m.  [mysql] 	Attempting to start MySQL app...
+12:04:52 p. m.  [Apache] 	Status change detected: running
+12:04:52 p. m.  [mysql] 	Status change detected: running
+05:15:53 p. m.  [main] 	Deinitializing Modules
+05:15:53 p. m.  [main] 	Deinitializing Control Panel
+
+07:24:13 p. m.  [main] 	Initializing Control Panel
+07:24:13 p. m.  [main] 	Windows Version:  Home  64-bit
+07:24:13 p. m.  [main] 	XAMPP Version: 7.3.24
+07:24:13 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+07:24:13 p. m.  [main] 	Running with Administrator rights - good!
+07:24:13 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+07:24:13 p. m.  [main] 	Checking for prerequisites
+07:24:15 p. m.  [main] 	All prerequisites found
+07:24:15 p. m.  [main] 	Initializing Modules
+07:24:15 p. m.  [main] 	The FileZilla module is disabled
+07:24:15 p. m.  [main] 	The Mercury module is disabled
+07:24:15 p. m.  [main] 	The Tomcat module is disabled
+07:24:15 p. m.  [main] 	Enabling autostart for module "Apache"
+07:24:15 p. m.  [main] 	Enabling autostart for module "MySQL"
+07:24:15 p. m.  [main] 	Starting Check-Timer
+07:24:15 p. m.  [main] 	Control Panel Ready
+07:24:15 p. m.  [Apache] 	Autostart active: starting...
+07:24:15 p. m.  [Apache] 	Attempting to start Apache app...
+07:24:15 p. m.  [mysql] 	Autostart active: starting...
+07:24:15 p. m.  [mysql] 	Attempting to start MySQL app...
+07:24:16 p. m.  [Apache] 	Status change detected: running
+07:24:16 p. m.  [mysql] 	Status change detected: running
+06:07:50 p. m.  [main] 	Deinitializing Modules
+06:07:50 p. m.  [main] 	Deinitializing Control Panel
+
+12:49:09 p. m.  [main] 	Initializing Control Panel
+12:49:09 p. m.  [main] 	Windows Version:  Home  64-bit
+12:49:09 p. m.  [main] 	XAMPP Version: 7.3.24
+12:49:09 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:49:09 p. m.  [main] 	Running with Administrator rights - good!
+12:49:09 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:49:09 p. m.  [main] 	Checking for prerequisites
+12:49:10 p. m.  [main] 	All prerequisites found
+12:49:10 p. m.  [main] 	Initializing Modules
+12:49:10 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+12:49:10 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+12:49:10 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+12:49:10 p. m.  [main] 	The FileZilla module is disabled
+12:49:10 p. m.  [main] 	The Mercury module is disabled
+12:49:10 p. m.  [main] 	The Tomcat module is disabled
+12:49:10 p. m.  [main] 	Enabling autostart for module "Apache"
+12:49:10 p. m.  [main] 	Enabling autostart for module "MySQL"
+12:49:10 p. m.  [main] 	Starting Check-Timer
+12:49:10 p. m.  [main] 	Control Panel Ready
+12:49:11 p. m.  [Apache] 	Autostart aborted: Apache is already running
+12:49:11 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+11:04:04 p. m.  [Apache] 	Status change detected: stopped
+11:04:04 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+11:04:04 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:04:04 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:04:04 p. m.  [Apache] 	Press the Logs button to view error logs and check
+11:04:04 p. m.  [Apache] 	the Windows Event Viewer for more clues
+11:04:04 p. m.  [Apache] 	If you need more help, copy and post this
+11:04:04 p. m.  [Apache] 	entire log window on the forums
+11:04:04 p. m.  [mysql] 	Status change detected: stopped
+11:04:04 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:04:04 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:04:04 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:04:04 p. m.  [mysql] 	Press the Logs button to view error logs and check
+11:04:04 p. m.  [mysql] 	the Windows Event Viewer for more clues
+11:04:04 p. m.  [mysql] 	If you need more help, copy and post this
+11:04:04 p. m.  [mysql] 	entire log window on the forums
+11:04:04 p. m.  [main] 	Deinitializing Modules
+11:04:04 p. m.  [main] 	Deinitializing Control Panel
+
+11:13:45 a. m.  [main] 	Initializing Control Panel
+11:13:45 a. m.  [main] 	Windows Version:  Home  64-bit
+11:13:45 a. m.  [main] 	XAMPP Version: 7.3.24
+11:13:45 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:13:45 a. m.  [main] 	Running with Administrator rights - good!
+11:13:45 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:13:46 a. m.  [main] 	Checking for prerequisites
+11:13:46 a. m.  [main] 	All prerequisites found
+11:13:46 a. m.  [main] 	Initializing Modules
+11:13:46 a. m.  [main] 	The FileZilla module is disabled
+11:13:46 a. m.  [main] 	The Mercury module is disabled
+11:13:46 a. m.  [main] 	The Tomcat module is disabled
+11:13:46 a. m.  [main] 	Enabling autostart for module "Apache"
+11:13:46 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:13:46 a. m.  [main] 	Starting Check-Timer
+11:13:46 a. m.  [main] 	Control Panel Ready
+11:13:46 a. m.  [Apache] 	Autostart active: starting...
+11:13:46 a. m.  [Apache] 	Attempting to start Apache app...
+11:13:46 a. m.  [mysql] 	Autostart active: starting...
+11:13:46 a. m.  [mysql] 	Attempting to start MySQL app...
+11:13:47 a. m.  [Apache] 	Status change detected: running
+11:13:47 a. m.  [mysql] 	Status change detected: running
+10:13:50 a. m.  [main] 	Deinitializing Modules
+10:13:50 a. m.  [main] 	Deinitializing Control Panel
+
+09:49:11 p. m.  [main] 	Initializing Control Panel
+09:49:11 p. m.  [main] 	Windows Version:  Home  64-bit
+09:49:11 p. m.  [main] 	XAMPP Version: 7.3.24
+09:49:11 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:49:11 p. m.  [main] 	Running with Administrator rights - good!
+09:49:11 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:49:11 p. m.  [main] 	Checking for prerequisites
+09:49:11 p. m.  [main] 	All prerequisites found
+09:49:11 p. m.  [main] 	Initializing Modules
+09:49:11 p. m.  [main] 	The FileZilla module is disabled
+09:49:11 p. m.  [main] 	The Mercury module is disabled
+09:49:11 p. m.  [main] 	The Tomcat module is disabled
+09:49:11 p. m.  [main] 	Enabling autostart for module "Apache"
+09:49:11 p. m.  [main] 	Enabling autostart for module "MySQL"
+09:49:11 p. m.  [main] 	Starting Check-Timer
+09:49:11 p. m.  [main] 	Control Panel Ready
+09:49:12 p. m.  [Apache] 	Autostart active: starting...
+09:49:12 p. m.  [Apache] 	Attempting to start Apache app...
+09:49:12 p. m.  [mysql] 	Autostart active: starting...
+09:49:12 p. m.  [mysql] 	Attempting to start MySQL app...
+09:49:12 p. m.  [Apache] 	Status change detected: running
+09:49:12 p. m.  [mysql] 	Status change detected: running
+09:52:21 p. m.  [main] 	Deinitializing Modules
+09:52:21 p. m.  [main] 	Deinitializing Control Panel
+
+06:27:40 a. m.  [main] 	Initializing Control Panel
+06:27:40 a. m.  [main] 	Windows Version:  Home  64-bit
+06:27:40 a. m.  [main] 	XAMPP Version: 7.3.24
+06:27:40 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:27:40 a. m.  [main] 	Running with Administrator rights - good!
+06:27:40 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:27:40 a. m.  [main] 	Checking for prerequisites
+06:27:41 a. m.  [main] 	All prerequisites found
+06:27:41 a. m.  [main] 	Initializing Modules
+06:27:41 a. m.  [main] 	The FileZilla module is disabled
+06:27:41 a. m.  [main] 	The Mercury module is disabled
+06:27:41 a. m.  [main] 	The Tomcat module is disabled
+06:27:41 a. m.  [main] 	Enabling autostart for module "Apache"
+06:27:41 a. m.  [main] 	Enabling autostart for module "MySQL"
+06:27:41 a. m.  [main] 	Starting Check-Timer
+06:27:41 a. m.  [main] 	Control Panel Ready
+06:27:42 a. m.  [Apache] 	Autostart active: starting...
+06:27:42 a. m.  [Apache] 	Attempting to start Apache app...
+06:27:42 a. m.  [mysql] 	Autostart active: starting...
+06:27:42 a. m.  [mysql] 	Attempting to start MySQL app...
+06:27:42 a. m.  [Apache] 	Status change detected: running
+06:27:42 a. m.  [mysql] 	Status change detected: running
+07:25:51 p. m.  [main] 	Deinitializing Modules
+07:25:51 p. m.  [main] 	Deinitializing Control Panel
+
+04:16:56 p. m.  [main] 	Initializing Control Panel
+04:16:56 p. m.  [main] 	Windows Version:  Home  64-bit
+04:16:56 p. m.  [main] 	XAMPP Version: 7.3.24
+04:16:56 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+04:16:56 p. m.  [main] 	Running with Administrator rights - good!
+04:16:56 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+04:16:56 p. m.  [main] 	Checking for prerequisites
+04:16:57 p. m.  [main] 	All prerequisites found
+04:16:57 p. m.  [main] 	Initializing Modules
+04:16:57 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+04:16:57 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+04:16:57 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+04:16:57 p. m.  [main] 	The FileZilla module is disabled
+04:16:57 p. m.  [main] 	The Mercury module is disabled
+04:16:57 p. m.  [main] 	The Tomcat module is disabled
+04:16:57 p. m.  [main] 	Enabling autostart for module "Apache"
+04:16:57 p. m.  [main] 	Enabling autostart for module "MySQL"
+04:16:57 p. m.  [main] 	Starting Check-Timer
+04:16:57 p. m.  [main] 	Control Panel Ready
+04:16:57 p. m.  [Apache] 	Autostart aborted: Apache is already running
+04:16:57 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+04:17:04 p. m.  [main] 	Deinitializing Modules
+04:17:04 p. m.  [main] 	Deinitializing Control Panel
+
+07:26:59 p. m.  [main] 	Initializing Control Panel
+07:26:59 p. m.  [main] 	Windows Version:  Home  64-bit
+07:26:59 p. m.  [main] 	XAMPP Version: 7.3.24
+07:26:59 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+07:26:59 p. m.  [main] 	Running with Administrator rights - good!
+07:26:59 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+07:26:59 p. m.  [main] 	Checking for prerequisites
+07:27:00 p. m.  [main] 	All prerequisites found
+07:27:00 p. m.  [main] 	Initializing Modules
+07:27:00 p. m.  [main] 	The FileZilla module is disabled
+07:27:00 p. m.  [main] 	The Mercury module is disabled
+07:27:00 p. m.  [main] 	The Tomcat module is disabled
+07:27:00 p. m.  [main] 	Enabling autostart for module "Apache"
+07:27:00 p. m.  [main] 	Enabling autostart for module "MySQL"
+07:27:00 p. m.  [main] 	Starting Check-Timer
+07:27:00 p. m.  [main] 	Control Panel Ready
+07:27:00 p. m.  [Apache] 	Autostart active: starting...
+07:27:00 p. m.  [Apache] 	Attempting to start Apache app...
+07:27:00 p. m.  [mysql] 	Autostart active: starting...
+07:27:00 p. m.  [mysql] 	Attempting to start MySQL app...
+07:27:01 p. m.  [Apache] 	Status change detected: running
+07:27:01 p. m.  [mysql] 	Status change detected: running
+05:14:22 p. m.  [mysql] 	Status change detected: stopped
+05:14:23 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+05:14:23 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+05:14:23 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+05:14:23 p. m.  [mysql] 	Press the Logs button to view error logs and check
+05:14:23 p. m.  [mysql] 	the Windows Event Viewer for more clues
+05:14:23 p. m.  [mysql] 	If you need more help, copy and post this
+05:14:23 p. m.  [mysql] 	entire log window on the forums
+05:14:23 p. m.  [main] 	Deinitializing Modules
+05:14:23 p. m.  [main] 	Deinitializing Control Panel
+
+05:47:33 p. m.  [main] 	Initializing Control Panel
+05:47:33 p. m.  [main] 	Windows Version:  Home  64-bit
+05:47:33 p. m.  [main] 	XAMPP Version: 7.3.24
+05:47:33 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:47:33 p. m.  [main] 	Running with Administrator rights - good!
+05:47:33 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:47:33 p. m.  [main] 	Checking for prerequisites
+05:47:33 p. m.  [main] 	All prerequisites found
+05:47:33 p. m.  [main] 	Initializing Modules
+05:47:33 p. m.  [main] 	The FileZilla module is disabled
+05:47:33 p. m.  [main] 	The Mercury module is disabled
+05:47:33 p. m.  [main] 	The Tomcat module is disabled
+05:47:33 p. m.  [main] 	Enabling autostart for module "Apache"
+05:47:33 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:47:33 p. m.  [main] 	Starting Check-Timer
+05:47:33 p. m.  [main] 	Control Panel Ready
+05:47:34 p. m.  [Apache] 	Autostart active: starting...
+05:47:34 p. m.  [Apache] 	Attempting to start Apache app...
+05:47:34 p. m.  [mysql] 	Autostart active: starting...
+05:47:34 p. m.  [mysql] 	Attempting to start MySQL app...
+05:47:34 p. m.  [Apache] 	Status change detected: running
+05:47:34 p. m.  [mysql] 	Status change detected: running
+02:08:35 p. m.  [main] 	Deinitializing Modules
+02:08:35 p. m.  [main] 	Deinitializing Control Panel
+
+11:15:21 a. m.  [main] 	Initializing Control Panel
+11:15:21 a. m.  [main] 	Windows Version:  Home  64-bit
+11:15:21 a. m.  [main] 	XAMPP Version: 7.3.24
+11:15:21 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:15:21 a. m.  [main] 	Running with Administrator rights - good!
+11:15:21 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:15:21 a. m.  [main] 	Checking for prerequisites
+11:15:21 a. m.  [main] 	All prerequisites found
+11:15:21 a. m.  [main] 	Initializing Modules
+11:15:21 a. m.  [main] 	The FileZilla module is disabled
+11:15:21 a. m.  [main] 	The Mercury module is disabled
+11:15:21 a. m.  [main] 	The Tomcat module is disabled
+11:15:21 a. m.  [main] 	Enabling autostart for module "Apache"
+11:15:21 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:15:21 a. m.  [main] 	Starting Check-Timer
+11:15:21 a. m.  [main] 	Control Panel Ready
+11:15:22 a. m.  [Apache] 	Autostart active: starting...
+11:15:22 a. m.  [Apache] 	Attempting to start Apache app...
+11:15:22 a. m.  [mysql] 	Autostart active: starting...
+11:15:22 a. m.  [mysql] 	Attempting to start MySQL app...
+11:15:22 a. m.  [Apache] 	Status change detected: running
+11:15:22 a. m.  [mysql] 	Status change detected: running
+12:35:07 a. m.  [main] 	Deinitializing Modules
+12:35:07 a. m.  [main] 	Deinitializing Control Panel
+
+12:24:57 a. m.  [main] 	Initializing Control Panel
+12:24:57 a. m.  [main] 	Windows Version:  Home  64-bit
+12:24:57 a. m.  [main] 	XAMPP Version: 7.3.24
+12:24:57 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:24:57 a. m.  [main] 	Running with Administrator rights - good!
+12:24:57 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:24:57 a. m.  [main] 	Checking for prerequisites
+12:24:59 a. m.  [main] 	All prerequisites found
+12:24:59 a. m.  [main] 	Initializing Modules
+12:24:59 a. m.  [Apache] 	XAMPP Apache is already running on port 80
+12:24:59 a. m.  [Apache] 	XAMPP Apache is already running on port 443
+12:24:59 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+12:24:59 a. m.  [main] 	The FileZilla module is disabled
+12:24:59 a. m.  [main] 	The Mercury module is disabled
+12:24:59 a. m.  [main] 	The Tomcat module is disabled
+12:24:59 a. m.  [main] 	Enabling autostart for module "Apache"
+12:24:59 a. m.  [main] 	Enabling autostart for module "MySQL"
+12:24:59 a. m.  [main] 	Starting Check-Timer
+12:24:59 a. m.  [main] 	Control Panel Ready
+12:24:59 a. m.  [Apache] 	Autostart aborted: Apache is already running
+12:24:59 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+08:12:54 p. m.  [main] 	Deinitializing Modules
+08:12:54 p. m.  [main] 	Deinitializing Control Panel
+
+09:09:26 a. m.  [main] 	Initializing Control Panel
+09:09:26 a. m.  [main] 	Windows Version:  Home  64-bit
+09:09:26 a. m.  [main] 	XAMPP Version: 7.3.24
+09:09:26 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:09:26 a. m.  [main] 	Running with Administrator rights - good!
+09:09:26 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:09:26 a. m.  [main] 	Checking for prerequisites
+09:09:28 a. m.  [main] 	All prerequisites found
+09:09:28 a. m.  [main] 	Initializing Modules
+09:09:28 a. m.  [main] 	The FileZilla module is disabled
+09:09:28 a. m.  [main] 	The Mercury module is disabled
+09:09:28 a. m.  [main] 	The Tomcat module is disabled
+09:09:28 a. m.  [main] 	Enabling autostart for module "Apache"
+09:09:28 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:09:28 a. m.  [main] 	Starting Check-Timer
+09:09:28 a. m.  [main] 	Control Panel Ready
+09:09:28 a. m.  [Apache] 	Autostart active: starting...
+09:09:28 a. m.  [Apache] 	Attempting to start Apache app...
+09:09:28 a. m.  [mysql] 	Autostart active: starting...
+09:09:28 a. m.  [mysql] 	Attempting to start MySQL app...
+09:09:29 a. m.  [Apache] 	Status change detected: running
+09:09:29 a. m.  [mysql] 	Status change detected: running
+04:34:28 p. m.  [main] 	Deinitializing Modules
+04:34:28 p. m.  [main] 	Deinitializing Control Panel
+
+02:09:58 p. m.  [main] 	Initializing Control Panel
+02:09:58 p. m.  [main] 	Windows Version:  Home  64-bit
+02:09:58 p. m.  [main] 	XAMPP Version: 7.3.24
+02:09:58 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+02:09:58 p. m.  [main] 	Running with Administrator rights - good!
+02:09:58 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:09:58 p. m.  [main] 	Checking for prerequisites
+02:09:58 p. m.  [main] 	All prerequisites found
+02:09:58 p. m.  [main] 	Initializing Modules
+02:09:58 p. m.  [main] 	The FileZilla module is disabled
+02:09:58 p. m.  [main] 	The Mercury module is disabled
+02:09:58 p. m.  [main] 	The Tomcat module is disabled
+02:09:58 p. m.  [main] 	Enabling autostart for module "Apache"
+02:09:58 p. m.  [main] 	Enabling autostart for module "MySQL"
+02:09:58 p. m.  [main] 	Starting Check-Timer
+02:09:58 p. m.  [main] 	Control Panel Ready
+02:09:59 p. m.  [Apache] 	Autostart active: starting...
+02:09:59 p. m.  [Apache] 	Attempting to start Apache app...
+02:09:59 p. m.  [mysql] 	Autostart active: starting...
+02:09:59 p. m.  [mysql] 	Attempting to start MySQL app...
+02:09:59 p. m.  [Apache] 	Status change detected: running
+02:09:59 p. m.  [mysql] 	Status change detected: running
+04:06:10 p. m.  [main] 	Deinitializing Modules
+04:06:10 p. m.  [main] 	Deinitializing Control Panel
+
+11:40:07 a. m.  [main] 	Initializing Control Panel
+11:40:07 a. m.  [main] 	Windows Version:  Home  64-bit
+11:40:07 a. m.  [main] 	XAMPP Version: 7.3.24
+11:40:07 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:40:07 a. m.  [main] 	Running with Administrator rights - good!
+11:40:07 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:40:07 a. m.  [main] 	Checking for prerequisites
+11:40:07 a. m.  [main] 	All prerequisites found
+11:40:07 a. m.  [main] 	Initializing Modules
+11:40:07 a. m.  [main] 	The FileZilla module is disabled
+11:40:07 a. m.  [main] 	The Mercury module is disabled
+11:40:07 a. m.  [main] 	The Tomcat module is disabled
+11:40:07 a. m.  [main] 	Enabling autostart for module "Apache"
+11:40:07 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:40:07 a. m.  [main] 	Starting Check-Timer
+11:40:07 a. m.  [main] 	Control Panel Ready
+11:40:08 a. m.  [Apache] 	Autostart active: starting...
+11:40:08 a. m.  [Apache] 	Attempting to start Apache app...
+11:40:08 a. m.  [mysql] 	Autostart active: starting...
+11:40:08 a. m.  [mysql] 	Attempting to start MySQL app...
+11:40:08 a. m.  [Apache] 	Status change detected: running
+11:40:08 a. m.  [mysql] 	Status change detected: running
+12:19:05 p. m.  [main] 	Deinitializing Modules
+12:19:05 p. m.  [main] 	Deinitializing Control Panel
+
+12:05:13 p. m.  [main] 	Initializing Control Panel
+12:05:13 p. m.  [main] 	Windows Version:  Home  64-bit
+12:05:13 p. m.  [main] 	XAMPP Version: 7.3.24
+12:05:13 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:05:13 p. m.  [main] 	Running with Administrator rights - good!
+12:05:13 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:05:13 p. m.  [main] 	Checking for prerequisites
+12:05:14 p. m.  [main] 	All prerequisites found
+12:05:14 p. m.  [main] 	Initializing Modules
+12:05:14 p. m.  [main] 	The FileZilla module is disabled
+12:05:14 p. m.  [main] 	The Mercury module is disabled
+12:05:14 p. m.  [main] 	The Tomcat module is disabled
+12:05:14 p. m.  [main] 	Enabling autostart for module "Apache"
+12:05:14 p. m.  [main] 	Enabling autostart for module "MySQL"
+12:05:14 p. m.  [main] 	Starting Check-Timer
+12:05:14 p. m.  [main] 	Control Panel Ready
+12:05:14 p. m.  [Apache] 	Autostart active: starting...
+12:05:14 p. m.  [Apache] 	Attempting to start Apache app...
+12:05:14 p. m.  [mysql] 	Autostart active: starting...
+12:05:14 p. m.  [mysql] 	Attempting to start MySQL app...
+12:05:15 p. m.  [Apache] 	Status change detected: running
+12:05:15 p. m.  [mysql] 	Status change detected: running
+04:31:16 a. m.  [main] 	Deinitializing Modules
+04:31:16 a. m.  [main] 	Deinitializing Control Panel
+
+09:08:04 p. m.  [main] 	Initializing Control Panel
+09:08:04 p. m.  [main] 	Windows Version:  Home  64-bit
+09:08:04 p. m.  [main] 	XAMPP Version: 7.3.24
+09:08:04 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:08:04 p. m.  [main] 	Running with Administrator rights - good!
+09:08:04 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:08:04 p. m.  [main] 	Checking for prerequisites
+09:08:05 p. m.  [main] 	All prerequisites found
+09:08:05 p. m.  [main] 	Initializing Modules
+09:08:05 p. m.  [main] 	The FileZilla module is disabled
+09:08:05 p. m.  [main] 	The Mercury module is disabled
+09:08:05 p. m.  [main] 	The Tomcat module is disabled
+09:08:05 p. m.  [main] 	Enabling autostart for module "Apache"
+09:08:05 p. m.  [main] 	Enabling autostart for module "MySQL"
+09:08:05 p. m.  [main] 	Starting Check-Timer
+09:08:05 p. m.  [main] 	Control Panel Ready
+09:08:06 p. m.  [Apache] 	Autostart active: starting...
+09:08:06 p. m.  [Apache] 	Attempting to start Apache app...
+09:08:06 p. m.  [mysql] 	Autostart active: starting...
+09:08:06 p. m.  [mysql] 	Attempting to start MySQL app...
+09:08:06 p. m.  [Apache] 	Status change detected: running
+09:08:07 p. m.  [mysql] 	Status change detected: running
+10:27:53 p. m.  [main] 	Deinitializing Modules
+10:27:53 p. m.  [main] 	Deinitializing Control Panel
+
+11:03:26 a. m.  [main] 	Initializing Control Panel
+11:03:26 a. m.  [main] 	Windows Version:  Home  64-bit
+11:03:26 a. m.  [main] 	XAMPP Version: 7.3.24
+11:03:26 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:03:26 a. m.  [main] 	Running with Administrator rights - good!
+11:03:26 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:03:26 a. m.  [main] 	Checking for prerequisites
+11:03:27 a. m.  [main] 	All prerequisites found
+11:03:27 a. m.  [main] 	Initializing Modules
+11:03:27 a. m.  [main] 	The FileZilla module is disabled
+11:03:27 a. m.  [main] 	The Mercury module is disabled
+11:03:27 a. m.  [main] 	The Tomcat module is disabled
+11:03:27 a. m.  [main] 	Enabling autostart for module "Apache"
+11:03:27 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:03:27 a. m.  [main] 	Starting Check-Timer
+11:03:27 a. m.  [main] 	Control Panel Ready
+11:03:27 a. m.  [Apache] 	Autostart active: starting...
+11:03:27 a. m.  [Apache] 	Attempting to start Apache app...
+11:03:27 a. m.  [mysql] 	Autostart active: starting...
+11:03:27 a. m.  [mysql] 	Attempting to start MySQL app...
+11:03:28 a. m.  [Apache] 	Status change detected: running
+11:03:28 a. m.  [mysql] 	Status change detected: running
+11:03:28 a. m.  [Apache] 	Status change detected: stopped
+11:03:28 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+11:03:28 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:03:28 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:03:28 a. m.  [Apache] 	Press the Logs button to view error logs and check
+11:03:28 a. m.  [Apache] 	the Windows Event Viewer for more clues
+11:03:28 a. m.  [Apache] 	If you need more help, copy and post this
+11:03:28 a. m.  [Apache] 	entire log window on the forums
+11:08:15 a. m.  [Apache] 	Attempting to start Apache app...
+11:08:15 a. m.  [Apache] 	Status change detected: running
+11:08:16 a. m.  [Apache] 	Status change detected: stopped
+11:08:16 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+11:08:16 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:08:16 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:08:16 a. m.  [Apache] 	Press the Logs button to view error logs and check
+11:08:16 a. m.  [Apache] 	the Windows Event Viewer for more clues
+11:08:16 a. m.  [Apache] 	If you need more help, copy and post this
+11:08:16 a. m.  [Apache] 	entire log window on the forums
+11:10:46 a. m.  [main] 	Deinitializing Modules
+11:10:46 a. m.  [main] 	Deinitializing Control Panel
+
+11:10:48 a. m.  [main] 	Initializing Control Panel
+11:10:48 a. m.  [main] 	Windows Version:  Home  64-bit
+11:10:48 a. m.  [main] 	XAMPP Version: 7.3.24
+11:10:48 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:10:48 a. m.  [main] 	Running with Administrator rights - good!
+11:10:48 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:10:48 a. m.  [main] 	Checking for prerequisites
+11:10:48 a. m.  [main] 	All prerequisites found
+11:10:48 a. m.  [main] 	Initializing Modules
+11:10:48 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+11:10:48 a. m.  [main] 	The FileZilla module is disabled
+11:10:48 a. m.  [main] 	The Mercury module is disabled
+11:10:48 a. m.  [main] 	The Tomcat module is disabled
+11:10:48 a. m.  [main] 	Enabling autostart for module "Apache"
+11:10:48 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:10:48 a. m.  [main] 	Starting Check-Timer
+11:10:48 a. m.  [main] 	Control Panel Ready
+11:10:49 a. m.  [Apache] 	Autostart active: starting...
+11:10:49 a. m.  [Apache] 	Attempting to start Apache app...
+11:10:49 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+11:11:29 a. m.  [main] 	Deinitializing Modules
+11:11:29 a. m.  [main] 	Deinitializing Control Panel
+
+11:11:30 a. m.  [main] 	Initializing Control Panel
+11:11:30 a. m.  [main] 	Windows Version:  Home  64-bit
+11:11:30 a. m.  [main] 	XAMPP Version: 7.3.24
+11:11:30 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:11:30 a. m.  [main] 	Running with Administrator rights - good!
+11:11:30 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:11:30 a. m.  [main] 	Checking for prerequisites
+11:11:30 a. m.  [main] 	All prerequisites found
+11:11:30 a. m.  [main] 	Initializing Modules
+11:11:30 a. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+11:11:30 a. m.  [main] 	The FileZilla module is disabled
+11:11:30 a. m.  [main] 	The Mercury module is disabled
+11:11:30 a. m.  [main] 	The Tomcat module is disabled
+11:11:30 a. m.  [main] 	Enabling autostart for module "Apache"
+11:11:30 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:11:30 a. m.  [main] 	Starting Check-Timer
+11:11:30 a. m.  [main] 	Control Panel Ready
+11:11:31 a. m.  [Apache] 	Autostart active: starting...
+11:11:31 a. m.  [Apache] 	Attempting to start Apache app...
+11:11:31 a. m.  [mysql] 	Autostart aborted: MySQL is already running
+11:11:31 a. m.  [Apache] 	Status change detected: running
+05:13:59 p. m.  [main] 	Deinitializing Modules
+05:13:59 p. m.  [main] 	Deinitializing Control Panel
+
+03:41:54 p. m.  [main] 	Initializing Control Panel
+03:41:54 p. m.  [main] 	Windows Version:  Home  64-bit
+03:41:54 p. m.  [main] 	XAMPP Version: 7.3.24
+03:41:54 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+03:41:54 p. m.  [main] 	Running with Administrator rights - good!
+03:41:54 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+03:41:54 p. m.  [main] 	Checking for prerequisites
+03:41:55 p. m.  [main] 	All prerequisites found
+03:41:55 p. m.  [main] 	Initializing Modules
+03:41:55 p. m.  [main] 	The FileZilla module is disabled
+03:41:55 p. m.  [main] 	The Mercury module is disabled
+03:41:55 p. m.  [main] 	The Tomcat module is disabled
+03:41:55 p. m.  [main] 	Enabling autostart for module "Apache"
+03:41:55 p. m.  [main] 	Enabling autostart for module "MySQL"
+03:41:55 p. m.  [main] 	Starting Check-Timer
+03:41:55 p. m.  [main] 	Control Panel Ready
+03:41:55 p. m.  [Apache] 	Autostart active: starting...
+03:41:55 p. m.  [Apache] 	Attempting to start Apache app...
+03:41:55 p. m.  [mysql] 	Autostart active: starting...
+03:41:55 p. m.  [mysql] 	Attempting to start MySQL app...
+03:41:56 p. m.  [Apache] 	Status change detected: running
+03:41:56 p. m.  [mysql] 	Status change detected: running
+01:15:17 a. m.  [main] 	Deinitializing Modules
+01:15:17 a. m.  [main] 	Deinitializing Control Panel
+
+06:58:58 p. m.  [main] 	Initializing Control Panel
+06:58:58 p. m.  [main] 	Windows Version:  Home  64-bit
+06:58:58 p. m.  [main] 	XAMPP Version: 7.3.24
+06:58:58 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:58:58 p. m.  [main] 	Running with Administrator rights - good!
+06:58:58 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:58:58 p. m.  [main] 	Checking for prerequisites
+06:58:58 p. m.  [main] 	All prerequisites found
+06:58:58 p. m.  [main] 	Initializing Modules
+06:58:58 p. m.  [main] 	The FileZilla module is disabled
+06:58:58 p. m.  [main] 	The Mercury module is disabled
+06:58:58 p. m.  [main] 	The Tomcat module is disabled
+06:58:58 p. m.  [main] 	Enabling autostart for module "Apache"
+06:58:58 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:58:58 p. m.  [main] 	Starting Check-Timer
+06:58:58 p. m.  [main] 	Control Panel Ready
+06:58:59 p. m.  [Apache] 	Autostart active: starting...
+06:58:59 p. m.  [Apache] 	Attempting to start Apache app...
+06:58:59 p. m.  [mysql] 	Autostart active: starting...
+06:58:59 p. m.  [mysql] 	Attempting to start MySQL app...
+06:58:59 p. m.  [Apache] 	Status change detected: running
+06:58:59 p. m.  [mysql] 	Status change detected: running
+11:00:44 p. m.  [main] 	Deinitializing Modules
+11:00:44 p. m.  [main] 	Deinitializing Control Panel
+
+05:31:37 p. m.  [main] 	Initializing Control Panel
+05:31:37 p. m.  [main] 	Windows Version:  Home  64-bit
+05:31:37 p. m.  [main] 	XAMPP Version: 7.3.24
+05:31:37 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:31:37 p. m.  [main] 	Running with Administrator rights - good!
+05:31:37 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:31:37 p. m.  [main] 	Checking for prerequisites
+05:31:38 p. m.  [main] 	All prerequisites found
+05:31:38 p. m.  [main] 	Initializing Modules
+05:31:38 p. m.  [main] 	The FileZilla module is disabled
+05:31:38 p. m.  [main] 	The Mercury module is disabled
+05:31:38 p. m.  [main] 	The Tomcat module is disabled
+05:31:38 p. m.  [main] 	Enabling autostart for module "Apache"
+05:31:38 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:31:38 p. m.  [main] 	Starting Check-Timer
+05:31:38 p. m.  [main] 	Control Panel Ready
+05:31:38 p. m.  [Apache] 	Autostart active: starting...
+05:31:38 p. m.  [Apache] 	Attempting to start Apache app...
+05:31:38 p. m.  [mysql] 	Autostart active: starting...
+05:31:38 p. m.  [mysql] 	Attempting to start MySQL app...
+05:31:39 p. m.  [Apache] 	Status change detected: running
+05:31:39 p. m.  [mysql] 	Status change detected: running
+11:11:10 p. m.  [main] 	Deinitializing Modules
+11:11:10 p. m.  [main] 	Deinitializing Control Panel
+
+01:25:44 p. m.  [main] 	Initializing Control Panel
+01:25:44 p. m.  [main] 	Windows Version:  Home  64-bit
+01:25:44 p. m.  [main] 	XAMPP Version: 7.3.24
+01:25:44 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+01:25:44 p. m.  [main] 	Running with Administrator rights - good!
+01:25:44 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+01:25:44 p. m.  [main] 	Checking for prerequisites
+01:25:45 p. m.  [main] 	All prerequisites found
+01:25:45 p. m.  [main] 	Initializing Modules
+01:25:45 p. m.  [main] 	The FileZilla module is disabled
+01:25:45 p. m.  [main] 	The Mercury module is disabled
+01:25:45 p. m.  [main] 	The Tomcat module is disabled
+01:25:45 p. m.  [main] 	Enabling autostart for module "Apache"
+01:25:45 p. m.  [main] 	Enabling autostart for module "MySQL"
+01:25:45 p. m.  [main] 	Starting Check-Timer
+01:25:45 p. m.  [main] 	Control Panel Ready
+01:25:45 p. m.  [Apache] 	Autostart active: starting...
+01:25:45 p. m.  [Apache] 	Attempting to start Apache app...
+01:25:45 p. m.  [mysql] 	Autostart active: starting...
+01:25:45 p. m.  [mysql] 	Attempting to start MySQL app...
+01:25:46 p. m.  [Apache] 	Status change detected: running
+01:25:46 p. m.  [mysql] 	Status change detected: running
+11:19:58 a. m.  [mysql] 	Status change detected: stopped
+11:19:58 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:19:58 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:19:58 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:19:58 a. m.  [mysql] 	Press the Logs button to view error logs and check
+11:19:58 a. m.  [mysql] 	the Windows Event Viewer for more clues
+11:19:58 a. m.  [mysql] 	If you need more help, copy and post this
+11:19:58 a. m.  [mysql] 	entire log window on the forums
+11:20:09 a. m.  [main] 	Deinitializing Modules
+11:20:09 a. m.  [main] 	Deinitializing Control Panel
+
+09:42:28 a. m.  [main] 	Initializing Control Panel
+09:42:28 a. m.  [main] 	Windows Version:  Home  64-bit
+09:42:28 a. m.  [main] 	XAMPP Version: 7.3.24
+09:42:28 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:42:28 a. m.  [main] 	Running with Administrator rights - good!
+09:42:28 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:42:28 a. m.  [main] 	Checking for prerequisites
+09:42:30 a. m.  [main] 	All prerequisites found
+09:42:30 a. m.  [main] 	Initializing Modules
+09:42:30 a. m.  [main] 	The FileZilla module is disabled
+09:42:30 a. m.  [main] 	The Mercury module is disabled
+09:42:30 a. m.  [main] 	The Tomcat module is disabled
+09:42:30 a. m.  [main] 	Enabling autostart for module "Apache"
+09:42:30 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:42:30 a. m.  [main] 	Starting Check-Timer
+09:42:30 a. m.  [main] 	Control Panel Ready
+09:42:32 a. m.  [Apache] 	Autostart active: starting...
+09:42:32 a. m.  [Apache] 	Attempting to start Apache app...
+09:42:32 a. m.  [mysql] 	Autostart active: starting...
+09:42:32 a. m.  [mysql] 	Attempting to start MySQL app...
+09:42:32 a. m.  [Apache] 	Status change detected: running
+09:42:32 a. m.  [mysql] 	Status change detected: running
+11:13:40 p. m.  [mysql] 	Status change detected: stopped
+11:13:40 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:13:41 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:13:41 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:13:41 p. m.  [mysql] 	Press the Logs button to view error logs and check
+11:13:41 p. m.  [mysql] 	the Windows Event Viewer for more clues
+11:13:41 p. m.  [mysql] 	If you need more help, copy and post this
+11:13:41 p. m.  [mysql] 	entire log window on the forums
+11:13:41 p. m.  [Apache] 	Status change detected: stopped
+11:13:41 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+11:13:41 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:13:41 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:13:41 p. m.  [Apache] 	Press the Logs button to view error logs and check
+11:13:41 p. m.  [Apache] 	the Windows Event Viewer for more clues
+11:13:41 p. m.  [Apache] 	If you need more help, copy and post this
+11:13:41 p. m.  [Apache] 	entire log window on the forums
+11:13:41 p. m.  [main] 	Deinitializing Modules
+11:13:41 p. m.  [main] 	Deinitializing Control Panel
+
+10:07:35 a. m.  [main] 	Initializing Control Panel
+10:07:35 a. m.  [main] 	Windows Version:  Home  64-bit
+10:07:35 a. m.  [main] 	XAMPP Version: 7.3.24
+10:07:35 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:07:35 a. m.  [main] 	Running with Administrator rights - good!
+10:07:35 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:07:35 a. m.  [main] 	Checking for prerequisites
+10:07:36 a. m.  [main] 	All prerequisites found
+10:07:36 a. m.  [main] 	Initializing Modules
+10:07:36 a. m.  [main] 	The FileZilla module is disabled
+10:07:36 a. m.  [main] 	The Mercury module is disabled
+10:07:36 a. m.  [main] 	The Tomcat module is disabled
+10:07:36 a. m.  [main] 	Enabling autostart for module "Apache"
+10:07:36 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:07:36 a. m.  [main] 	Starting Check-Timer
+10:07:36 a. m.  [main] 	Control Panel Ready
+10:07:36 a. m.  [Apache] 	Autostart active: starting...
+10:07:36 a. m.  [Apache] 	Attempting to start Apache app...
+10:07:36 a. m.  [mysql] 	Autostart active: starting...
+10:07:36 a. m.  [mysql] 	Attempting to start MySQL app...
+10:07:37 a. m.  [Apache] 	Status change detected: running
+10:07:37 a. m.  [mysql] 	Status change detected: running
+07:22:36 a. m.  [main] 	Deinitializing Modules
+07:22:36 a. m.  [main] 	Deinitializing Control Panel
+
+06:59:02 p. m.  [main] 	Initializing Control Panel
+06:59:02 p. m.  [main] 	Windows Version:  Home  64-bit
+06:59:02 p. m.  [main] 	XAMPP Version: 7.3.24
+06:59:02 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:59:02 p. m.  [main] 	Running with Administrator rights - good!
+06:59:02 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:59:02 p. m.  [main] 	Checking for prerequisites
+06:59:05 p. m.  [main] 	All prerequisites found
+06:59:05 p. m.  [main] 	Initializing Modules
+06:59:05 p. m.  [main] 	The FileZilla module is disabled
+06:59:05 p. m.  [main] 	The Mercury module is disabled
+06:59:05 p. m.  [main] 	The Tomcat module is disabled
+06:59:05 p. m.  [main] 	Enabling autostart for module "Apache"
+06:59:05 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:59:05 p. m.  [main] 	Starting Check-Timer
+06:59:05 p. m.  [main] 	Control Panel Ready
+06:59:05 p. m.  [Apache] 	Autostart active: starting...
+06:59:05 p. m.  [Apache] 	Attempting to start Apache app...
+06:59:05 p. m.  [mysql] 	Autostart active: starting...
+06:59:05 p. m.  [mysql] 	Attempting to start MySQL app...
+06:59:06 p. m.  [Apache] 	Status change detected: running
+06:59:06 p. m.  [mysql] 	Status change detected: running
+10:45:40 p. m.  [main] 	Deinitializing Modules
+10:45:40 p. m.  [main] 	Deinitializing Control Panel
+
+11:55:16 a. m.  [main] 	Initializing Control Panel
+11:55:16 a. m.  [main] 	Windows Version:  Home  64-bit
+11:55:16 a. m.  [main] 	XAMPP Version: 7.3.24
+11:55:16 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:55:16 a. m.  [main] 	Running with Administrator rights - good!
+11:55:16 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:55:16 a. m.  [main] 	Checking for prerequisites
+11:55:17 a. m.  [main] 	All prerequisites found
+11:55:17 a. m.  [main] 	Initializing Modules
+11:55:17 a. m.  [main] 	The FileZilla module is disabled
+11:55:17 a. m.  [main] 	The Mercury module is disabled
+11:55:17 a. m.  [main] 	The Tomcat module is disabled
+11:55:17 a. m.  [main] 	Enabling autostart for module "Apache"
+11:55:17 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:55:17 a. m.  [main] 	Starting Check-Timer
+11:55:17 a. m.  [main] 	Control Panel Ready
+11:55:17 a. m.  [Apache] 	Autostart active: starting...
+11:55:17 a. m.  [Apache] 	Attempting to start Apache app...
+11:55:18 a. m.  [mysql] 	Autostart active: starting...
+11:55:18 a. m.  [mysql] 	Attempting to start MySQL app...
+11:55:18 a. m.  [Apache] 	Status change detected: running
+11:55:18 a. m.  [mysql] 	Status change detected: running
+01:34:07 p. m.  [Apache] 	Status change detected: stopped
+01:34:07 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+01:34:07 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+01:34:07 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+01:34:07 p. m.  [Apache] 	Press the Logs button to view error logs and check
+01:34:07 p. m.  [Apache] 	the Windows Event Viewer for more clues
+01:34:07 p. m.  [Apache] 	If you need more help, copy and post this
+01:34:07 p. m.  [Apache] 	entire log window on the forums
+01:34:07 p. m.  [mysql] 	Status change detected: stopped
+01:34:07 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+01:34:07 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+01:34:07 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+01:34:07 p. m.  [mysql] 	Press the Logs button to view error logs and check
+01:34:07 p. m.  [mysql] 	the Windows Event Viewer for more clues
+01:34:07 p. m.  [mysql] 	If you need more help, copy and post this
+01:34:07 p. m.  [mysql] 	entire log window on the forums
+01:34:07 p. m.  [main] 	Deinitializing Modules
+01:34:07 p. m.  [main] 	Deinitializing Control Panel
+
+06:20:48 p. m.  [main] 	Initializing Control Panel
+06:20:48 p. m.  [main] 	Windows Version:  Home  64-bit
+06:20:48 p. m.  [main] 	XAMPP Version: 7.3.24
+06:20:48 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:20:48 p. m.  [main] 	Running with Administrator rights - good!
+06:20:48 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:20:48 p. m.  [main] 	Checking for prerequisites
+06:20:49 p. m.  [main] 	All prerequisites found
+06:20:49 p. m.  [main] 	Initializing Modules
+06:20:49 p. m.  [main] 	The FileZilla module is disabled
+06:20:49 p. m.  [main] 	The Mercury module is disabled
+06:20:49 p. m.  [main] 	The Tomcat module is disabled
+06:20:49 p. m.  [main] 	Enabling autostart for module "Apache"
+06:20:49 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:20:49 p. m.  [main] 	Starting Check-Timer
+06:20:49 p. m.  [main] 	Control Panel Ready
+06:20:49 p. m.  [Apache] 	Autostart active: starting...
+06:20:49 p. m.  [Apache] 	Attempting to start Apache app...
+06:20:49 p. m.  [mysql] 	Autostart active: starting...
+06:20:49 p. m.  [mysql] 	Attempting to start MySQL app...
+06:20:50 p. m.  [Apache] 	Status change detected: running
+06:20:50 p. m.  [mysql] 	Status change detected: running
+08:21:38 a. m.  [main] 	Deinitializing Modules
+08:21:38 a. m.  [main] 	Deinitializing Control Panel
+
+02:48:48 p. m.  [main] 	Initializing Control Panel
+02:48:48 p. m.  [main] 	Windows Version:  Home  64-bit
+02:48:48 p. m.  [main] 	XAMPP Version: 7.3.24
+02:48:48 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+02:48:48 p. m.  [main] 	Running with Administrator rights - good!
+02:48:48 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:48:48 p. m.  [main] 	Checking for prerequisites
+02:48:50 p. m.  [main] 	All prerequisites found
+02:48:50 p. m.  [main] 	Initializing Modules
+02:48:50 p. m.  [main] 	The FileZilla module is disabled
+02:48:50 p. m.  [main] 	The Mercury module is disabled
+02:48:50 p. m.  [main] 	The Tomcat module is disabled
+02:48:50 p. m.  [main] 	Enabling autostart for module "Apache"
+02:48:50 p. m.  [main] 	Enabling autostart for module "MySQL"
+02:48:50 p. m.  [main] 	Starting Check-Timer
+02:48:50 p. m.  [main] 	Control Panel Ready
+02:48:50 p. m.  [Apache] 	Autostart active: starting...
+02:48:50 p. m.  [Apache] 	Attempting to start Apache app...
+02:48:50 p. m.  [mysql] 	Autostart active: starting...
+02:48:50 p. m.  [mysql] 	Attempting to start MySQL app...
+02:48:51 p. m.  [Apache] 	Status change detected: running
+02:48:51 p. m.  [mysql] 	Status change detected: running
+06:36:59 a. m.  [main] 	Deinitializing Modules
+06:36:59 a. m.  [main] 	Deinitializing Control Panel
+
+08:12:43 a. m.  [main] 	Initializing Control Panel
+08:12:43 a. m.  [main] 	Windows Version:  Home  64-bit
+08:12:43 a. m.  [main] 	XAMPP Version: 7.3.24
+08:12:43 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:12:43 a. m.  [main] 	Running with Administrator rights - good!
+08:12:43 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:12:43 a. m.  [main] 	Checking for prerequisites
+08:12:45 a. m.  [main] 	All prerequisites found
+08:12:45 a. m.  [main] 	Initializing Modules
+08:12:45 a. m.  [main] 	The FileZilla module is disabled
+08:12:45 a. m.  [main] 	The Mercury module is disabled
+08:12:45 a. m.  [main] 	The Tomcat module is disabled
+08:12:45 a. m.  [main] 	Enabling autostart for module "Apache"
+08:12:45 a. m.  [main] 	Enabling autostart for module "MySQL"
+08:12:45 a. m.  [main] 	Starting Check-Timer
+08:12:45 a. m.  [main] 	Control Panel Ready
+08:12:46 a. m.  [Apache] 	Autostart active: starting...
+08:12:46 a. m.  [Apache] 	Attempting to start Apache app...
+08:12:46 a. m.  [mysql] 	Autostart active: starting...
+08:12:46 a. m.  [mysql] 	Attempting to start MySQL app...
+08:12:46 a. m.  [Apache] 	Status change detected: running
+08:12:46 a. m.  [mysql] 	Status change detected: running
+06:20:33 p. m.  [main] 	Deinitializing Modules
+06:20:33 p. m.  [main] 	Deinitializing Control Panel
+
+08:49:01 p. m.  [main] 	Initializing Control Panel
+08:49:01 p. m.  [main] 	Windows Version:  Home  64-bit
+08:49:01 p. m.  [main] 	XAMPP Version: 7.3.24
+08:49:01 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:49:01 p. m.  [main] 	Running with Administrator rights - good!
+08:49:01 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:49:01 p. m.  [main] 	Checking for prerequisites
+08:49:03 p. m.  [main] 	All prerequisites found
+08:49:03 p. m.  [main] 	Initializing Modules
+08:49:03 p. m.  [main] 	The FileZilla module is disabled
+08:49:03 p. m.  [main] 	The Mercury module is disabled
+08:49:03 p. m.  [main] 	The Tomcat module is disabled
+08:49:03 p. m.  [main] 	Enabling autostart for module "Apache"
+08:49:03 p. m.  [main] 	Enabling autostart for module "MySQL"
+08:49:03 p. m.  [main] 	Starting Check-Timer
+08:49:03 p. m.  [main] 	Control Panel Ready
+08:49:03 p. m.  [Apache] 	Autostart active: starting...
+08:49:03 p. m.  [Apache] 	Attempting to start Apache app...
+08:49:03 p. m.  [mysql] 	Autostart active: starting...
+08:49:04 p. m.  [mysql] 	Attempting to start MySQL app...
+08:49:04 p. m.  [Apache] 	Status change detected: running
+08:49:04 p. m.  [mysql] 	Status change detected: running
+06:11:47 a. m.  [main] 	Deinitializing Modules
+06:11:47 a. m.  [main] 	Deinitializing Control Panel
+
+10:48:08 a. m.  [main] 	Initializing Control Panel
+10:48:08 a. m.  [main] 	Windows Version:  Home  64-bit
+10:48:08 a. m.  [main] 	XAMPP Version: 7.3.24
+10:48:08 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:48:08 a. m.  [main] 	Running with Administrator rights - good!
+10:48:08 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:48:08 a. m.  [main] 	Checking for prerequisites
+10:48:09 a. m.  [main] 	All prerequisites found
+10:48:09 a. m.  [main] 	Initializing Modules
+10:48:09 a. m.  [main] 	The FileZilla module is disabled
+10:48:09 a. m.  [main] 	The Mercury module is disabled
+10:48:09 a. m.  [main] 	The Tomcat module is disabled
+10:48:09 a. m.  [main] 	Enabling autostart for module "Apache"
+10:48:09 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:48:09 a. m.  [main] 	Starting Check-Timer
+10:48:09 a. m.  [main] 	Control Panel Ready
+10:48:09 a. m.  [Apache] 	Autostart active: starting...
+10:48:09 a. m.  [Apache] 	Attempting to start Apache app...
+10:48:09 a. m.  [mysql] 	Autostart active: starting...
+10:48:09 a. m.  [mysql] 	Attempting to start MySQL app...
+10:48:10 a. m.  [Apache] 	Status change detected: running
+10:48:10 a. m.  [mysql] 	Status change detected: running
+08:15:06 a. m.  [main] 	Deinitializing Modules
+08:15:06 a. m.  [main] 	Deinitializing Control Panel
+
+11:16:03 p. m.  [main] 	Initializing Control Panel
+11:16:03 p. m.  [main] 	Windows Version:  Home  64-bit
+11:16:03 p. m.  [main] 	XAMPP Version: 7.3.24
+11:16:03 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:16:03 p. m.  [main] 	Running with Administrator rights - good!
+11:16:03 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:16:03 p. m.  [main] 	Checking for prerequisites
+11:16:04 p. m.  [main] 	All prerequisites found
+11:16:04 p. m.  [main] 	Initializing Modules
+11:16:04 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+11:16:04 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+11:16:04 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+11:16:04 p. m.  [main] 	The FileZilla module is disabled
+11:16:04 p. m.  [main] 	The Mercury module is disabled
+11:16:04 p. m.  [main] 	The Tomcat module is disabled
+11:16:04 p. m.  [main] 	Enabling autostart for module "Apache"
+11:16:04 p. m.  [main] 	Enabling autostart for module "MySQL"
+11:16:04 p. m.  [main] 	Starting Check-Timer
+11:16:04 p. m.  [main] 	Control Panel Ready
+11:16:05 p. m.  [Apache] 	Autostart aborted: Apache is already running
+11:16:05 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+08:15:06 a. m.  [main] 	Deinitializing Modules
+08:15:06 a. m.  [main] 	Deinitializing Control Panel
+
+04:18:49 p. m.  [main] 	Initializing Control Panel
+04:18:49 p. m.  [main] 	Windows Version:  Home  64-bit
+04:18:49 p. m.  [main] 	XAMPP Version: 7.3.24
+04:18:49 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+04:18:49 p. m.  [main] 	Running with Administrator rights - good!
+04:18:49 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+04:18:49 p. m.  [main] 	Checking for prerequisites
+04:18:50 p. m.  [main] 	All prerequisites found
+04:18:50 p. m.  [main] 	Initializing Modules
+04:18:50 p. m.  [main] 	The FileZilla module is disabled
+04:18:50 p. m.  [main] 	The Mercury module is disabled
+04:18:50 p. m.  [main] 	The Tomcat module is disabled
+04:18:50 p. m.  [main] 	Enabling autostart for module "Apache"
+04:18:50 p. m.  [main] 	Enabling autostart for module "MySQL"
+04:18:50 p. m.  [main] 	Starting Check-Timer
+04:18:50 p. m.  [main] 	Control Panel Ready
+04:18:51 p. m.  [Apache] 	Autostart active: starting...
+04:18:51 p. m.  [Apache] 	Attempting to start Apache app...
+04:18:51 p. m.  [mysql] 	Autostart active: starting...
+04:18:51 p. m.  [mysql] 	Attempting to start MySQL app...
+04:18:51 p. m.  [Apache] 	Status change detected: running
+04:18:51 p. m.  [mysql] 	Status change detected: running
+11:10:17 a. m.  [main] 	Deinitializing Modules
+11:10:17 a. m.  [main] 	Deinitializing Control Panel
+
+09:30:15 a. m.  [main] 	Initializing Control Panel
+09:30:15 a. m.  [main] 	Windows Version:  Home  64-bit
+09:30:15 a. m.  [main] 	XAMPP Version: 7.3.24
+09:30:15 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:30:15 a. m.  [main] 	Running with Administrator rights - good!
+09:30:15 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:30:15 a. m.  [main] 	Checking for prerequisites
+09:30:17 a. m.  [main] 	All prerequisites found
+09:30:17 a. m.  [main] 	Initializing Modules
+09:30:17 a. m.  [main] 	The FileZilla module is disabled
+09:30:17 a. m.  [main] 	The Mercury module is disabled
+09:30:17 a. m.  [main] 	The Tomcat module is disabled
+09:30:17 a. m.  [main] 	Enabling autostart for module "Apache"
+09:30:17 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:30:17 a. m.  [main] 	Starting Check-Timer
+09:30:17 a. m.  [main] 	Control Panel Ready
+09:30:17 a. m.  [Apache] 	Autostart active: starting...
+09:30:17 a. m.  [Apache] 	Attempting to start Apache app...
+09:30:17 a. m.  [mysql] 	Autostart active: starting...
+09:30:17 a. m.  [mysql] 	Attempting to start MySQL app...
+09:30:18 a. m.  [Apache] 	Status change detected: running
+09:30:18 a. m.  [mysql] 	Status change detected: running
+10:30:09 a. m.  [Apache] 	Status change detected: stopped
+10:30:09 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+10:30:09 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+10:30:09 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+10:30:09 a. m.  [Apache] 	Press the Logs button to view error logs and check
+10:30:09 a. m.  [Apache] 	the Windows Event Viewer for more clues
+10:30:09 a. m.  [Apache] 	If you need more help, copy and post this
+10:30:09 a. m.  [Apache] 	entire log window on the forums
+10:30:09 a. m.  [mysql] 	Status change detected: stopped
+10:30:09 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+10:30:09 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+10:30:09 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+10:30:09 a. m.  [mysql] 	Press the Logs button to view error logs and check
+10:30:09 a. m.  [mysql] 	the Windows Event Viewer for more clues
+10:30:09 a. m.  [mysql] 	If you need more help, copy and post this
+10:30:09 a. m.  [mysql] 	entire log window on the forums
+10:30:09 a. m.  [main] 	Deinitializing Modules
+10:30:09 a. m.  [main] 	Deinitializing Control Panel
+
+02:55:39 p. m.  [main] 	Initializing Control Panel
+02:55:39 p. m.  [main] 	Windows Version:  Home  64-bit
+02:55:39 p. m.  [main] 	XAMPP Version: 7.3.24
+02:55:39 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+02:55:39 p. m.  [main] 	Running with Administrator rights - good!
+02:55:39 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:55:39 p. m.  [main] 	Checking for prerequisites
+02:55:41 p. m.  [main] 	All prerequisites found
+02:55:41 p. m.  [main] 	Initializing Modules
+02:55:41 p. m.  [main] 	The FileZilla module is disabled
+02:55:41 p. m.  [main] 	The Mercury module is disabled
+02:55:41 p. m.  [main] 	The Tomcat module is disabled
+02:55:41 p. m.  [main] 	Enabling autostart for module "Apache"
+02:55:41 p. m.  [main] 	Enabling autostart for module "MySQL"
+02:55:41 p. m.  [main] 	Starting Check-Timer
+02:55:41 p. m.  [main] 	Control Panel Ready
+02:55:41 p. m.  [Apache] 	Autostart active: starting...
+02:55:41 p. m.  [Apache] 	Attempting to start Apache app...
+02:55:41 p. m.  [mysql] 	Autostart active: starting...
+02:55:41 p. m.  [mysql] 	Attempting to start MySQL app...
+02:55:42 p. m.  [Apache] 	Status change detected: running
+02:55:42 p. m.  [mysql] 	Status change detected: running
+04:32:09 p. m.  [main] 	Deinitializing Modules
+04:32:09 p. m.  [main] 	Deinitializing Control Panel
+
+05:22:25 p. m.  [main] 	Initializing Control Panel
+05:22:25 p. m.  [main] 	Windows Version:  Home  64-bit
+05:22:25 p. m.  [main] 	XAMPP Version: 7.3.24
+05:22:25 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:22:25 p. m.  [main] 	Running with Administrator rights - good!
+05:22:25 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:22:25 p. m.  [main] 	Checking for prerequisites
+05:22:27 p. m.  [main] 	All prerequisites found
+05:22:27 p. m.  [main] 	Initializing Modules
+05:22:27 p. m.  [main] 	The FileZilla module is disabled
+05:22:27 p. m.  [main] 	The Mercury module is disabled
+05:22:27 p. m.  [main] 	The Tomcat module is disabled
+05:22:27 p. m.  [main] 	Enabling autostart for module "Apache"
+05:22:27 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:22:27 p. m.  [main] 	Starting Check-Timer
+05:22:27 p. m.  [main] 	Control Panel Ready
+05:22:27 p. m.  [Apache] 	Autostart active: starting...
+05:22:27 p. m.  [Apache] 	Attempting to start Apache app...
+05:22:27 p. m.  [mysql] 	Autostart active: starting...
+05:22:27 p. m.  [mysql] 	Attempting to start MySQL app...
+05:22:28 p. m.  [Apache] 	Status change detected: running
+05:22:28 p. m.  [mysql] 	Status change detected: running
+12:52:09 a. m.  [main] 	Deinitializing Modules
+12:52:09 a. m.  [main] 	Deinitializing Control Panel
+
+02:03:23 p. m.  [main] 	Initializing Control Panel
+02:03:23 p. m.  [main] 	Windows Version:  Home  64-bit
+02:03:23 p. m.  [main] 	XAMPP Version: 7.3.24
+02:03:23 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+02:03:23 p. m.  [main] 	Running with Administrator rights - good!
+02:03:23 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:03:23 p. m.  [main] 	Checking for prerequisites
+02:03:24 p. m.  [main] 	All prerequisites found
+02:03:24 p. m.  [main] 	Initializing Modules
+02:03:24 p. m.  [main] 	The FileZilla module is disabled
+02:03:24 p. m.  [main] 	The Mercury module is disabled
+02:03:24 p. m.  [main] 	The Tomcat module is disabled
+02:03:24 p. m.  [main] 	Enabling autostart for module "Apache"
+02:03:24 p. m.  [main] 	Enabling autostart for module "MySQL"
+02:03:24 p. m.  [main] 	Starting Check-Timer
+02:03:24 p. m.  [main] 	Control Panel Ready
+02:03:24 p. m.  [Apache] 	Autostart active: starting...
+02:03:24 p. m.  [Apache] 	Attempting to start Apache app...
+02:03:24 p. m.  [mysql] 	Autostart active: starting...
+02:03:24 p. m.  [mysql] 	Attempting to start MySQL app...
+02:03:25 p. m.  [Apache] 	Status change detected: running
+02:03:25 p. m.  [mysql] 	Status change detected: running
+01:45:41 p. m.  [Apache] 	Status change detected: stopped
+01:45:41 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+01:45:41 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+01:45:41 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+01:45:41 p. m.  [Apache] 	Press the Logs button to view error logs and check
+01:45:41 p. m.  [Apache] 	the Windows Event Viewer for more clues
+01:45:41 p. m.  [Apache] 	If you need more help, copy and post this
+01:45:41 p. m.  [Apache] 	entire log window on the forums
+01:45:41 p. m.  [mysql] 	Status change detected: stopped
+01:45:41 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+01:45:41 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+01:45:41 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+01:45:41 p. m.  [mysql] 	Press the Logs button to view error logs and check
+01:45:41 p. m.  [mysql] 	the Windows Event Viewer for more clues
+01:45:41 p. m.  [mysql] 	If you need more help, copy and post this
+01:45:41 p. m.  [mysql] 	entire log window on the forums
+01:45:41 p. m.  [main] 	Deinitializing Modules
+01:45:41 p. m.  [main] 	Deinitializing Control Panel
+
+09:23:16 p. m.  [main] 	Initializing Control Panel
+09:23:16 p. m.  [main] 	Windows Version:  Home  64-bit
+09:23:16 p. m.  [main] 	XAMPP Version: 7.3.24
+09:23:16 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:23:16 p. m.  [main] 	Running with Administrator rights - good!
+09:23:16 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:23:16 p. m.  [main] 	Checking for prerequisites
+09:23:18 p. m.  [main] 	All prerequisites found
+09:23:18 p. m.  [main] 	Initializing Modules
+09:23:18 p. m.  [main] 	The FileZilla module is disabled
+09:23:18 p. m.  [main] 	The Mercury module is disabled
+09:23:18 p. m.  [main] 	The Tomcat module is disabled
+09:23:18 p. m.  [main] 	Enabling autostart for module "Apache"
+09:23:18 p. m.  [main] 	Enabling autostart for module "MySQL"
+09:23:18 p. m.  [main] 	Starting Check-Timer
+09:23:18 p. m.  [main] 	Control Panel Ready
+09:23:19 p. m.  [Apache] 	Autostart active: starting...
+09:23:19 p. m.  [Apache] 	Attempting to start Apache app...
+09:23:19 p. m.  [mysql] 	Autostart active: starting...
+09:23:19 p. m.  [mysql] 	Attempting to start MySQL app...
+09:23:19 p. m.  [Apache] 	Status change detected: running
+09:23:19 p. m.  [mysql] 	Status change detected: running
+08:50:04 a. m.  [main] 	Deinitializing Modules
+08:50:04 a. m.  [main] 	Deinitializing Control Panel
+
+01:30:18 p. m.  [main] 	Initializing Control Panel
+01:30:18 p. m.  [main] 	Windows Version:  Home  64-bit
+01:30:18 p. m.  [main] 	XAMPP Version: 7.3.24
+01:30:18 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+01:30:18 p. m.  [main] 	Running with Administrator rights - good!
+01:30:18 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+01:30:18 p. m.  [main] 	Checking for prerequisites
+01:30:18 p. m.  [main] 	All prerequisites found
+01:30:18 p. m.  [main] 	Initializing Modules
+01:30:18 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+01:30:18 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+01:30:18 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+01:30:18 p. m.  [main] 	The FileZilla module is disabled
+01:30:18 p. m.  [main] 	The Mercury module is disabled
+01:30:18 p. m.  [main] 	The Tomcat module is disabled
+01:30:18 p. m.  [main] 	Enabling autostart for module "Apache"
+01:30:18 p. m.  [main] 	Enabling autostart for module "MySQL"
+01:30:18 p. m.  [main] 	Starting Check-Timer
+01:30:18 p. m.  [main] 	Control Panel Ready
+01:30:19 p. m.  [Apache] 	Autostart aborted: Apache is already running
+01:30:19 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+08:50:04 a. m.  [main] 	Deinitializing Modules
+08:50:04 a. m.  [main] 	Deinitializing Control Panel
+
+10:14:21 a. m.  [main] 	Initializing Control Panel
+10:14:21 a. m.  [main] 	Windows Version:  Home  64-bit
+10:14:21 a. m.  [main] 	XAMPP Version: 7.3.24
+10:14:21 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:14:21 a. m.  [main] 	Running with Administrator rights - good!
+10:14:21 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:14:21 a. m.  [main] 	Checking for prerequisites
+10:14:23 a. m.  [main] 	All prerequisites found
+10:14:23 a. m.  [main] 	Initializing Modules
+10:14:23 a. m.  [main] 	The FileZilla module is disabled
+10:14:23 a. m.  [main] 	The Mercury module is disabled
+10:14:23 a. m.  [main] 	The Tomcat module is disabled
+10:14:23 a. m.  [main] 	Enabling autostart for module "Apache"
+10:14:23 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:14:23 a. m.  [main] 	Starting Check-Timer
+10:14:23 a. m.  [main] 	Control Panel Ready
+10:14:24 a. m.  [Apache] 	Autostart active: starting...
+10:14:24 a. m.  [Apache] 	Attempting to start Apache app...
+10:14:24 a. m.  [mysql] 	Autostart active: starting...
+10:14:24 a. m.  [mysql] 	Attempting to start MySQL app...
+10:14:24 a. m.  [Apache] 	Status change detected: running
+10:14:24 a. m.  [mysql] 	Status change detected: running
+09:12:58 a. m.  [main] 	Deinitializing Modules
+09:12:58 a. m.  [main] 	Deinitializing Control Panel
+
+12:56:02 p. m.  [main] 	Initializing Control Panel
+12:56:02 p. m.  [main] 	Windows Version:  Home  64-bit
+12:56:02 p. m.  [main] 	XAMPP Version: 7.3.24
+12:56:02 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:56:02 p. m.  [main] 	Running with Administrator rights - good!
+12:56:02 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:56:02 p. m.  [main] 	Checking for prerequisites
+12:56:04 p. m.  [main] 	All prerequisites found
+12:56:04 p. m.  [main] 	Initializing Modules
+12:56:04 p. m.  [main] 	The FileZilla module is disabled
+12:56:04 p. m.  [main] 	The Mercury module is disabled
+12:56:04 p. m.  [main] 	The Tomcat module is disabled
+12:56:04 p. m.  [main] 	Enabling autostart for module "Apache"
+12:56:04 p. m.  [main] 	Enabling autostart for module "MySQL"
+12:56:04 p. m.  [main] 	Starting Check-Timer
+12:56:04 p. m.  [main] 	Control Panel Ready
+12:56:05 p. m.  [Apache] 	Autostart active: starting...
+12:56:05 p. m.  [Apache] 	Attempting to start Apache app...
+12:56:05 p. m.  [mysql] 	Autostart active: starting...
+12:56:05 p. m.  [mysql] 	Attempting to start MySQL app...
+12:56:05 p. m.  [Apache] 	Status change detected: running
+12:56:05 p. m.  [mysql] 	Status change detected: running
+02:12:25 p. m.  [main] 	Deinitializing Modules
+02:12:25 p. m.  [main] 	Deinitializing Control Panel
+
+05:52:21 p. m.  [main] 	Initializing Control Panel
+05:52:21 p. m.  [main] 	Windows Version:  Home  64-bit
+05:52:21 p. m.  [main] 	XAMPP Version: 7.3.24
+05:52:21 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:52:21 p. m.  [main] 	Running with Administrator rights - good!
+05:52:21 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:52:21 p. m.  [main] 	Checking for prerequisites
+05:52:23 p. m.  [main] 	All prerequisites found
+05:52:23 p. m.  [main] 	Initializing Modules
+05:52:23 p. m.  [main] 	The FileZilla module is disabled
+05:52:23 p. m.  [main] 	The Mercury module is disabled
+05:52:23 p. m.  [main] 	The Tomcat module is disabled
+05:52:23 p. m.  [main] 	Enabling autostart for module "Apache"
+05:52:23 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:52:23 p. m.  [main] 	Starting Check-Timer
+05:52:23 p. m.  [main] 	Control Panel Ready
+05:52:24 p. m.  [Apache] 	Autostart active: starting...
+05:52:24 p. m.  [Apache] 	Attempting to start Apache app...
+05:52:24 p. m.  [mysql] 	Autostart active: starting...
+05:52:24 p. m.  [mysql] 	Attempting to start MySQL app...
+05:52:24 p. m.  [Apache] 	Status change detected: running
+05:52:24 p. m.  [mysql] 	Status change detected: running
+07:24:59 p. m.  [main] 	Deinitializing Modules
+07:24:59 p. m.  [main] 	Deinitializing Control Panel
+
+01:18:48 p. m.  [main] 	Initializing Control Panel
+01:18:48 p. m.  [main] 	Windows Version:  Home  64-bit
+01:18:48 p. m.  [main] 	XAMPP Version: 7.3.24
+01:18:48 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+01:18:48 p. m.  [main] 	Running with Administrator rights - good!
+01:18:48 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+01:18:48 p. m.  [main] 	Checking for prerequisites
+01:18:49 p. m.  [main] 	All prerequisites found
+01:18:49 p. m.  [main] 	Initializing Modules
+01:18:49 p. m.  [main] 	The FileZilla module is disabled
+01:18:49 p. m.  [main] 	The Mercury module is disabled
+01:18:49 p. m.  [main] 	The Tomcat module is disabled
+01:18:49 p. m.  [main] 	Enabling autostart for module "Apache"
+01:18:49 p. m.  [main] 	Enabling autostart for module "MySQL"
+01:18:49 p. m.  [main] 	Starting Check-Timer
+01:18:49 p. m.  [main] 	Control Panel Ready
+01:18:50 p. m.  [Apache] 	Autostart active: starting...
+01:18:50 p. m.  [Apache] 	Attempting to start Apache app...
+01:18:50 p. m.  [mysql] 	Autostart active: starting...
+01:18:50 p. m.  [mysql] 	Attempting to start MySQL app...
+01:18:50 p. m.  [Apache] 	Status change detected: running
+01:18:50 p. m.  [mysql] 	Status change detected: running
+04:46:31 p. m.  [main] 	Deinitializing Modules
+04:46:31 p. m.  [main] 	Deinitializing Control Panel
+
+09:38:32 a. m.  [main] 	Initializing Control Panel
+09:38:32 a. m.  [main] 	Windows Version:  Home  64-bit
+09:38:32 a. m.  [main] 	XAMPP Version: 7.3.24
+09:38:32 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:38:32 a. m.  [main] 	Running with Administrator rights - good!
+09:38:32 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:38:32 a. m.  [main] 	Checking for prerequisites
+09:38:32 a. m.  [main] 	All prerequisites found
+09:38:32 a. m.  [main] 	Initializing Modules
+09:38:32 a. m.  [main] 	The FileZilla module is disabled
+09:38:32 a. m.  [main] 	The Mercury module is disabled
+09:38:32 a. m.  [main] 	The Tomcat module is disabled
+09:38:32 a. m.  [main] 	Enabling autostart for module "Apache"
+09:38:32 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:38:32 a. m.  [main] 	Starting Check-Timer
+09:38:32 a. m.  [main] 	Control Panel Ready
+09:38:32 a. m.  [Apache] 	Autostart active: starting...
+09:38:32 a. m.  [Apache] 	Attempting to start Apache app...
+09:38:32 a. m.  [mysql] 	Autostart active: starting...
+09:38:32 a. m.  [mysql] 	Attempting to start MySQL app...
+09:38:33 a. m.  [Apache] 	Status change detected: running
+09:38:33 a. m.  [mysql] 	Status change detected: running
+05:53:23 p. m.  [main] 	Deinitializing Modules
+05:53:23 p. m.  [main] 	Deinitializing Control Panel
+
+11:27:52 a. m.  [main] 	Initializing Control Panel
+11:27:52 a. m.  [main] 	Windows Version:  Home  64-bit
+11:27:52 a. m.  [main] 	XAMPP Version: 7.3.24
+11:27:52 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:27:52 a. m.  [main] 	Running with Administrator rights - good!
+11:27:52 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:27:52 a. m.  [main] 	Checking for prerequisites
+11:27:52 a. m.  [main] 	All prerequisites found
+11:27:52 a. m.  [main] 	Initializing Modules
+11:27:52 a. m.  [main] 	The FileZilla module is disabled
+11:27:52 a. m.  [main] 	The Mercury module is disabled
+11:27:52 a. m.  [main] 	The Tomcat module is disabled
+11:27:52 a. m.  [main] 	Enabling autostart for module "Apache"
+11:27:52 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:27:52 a. m.  [main] 	Starting Check-Timer
+11:27:52 a. m.  [main] 	Control Panel Ready
+11:27:53 a. m.  [Apache] 	Autostart active: starting...
+11:27:53 a. m.  [Apache] 	Attempting to start Apache app...
+11:27:53 a. m.  [mysql] 	Autostart active: starting...
+11:27:53 a. m.  [mysql] 	Attempting to start MySQL app...
+11:27:53 a. m.  [Apache] 	Status change detected: running
+11:27:53 a. m.  [mysql] 	Status change detected: running
+10:46:09 p. m.  [main] 	Deinitializing Modules
+10:46:09 p. m.  [main] 	Deinitializing Control Panel
+
+10:52:02 p. m.  [main] 	Initializing Control Panel
+10:52:02 p. m.  [main] 	Windows Version:  Home  64-bit
+10:52:02 p. m.  [main] 	XAMPP Version: 7.3.24
+10:52:02 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:52:02 p. m.  [main] 	Running with Administrator rights - good!
+10:52:02 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:52:02 p. m.  [main] 	Checking for prerequisites
+10:52:04 p. m.  [main] 	All prerequisites found
+10:52:04 p. m.  [main] 	Initializing Modules
+10:52:04 p. m.  [main] 	The FileZilla module is disabled
+10:52:04 p. m.  [main] 	The Mercury module is disabled
+10:52:04 p. m.  [main] 	The Tomcat module is disabled
+10:52:04 p. m.  [main] 	Enabling autostart for module "Apache"
+10:52:04 p. m.  [main] 	Enabling autostart for module "MySQL"
+10:52:04 p. m.  [main] 	Starting Check-Timer
+10:52:04 p. m.  [main] 	Control Panel Ready
+10:52:05 p. m.  [Apache] 	Autostart active: starting...
+10:52:05 p. m.  [Apache] 	Attempting to start Apache app...
+10:52:05 p. m.  [mysql] 	Autostart active: starting...
+10:52:05 p. m.  [mysql] 	Attempting to start MySQL app...
+10:52:05 p. m.  [Apache] 	Status change detected: running
+10:52:05 p. m.  [mysql] 	Status change detected: running
+09:03:50 a. m.  [main] 	Deinitializing Modules
+09:03:50 a. m.  [main] 	Deinitializing Control Panel
+
+11:25:59 a. m.  [main] 	Initializing Control Panel
+11:25:59 a. m.  [main] 	Windows Version:  Home  64-bit
+11:25:59 a. m.  [main] 	XAMPP Version: 7.3.24
+11:25:59 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:25:59 a. m.  [main] 	Running with Administrator rights - good!
+11:25:59 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:25:59 a. m.  [main] 	Checking for prerequisites
+11:26:02 a. m.  [main] 	All prerequisites found
+11:26:02 a. m.  [main] 	Initializing Modules
+11:26:02 a. m.  [main] 	The FileZilla module is disabled
+11:26:02 a. m.  [main] 	The Mercury module is disabled
+11:26:02 a. m.  [main] 	The Tomcat module is disabled
+11:26:02 a. m.  [main] 	Enabling autostart for module "Apache"
+11:26:02 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:26:02 a. m.  [main] 	Starting Check-Timer
+11:26:02 a. m.  [main] 	Control Panel Ready
+11:26:02 a. m.  [Apache] 	Autostart active: starting...
+11:26:02 a. m.  [Apache] 	Attempting to start Apache app...
+11:26:02 a. m.  [mysql] 	Autostart active: starting...
+11:26:02 a. m.  [mysql] 	Attempting to start MySQL app...
+11:26:03 a. m.  [Apache] 	Status change detected: running
+11:26:03 a. m.  [mysql] 	Status change detected: running
+01:04:51 p. m.  [main] 	Deinitializing Modules
+01:04:51 p. m.  [main] 	Deinitializing Control Panel
+
+10:51:53 a. m.  [main] 	Initializing Control Panel
+10:51:53 a. m.  [main] 	Windows Version:  Home  64-bit
+10:51:53 a. m.  [main] 	XAMPP Version: 7.3.24
+10:51:53 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:51:53 a. m.  [main] 	Running with Administrator rights - good!
+10:51:53 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:51:53 a. m.  [main] 	Checking for prerequisites
+10:51:54 a. m.  [main] 	All prerequisites found
+10:51:54 a. m.  [main] 	Initializing Modules
+10:51:54 a. m.  [main] 	The FileZilla module is disabled
+10:51:54 a. m.  [main] 	The Mercury module is disabled
+10:51:54 a. m.  [main] 	The Tomcat module is disabled
+10:51:54 a. m.  [main] 	Enabling autostart for module "Apache"
+10:51:54 a. m.  [main] 	Enabling autostart for module "MySQL"
+10:51:54 a. m.  [main] 	Starting Check-Timer
+10:51:54 a. m.  [main] 	Control Panel Ready
+10:51:54 a. m.  [Apache] 	Autostart active: starting...
+10:51:54 a. m.  [Apache] 	Attempting to start Apache app...
+10:51:54 a. m.  [mysql] 	Autostart active: starting...
+10:51:55 a. m.  [mysql] 	Attempting to start MySQL app...
+10:51:55 a. m.  [Apache] 	Status change detected: running
+10:51:55 a. m.  [mysql] 	Status change detected: running
+09:59:12 p. m.  [Apache] 	Attempting to stop Apache (PID: 14920)
+09:59:12 p. m.  [Apache] 	Attempting to stop Apache (PID: 15132)
+09:59:12 p. m.  [Apache] 	Status change detected: stopped
+09:59:12 p. m.  [mysql] 	Attempting to stop MySQL app...
+09:59:12 p. m.  [mysql] 	Status change detected: stopped
+09:59:15 p. m.  [Apache] 	Attempting to start Apache app...
+09:59:15 p. m.  [Apache] 	Status change detected: running
+09:59:16 p. m.  [mysql] 	Attempting to start MySQL app...
+09:59:16 p. m.  [mysql] 	Status change detected: running
+08:29:17 a. m.  [main] 	Deinitializing Modules
+08:29:17 a. m.  [main] 	Deinitializing Control Panel
+
+08:35:48 a. m.  [main] 	Initializing Control Panel
+08:35:48 a. m.  [main] 	Windows Version:  Home  64-bit
+08:35:48 a. m.  [main] 	XAMPP Version: 7.3.24
+08:35:48 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:35:48 a. m.  [main] 	Running with Administrator rights - good!
+08:35:48 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:35:48 a. m.  [main] 	Checking for prerequisites
+08:35:50 a. m.  [main] 	All prerequisites found
+08:35:50 a. m.  [main] 	Initializing Modules
+08:35:50 a. m.  [main] 	The FileZilla module is disabled
+08:35:50 a. m.  [main] 	The Mercury module is disabled
+08:35:50 a. m.  [main] 	The Tomcat module is disabled
+08:35:50 a. m.  [main] 	Enabling autostart for module "Apache"
+08:35:50 a. m.  [main] 	Enabling autostart for module "MySQL"
+08:35:50 a. m.  [main] 	Starting Check-Timer
+08:35:50 a. m.  [main] 	Control Panel Ready
+08:35:50 a. m.  [Apache] 	Autostart active: starting...
+08:35:50 a. m.  [Apache] 	Attempting to start Apache app...
+08:35:50 a. m.  [mysql] 	Autostart active: starting...
+08:35:50 a. m.  [mysql] 	Attempting to start MySQL app...
+08:35:51 a. m.  [Apache] 	Status change detected: running
+08:35:51 a. m.  [mysql] 	Status change detected: running
+01:48:58 p. m.  [Apache] 	Status change detected: stopped
+01:48:58 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+01:48:58 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+01:48:58 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+01:48:58 p. m.  [Apache] 	Press the Logs button to view error logs and check
+01:48:58 p. m.  [Apache] 	the Windows Event Viewer for more clues
+01:48:58 p. m.  [Apache] 	If you need more help, copy and post this
+01:48:58 p. m.  [Apache] 	entire log window on the forums
+01:48:58 p. m.  [mysql] 	Status change detected: stopped
+01:48:58 p. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+01:48:58 p. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+01:48:58 p. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+01:48:58 p. m.  [mysql] 	Press the Logs button to view error logs and check
+01:48:58 p. m.  [mysql] 	the Windows Event Viewer for more clues
+01:48:58 p. m.  [mysql] 	If you need more help, copy and post this
+01:48:58 p. m.  [mysql] 	entire log window on the forums
+01:48:59 p. m.  [main] 	Deinitializing Modules
+01:48:59 p. m.  [main] 	Deinitializing Control Panel
+
+02:43:50 a. m.  [main] 	Initializing Control Panel
+02:43:50 a. m.  [main] 	Windows Version:  Home  64-bit
+02:43:50 a. m.  [main] 	XAMPP Version: 7.3.24
+02:43:50 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+02:43:50 a. m.  [main] 	Running with Administrator rights - good!
+02:43:50 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:43:50 a. m.  [main] 	Checking for prerequisites
+02:43:51 a. m.  [main] 	All prerequisites found
+02:43:51 a. m.  [main] 	Initializing Modules
+02:43:51 a. m.  [main] 	The FileZilla module is disabled
+02:43:51 a. m.  [main] 	The Mercury module is disabled
+02:43:51 a. m.  [main] 	The Tomcat module is disabled
+02:43:51 a. m.  [main] 	Enabling autostart for module "Apache"
+02:43:51 a. m.  [main] 	Enabling autostart for module "MySQL"
+02:43:51 a. m.  [main] 	Starting Check-Timer
+02:43:51 a. m.  [main] 	Control Panel Ready
+02:43:52 a. m.  [Apache] 	Autostart active: starting...
+02:43:52 a. m.  [Apache] 	Attempting to start Apache app...
+02:43:52 a. m.  [mysql] 	Autostart active: starting...
+02:43:52 a. m.  [mysql] 	Attempting to start MySQL app...
+02:43:52 a. m.  [Apache] 	Status change detected: running
+02:43:52 a. m.  [mysql] 	Status change detected: running
+10:55:13 a. m.  [Apache] 	Status change detected: stopped
+10:55:13 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+10:55:13 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+10:55:13 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+10:55:13 a. m.  [Apache] 	Press the Logs button to view error logs and check
+10:55:13 a. m.  [Apache] 	the Windows Event Viewer for more clues
+10:55:13 a. m.  [Apache] 	If you need more help, copy and post this
+10:55:13 a. m.  [Apache] 	entire log window on the forums
+10:55:13 a. m.  [mysql] 	Status change detected: stopped
+10:55:13 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+10:55:13 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+10:55:13 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+10:55:13 a. m.  [mysql] 	Press the Logs button to view error logs and check
+10:55:13 a. m.  [mysql] 	the Windows Event Viewer for more clues
+10:55:13 a. m.  [mysql] 	If you need more help, copy and post this
+10:55:13 a. m.  [mysql] 	entire log window on the forums
+10:55:26 a. m.  [Apache] 	Status change detected: running
+10:55:26 a. m.  [mysql] 	Status change detected: running
+10:55:26 a. m.  [Apache] 	Status change detected: stopped
+10:55:26 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+10:55:26 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+10:55:26 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+10:55:26 a. m.  [Apache] 	Press the Logs button to view error logs and check
+10:55:26 a. m.  [Apache] 	the Windows Event Viewer for more clues
+10:55:26 a. m.  [Apache] 	If you need more help, copy and post this
+10:55:26 a. m.  [Apache] 	entire log window on the forums
+10:55:26 a. m.  [mysql] 	Status change detected: stopped
+10:55:26 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+10:55:26 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+10:55:26 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+10:55:26 a. m.  [mysql] 	Press the Logs button to view error logs and check
+10:55:26 a. m.  [mysql] 	the Windows Event Viewer for more clues
+10:55:26 a. m.  [mysql] 	If you need more help, copy and post this
+10:55:26 a. m.  [mysql] 	entire log window on the forums
+10:55:27 a. m.  [Apache] 	Status change detected: running
+10:55:27 a. m.  [mysql] 	Status change detected: running
+10:55:28 a. m.  [Apache] 	Status change detected: stopped
+10:55:28 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+10:55:28 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+10:55:28 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+10:55:28 a. m.  [Apache] 	Press the Logs button to view error logs and check
+10:55:28 a. m.  [Apache] 	the Windows Event Viewer for more clues
+10:55:28 a. m.  [Apache] 	If you need more help, copy and post this
+10:55:28 a. m.  [Apache] 	entire log window on the forums
+10:55:28 a. m.  [mysql] 	Status change detected: stopped
+10:55:28 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+10:55:28 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+10:55:28 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+10:55:28 a. m.  [mysql] 	Press the Logs button to view error logs and check
+10:55:28 a. m.  [mysql] 	the Windows Event Viewer for more clues
+10:55:28 a. m.  [mysql] 	If you need more help, copy and post this
+10:55:28 a. m.  [mysql] 	entire log window on the forums
+10:55:28 a. m.  [Apache] 	Status change detected: running
+10:55:28 a. m.  [mysql] 	Status change detected: running
+11:02:37 a. m.  [Apache] 	Status change detected: stopped
+11:02:37 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+11:02:37 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:02:37 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:02:37 a. m.  [Apache] 	Press the Logs button to view error logs and check
+11:02:37 a. m.  [Apache] 	the Windows Event Viewer for more clues
+11:02:37 a. m.  [Apache] 	If you need more help, copy and post this
+11:02:37 a. m.  [Apache] 	entire log window on the forums
+11:02:37 a. m.  [mysql] 	Status change detected: stopped
+11:02:37 a. m.  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:02:37 a. m.  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:02:37 a. m.  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:02:37 a. m.  [mysql] 	Press the Logs button to view error logs and check
+11:02:37 a. m.  [mysql] 	the Windows Event Viewer for more clues
+11:02:37 a. m.  [mysql] 	If you need more help, copy and post this
+11:02:37 a. m.  [mysql] 	entire log window on the forums
+11:02:41 a. m.  [Apache] 	Status change detected: running
+11:02:41 a. m.  [mysql] 	Status change detected: running
+11:10:22 a. m.  [main] 	Deinitializing Modules
+11:10:22 a. m.  [main] 	Deinitializing Control Panel
+
+11:17:38 a. m.  [main] 	Initializing Control Panel
+11:17:38 a. m.  [main] 	Windows Version:  Home  64-bit
+11:17:38 a. m.  [main] 	XAMPP Version: 7.3.24
+11:17:38 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:17:38 a. m.  [main] 	Running with Administrator rights - good!
+11:17:38 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:17:38 a. m.  [main] 	Checking for prerequisites
+11:17:39 a. m.  [main] 	All prerequisites found
+11:17:39 a. m.  [main] 	Initializing Modules
+11:17:39 a. m.  [main] 	The FileZilla module is disabled
+11:17:39 a. m.  [main] 	The Mercury module is disabled
+11:17:39 a. m.  [main] 	The Tomcat module is disabled
+11:17:39 a. m.  [main] 	Enabling autostart for module "Apache"
+11:17:39 a. m.  [main] 	Enabling autostart for module "MySQL"
+11:17:39 a. m.  [main] 	Starting Check-Timer
+11:17:39 a. m.  [main] 	Control Panel Ready
+11:17:40 a. m.  [Apache] 	Autostart active: starting...
+11:17:40 a. m.  [Apache] 	Attempting to start Apache app...
+11:17:40 a. m.  [mysql] 	Autostart active: starting...
+11:17:40 a. m.  [mysql] 	Attempting to start MySQL app...
+11:17:40 a. m.  [Apache] 	Status change detected: running
+11:17:40 a. m.  [mysql] 	Status change detected: running
+01:40:25 p. m.  [main] 	Deinitializing Modules
+01:40:25 p. m.  [main] 	Deinitializing Control Panel
+
+05:59:34 a. m.  [main] 	Initializing Control Panel
+05:59:34 a. m.  [main] 	Windows Version:  Home  64-bit
+05:59:34 a. m.  [main] 	XAMPP Version: 7.3.24
+05:59:34 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:59:34 a. m.  [main] 	Running with Administrator rights - good!
+05:59:34 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:59:34 a. m.  [main] 	Checking for prerequisites
+05:59:34 a. m.  [main] 	All prerequisites found
+05:59:34 a. m.  [main] 	Initializing Modules
+05:59:34 a. m.  [main] 	The FileZilla module is disabled
+05:59:34 a. m.  [main] 	The Mercury module is disabled
+05:59:34 a. m.  [main] 	The Tomcat module is disabled
+05:59:34 a. m.  [main] 	Enabling autostart for module "Apache"
+05:59:34 a. m.  [main] 	Enabling autostart for module "MySQL"
+05:59:34 a. m.  [main] 	Starting Check-Timer
+05:59:34 a. m.  [main] 	Control Panel Ready
+05:59:35 a. m.  [Apache] 	Autostart active: starting...
+05:59:35 a. m.  [Apache] 	Attempting to start Apache app...
+05:59:35 a. m.  [mysql] 	Autostart active: starting...
+05:59:35 a. m.  [mysql] 	Attempting to start MySQL app...
+05:59:35 a. m.  [Apache] 	Status change detected: running
+05:59:35 a. m.  [mysql] 	Status change detected: running
+05:59:36 a. m.  [Apache] 	Status change detected: stopped
+05:59:36 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+05:59:36 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+05:59:36 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+05:59:36 a. m.  [Apache] 	Press the Logs button to view error logs and check
+05:59:36 a. m.  [Apache] 	the Windows Event Viewer for more clues
+05:59:36 a. m.  [Apache] 	If you need more help, copy and post this
+05:59:36 a. m.  [Apache] 	entire log window on the forums
+06:00:00 a. m.  [Apache] 	Attempting to start Apache app...
+06:00:01 a. m.  [mysql] 	Attempting to stop MySQL app...
+06:00:02 a. m.  [mysql] 	Status change detected: stopped
+06:00:03 a. m.  [Apache] 	Attempting to start Apache app...
+06:00:03 a. m.  [Apache] 	Status change detected: running
+06:00:03 a. m.  [mysql] 	Attempting to start MySQL app...
+06:00:03 a. m.  [Apache] 	Status change detected: stopped
+06:00:03 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+06:00:03 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+06:00:03 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+06:00:03 a. m.  [Apache] 	Press the Logs button to view error logs and check
+06:00:03 a. m.  [Apache] 	the Windows Event Viewer for more clues
+06:00:03 a. m.  [Apache] 	If you need more help, copy and post this
+06:00:03 a. m.  [Apache] 	entire log window on the forums
+06:00:03 a. m.  [mysql] 	Status change detected: running
+06:00:05 a. m.  [Apache] 	Attempting to start Apache app...
+06:15:34 a. m.  [main] 	Deinitializing Modules
+06:15:34 a. m.  [main] 	Deinitializing Control Panel
+
+08:26:32 a. m.  [main] 	Initializing Control Panel
+08:26:32 a. m.  [main] 	Windows Version:  Home  64-bit
+08:26:32 a. m.  [main] 	XAMPP Version: 7.3.24
+08:26:32 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:26:32 a. m.  [main] 	Running with Administrator rights - good!
+08:26:32 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:26:32 a. m.  [main] 	Checking for prerequisites
+08:26:32 a. m.  [main] 	All prerequisites found
+08:26:32 a. m.  [main] 	Initializing Modules
+08:26:32 a. m.  [main] 	The FileZilla module is disabled
+08:26:32 a. m.  [main] 	The Mercury module is disabled
+08:26:32 a. m.  [main] 	The Tomcat module is disabled
+08:26:32 a. m.  [main] 	Enabling autostart for module "Apache"
+08:26:32 a. m.  [main] 	Enabling autostart for module "MySQL"
+08:26:32 a. m.  [main] 	Starting Check-Timer
+08:26:32 a. m.  [main] 	Control Panel Ready
+08:26:32 a. m.  [Apache] 	Autostart active: starting...
+08:26:32 a. m.  [Apache] 	Attempting to start Apache app...
+08:26:32 a. m.  [mysql] 	Autostart active: starting...
+08:26:32 a. m.  [mysql] 	Attempting to start MySQL app...
+08:26:33 a. m.  [Apache] 	Status change detected: running
+08:26:33 a. m.  [mysql] 	Status change detected: running
+08:26:34 a. m.  [Apache] 	Status change detected: stopped
+08:26:34 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+08:26:34 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+08:26:34 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+08:26:34 a. m.  [Apache] 	Press the Logs button to view error logs and check
+08:26:34 a. m.  [Apache] 	the Windows Event Viewer for more clues
+08:26:34 a. m.  [Apache] 	If you need more help, copy and post this
+08:26:34 a. m.  [Apache] 	entire log window on the forums
+08:38:38 a. m.  [Apache] 	Attempting to start Apache app...
+08:38:38 a. m.  [Apache] 	Status change detected: running
+01:09:15 p. m.  [main] 	Deinitializing Modules
+01:09:15 p. m.  [main] 	Deinitializing Control Panel
+
+04:10:05 p. m.  [main] 	Initializing Control Panel
+04:10:05 p. m.  [main] 	Windows Version:  Home  64-bit
+04:10:05 p. m.  [main] 	XAMPP Version: 7.3.24
+04:10:05 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+04:10:05 p. m.  [main] 	Running with Administrator rights - good!
+04:10:05 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+04:10:05 p. m.  [main] 	Checking for prerequisites
+04:10:06 p. m.  [main] 	All prerequisites found
+04:10:06 p. m.  [main] 	Initializing Modules
+04:10:06 p. m.  [main] 	The FileZilla module is disabled
+04:10:06 p. m.  [main] 	The Mercury module is disabled
+04:10:06 p. m.  [main] 	The Tomcat module is disabled
+04:10:06 p. m.  [main] 	Enabling autostart for module "Apache"
+04:10:06 p. m.  [main] 	Enabling autostart for module "MySQL"
+04:10:06 p. m.  [main] 	Starting Check-Timer
+04:10:06 p. m.  [main] 	Control Panel Ready
+04:10:07 p. m.  [Apache] 	Autostart active: starting...
+04:10:07 p. m.  [Apache] 	Attempting to start Apache app...
+04:10:07 p. m.  [mysql] 	Autostart active: starting...
+04:10:07 p. m.  [mysql] 	Attempting to start MySQL app...
+04:10:07 p. m.  [Apache] 	Status change detected: running
+04:10:07 p. m.  [mysql] 	Status change detected: running
+05:57:47 p. m.  [main] 	Deinitializing Modules
+05:57:47 p. m.  [main] 	Deinitializing Control Panel
+
+08:21:01 p. m.  [main] 	Initializing Control Panel
+08:21:01 p. m.  [main] 	Windows Version:  Home  64-bit
+08:21:01 p. m.  [main] 	XAMPP Version: 7.3.24
+08:21:01 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:21:01 p. m.  [main] 	Running with Administrator rights - good!
+08:21:01 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:21:01 p. m.  [main] 	Checking for prerequisites
+08:21:02 p. m.  [main] 	All prerequisites found
+08:21:02 p. m.  [main] 	Initializing Modules
+08:21:02 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+08:21:02 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+08:21:02 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+08:21:02 p. m.  [main] 	The FileZilla module is disabled
+08:21:02 p. m.  [main] 	The Mercury module is disabled
+08:21:02 p. m.  [main] 	The Tomcat module is disabled
+08:21:02 p. m.  [main] 	Enabling autostart for module "Apache"
+08:21:02 p. m.  [main] 	Enabling autostart for module "MySQL"
+08:21:02 p. m.  [main] 	Starting Check-Timer
+08:21:02 p. m.  [main] 	Control Panel Ready
+08:21:02 p. m.  [Apache] 	Autostart aborted: Apache is already running
+08:21:02 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+09:09:20 p. m.  [main] 	Deinitializing Modules
+09:09:20 p. m.  [main] 	Deinitializing Control Panel
+
+05:58:56 p. m.  [main] 	Initializing Control Panel
+05:58:56 p. m.  [main] 	Windows Version:  Home  64-bit
+05:58:56 p. m.  [main] 	XAMPP Version: 7.3.24
+05:58:56 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:58:56 p. m.  [main] 	Running with Administrator rights - good!
+05:58:56 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:58:56 p. m.  [main] 	Checking for prerequisites
+05:58:57 p. m.  [main] 	All prerequisites found
+05:58:57 p. m.  [main] 	Initializing Modules
+05:58:57 p. m.  [main] 	The FileZilla module is disabled
+05:58:57 p. m.  [main] 	The Mercury module is disabled
+05:58:57 p. m.  [main] 	The Tomcat module is disabled
+05:58:57 p. m.  [main] 	Enabling autostart for module "Apache"
+05:58:57 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:58:57 p. m.  [main] 	Starting Check-Timer
+05:58:57 p. m.  [main] 	Control Panel Ready
+05:58:58 p. m.  [Apache] 	Autostart active: starting...
+05:58:58 p. m.  [Apache] 	Attempting to start Apache app...
+05:58:58 p. m.  [mysql] 	Autostart active: starting...
+05:58:58 p. m.  [mysql] 	Attempting to start MySQL app...
+05:58:58 p. m.  [Apache] 	Status change detected: running
+05:58:58 p. m.  [mysql] 	Status change detected: running
+09:09:22 p. m.  [main] 	Deinitializing Modules
+09:09:22 p. m.  [main] 	Deinitializing Control Panel
+
+09:09:23 p. m.  [main] 	Initializing Control Panel
+09:09:23 p. m.  [main] 	Windows Version:  Home  64-bit
+09:09:23 p. m.  [main] 	XAMPP Version: 7.3.24
+09:09:23 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:09:23 p. m.  [main] 	Running with Administrator rights - good!
+09:09:23 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:09:23 p. m.  [main] 	Checking for prerequisites
+09:09:23 p. m.  [main] 	All prerequisites found
+09:09:23 p. m.  [main] 	Initializing Modules
+09:09:23 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+09:09:23 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+09:09:23 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+09:09:23 p. m.  [main] 	The FileZilla module is disabled
+09:09:23 p. m.  [main] 	The Mercury module is disabled
+09:09:23 p. m.  [main] 	The Tomcat module is disabled
+09:09:23 p. m.  [main] 	Enabling autostart for module "Apache"
+09:09:23 p. m.  [main] 	Enabling autostart for module "MySQL"
+09:09:23 p. m.  [main] 	Starting Check-Timer
+09:09:23 p. m.  [main] 	Control Panel Ready
+09:09:24 p. m.  [Apache] 	Autostart aborted: Apache is already running
+09:09:24 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+09:16:21 p. m.  [main] 	Deinitializing Modules
+09:16:21 p. m.  [main] 	Deinitializing Control Panel
+
+09:20:49 p. m.  [main] 	Initializing Control Panel
+09:20:49 p. m.  [main] 	Windows Version:  Home  64-bit
+09:20:50 p. m.  [main] 	XAMPP Version: 7.3.24
+09:20:50 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:20:50 p. m.  [main] 	Running with Administrator rights - good!
+09:20:50 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:20:50 p. m.  [main] 	Checking for prerequisites
+09:20:51 p. m.  [main] 	All prerequisites found
+09:20:51 p. m.  [main] 	Initializing Modules
+09:20:51 p. m.  [main] 	The FileZilla module is disabled
+09:20:51 p. m.  [main] 	The Mercury module is disabled
+09:20:51 p. m.  [main] 	The Tomcat module is disabled
+09:20:51 p. m.  [main] 	Enabling autostart for module "Apache"
+09:20:51 p. m.  [main] 	Enabling autostart for module "MySQL"
+09:20:51 p. m.  [main] 	Starting Check-Timer
+09:20:51 p. m.  [main] 	Control Panel Ready
+09:20:51 p. m.  [Apache] 	Autostart active: starting...
+09:20:51 p. m.  [Apache] 	Attempting to start Apache app...
+09:20:51 p. m.  [mysql] 	Autostart active: starting...
+09:20:51 p. m.  [mysql] 	Attempting to start MySQL app...
+09:20:52 p. m.  [Apache] 	Status change detected: running
+09:20:52 p. m.  [mysql] 	Status change detected: running
+10:32:36 a. m.  [main] 	Deinitializing Modules
+10:32:36 a. m.  [main] 	Deinitializing Control Panel
+
+07:47:59 p. m.  [main] 	Initializing Control Panel
+07:47:59 p. m.  [main] 	Windows Version:  Home  64-bit
+07:47:59 p. m.  [main] 	XAMPP Version: 7.3.24
+07:47:59 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+07:47:59 p. m.  [main] 	Running with Administrator rights - good!
+07:47:59 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+07:47:59 p. m.  [main] 	Checking for prerequisites
+07:48:00 p. m.  [main] 	All prerequisites found
+07:48:00 p. m.  [main] 	Initializing Modules
+07:48:00 p. m.  [main] 	The FileZilla module is disabled
+07:48:00 p. m.  [main] 	The Mercury module is disabled
+07:48:00 p. m.  [main] 	The Tomcat module is disabled
+07:48:00 p. m.  [main] 	Enabling autostart for module "Apache"
+07:48:00 p. m.  [main] 	Enabling autostart for module "MySQL"
+07:48:00 p. m.  [main] 	Starting Check-Timer
+07:48:00 p. m.  [main] 	Control Panel Ready
+07:48:01 p. m.  [Apache] 	Autostart active: starting...
+07:48:01 p. m.  [Apache] 	Attempting to start Apache app...
+07:48:01 p. m.  [mysql] 	Autostart active: starting...
+07:48:01 p. m.  [mysql] 	Attempting to start MySQL app...
+07:48:01 p. m.  [Apache] 	Status change detected: running
+07:48:01 p. m.  [mysql] 	Status change detected: running
+04:05:19 p. m.  [main] 	Deinitializing Modules
+04:05:19 p. m.  [main] 	Deinitializing Control Panel
+
+05:51:41 p. m.  [main] 	Initializing Control Panel
+05:51:41 p. m.  [main] 	Windows Version:  Home  64-bit
+05:51:41 p. m.  [main] 	XAMPP Version: 7.3.24
+05:51:41 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:51:41 p. m.  [main] 	Running with Administrator rights - good!
+05:51:41 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:51:41 p. m.  [main] 	Checking for prerequisites
+05:51:43 p. m.  [main] 	All prerequisites found
+05:51:43 p. m.  [main] 	Initializing Modules
+05:51:43 p. m.  [main] 	The FileZilla module is disabled
+05:51:43 p. m.  [main] 	The Mercury module is disabled
+05:51:43 p. m.  [main] 	The Tomcat module is disabled
+05:51:43 p. m.  [main] 	Enabling autostart for module "Apache"
+05:51:43 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:51:43 p. m.  [main] 	Starting Check-Timer
+05:51:43 p. m.  [main] 	Control Panel Ready
+05:51:43 p. m.  [Apache] 	Autostart active: starting...
+05:51:43 p. m.  [Apache] 	Attempting to start Apache app...
+05:51:43 p. m.  [mysql] 	Autostart active: starting...
+05:51:43 p. m.  [mysql] 	Attempting to start MySQL app...
+05:51:44 p. m.  [Apache] 	Status change detected: running
+05:51:44 p. m.  [mysql] 	Status change detected: running
+10:54:10 a. m.  [main] 	Deinitializing Modules
+10:54:10 a. m.  [main] 	Deinitializing Control Panel
+
+06:08:59 p. m.  [main] 	Initializing Control Panel
+06:08:59 p. m.  [main] 	Windows Version:  Home  64-bit
+06:08:59 p. m.  [main] 	XAMPP Version: 7.3.24
+06:08:59 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:08:59 p. m.  [main] 	Running with Administrator rights - good!
+06:08:59 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:08:59 p. m.  [main] 	Checking for prerequisites
+06:09:00 p. m.  [main] 	All prerequisites found
+06:09:00 p. m.  [main] 	Initializing Modules
+06:09:00 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+06:09:00 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+06:09:00 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+06:09:00 p. m.  [main] 	The FileZilla module is disabled
+06:09:00 p. m.  [main] 	The Mercury module is disabled
+06:09:00 p. m.  [main] 	The Tomcat module is disabled
+06:09:00 p. m.  [main] 	Enabling autostart for module "Apache"
+06:09:00 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:09:00 p. m.  [main] 	Starting Check-Timer
+06:09:00 p. m.  [main] 	Control Panel Ready
+06:09:01 p. m.  [Apache] 	Autostart aborted: Apache is already running
+06:09:01 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+11:58:06 p. m.  [main] 	Deinitializing Modules
+11:58:06 p. m.  [main] 	Deinitializing Control Panel
+
+09:44:54 a. m.  [main] 	Initializing Control Panel
+09:44:54 a. m.  [main] 	Windows Version:  Home  64-bit
+09:44:54 a. m.  [main] 	XAMPP Version: 7.3.24
+09:44:54 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:44:54 a. m.  [main] 	Running with Administrator rights - good!
+09:44:54 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:44:54 a. m.  [main] 	Checking for prerequisites
+09:44:55 a. m.  [main] 	All prerequisites found
+09:44:55 a. m.  [main] 	Initializing Modules
+09:44:55 a. m.  [main] 	The FileZilla module is disabled
+09:44:55 a. m.  [main] 	The Mercury module is disabled
+09:44:55 a. m.  [main] 	The Tomcat module is disabled
+09:44:55 a. m.  [main] 	Enabling autostart for module "Apache"
+09:44:55 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:44:55 a. m.  [main] 	Starting Check-Timer
+09:44:55 a. m.  [main] 	Control Panel Ready
+09:44:56 a. m.  [Apache] 	Autostart active: starting...
+09:44:56 a. m.  [Apache] 	Attempting to start Apache app...
+09:44:56 a. m.  [mysql] 	Autostart active: starting...
+09:44:56 a. m.  [mysql] 	Attempting to start MySQL app...
+09:44:56 a. m.  [Apache] 	Status change detected: running
+09:44:56 a. m.  [mysql] 	Status change detected: running
+09:44:57 a. m.  [Apache] 	Status change detected: stopped
+09:44:57 a. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+09:44:57 a. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+09:44:57 a. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+09:44:57 a. m.  [Apache] 	Press the Logs button to view error logs and check
+09:44:57 a. m.  [Apache] 	the Windows Event Viewer for more clues
+09:44:57 a. m.  [Apache] 	If you need more help, copy and post this
+09:44:57 a. m.  [Apache] 	entire log window on the forums
+09:45:56 a. m.  [Apache] 	Attempting to start Apache app...
+09:45:56 a. m.  [Apache] 	Status change detected: running
+11:29:16 a. m.  [main] 	Deinitializing Modules
+11:29:16 a. m.  [main] 	Deinitializing Control Panel
+
+12:11:14 p. m.  [main] 	Initializing Control Panel
+12:11:14 p. m.  [main] 	Windows Version:  Home  64-bit
+12:11:14 p. m.  [main] 	XAMPP Version: 7.3.24
+12:11:14 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+12:11:14 p. m.  [main] 	Running with Administrator rights - good!
+12:11:14 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:11:14 p. m.  [main] 	Checking for prerequisites
+12:11:15 p. m.  [main] 	All prerequisites found
+12:11:15 p. m.  [main] 	Initializing Modules
+12:11:15 p. m.  [main] 	The FileZilla module is disabled
+12:11:15 p. m.  [main] 	The Mercury module is disabled
+12:11:15 p. m.  [main] 	The Tomcat module is disabled
+12:11:15 p. m.  [main] 	Enabling autostart for module "Apache"
+12:11:15 p. m.  [main] 	Enabling autostart for module "MySQL"
+12:11:15 p. m.  [main] 	Starting Check-Timer
+12:11:15 p. m.  [main] 	Control Panel Ready
+12:11:16 p. m.  [Apache] 	Autostart active: starting...
+12:11:16 p. m.  [Apache] 	Attempting to start Apache app...
+12:11:16 p. m.  [mysql] 	Autostart active: starting...
+12:11:16 p. m.  [mysql] 	Attempting to start MySQL app...
+12:11:16 p. m.  [Apache] 	Status change detected: running
+12:11:16 p. m.  [mysql] 	Status change detected: running
+09:39:36 a. m.  [main] 	Deinitializing Modules
+09:39:36 a. m.  [main] 	Deinitializing Control Panel
+
+02:39:57 p. m.  [main] 	Initializing Control Panel
+02:39:57 p. m.  [main] 	Windows Version:  Home  64-bit
+02:39:58 p. m.  [main] 	XAMPP Version: 7.3.24
+02:39:58 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+02:39:58 p. m.  [main] 	Running with Administrator rights - good!
+02:39:58 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+02:39:58 p. m.  [main] 	Checking for prerequisites
+02:39:59 p. m.  [main] 	All prerequisites found
+02:39:59 p. m.  [main] 	Initializing Modules
+02:39:59 p. m.  [main] 	The FileZilla module is disabled
+02:39:59 p. m.  [main] 	The Mercury module is disabled
+02:39:59 p. m.  [main] 	The Tomcat module is disabled
+02:39:59 p. m.  [main] 	Enabling autostart for module "Apache"
+02:39:59 p. m.  [main] 	Enabling autostart for module "MySQL"
+02:39:59 p. m.  [main] 	Starting Check-Timer
+02:39:59 p. m.  [main] 	Control Panel Ready
+02:39:59 p. m.  [Apache] 	Autostart active: starting...
+02:39:59 p. m.  [Apache] 	Attempting to start Apache app...
+02:39:59 p. m.  [mysql] 	Autostart active: starting...
+02:39:59 p. m.  [mysql] 	Attempting to start MySQL app...
+02:40:00 p. m.  [Apache] 	Status change detected: running
+02:40:00 p. m.  [mysql] 	Status change detected: running
+02:40:00 p. m.  [Apache] 	Status change detected: stopped
+02:40:00 p. m.  [Apache] 	Error: Apache shutdown unexpectedly.
+02:40:00 p. m.  [Apache] 	This may be due to a blocked port, missing dependencies, 
+02:40:00 p. m.  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+02:40:00 p. m.  [Apache] 	Press the Logs button to view error logs and check
+02:40:00 p. m.  [Apache] 	the Windows Event Viewer for more clues
+02:40:00 p. m.  [Apache] 	If you need more help, copy and post this
+02:40:00 p. m.  [Apache] 	entire log window on the forums
+02:43:53 p. m.  [Apache] 	Attempting to start Apache app...
+02:43:53 p. m.  [Apache] 	Status change detected: running
+03:03:50 p. m.  [main] 	Deinitializing Modules
+03:03:50 p. m.  [main] 	Deinitializing Control Panel
+
+05:23:27 p. m.  [main] 	Initializing Control Panel
+05:23:27 p. m.  [main] 	Windows Version:  Home  64-bit
+05:23:27 p. m.  [main] 	XAMPP Version: 7.3.24
+05:23:27 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+05:23:27 p. m.  [main] 	Running with Administrator rights - good!
+05:23:27 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+05:23:27 p. m.  [main] 	Checking for prerequisites
+05:23:27 p. m.  [main] 	All prerequisites found
+05:23:27 p. m.  [main] 	Initializing Modules
+05:23:27 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+05:23:27 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+05:23:27 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+05:23:27 p. m.  [main] 	The FileZilla module is disabled
+05:23:27 p. m.  [main] 	The Mercury module is disabled
+05:23:27 p. m.  [main] 	The Tomcat module is disabled
+05:23:27 p. m.  [main] 	Enabling autostart for module "Apache"
+05:23:27 p. m.  [main] 	Enabling autostart for module "MySQL"
+05:23:27 p. m.  [main] 	Starting Check-Timer
+05:23:27 p. m.  [main] 	Control Panel Ready
+05:23:28 p. m.  [Apache] 	Autostart aborted: Apache is already running
+05:23:28 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+05:23:33 p. m.  [main] 	Deinitializing Modules
+05:23:33 p. m.  [main] 	Deinitializing Control Panel
+
+09:50:29 a. m.  [main] 	Initializing Control Panel
+09:50:29 a. m.  [main] 	Windows Version:  Home  64-bit
+09:50:29 a. m.  [main] 	XAMPP Version: 7.3.24
+09:50:29 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:50:29 a. m.  [main] 	Running with Administrator rights - good!
+09:50:29 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:50:29 a. m.  [main] 	Checking for prerequisites
+09:50:30 a. m.  [main] 	All prerequisites found
+09:50:30 a. m.  [main] 	Initializing Modules
+09:50:30 a. m.  [main] 	The FileZilla module is disabled
+09:50:30 a. m.  [main] 	The Mercury module is disabled
+09:50:30 a. m.  [main] 	The Tomcat module is disabled
+09:50:30 a. m.  [main] 	Enabling autostart for module "Apache"
+09:50:30 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:50:30 a. m.  [main] 	Starting Check-Timer
+09:50:30 a. m.  [main] 	Control Panel Ready
+09:50:31 a. m.  [Apache] 	Autostart active: starting...
+09:50:31 a. m.  [Apache] 	Attempting to start Apache app...
+09:50:31 a. m.  [mysql] 	Autostart active: starting...
+09:50:31 a. m.  [mysql] 	Attempting to start MySQL app...
+09:50:31 a. m.  [Apache] 	Status change detected: running
+09:50:31 a. m.  [mysql] 	Status change detected: running
+09:32:57 p. m.  [Apache] 	Attempting to stop Apache (PID: 12508)
+09:32:57 p. m.  [Apache] 	Attempting to stop Apache (PID: 2900)
+09:32:58 p. m.  [Apache] 	Status change detected: stopped
+09:32:58 p. m.  [Apache] 	Attempting to start Apache app...
+09:32:59 p. m.  [Apache] 	Status change detected: running
+09:00:47 p. m.  [main] 	Deinitializing Modules
+09:00:47 p. m.  [main] 	Deinitializing Control Panel
+
+09:00:48 p. m.  [main] 	Initializing Control Panel
+09:00:48 p. m.  [main] 	Windows Version:  Home  64-bit
+09:00:48 p. m.  [main] 	XAMPP Version: 7.3.24
+09:00:48 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:00:48 p. m.  [main] 	Running with Administrator rights - good!
+09:00:48 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:00:48 p. m.  [main] 	Checking for prerequisites
+09:00:48 p. m.  [main] 	All prerequisites found
+09:00:48 p. m.  [main] 	Initializing Modules
+09:00:48 p. m.  [Apache] 	XAMPP Apache is already running on port 80
+09:00:48 p. m.  [Apache] 	XAMPP Apache is already running on port 443
+09:00:48 p. m.  [mysql] 	XAMPP MySQL is already running on port 3306
+09:00:48 p. m.  [main] 	The FileZilla module is disabled
+09:00:48 p. m.  [main] 	The Mercury module is disabled
+09:00:48 p. m.  [main] 	The Tomcat module is disabled
+09:00:48 p. m.  [main] 	Enabling autostart for module "Apache"
+09:00:48 p. m.  [main] 	Enabling autostart for module "MySQL"
+09:00:48 p. m.  [main] 	Starting Check-Timer
+09:00:48 p. m.  [main] 	Control Panel Ready
+09:00:49 p. m.  [Apache] 	Autostart aborted: Apache is already running
+09:00:49 p. m.  [mysql] 	Autostart aborted: MySQL is already running
+04:37:59 a. m.  [main] 	Deinitializing Modules
+04:37:59 a. m.  [main] 	Deinitializing Control Panel
+
+04:40:10 a. m.  [main] 	Initializing Control Panel
+04:40:10 a. m.  [main] 	Windows Version:  Home  64-bit
+04:40:10 a. m.  [main] 	XAMPP Version: 7.3.24
+04:40:10 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+04:40:10 a. m.  [main] 	Running with Administrator rights - good!
+04:40:10 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+04:40:10 a. m.  [main] 	Checking for prerequisites
+04:40:10 a. m.  [main] 	All prerequisites found
+04:40:10 a. m.  [main] 	Initializing Modules
+04:40:10 a. m.  [main] 	The FileZilla module is disabled
+04:40:10 a. m.  [main] 	The Mercury module is disabled
+04:40:10 a. m.  [main] 	The Tomcat module is disabled
+04:40:10 a. m.  [main] 	Enabling autostart for module "Apache"
+04:40:10 a. m.  [main] 	Enabling autostart for module "MySQL"
+04:40:10 a. m.  [main] 	Starting Check-Timer
+04:40:10 a. m.  [main] 	Control Panel Ready
+04:40:11 a. m.  [Apache] 	Autostart active: starting...
+04:40:11 a. m.  [Apache] 	Attempting to start Apache app...
+04:40:11 a. m.  [mysql] 	Autostart active: starting...
+04:40:11 a. m.  [mysql] 	Attempting to start MySQL app...
+04:40:11 a. m.  [Apache] 	Status change detected: running
+04:40:11 a. m.  [mysql] 	Status change detected: running
+10:16:53 p. m.  [main] 	Deinitializing Modules
+10:16:53 p. m.  [main] 	Deinitializing Control Panel
+
+09:48:56 a. m.  [main] 	Initializing Control Panel
+09:48:56 a. m.  [main] 	Windows Version:  Home  64-bit
+09:48:56 a. m.  [main] 	XAMPP Version: 7.3.24
+09:48:56 a. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:48:56 a. m.  [main] 	Running with Administrator rights - good!
+09:48:56 a. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:48:56 a. m.  [main] 	Checking for prerequisites
+09:48:57 a. m.  [main] 	All prerequisites found
+09:48:57 a. m.  [main] 	Initializing Modules
+09:48:57 a. m.  [main] 	The FileZilla module is disabled
+09:48:57 a. m.  [main] 	The Mercury module is disabled
+09:48:57 a. m.  [main] 	The Tomcat module is disabled
+09:48:57 a. m.  [main] 	Enabling autostart for module "Apache"
+09:48:57 a. m.  [main] 	Enabling autostart for module "MySQL"
+09:48:57 a. m.  [main] 	Starting Check-Timer
+09:48:57 a. m.  [main] 	Control Panel Ready
+09:48:58 a. m.  [Apache] 	Autostart active: starting...
+09:48:58 a. m.  [Apache] 	Attempting to start Apache app...
+09:48:58 a. m.  [mysql] 	Autostart active: starting...
+09:48:58 a. m.  [mysql] 	Attempting to start MySQL app...
+09:48:58 a. m.  [Apache] 	Status change detected: running
+09:48:58 a. m.  [mysql] 	Status change detected: running
+07:45:42 a. m.  [main] 	Deinitializing Modules
+07:45:42 a. m.  [main] 	Deinitializing Control Panel
+
+09:49:15 p. m.  [main] 	Initializing Control Panel
+09:49:15 p. m.  [main] 	Windows Version:  Home  64-bit
+09:49:15 p. m.  [main] 	XAMPP Version: 7.3.24
+09:49:15 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+09:49:15 p. m.  [main] 	Running with Administrator rights - good!
+09:49:15 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+09:49:15 p. m.  [main] 	Checking for prerequisites
+09:49:17 p. m.  [main] 	All prerequisites found
+09:49:17 p. m.  [main] 	Initializing Modules
+09:49:17 p. m.  [main] 	The FileZilla module is disabled
+09:49:17 p. m.  [main] 	The Mercury module is disabled
+09:49:17 p. m.  [main] 	The Tomcat module is disabled
+09:49:17 p. m.  [main] 	Enabling autostart for module "Apache"
+09:49:17 p. m.  [main] 	Enabling autostart for module "MySQL"
+09:49:17 p. m.  [main] 	Starting Check-Timer
+09:49:17 p. m.  [main] 	Control Panel Ready
+09:49:17 p. m.  [Apache] 	Autostart active: starting...
+09:49:17 p. m.  [Apache] 	Attempting to start Apache app...
+09:49:17 p. m.  [mysql] 	Autostart active: starting...
+09:49:17 p. m.  [mysql] 	Attempting to start MySQL app...
+09:49:18 p. m.  [Apache] 	Status change detected: running
+09:49:18 p. m.  [mysql] 	Status change detected: running
+11:35:11 p. m.  [main] 	Deinitializing Modules
+11:35:11 p. m.  [main] 	Deinitializing Control Panel
+
+11:36:33 p. m.  [main] 	Initializing Control Panel
+11:36:33 p. m.  [main] 	Windows Version:  Home  64-bit
+11:36:33 p. m.  [main] 	XAMPP Version: 7.3.24
+11:36:33 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:36:33 p. m.  [main] 	Running with Administrator rights - good!
+11:36:33 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+11:36:33 p. m.  [main] 	Checking for prerequisites
+11:36:34 p. m.  [main] 	All prerequisites found
+11:36:34 p. m.  [main] 	Initializing Modules
+11:36:34 p. m.  [main] 	The FileZilla module is disabled
+11:36:34 p. m.  [main] 	The Mercury module is disabled
+11:36:34 p. m.  [main] 	The Tomcat module is disabled
+11:36:34 p. m.  [main] 	Enabling autostart for module "Apache"
+11:36:34 p. m.  [main] 	Enabling autostart for module "MySQL"
+11:36:34 p. m.  [main] 	Starting Check-Timer
+11:36:34 p. m.  [main] 	Control Panel Ready
+11:36:35 p. m.  [Apache] 	Autostart active: starting...
+11:36:35 p. m.  [Apache] 	Attempting to start Apache app...
+11:36:35 p. m.  [mysql] 	Autostart active: starting...
+11:36:35 p. m.  [mysql] 	Attempting to start MySQL app...
+11:36:35 p. m.  [Apache] 	Status change detected: running
+11:36:35 p. m.  [mysql] 	Status change detected: running
+11:26:34 p. m.  [main] 	Deinitializing Modules
+11:26:34 p. m.  [main] 	Deinitializing Control Panel
+
+07:40:00 p. m.  [main] 	Initializing Control Panel
+07:40:00 p. m.  [main] 	Windows Version:  Home  64-bit
+07:40:00 p. m.  [main] 	XAMPP Version: 7.3.24
+07:40:00 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+07:40:00 p. m.  [main] 	Running with Administrator rights - good!
+07:40:00 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+07:40:00 p. m.  [main] 	Checking for prerequisites
+07:40:01 p. m.  [main] 	All prerequisites found
+07:40:01 p. m.  [main] 	Initializing Modules
+07:40:01 p. m.  [main] 	The FileZilla module is disabled
+07:40:01 p. m.  [main] 	The Mercury module is disabled
+07:40:01 p. m.  [main] 	The Tomcat module is disabled
+07:40:01 p. m.  [main] 	Enabling autostart for module "Apache"
+07:40:01 p. m.  [main] 	Enabling autostart for module "MySQL"
+07:40:01 p. m.  [main] 	Starting Check-Timer
+07:40:01 p. m.  [main] 	Control Panel Ready
+07:40:02 p. m.  [Apache] 	Autostart active: starting...
+07:40:02 p. m.  [Apache] 	Attempting to start Apache app...
+07:40:02 p. m.  [mysql] 	Autostart active: starting...
+07:40:02 p. m.  [mysql] 	Attempting to start MySQL app...
+07:40:02 p. m.  [Apache] 	Status change detected: running
+07:40:02 p. m.  [mysql] 	Status change detected: running
+07:40:20 p. m.  [main] 	Deinitializing Modules
+07:40:20 p. m.  [main] 	Deinitializing Control Panel
+
+06:38:32 p. m.  [main] 	Initializing Control Panel
+06:38:32 p. m.  [main] 	Windows Version:  Home  64-bit
+06:38:32 p. m.  [main] 	XAMPP Version: 7.3.24
+06:38:32 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+06:38:32 p. m.  [main] 	Running with Administrator rights - good!
+06:38:32 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+06:38:32 p. m.  [main] 	Checking for prerequisites
+06:38:33 p. m.  [main] 	All prerequisites found
+06:38:33 p. m.  [main] 	Initializing Modules
+06:38:33 p. m.  [main] 	The FileZilla module is disabled
+06:38:33 p. m.  [main] 	The Mercury module is disabled
+06:38:33 p. m.  [main] 	The Tomcat module is disabled
+06:38:33 p. m.  [main] 	Enabling autostart for module "Apache"
+06:38:33 p. m.  [main] 	Enabling autostart for module "MySQL"
+06:38:33 p. m.  [main] 	Starting Check-Timer
+06:38:33 p. m.  [main] 	Control Panel Ready
+06:38:34 p. m.  [Apache] 	Autostart active: starting...
+06:38:34 p. m.  [Apache] 	Attempting to start Apache app...
+06:38:34 p. m.  [mysql] 	Autostart active: starting...
+06:38:34 p. m.  [mysql] 	Attempting to start MySQL app...
+06:38:34 p. m.  [Apache] 	Status change detected: running
+06:38:34 p. m.  [mysql] 	Status change detected: running
+12:51:48 a. m.  [main] 	Deinitializing Modules
+12:51:48 a. m.  [main] 	Deinitializing Control Panel
+
+08:05:26 p. m.  [main] 	Initializing Control Panel
+08:05:26 p. m.  [main] 	Windows Version:  Home  64-bit
+08:05:26 p. m.  [main] 	XAMPP Version: 7.3.24
+08:05:26 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+08:05:26 p. m.  [main] 	Running with Administrator rights - good!
+08:05:26 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+08:05:26 p. m.  [main] 	Checking for prerequisites
+08:05:27 p. m.  [main] 	All prerequisites found
+08:05:27 p. m.  [main] 	Initializing Modules
+08:05:27 p. m.  [main] 	The FileZilla module is disabled
+08:05:27 p. m.  [main] 	The Mercury module is disabled
+08:05:27 p. m.  [main] 	The Tomcat module is disabled
+08:05:27 p. m.  [main] 	Enabling autostart for module "Apache"
+08:05:27 p. m.  [main] 	Enabling autostart for module "MySQL"
+08:05:27 p. m.  [main] 	Starting Check-Timer
+08:05:27 p. m.  [main] 	Control Panel Ready
+08:05:28 p. m.  [Apache] 	Autostart active: starting...
+08:05:28 p. m.  [Apache] 	Attempting to start Apache app...
+08:05:28 p. m.  [mysql] 	Autostart active: starting...
+08:05:28 p. m.  [mysql] 	Attempting to start MySQL app...
+08:05:28 p. m.  [mysql] 	Status change detected: running
+08:08:30 p. m.  [main] 	Deinitializing Modules
+08:08:30 p. m.  [main] 	Deinitializing Control Panel
+
+10:01:44 p. m.  [main] 	Initializing Control Panel
+10:01:44 p. m.  [main] 	Windows Version:  Home  64-bit
+10:01:44 p. m.  [main] 	XAMPP Version: 7.3.24
+10:01:44 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+10:01:44 p. m.  [main] 	Running with Administrator rights - good!
+10:01:44 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:01:44 p. m.  [main] 	Checking for prerequisites
+10:01:45 p. m.  [main] 	All prerequisites found
+10:01:45 p. m.  [main] 	Initializing Modules
+10:01:45 p. m.  [main] 	The FileZilla module is disabled
+10:01:45 p. m.  [main] 	The Mercury module is disabled
+10:01:46 p. m.  [main] 	The Tomcat module is disabled
+10:01:46 p. m.  [main] 	Enabling autostart for module "Apache"
+10:01:46 p. m.  [main] 	Enabling autostart for module "MySQL"
+10:01:46 p. m.  [main] 	Starting Check-Timer
+10:01:46 p. m.  [main] 	Control Panel Ready
+10:01:46 p. m.  [Apache] 	Autostart active: starting...
+10:01:46 p. m.  [Apache] 	Attempting to start Apache app...
+10:01:46 p. m.  [mysql] 	Autostart active: starting...
+10:01:46 p. m.  [mysql] 	Attempting to start MySQL app...
+10:01:46 p. m.  [Apache] 	Status change detected: running
+10:01:46 p. m.  [mysql] 	Status change detected: running
+02:38:41 p. m.  [main] 	Deinitializing Modules
+02:38:41 p. m.  [main] 	Deinitializing Control Panel
+
+03:26:24 p. m.  [main] 	Initializing Control Panel
+03:26:24 p. m.  [main] 	Windows Version:  Home  64-bit
+03:26:24 p. m.  [main] 	XAMPP Version: 7.3.24
+03:26:24 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+03:26:24 p. m.  [main] 	Running with Administrator rights - good!
+03:26:24 p. m.  [main] 	XAMPP Installation Directory: "c:\xampp\"
+03:26:24 p. m.  [main] 	Checking for prerequisites
+03:26:25 p. m.  [main] 	All prerequisites found
+03:26:25 p. m.  [main] 	Initializing Modules
+03:26:25 p. m.  [main] 	The FileZilla module is disabled
+03:26:25 p. m.  [main] 	The Mercury module is disabled
+03:26:25 p. m.  [main] 	The Tomcat module is disabled
+03:26:25 p. m.  [main] 	Enabling autostart for module "Apache"
+03:26:25 p. m.  [main] 	Enabling autostart for module "MySQL"
+03:26:25 p. m.  [main] 	Starting Check-Timer
+03:26:25 p. m.  [main] 	Control Panel Ready
+03:26:25 p. m.  [Apache] 	Autostart active: starting...
+03:26:25 p. m.  [Apache] 	Attempting to start Apache app...
+03:26:25 p. m.  [mysql] 	Autostart active: starting...
+03:26:25 p. m.  [mysql] 	Attempting to start MySQL app...
+03:26:26 p. m.  [Apache] 	Status change detected: running
+03:26:26 p. m.  [mysql] 	Status change detected: running
+07:27:34 p. m.  [main] 	Deinitializing Modules
+07:27:34 p. m.  [main] 	Deinitializing Control Panel
+

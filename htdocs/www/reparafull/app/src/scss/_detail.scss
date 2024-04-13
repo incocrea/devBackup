@@ -1,0 +1,34 @@
+#img-detail {
+  cursor: zoom-in;
+}
+.img-detail-wrapper {
+  text-align: center;
+  .img-detail-list {
+    margin-top: 1rem;
+    a {
+      display: inline-block;
+      margin-bottom: 4px;
+      > img {
+        padding: .25rem;
+        border-bottom: 2px solid transparent;
+        width: 50px;
+        height: 50px;
+      }
+      &.active > img {
+        border-color: $info;
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  .img-detail-wrapper {
+    margin-bottom: 2rem;
+    .img-detail-list img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+.detail-header {
+  margin-bottom: 1rem;
+}

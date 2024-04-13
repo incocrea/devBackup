@@ -1,0 +1,1268 @@
++------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        1   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        0         0
+        0.1       0.1
+        0.2       0.2
+        0.3       0.3
+        0.4       0.4
+        0.5       0.5
+        0.6       0.6
+        0.7       0.7
+        0.8       0.8
+        010       2010
+        012       2012
+        027       3027
+        038       42-11038
+        041       2041
+        064       2064
+        078       23078
+        083       23083
+        091       2091
+        092       2092
+        1         1
+        1.5       1.5
+        10        10
+        100       1002
+        101       101 NEGRA
+        102       102 AZUL
+        103       103 ROJA
+        104       104 VERDE
+        105       105 GRIS
+        106       42-1106
+        107       107 SURTID
+        11        11
+        111       111 AMARIL
+        117       117 A-B-1
+        118       118 A
+        12        12
+        121       2121
+        123       123 ROJ MA
+        124       124 VDE MA
+        125       125
+        13        13
+        130       COLOR 130
+        132       2132
+        134       2134
+        146       146
+        15        15
+        152       ROJO CADMI
+        171       171
+        173       COLOR 173
+        175       175+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        2   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        176       NARANJ CAD
+        18        18
+        180       180
+        182       6182
+        184       184
+        188       188
+        190       COLOR 190
+        192       192
+        198       198
+        2         2
+        2.5       2.5
+        200       2002
+        205       205
+        207       2070
+        21        21
+        210       2100
+        213       2138
+        215       AMA.LIMON
+        216       216
+        218       2180
+        219       219
+        22        22
+        223       223
+        227       227
+        23        23
+        230       3230
+        24        24
+        240       240
+        241       3241
+        242       3242
+        244       2442
+        245       2453
+        246       3246
+        248       3248
+        250       250
+        251       251
+        252       3252
+        27        27
+        280       2880
+        281       2881
+        286       COLOR 286
+        287       2879
+        288       2880
+        2B        2B
+        2D        2D AMOR
+        2H        2H
+        3         3
+        300       6300
+        301       6301+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        3   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        302       302
+        303       6303
+        307       VERDE CROM
+        315       315
+        32        32
+        321       3210
+        322       322
+        324       3240
+        328       328
+        33        33
+        331       33-12
+        332       332
+        334       OXIDO CRO
+        336       336
+        338       338
+        34        34
+        340       3340
+        342       3428
+        343       3444
+        344       3244
+        346       346
+        35        35
+        353       3532
+        36        36
+        360       360
+        368       3689
+        369       3696
+        37        37
+        381       3810
+        384       3384
+        385       3850
+        387       3870
+        388       3883
+        39        39
+        392       3392
+        396       3960
+        3B        3B
+        3CO       67*25 MM
+        3D        3D
+        3H        3H
+        4         4
+        40        40
+        400       9400-2
+        401       3401
+        402       402
+        403       3403
+        404       9404-2
+        405       9405-2
+        41        41+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        4   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        411       2411
+        415       2415
+        418       2418
+        419       AZUL COBAL
+        42        42
+        420       420
+        421       3421
+        422       422
+        424       424
+        425       2425
+        428       2428
+        431       AZUL FTALO
+        433       COLOR 433
+        435       6435
+        436       436
+        438       2438
+        440       3440
+        441       2441
+        442       3442
+        443       443
+        444       2444
+        445       445
+        448       448
+        45        45
+        451       451
+        453       453
+        454       2454
+        455       455
+        456       2456
+        470       470
+        471       471
+        476       476
+        477       2477
+        48        48
+        486       2486
+        491       49-10
+        499       2499
+        4B        4B
+        4CO       54X25MM
+        4H        4H
+        5         5
+        500       500
+        501       NEGRO 501
+        502       N 10 5002
+        503       ROJO 503
+        504       42-13504
+        505       GRIS 505
+        506       KRAFT 506
+        510       510+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        5   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        516       FOLDER COL
+        524       AGUAM.524
+        525       525
+        527       527
+        532       3532
+        55        55
+        550       550
+        559       559 VDE ES
+        560       560
+        568       568
+        569       569
+        576       576
+        577       577
+        583       583
+        590       590
+        595       595
+        5B        5B
+        5SE       5 SENTIDOS
+        6         6
+        601       601 MARRON
+        621       621
+        624       624
+        626       626
+        63        63
+        64        64
+        645       645
+        654       654
+        657       657
+        658       SIENA TOST
+        66        66
+        663       3663
+        664       3664
+        665       3665
+        676       676
+        677       677
+        680       680
+        681       681
+        682       3682
+        683       3683
+        686       686
+        687       687
+        688       688
+        69        69
+        694       694
+        695       3695
+        696       696
+        697       697
+        698       698
+        699       699+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        6   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        6B        6B
+        7         7
+        707       707
+        709       709
+        710       710
+        714       NEGRO MARF
+        72        72
+        73        73
+        731       BLANCO ZIN
+        738       738
+        740       740
+        743       743
+        745       3745
+        746       746
+        747       747
+        750       750
+        751       751
+        752       752
+        76        76
+        760       COLOR 760
+        762       762
+        765       765
+        770       770
+        776       776
+        779       779
+        785       785
+        792       792
+        793       3793
+        794       794
+        8         8
+        803       3803
+        806       806
+        809       809
+        810       810
+        812       COLOR 812
+        815       815
+        817       14817
+        821       42-13821
+        822       14822
+        825       825
+        829       14829
+        831       2831
+        835       835
+        836       2836
+        837       837
+        838       2838
+        840       3840
+        846       846
+        848       3848+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        7   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        849       2849
+        85        85
+        850       850
+        854       2854
+        856       3856
+        858       858
+        860       860
+        862       862
+        868       STDR 868
+        871       3871
+        873       2873
+        874       3874
+        879       2879
+        880       880
+        881       2881
+        883       883
+        884       3884
+        888       888
+        890       3890
+        893       893
+        9         9
+        900       PLATA
+        903       903
+        904       904
+        905       905
+        906       906
+        909       909
+        910       910
+        914       914
+        915       915
+        916       916
+        918       918
+        919       919
+        924       924
+        929       929
+        932       932
+        933       933
+        934       934
+        935       935
+        938       938
+        939       939
+        945       945
+        946       946
+        950       3950
+        960       3960
+        961       961
+        964       964
+        967       967
+        976       976+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        8   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        982       982
+        ?         ?
+        A         A
+        A-        PRE.
+        A-N       AZUL-NEGRO
+        A4        25*12MM
+        ABC       ABECEDARIO
+        ABE       ABEDUL
+        ABO       AZUL M.BCO
+        ABR       ANTIQUE BR
+        ACA       AZULCARIBE
+        ACB       AZUL C BCO
+        ACC       AZUL COB.
+        ACE       AZUL CELES
+        ACL       AZUL CIELO
+        ACM       AZU COB ME
+        ACO       AZUL COBAL
+        ACR       AMA. CROMO
+        ADH       ADHESIVO
+        ADI       ADIVINA
+        AFG       AFGANO
+        AFL       AMAR.FLUOR
+        AGC       AGUACATE
+        AGE       ANGELES
+        AGP       AGUA PROFU
+        AGU       AGUAMARINA
+        AHU       AHUESADO
+        ALA       AZUL LAGUN
+        ALI       AMA. LIMON
+        AMA       AMARILLO
+        AMB       AMAR BANDE
+        AMC       AMA. CLARO
+        AME       AZUL MEDIO
+        AML       AMAR.SOL
+        AMM       AMAR. MEDI
+        AMN       AMARI.NEON
+        AMO       AMAR. ORO
+        AMP       AMAR.PASTE
+        AMQ       AMAR.QUEMA
+        AMR       AZUL MARIN
+        AMS       AMAR. OSCU
+        AMZ       AMA. MAIZ
+        AND       ANI.DOMEST
+        ANE       AFRO NEGRO
+        ANG       ANGELES
+        ANI       ANIM.MARIN
+        ANM       ANIMADAS
+        ANS       ANIM.SELVA
+        ANU       ANO NUEVO+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:        9   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        ANV       ANTI VERDE
+        ANZ       ANTIQUE AZ
+        AOL       AMAR.OLIVA
+        AOR       AMARILLO O
+        AOS       AZUL OSCUR
+        AOV       AZUL O.VIO
+        APM       AZUL PRIMA
+        APR       AZUL PROFU
+        APS       AZUL PASTE
+        ARA       ARA?A
+        ARC       ARCO IRIS
+        ARE       ARENA
+        ARJ       ANTIG.ROJO
+        AST       ASTRAL
+        ATM       ANTIQ MEDI
+        ATN       AZTECA NAR
+        ATR       AZTECA ROJ
+        ATV       AZTECA VDE
+        AUL       AZUL ULTRA
+        AUM       AZUL MAR
+        AVE       AVENGERS
+        AVI       AZUL VIOLE
+        AYR       AZUL Y ROJ
+        AZA       AZUL AMARI
+        AZB       AZUL BEBE
+        AZC       AZUL CLARO
+        AZE       AZUL ELECT
+        AZF       AZUL FLUOR
+        AZG       AZUL AGUA
+        AZM       AZUL.MEDIC
+        AZN       AZUL NEON
+        AZP       AZUL PASTE
+        AZR       AZUL REY
+        AZT       AZUL TURQZ
+        AZU       AZUL
+        AZV       AZUL VIOLE
+        B         B
+        B-        CUADRITOS
+        BAB       BABY SHOWE
+        BAC       BANDECOLOM
+        BAL       BCO ALPACA
+        BAN       BALOB/N
+        BAR       BCO ARTICO
+        BAS       BALON SURT
+        BAU       BAUTIZO
+        BAZ       BCO AZUL
+        BCE       BRONCE
+        BCN       BCO NORDIC
+        BCO       BLANCO+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       10   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        BCP       BCO PERLAD
+        BCR       BCO CORAL
+        BDO       BALDOSAS
+        BEB       BEBITOS
+        BEI       BEIGE
+        BER       BERMELLON
+        BES       BESOS
+        BGL       BLANCO GLA
+        BGR       BCO GRANIT
+        BIE       BIENVENIDO
+        BIG       BIGOTES
+        BIL       BILINGUE
+        BIN       BCO INTENS
+        BIS       BIENVENIDO
+        BLC       BCO CENIZA
+        BLU       BCO LUNA
+        BNE       BCO NEVADO
+        BOB       BOB ESPONJ
+        BOL       BOLIGRAFO
+        BOS       BOLSOS
+        BOT       BOTONES
+        BOU       BOUQUET
+        BP        BOLIGRAFO
+        BPE       BRONCE PER
+        BRI       BRILLANTE
+        BRJ       BRUJAS
+        BRO       BRONCE
+        BRU       BRUJA MARU
+        BSA       BCO SAHARA
+        BSO       BRUJA SOMB
+        BTE       BCO TERRAZ
+        BTI       BLANCO TIT
+        BUQ       BUQUET F.C
+        BUR       BURGANDY
+        BVD       BRONCE VDE
+        BVE       BRONCE VDE
+        C         DOBLE LINE
+        C3        72*25
+        CAA       CARITAS AN
+        CAF       CAFE
+        CAL       CALIGRAFIA
+        CAM       CAMEL
+        CAN       CANCELADO
+        CAO       CAOBA
+        CAR       CARITA FEL
+        CAS       CASAMIENTO
+        CAT       CARTERA
+        CCD       COR.CLA.DO
+        CCL       CAFE CLARO+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       11   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        CCM       CAME-CAF.M
+        CCR       CORCLASROJ
+        CD        CD 116MM
+        CEC       CEDRO CLAR
+        CEL       CELESTE
+        CER       CERAMICA
+        CEV       CERAMICA V
+        CFA       CAFE AMARI
+        CFB       CAR.FELBES
+        CFE       CARITA FEL
+        CHA       CHARLOTTE
+        CHI       CHICAS SUP
+        CHO       CHOCOLATE
+        CHP       CHAMPA?A
+        CHR       CHARTREUSS
+        CIR       CIRCO
+        CLI       CLICK
+        CLR       COLORINA
+        CLU       CLUB
+        CMC       CUMP.CUPK
+        CME       CAFE MEDIO
+        CMI       CARMIN
+        CMS       CUM.N.SURT
+        CNC       C
+        CNN       CUMPNEONEG
+        CNR       CORA RYB
+        CNS       CEBRA
+        CNV       COR.3TCRIS
+        COA       COBRE ANTI
+        COB       COBRE
+        COC       CORACLASCR
+        COD       CON.DORCRI
+        COJ       CONEJO VAL
+        COL       COLORES
+        COM       COMO PERRO
+        CON       CONFETMULT
+        COP       CORAZ.POLK
+        COR       CORAZON
+        COS       CAFE OSCUR
+        COZ       CORAZON
+        CPR       COOPER
+        CRA       CRAYOLA
+        CRC       CORA.CRUZ
+        CRD       CORAZ DOBL
+        CRE       CREMA
+        CRI       CRISTAL
+        CRN       CARRERA NA
+        CRO       CROMADO
+        CRR       CARRUSEL+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       12   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        CRS       CREMA-SEC
+        CRU       CRUDO
+        CRZ       CRUZADO
+        CSB       SOMB.BRUJA
+        CTB       CONTABILIZ
+        CTN       CONF D.NEG
+        CTR       CATRINA
+        CUA       CUADERNOS
+        CUC       CUMPL.CEBR
+        CUE       CUENTOS
+        CUG       CUMP.GORRI
+        CUM       CUMPLEA?OS
+        CUN       CUMPL.NEON
+        CUP       CUMPLEPOLK
+        CUR       CUMP.RAYAS
+        CUT       CUMPLE MET
+        CYA       CYAN
+        D         FERROCARRI
+        D-1       DOGS R-1
+        D-2       DOGS R-2
+        D-3       DOGS R-3
+        DAL       DALMATAS P
+        DCL       DORADO CLA
+        DCO       DORADO COB
+        DEC       DECORATIVO
+        DEG       DEGRADE
+        DEL       DELICADA
+        DER       DERECHA
+        DES       DESPACHADO
+        DIB       DISNEY BAB
+        DIC       DIABLCORTA
+        DIG       DISNEY GRA
+        DIR       DISNEY REG
+        DIS       DISE?OS
+        DIT       DISN.TIGER
+        DIV       DIVERTIDOS
+        DLR       DOLOR DE M
+        DOL       DOLLAR
+        DOM       DORMILONES
+        DOR       DORADO
+        DOS       DORAD OSCU
+        DRA       DURAZNO
+        DRC       DORA.CLARO
+        DRO       DORADO ORO
+        DRS       DORAD ROSA
+        DUL       DULCE
+        DUR       DURAZNO
+        E         E
+        EBN       EST.BOLNEG+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       13   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        EBS       EST.BOLSUR
+        ECO       ECO
+        ECU       ESCUDOS
+        ELD       EL DRAGON
+        ELM       ELMO
+        ELP       EL PRIMER
+        ELR       EL REY QUE
+        EMO       AMOJI
+        ENB       E.NATU.BCO
+        ENC       EL ENCEFAL
+        ENE       ENERGY
+        ENT       ENTREGADO
+        ESC       ESCRIBE
+        ESP       ESPONJA
+        ESQ       ESQUELETO
+        ESR       ESCARCHA
+        EST       ESTRELLA
+        ETR       ESTRELLAS
+        F         F
+        FAB       FABULAS
+        FAM       FAMILIAR
+        FAN       FANTASIA
+        FAR       FAROLES
+        FBC       FUCSIA BCO
+        FCC       FELIZCORON
+        FCD       CUMP.DESTE
+        FCL       FUSCIA CLA
+        FCR       F.C.RADIAN
+        FDC       FEL.DIACOR
+        FDD       CUM.DLXPDN
+        FE1       FEME RAYAS
+        FE2       FEME CUADR
+        FED       FELIZ DIA
+        FEL       FELIZ.CUMP
+        FEM       O.FEMENINO
+        FEN       FELIZ,NAVI
+        FER       FERRARI
+        FFL       FUCSIA FLU
+        FIE       FIESTA
+        FLA       FELIZ A?O
+        FLC       FELDIACARI
+        FLD       FELDIAPAPA
+        FLE       FLOR ENCAJ
+        FLG       FILIGREDOR
+        FLM       FLAMINGO
+        FLO       FLORINA
+        FLR       FLORAL
+        FLS       FLORES
+        FLU       FLUORECENT+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       14   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        FMA       FELDIAMAMA
+        FNA       FELIZ NAVI
+        FOR       FORESTA
+        FP        PLUMA
+        FPA       FELIZ PAPA
+        FRA       FRAMBUESA
+        FRE       FRESITA
+        FRM       FORMULA
+        FRO       FROZEN
+        FRU       FRUTIY
+        FSI       FUCSIA
+        FUC       FUCSIA
+        FUE       FUEGOS ART
+        FUF       FUCSIA FLO
+        FUN       FUC NEON
+        FUO       FUCSIA OSC
+        FYC       FORMAS/COL
+        FZA       F.ANIVERSA
+        GAL       GALLINITA
+        GAR       GARFIELD
+        GCO       GRIS COBAL
+        GEL       GEL FRESH
+        GFR       GRIS FRIO
+        GGR       GRIS GRANI
+        GIO       GIORDANO
+        GIR       GIRLS
+        GLA       GLACIAR
+        GLO       GLOBOS
+        GME       GRIS MEDIO
+        GOP       GRIS OPTIC
+        GOT       GOTAS
+        GRA       GRADO
+        GRC       GRIS CLARO
+        GRI       GRIS
+        GRL       GRIS LILA
+        GRN       GRANATE
+        GRO       GRIS OSCUR
+        GRP       GRIS PLOMO
+        GUA       GUAYACAN
+        GUL       GUALDA
+        GUS       GUASON
+        GVE       GRANI. VEN
+        GYA       GUAYABA
+        H         H
+        HAB       HABANO
+        HAL       HALLOWEEN
+        HAP       HAPPY HOUS
+        HAV       HAVANO
+        HB        HB+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       15   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        HB1       HB37991
+        HB3       HB37989
+        HB5       HB37985
+        HB6       HB37986
+        HB7       HB37987
+        HB8       HB37988
+        HBC       HAPPY BIRD
+        HEK       HELLO KITY
+        HEL       HELLO KITT
+        HER       HERCULES
+        HEX       HEXAGONAL
+        HO2       HOMB CUADR
+        HOJ       HOJA 21*28
+        HOL       HOLOGRAMIC
+        HOM       HOM MIXTO
+        HOR       HORIZONTAL
+        HOV       HORA DE VI
+        HPD       HOR.PES.DE
+        HPI       HRI.PES.IZ
+        HUM       HUMO
+        IDE       IDEAS
+        IGL       I-GLOO
+        ILO       I LOVE YOU
+        IND       INDIGO
+        INF       INFANTIL
+        ING       INGLES
+        INI       INICIAL
+        INS       INSECTOS
+        INV       INVERTEBRA
+        IVA       IVA REG CO
+        IZQ       IZQUIERDA
+        JAR       JARDIN
+        JEE       JEEN BOOK
+        JIR       JIRAFA
+        JOR       JOROBADO
+        JUE       JUEGOS ART
+        KAK       KAKI
+        KAM       KAKY MILIT
+        KAR       KARDEX
+        KBO       KIT BOLSOS
+        KCO       KIT COMEDO
+        KIA       KIT ARBOL
+        KIC       KIT CUARTO
+        KIT       KIT BA?O
+        KIU       KIUT
+        KIW       KIWI
+        KOS       KAKI OSCUR
+        LAC       LILA AZ.CL
+        LAG       LAGARTIJA+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       16   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        LAM       LITE AMARI
+        LAP       LAPISLAZUL
+        LAS       LASER
+        LBC       L.BLANCO
+        LEC       LECTOESCRI
+        LEE       LEE
+        LEN       LENTEJUELA
+        LET       LETRAS
+        LGJ       LIGA JUSTI
+        LIB       LIBELULAS
+        LIL       LILA
+        LIN       LINO
+        LIP       LILA PASTE
+        LIT       LITTE GIRL
+        LLE       LLEGADA BE
+        LME       L.MENTA
+        LMY       LETRA MAYU
+        LOG       LOGARITMIC
+        LOO       LOONEY TUN
+        LOR       LITE ORO
+        LOT       LOONEY TUN
+        LPA       LAPIC AZUL
+        LPC       PORTAMINAS
+        LPE       L.PERLA
+        LPN       LAPIC NEGR
+        LPR       LAPIC ROJO
+        LSE       L.SEPIA
+        LTR       LITE ROJO
+        LVI       LLUVIA
+        MA1       MASCU RAYA
+        MA2       MASC CUADR
+        MAA       MARFI AREN
+        MAB       MARRON BAR
+        MAC       O.MASCULIN
+        MAD       MARFIL DUN
+        MAG       MAGENTA
+        MAK       MASKOTICAS
+        MAL       MFIL ALMEN
+        MAN       MANGO
+        MAO       MARRON OSC
+        MAP       MARRON PEL
+        MAR       MARIPOSA
+        MAS       MASCARAS
+        MAT       MATRIMONIO
+        MAZ       METAL AZUL
+        MBE       MARMOL.BEI
+        MCO       MAPA COLOM
+        MDN       MADONA
+        MDR       MADERA+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       17   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        MEL       MELA
+        MES       METALICA S
+        MET       METALICO
+        MFI       MARFIL
+        MFU       MENSA FUTB
+        MGR       MARF GRANI
+        MIC       MICKEY
+        MIN       MINNIE
+        MIP       MINI PRINT
+        MIX       MIXTO
+        MNA       MARFIL NAT
+        MNG       METAL NEGR
+        MOR       MORADO
+        MOS       MOSTAZA
+        MOT       MOTIVOS
+        MOV       MOVIL DELF
+        MOZ       MOZTA
+        MPA       MENJ.PAPA
+        MPI       MOST.PICAN
+        MPO       MATER-PORT
+        MPR       MI PRIMER
+        MRA       MARMOL.AZU
+        MRG       MARGARITAS
+        MRI       MARIPOSAS
+        MRJ       METAL ROJO
+        MRO       MINI ROMBO
+        MRR       MARRON
+        MRT       MARTILLADA
+        MSH       MASHA
+        MTE       MARFIL TER
+        MU2       MUJER CUAD
+        MUA       MURANO
+        MUM       MUJER MIXT
+        MUR       MURCIELAGO
+        MUS       MUSICA
+        MU?       MU?ECAS
+        MVD       METAL VERD
+        MX1       MIXT RAYAS
+        MX2       MIXT CUADR
+        MX3       MIXTO DOBL
+        MXH       HOMB MIXTO
+        MYF       MARIP Y FL
+        N50       NUMERO 50
+        NAF       NARAN.FLUO
+        NAM       NARAN AMAR
+        NAN       NARAN.NEON
+        NAR       NARANJA
+        NAT       NATURALFLO
+        NAV       NAVIDAD+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       18   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        NBN       NAT.BCO NE
+        NCU       NAV.CUADRA
+        NEG       NEGRO
+        NEO       NEON
+        NEW       NEW SHAPE
+        NFA       NAV.FAUNA
+        NIA       NI?A
+        NIE       NIEVE
+        NIO       NI?O
+        NIS       NISPERO
+        NJN       NARAN-NEGR
+        NMB       NEGRA MECH
+        NMN       NAV.MDNA N
+        NMR       NEGRA M RO
+        NOE       NOEL
+        NOG       NOGAL
+        NOO       NOGAL OSCU
+        NOR       NORMAL
+        NPI       NI?O PIRAT
+        NPN       NAV.P?A NO
+        NRE       NAV.REDOND
+        NRJ       NARA ROJIZ
+        NUB       NUBE
+        NUM       NUMEROS
+        NYL       NUM.Y LETR
+        N?A       NI?A
+        N?O       NINO
+        OCC       OCRECITO
+        OCR       OCRE
+        OGR       OGRO CON P
+        OID       EL OIDO
+        OJO       OJO HUMANO
+        OLM       OLMO
+        OND       ONDA
+        OPA       OPAL
+        ORO       ORO
+        OSO       OSOS
+        OTO       OTONO
+        PAC       P.AZUL CLA
+        PAG       PAGADO
+        PAH       P.AHUESADO
+        PAI       PAISAJE AF
+        PAL       PALOMAS
+        PAP       PAPEL
+        PAR       PARTICIPAC
+        PAS       PASTEL
+        PAT       PATO DONAL
+        PAY       PAYASO
+        PBD       P.BCO DIAM+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       19   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        PDA       PIEL DE AN
+        PDC       PARD CLARO
+        PDO       PARDO
+        PEA       PEACE
+        PEC       PECES
+        PEE       PESEBRE
+        PEL       PELUCHES
+        PER       PERLADA
+        PES       PESTANA
+        PIA       PICAPORTES
+        PIC       PICASSO
+        PIE       PIEL
+        PIK       PINK
+        PIN       PINO
+        PIO       PIOLIN
+        PIR       PIRATA H/M
+        PJA       PREJARDIN
+        PLA       PLATEADO
+        PLC       PELEAS EN
+        PLR       PALO ROSA
+        PLU       PLUMAS
+        PNA       PERS NINA
+        PNO       PLANO
+        PNR       PR.NI?ARO
+        POC       POLK COLOR
+        POF       POOH FESTI
+        POG       POOH GLOBO
+        POK       POKEMON
+        POL       POLKABLANC
+        PON       POLK NEGRA
+        POO       POOH
+        POR       PORTAMINAS
+        POS       POLK CRIST
+        POT       POOH TURQU
+        POZ       POLK CORAZ
+        PPO       PLACA PORT
+        PRB       PRIMER BEN
+        PRC       PRINCESAS
+        PRE       PRECIO
+        PRI       PRIM COMUN
+        PRN       PERSO NINO
+        PRO       PROGRESIVO
+        PSO       PARDO OSCU
+        PUC       PUCCA
+        PUK       PUNK MULTI
+        PUM       PUNK MUJER
+        PUR       PURPURA
+        PVI       POOH VIOLE
+        PYN       PALB Y NUM+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       20   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        QUI       QUINCE ANO
+        R-0       R-O
+        R-1       R-1 LINEA
+        R-2       R-2 CUADRO
+        R-3       R-3 DOBLE
+        R-4       R-4 TRIPLE
+        R-5       CUADRITOS
+        R-6       RENGLONCIT
+        R2H       HOMBR CUAD
+        RAD       F.RADIANTE
+        RAL       RALLY
+        RAS       RASTA
+        RAY       RAYAS
+        RBC       ROJO BLANC
+        RC2       89*23MM
+        RCA       ROJO CADMI
+        RCE       ROJO CEREZ
+        RCG       REGRE. COL
+        RCO       ROJO COLON
+        RCR       ROJO CARMI
+        REC       RECIBIDA
+        RED       REDONDO
+        REF       REFERENCIA
+        REG       REGATA
+        REN       RENO
+        RES       ROJO ESCAR
+        RET       RETARDANTE
+        REV       REVISADO
+        RFA       ROSA FANTA
+        RJF       ROJO FIEST
+        RJN       ROJO.NEON
+        RJO       ROJO OSCUR
+        ROB       ROJO BERME
+        ROC       ROJO CARMI
+        ROF       ROJO FLUOR
+        ROI       ROSA INTEN
+        ROJ       ROJO
+        ROM       ROMBO
+        RON       ROSA.NEON
+        ROP       ROSA PASTE
+        ROS       ROSADO
+        ROT       107*25MM
+        ROV       ROJO VIVO
+        ROY       ROYAL
+        RPR       ROJO PRIMA
+        RSC       ROSA CLAR
+        RSF       ROSA FLUOR
+        RSM       ROSAD MEDI
+        RSV       ROSA VIEJA+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       21   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        RTA       108*47MM
+        RTJ       ROJO TEJA
+        RTU       102*51MM
+        RUS       RUSSET
+        RYB       ROJO Y BCO
+        RYN       ROJO/NEGRO
+        RYP       REF Y PREC
+        SAB       SABILA
+        SAC       SALMON CLA
+        SAH       SAHARA
+        SAL       SALMON
+        SAN       SANRIO
+        SBC       SATIN BLAN
+        SDI       SIS DIGEST
+        SEA       SE ARRIEND
+        SEM       SEMILOGARI
+        SEN       SENSIBLE
+        SEP       SEPIA
+        SEV       SE VENDE
+        SFI       SOFIA NO C
+        SHA       SHAKER
+        SIE       SIENNA
+        SIG       SIGNO
+        SIO       SIS.OSEO
+        SIS       SISTEMATIZ
+        SLI       SANTIN LIL
+        SMU       SIS MUSCUL
+        SOF       SOFIA
+        SOL       SOL-LUN-ES
+        SPI       SPIDERMAN
+        SPO       SPORT
+        SRO       SATIN ROSA
+        SSO       SIS SOLAR
+        STA       STARS
+        SU2       SURTIDAS 2
+        SUD       SURT DELUX
+        SUM       SUMAS/REST
+        SUP       SURTDA PAS
+        SUR       SURTIDA
+        T10       TALLA 10
+        T12       TALLA 12
+        T4        TALLA 4
+        T6        TALLA 6
+        T8        TALLA 8
+        TAB       TABLAS
+        TAC       T AMO CRIS
+        TAM       T AMO ROJO
+        TAN       TABLERO NO
+        TAR       TARZAN+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       22   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        TAS       T AMO SELE
+        TAZ       TRANSL AZU
+        TEA       TE AMO
+        TEL       TELAR
+        TER       TERRACOTA
+        TFC       TRANS/FOR/
+        TIE       TIERRA
+        TIF       TIFANY
+        TIN       TINY TOONE
+        TMO       T AMO MODE
+        TNS       TRANSPAREN
+        TOD       TODA OCASI
+        TQM       TE QUIMAMI
+        TQU       TE QUIERO
+        TRA       TRANSITO
+        TRB       TABACO RUB
+        TRI       TRICOLOR
+        TRL       TRASL PERG
+        TRO       TRANSL ROJ
+        TSI       TRANSICION
+        TUR       TURQUESA
+        TVE       TRANSL VER
+        ULT       ULTRASENSI
+        UNA       UNA HISTOR
+        UNI       UNICORNIO
+        UNL       UN LEON ES
+        UVA       UVA
+        VAB       VERGE AMBA
+        VAG       VDE AGUA
+        VAI       VAINILLA
+        VAM       VDE AMAZON
+        VAN       VANIDOSO
+        VAR       VDE AGU RO
+        VAZ       VDE AZTECA
+        VBC       VDE BLANCO
+        VBN       VDEBRINEON
+        VBT       VERDE BTE
+        VCA       VDE CAMPIN
+        VCC       VDE COB CL
+        VCL       VDE CLARO
+        VCM       VDE CAMPES
+        VCO       VAMOS COLO
+        VDA       VDE AMARIL
+        VDE       VERDE
+        VDI       VERGE DIAM
+        VDJ       VERDE JADE
+        VDN       VERDE,NEON
+        VEA       VDE ACEITU
+        VEB       VERDE BILL+------------------------------------------------------------------------------+
+| UNO - VER 8.5.            CEMPAC DE COLOMBIA S.A.         FECHA : 2021/01/06 |
+| UN003039.PEE           ** CATALOGO DE EXTENSIONES **      HORA  :  8:03 AM   |
+|                                                           PAGINA:       23   |
++------------------------------------------------------------------------------+
+|    EXTENSION    DESCRIPCION                                                  |
++------------------------------------------------------------------------------+
+        VED       VDE ESMERA
+        VEF       VERDE FLUO
+        VEM       VDE MENTA
+        VEO       VERGE OPAL
+        VEP       VDE PASTEL
+        VER       VERTICAL
+        VES       VDE ESCARC
+        VFL       VER FA-LIM
+        VHI       VDE HIERBA
+        VIC       VIOL CLARO
+        VIG       VDE IGUANA
+        VIN       VINOTINTO
+        VIO       VIOLETA
+        VIT       VITRAL
+        VJA       VER JARDIN
+        VLC       VDE LIMON
+        VLI       VERDELIMON
+        VLM       VDE LIMA
+        VLO       VDE LOTO
+        VMA       VDE MANZAN
+        VME       VDE MEDIO
+        VMR       VDE MARINO
+        VNA       VDE NAVIDA
+        VNO       VIOLETA NO
+        VOA       VOCAL PNO
+        VOC       VDE OSCURO
+        VOL       VDE OLIVA
+        VOP       VDE OPTICO
+        VOS       VIOLETA OS
+        VPA       VDE PASTO
+        VPE       VERGE PERO
+        VPI       VDE PISTAC
+        VPN       VERDE PINO
+        VRF       VERD FANTA
+        VRS       VARIADOS
+        VSA       VDE SALVAJ
+        VSE       VDE SELVA
+        VVI       VERDE VICH
+        VVS       VER VEN SU
+        VVZ       VDE VIZANT
+        WAM       W AMBAR
+        WTI       W TIARA
+        WTR       WOVE TRIGO
+        WVC       W VDE CANA
+        YEL       YELLOW
+        YUT       YUTE
+        ZAN       ZANAHORIA
+        ZYG       ZOOL Y GRA
+
+
+---------------------------------- FIN LISTADO ---------------------------------

@@ -1,0 +1,32 @@
+<div class="container-fluid px-4 row">
+	
+	<h3 id="testsAdminTit" class="mt-4"></h3>
+	
+	<div class="row">
+	<!-- <div class="grid"> -->
+		
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-6">
+			<span id="testNameFilterLabel" class="fieldLabel"></span>
+			<input id="testNameFilter" type="text" class="form-control">
+		</div>
+		
+		<div class="form-floating col-lg-3 ">
+			<button id = "searchBut" class="btn btn-primary filterButton1" onclick="listGet('tests')">
+			<button id = "createBut" class="btn btn-warning filterButton2" onclick="createItem('tests')">
+		</div>
+
+	</div>
+
+	<div class="table-responsive tableBox">
+		<div id='testsList' class='table'>
+			<div class='table-head'>
+				<div class='column' id="testsTT0"></div>
+				<div class='column' id="coursesTTO"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+               
+
+

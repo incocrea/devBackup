@@ -1,0 +1,16 @@
+Cliente: QUALA S.A;Detalle de Orden: 13
+
+Actividades;
+
+Item;Detalle;Actividad;Valor Unidad;Cantidad;Subtotal
+"d9e4a2-Locativas";"Locativas";"cambio de tubos led de 15 a 18w- sin suministro";"9800";"24";"235200"
+"d9e4a2-Locativas";"Locativas";"desmonte de tres lamparas para cambio de socket y cableado por estar intermitentes";"45000";"3";"135000"
+"d9e4a2-Locativas";"Locativas";"acompañamiento de coordinador de alturas ";"138000";"1";"138000"
+
+Repuestos;
+
+Item;Detalle;;Valor Unidad;Cantidad;Subtotal
+
+Otros Costos;
+
+Tipo de costo;Detalle;Documento/Factura;Valor Unidad;Cantidad;Subtotal

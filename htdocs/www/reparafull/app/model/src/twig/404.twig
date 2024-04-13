@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include '_required-css.twig' %}
+
+    {% include '_template-css.twig' %}
+
+    <title>404 Page not Found - {{title}}</title>
+  </head>
+  <body>
+
+    {% include '_header.twig' %}
+
+    <div class="container-fluid" id="main-container">
+      <div class="row">
+
+        {% include '_sidebar.twig' with {'active':'pages','sub':'404'} %}
+
+        <div class="col" id="main-content">
+
+          <!-- 404 Content -->
+          <div class="text-center">
+            <div class="display-2"><i class="fa fa-compass"></i></div>
+            <h1>OOPS! ERROR 404 PAGE NOT FOUND</h1>
+            <h4>The page you were looking for doesn't exist.</h4>
+            <div class="btn-group btn-group-sm mt-3 mb-5" role="group">
+              <a class="btn btn-outline-info" href="javascript:history.back()" role="button"><i class="fa fa-arrow-left"></i> Go Back</a>
+              <a class="btn btn-info" href="index.html" role="button"><i class="fa fa-home"></i> Home</a>
+            </div>
+            <p>Think this is an error? Please <a href="contact.html"><u>let us know.</u></a></p>
+          </div>
+          <!-- /404 Content -->
+
+          {% include '_footer.twig' %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include '_modal-cart.twig' %}
+
+    {% include '_required-js.twig' %}
+
+    {% include '_template-js.twig' %}
+  </body>
+</html>

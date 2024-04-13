@@ -1,0 +1,12 @@
+.css_nombre_label, .css_nombre_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_nombre_grid_line, .css_nombre_grid_line:hover {vertical-align: top;text-align: right;}
+.css_telefono_label, .css_telefono_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_telefono_grid_line, .css_telefono_grid_line:hover {vertical-align: top;text-align: right;}
+.css_direccion_label, .css_direccion_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_direccion_grid_line, .css_direccion_grid_line:hover {vertical-align: top;text-align: right;}
+.css_email_label, .css_email_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_email_grid_line, .css_email_grid_line:hover {vertical-align: top;text-align: right;}
+.css_activa_label, .css_activa_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_activa_grid_line, .css_activa_grid_line:hover {vertical-align: top;text-align: right;}
+.css_id_institucion_label, .css_id_institucion_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_institucion_grid_line, .css_id_institucion_grid_line:hover {vertical-align: top;text-align: right;}

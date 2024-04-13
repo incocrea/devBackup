@@ -1,0 +1,275 @@
+[13-Jun-2019 09:18:15 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[13-Jun-2019 09:18:15 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[13-Jun-2019 09:18:30 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[13-Jun-2019 09:18:30 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[13-Jun-2019 09:18:49 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[13-Jun-2019 09:18:49 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[13-Jun-2019 09:18:51 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/leoncitobravo/public_html/servintegral/libs/php/dataBase.php on line 42
+[13-Jun-2019 09:18:56 America/Bogota] PHP Fatal error:  Call to a member function query() on a non-object in /home/leoncitobravo/public_html/servintegral/libs/php/dataBase.php on line 42
+[13-Jun-2019 09:25:21 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[13-Jun-2019 09:25:21 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[12-Sep-2019 10:35:28 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[12-Sep-2019 10:35:28 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[12-Sep-2019 10:35:35 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[12-Sep-2019 10:35:35 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[12-Sep-2019 10:35:38 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[12-Sep-2019 10:35:38 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[12-Sep-2019 10:41:22 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[12-Sep-2019 10:41:22 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[12-Sep-2019 10:41:29 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[12-Sep-2019 10:41:29 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[12-Sep-2019 10:41:39 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[12-Sep-2019 10:41:39 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:47:54 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[07-May-2020 13:47:54 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:48:10 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[07-May-2020 13:48:10 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:48:23 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[07-May-2020 13:48:23 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:48:36 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[07-May-2020 13:48:36 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:54:04 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[07-May-2020 13:54:04 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:54:06 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[07-May-2020 13:54:06 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:54:11 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[07-May-2020 13:54:11 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[07-May-2020 13:54:43 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[07-May-2020 13:54:43 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[12-May-2020 19:02:24 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2087
+[12-May-2020 19:02:24 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[14-May-2020 19:40:23 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2094
+[14-May-2020 19:40:23 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[14-May-2020 19:40:59 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2094
+[14-May-2020 19:40:59 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[14-May-2020 19:41:07 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2448
+[14-May-2020 19:41:07 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[30-May-2020 19:38:26 America/Bogota] PHP Notice:  Undefined index: f-orderAuthor in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 388
+[30-May-2020 19:38:26 America/Bogota] PHP Notice:  Undefined index: f-orderLocation in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 389
+[30-May-2020 19:38:26 America/Bogota] PHP Notice:  Undefined variable: where in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 449
+[30-May-2020 19:38:26 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[30-May-2020 19:38:35 America/Bogota] PHP Notice:  Undefined index: f-orderAuthor in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 388
+[30-May-2020 19:38:35 America/Bogota] PHP Notice:  Undefined index: f-orderLocation in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 389
+[30-May-2020 19:38:35 America/Bogota] PHP Notice:  Undefined variable: where in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 449
+[30-May-2020 19:38:35 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[30-May-2020 19:38:36 America/Bogota] PHP Notice:  Undefined index: f-orderAuthor in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 388
+[30-May-2020 19:38:36 America/Bogota] PHP Notice:  Undefined index: f-orderLocation in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 389
+[30-May-2020 19:38:36 America/Bogota] PHP Notice:  Undefined variable: where in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 449
+[30-May-2020 19:38:36 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined index: f-orderAuthor in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 388
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined index: f-orderLocation in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 389
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined variable: where in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 449
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined index: f-orderAuthor in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 388
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined index: f-orderLocation in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 389
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined variable: where in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 449
+[30-May-2020 19:38:38 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[05-Jun-2020 17:29:14 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[05-Jun-2020 17:29:14 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[05-Jun-2020 17:29:38 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[05-Jun-2020 17:29:38 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[05-Jun-2020 17:29:47 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[05-Jun-2020 17:29:47 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[25-Jun-2020 19:28:06 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[25-Jun-2020 19:28:06 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[01-Jul-2020 18:59:03 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2294
+[01-Jul-2020 18:59:03 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[01-Jul-2020 18:59:03 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[01-Jul-2020 19:25:32 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[01-Jul-2020 19:25:32 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[01-Jul-2020 19:25:44 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[01-Jul-2020 19:25:44 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[01-Jul-2020 19:25:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[01-Jul-2020 19:25:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[01-Jul-2020 19:25:57 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[01-Jul-2020 19:25:57 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[01-Jul-2020 19:40:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[01-Jul-2020 19:40:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[01-Jul-2020 19:42:26 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[01-Jul-2020 19:42:26 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[01-Jul-2020 19:47:06 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[01-Jul-2020 19:47:06 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[01-Jul-2020 19:47:06 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[01-Jul-2020 19:47:06 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[01-Jul-2020 19:47:06 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[01-Jul-2020 19:47:06 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 14:00:51 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2294
+[02-Jul-2020 14:00:51 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 14:00:51 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 14:12:41 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 14:12:45 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 14:33:18 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2294
+[02-Jul-2020 14:33:18 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 14:33:18 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:34 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2294
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 18:36:34 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[02-Jul-2020 18:36:34 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:34 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[02-Jul-2020 18:36:46 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:46 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:46 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:46 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:46 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:46 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:46 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:50 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:50 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:50 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:50 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:50 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:50 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:50 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:36:57 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:13 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:14 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:18 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:18 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:18 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:18 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:18 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:18 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:37:18 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:14 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:14 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:19 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:19 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:19 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:19 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:19 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:19 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:19 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:21 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:24 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:58 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:58 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:58 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:58 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:58 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:58 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:38:58 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:24 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:25 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:28 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:31 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:37 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:48 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:48 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:39:58 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:05 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:05 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:05 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:05 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:05 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:05 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:05 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:17 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:21 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:53 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:53 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:53 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:53 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:53 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:53 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 18:40:53 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 21:05:40 America/Bogota] PHP Notice:  A non well formed numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 21:26:41 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 21:27:26 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 21:27:35 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[02-Jul-2020 21:28:10 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 3916
+[06-Jul-2020 12:07:57 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2294
+[06-Jul-2020 12:07:57 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[06-Jul-2020 12:07:57 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[06-Jul-2020 13:37:10 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2294
+[06-Jul-2020 13:37:10 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2296
+[06-Jul-2020 13:37:10 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2301
+[03-Aug-2020 19:00:18 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[03-Aug-2020 19:00:18 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[03-Aug-2020 19:00:30 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[03-Aug-2020 19:00:30 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[03-Aug-2020 19:00:37 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[03-Aug-2020 19:00:37 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[03-Aug-2020 19:02:01 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[03-Aug-2020 19:02:01 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[03-Aug-2020 19:02:25 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2080
+[03-Aug-2020 19:02:25 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35
+[03-Aug-2020 19:02:28 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/leoncitobravo/public_html/servintegral/libs/php/users.php on line 2434
+[03-Aug-2020 19:02:28 America/Bogota] PHP Notice:  Undefined variable: exec in /home/leoncitobravo/public_html/servintegral/libs/php/mentry.php on line 35

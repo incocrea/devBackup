@@ -1,0 +1,275 @@
+<div id="detCover" class="detCover"></div>
+<!-- <link rel="stylesheet" href="fonts/fira-sans.css"> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
+<!-- REQUIRED CSS: BOOTSTRAP, FONTAWESOME, PERFECT-SCROLLBAR  -->
+<link rel="stylesheet" href="dist/css/vendor.min.css">
+<!-- PLUGINS FOR CURRENT PAGE -->
+<link rel="stylesheet" href="plugins/swiper/swiper.min.css">
+<link rel="stylesheet" href="plugins/photoswipe/photoswipe.min.css">
+<link rel="stylesheet" href="plugins/photoswipe/photoswipe-default-skin/default-skin.min.css">
+
+<div class="row">
+	<div class="col">
+
+	  <!-- Breadcrumb -->
+	  <!-- <nav aria-label="breadcrumb"> -->
+		<!-- <ol class="breadcrumb"> -->
+		  <!-- <li class="breadcrumb-item"><a href="index.php" class="text-info">Inicio</a></li> -->
+		  <!-- <li id="workTitle" class="breadcrumb-item active" aria-current="page"></li> -->
+		<!-- </ol> -->
+	  <!-- </nav> -->
+	  <!-- /Breadcrumb -->
+
+	  <div class="row fullcontainer">
+		<div class="row ">
+			
+			<div class="col-12 user-card">
+				<div class="col">
+					
+					<div class="col-12">
+						<p id ="formTitle" class="formTitle" ></p>
+					</div>
+					
+					<div id="workForm" class="row">
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="form-group">
+							  <input type="text" class="form-control" id="rLocation" placeholder=
+							  "Ciudad">
+							</div>
+						</div>
+						
+						<div id="liveBox" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+							<div class="form-group">
+							  <select class="form-control" id="rDuration">
+								<option value = "">Publicar durante</option>
+								<option value = "3">Publicar durante 3 días</option>
+								<option value = "5">Publicar durante 5 días</option>
+								<option value = "10">Publicar durante 10 días</option>
+								<option value = "20">Publicar durante 20 días</option>
+								<option value = "30">Publicar durante 30 días</option>
+							  </select>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div id="propsNumBox" class="form-group">
+							  <select class="form-control" id="rPropTop">
+								<option value = "30">Recibir hasta 30 propuestas</option>					<option value = "10">Recibir hasta 10 propuestas</option>
+								<option value = "5">Recibir hasta 5 propuestas</option>
+								<option value = "3">Recibir hasta 3 propuestas</option>
+								
+							  </select>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="form-group">
+							  <select class="form-control" id="rCat">
+								<option value = "">Categoría principal</option>
+							  </select>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="form-group">
+							  <select class="form-control" id="rsCat">
+								<option value = "">Sub categoría</option>
+							  </select>
+							</div>
+						</div>
+
+						<div id="rePriceBox" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="form-group">
+							  <input type="text" class="form-control" id="rePrice" placeholder=
+							  "Precio del repuesto">
+							</div>
+							<span class="feeText">(La comisión para Reparafull, sobre el precio de venta es del 10%)</span>
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="form-group">
+							  <textarea class="form-control" id="wDetails" placeholder=""></textarea>
+							</div>
+						</div>
+					</div>
+				  
+					<p id="workDetailLabel"></p>
+					
+					<div id="saveWorkBox" class="form-group">
+						<button id="saveWorkB" type="button" class="btn btn-info btn-block">Publicar</button>
+					</div>
+					<div id="postMeBox" class="form-group">
+						<button id="postOfferButton" onclick="postOffer()" type="button" class="btn btn-info btn-block">Postular cotización</button>
+					</div>
+					
+					<div  class="text-center">
+					<button id="cancelThisBox" onclick="cancelWork()" type="button" class="btn btn-danger">Cancelar trabajo</button>
+					<button id="rateThisBox" onclick="openRater()" type="button" class="btn btn-warning">Calificar servicio</button>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div id="picZone" class="col-12 user-card">
+			  <div class="img-detail-wrapper">
+				
+				<div id="picsBox" class="img-detail-list">
+				  <div id="picsTitle" class="picsTitle">Imágenes de la publicación</div>
+				  <a href="#" class="active" ><img src="img/works/sample.jpg" id="detPic1" data-large-src="img/works/sample.jpg" alt="Product" data-index="0"></a>
+				  <a href="#" ><img src="img/works/sample.jpg"  id="detPic2" data-large-src="img/works/sample.jpg" alt="Product" data-index="1"></a>
+				  <a href="#"><img src="img/works/sample.jpg"  id="detPic3" data-large-src="img/works/sample.jpg" alt="Product" data-index="2"></a>
+				</div>
+				
+				
+				<img src="img/works/sample.jpg" class="img-fluid px-5 showPic" id="img-detail" alt="Responsive image" data-index="0">
+				
+				
+			  </div>
+			</div>
+
+		</div>
+		<br>
+		<div id="comentOffers">
+		<ul class="nav nav-tabs" role="tablist">
+				<li class="nav-item">
+                  <a class="nav-link text-body active" id="comments-tab" data-toggle="tab" href="#comments" role="tab" aria-controls="comments" aria-selected="false"></a>
+                </li>
+                <li id="propsTab" class="nav-item">
+                  <a class="nav-link text-body" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false"></a>
+                </li>
+              </ul>
+		<div class="tab-content mb-4">
+		
+		<div class="tab-pane border border-top-0 p-3 fade show active" id="comments" role="tabpanel" aria-labelledby="review-tab">
+		  <div id="commentsBox"> </div>
+
+		  <div class="text-center" id="commentButton">
+			<button type="button" onclick="commentWork()" class="btn btn-warning" data-toggle="modal" data-target="#commentFormModal">Escribir comentario o pregunta</button>
+		  </div>
+		</div>
+		
+		<div class="tab-pane border border-top-0 p-3 fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+		  <div class="container">
+			<div id="filtersBox" class="row">
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+					<p><b>Ordenar por</b></b></p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+					<select class="form-control bottoMargin" onchange="orderOffers(this.value)">
+						<option value="1">Calificación</option>
+						<option value="2">Mejor Precio</option>
+						<option value="3">Disponibilidad</option>
+					</select>
+				</div>
+				
+			</div>
+			<hr class="commentMargin2">
+			<div id="offersBox"></div>
+		  </div>
+		</div>
+		</div>
+		
+	  </div>
+	  <!-- </div> -->
+	  <hr>
+	  
+	  
+
+	</div>
+  </div>
+	
+<!-- Review Form Modal -->
+<div class="modal fade" id="reviewFormModal" tabindex="-1" role="dialog" aria-labelledby="reviewFormModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title" id="reviewFormModalLabel">Calificar servicio</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+	  
+		<div class="modal-body">
+		  <div class="form-group">
+			<label for="inputDesc">Si el servicio se ha prestado, por favor escriba sus comentarios y calificación para el profesional, esto se mostrará a sus posibles clientes.<br></label>
+			<textarea class="form-control" id="inputDesc" rows="3" placeholder="Sus comentarios u opiniones sobre el servicio recibido, estas se publicarán en el perfíl del profesional"></textarea>
+		  </div>
+		  <div class="form-group">
+			<label>Basandose en la atención, puntualidad y calidad por favor califique el servicio recibido</label>
+			<div id="star-rating" class="text-warning h5"></div>
+		  </div>
+
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+		  <button onclick="setRate()" class="btn btn-primary">Aceptar</button>
+		</div>
+	  
+	</div>
+  </div>
+</div>
+
+<!-- Review Form Modal -->
+<div class="modal fade" id="storyBox" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title" id="reviewFormModalLabel">Calificaciones previas</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+		<div id="storyList" class="modal-body floatList"></div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+		</div>
+	  
+	</div>
+  </div>
+</div>
+
+<!-- Photoswipe container-->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="pswp__bg"></div>
+  <div class="pswp__scroll-wrap">
+	<div class="pswp__container">
+	  <div class="pswp__item"></div>
+	  <div class="pswp__item"></div>
+	  <div class="pswp__item"></div>
+	</div>
+	<div class="pswp__ui pswp__ui--hidden">
+	  <div class="pswp__top-bar">
+		<div class="pswp__counter"></div>
+		<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+		<button class="pswp__button pswp__button--share" title="Share"></button>
+		<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+		<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+		<div class="pswp__preloader">
+		  <div class="pswp__preloader__icn">
+			<div class="pswp__preloader__cut">
+			  <div class="pswp__preloader__donut"></div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		<div class="pswp__share-tooltip"></div>
+	  </div>
+	  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+	  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+	  <div class="pswp__caption">
+		<div class="pswp__caption__center"></div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<!-- PLUGINS FOR CURRENT PAGE -->
+<script src="plugins/swiper/swiper.min.js"></script>
+<script src="plugins/photoswipe/photoswipe.min.js"></script>
+<script src="plugins/photoswipe/photoswipe-ui-default.min.js"></script>
+<!-- Mimity JS  -->
+<script src="dist/js/script.min.js"></script>
+
+

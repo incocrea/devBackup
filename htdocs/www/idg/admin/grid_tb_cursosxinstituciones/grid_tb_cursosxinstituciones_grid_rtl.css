@@ -1,0 +1,10 @@
+.css_institucion_id_label, .css_institucion_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_institucion_id_grid_line, .css_institucion_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_course_id_label, .css_course_id_label:hover {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_course_id_grid_line, .css_course_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_estado_id_label, .css_estado_id_label:hover {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_estado_id_grid_line, .css_estado_id_grid_line:hover {vertical-align: top;text-align: right;}
+.css_fecha_inicio_label, .css_fecha_inicio_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_fecha_inicio_grid_line, .css_fecha_inicio_grid_line:hover {vertical-align: top;text-align: center;}
+.css_fecha_terminacion_label, .css_fecha_terminacion_label:hover {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_fecha_terminacion_grid_line, .css_fecha_terminacion_grid_line:hover {vertical-align: top;text-align: center;}

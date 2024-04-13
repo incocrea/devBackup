@@ -1,0 +1,1211 @@
+@font-face 
+{
+    font-family: fontRegular;
+    src: url(Roboto-Regular.ttf);
+    font-weight: normal;
+}
+@font-face 
+{
+    font-family: fontRegular;
+    src: url(Roboto-Bold.ttf);
+    font-weight: bold;
+}
+body 
+{
+	font-size: 1.0em;
+	margin: 0;
+	font-family: "fontRegular" !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+
+        background: #ebebeb;
+}
+html
+{ 	
+	font-size: 100%;
+	display: block;
+}
+input:disabled
+{
+	background: #ebebeb;
+}
+input[type='checkbox']
+{
+	border-radius: 4px;
+}
+input[type=number]::-webkit-inner-spin-button, 001
+input[type=number]::-webkit-outer-spin-button 
+{  
+   opacity: 1;
+}
+input[type="text"], input[type="password"]
+{
+	background: #F2F5F5;
+	border-radius: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left : 5px;
+	box-sizing: border-box;
+}
+select
+{
+	font-size: 100%;
+	background: #F2F5F5;
+	border-radius: 5px;
+	text-align-last:center !important; 
+	font-family: fontRegular;
+	box-sizing: border-box;
+}
+-webkit-input-placeholder { font-size: 100%; text-align: left;}
+-moz-placeholder { font-size: 100%; text-align: left;}
+-ms-input-placeholder { font-size: 100%; text-align: left;}
+-webkit-input-placeholder { font-size: 100%; text-align: left;}
+/*----------------GENERAL--------------------*/
+::-webkit-input-placeholder 
+{
+	color: #777777;
+	font-size: 14px;
+	font-family: "fontRegular";
+}
+:-moz-placeholder 
+{
+	color: #777777;
+	font-size: 14px;
+	font-family: "fontRegular";
+}
+:-ms-input-placeholder 
+{
+	color: #777777;
+	font-size: 14px;
+	font-family: "fontRegular";
+}
+
+#Ini_upload_process
+{
+   display: none;
+   float: left;
+   text-align:center;
+   width: 100% !important;
+   margin:0px;
+   padding:0px;
+   background-color:#fff;
+   border:0px solid #ccc;
+   overflow: hidden;
+}
+
+#End_upload_process
+{
+   display: none;
+   float: left;
+   text-align:center;
+   width: 100%;
+   margin:0px;
+   padding:0px;
+   background-color:#fff;
+   border:0px solid #ccc;
+   overflow: hidden;
+}
+#passcheck
+{
+	display: none !important;
+}
+.dropdown-menu
+{
+	/* height: 100%; */
+	overflow-y: auto;
+}
+.userTypeInfo
+{
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	color: #ffffff;
+	font-size: 12px;
+}
+.fuLine
+{
+	float: left;
+	width: 100%;
+	/* background: red; */
+}
+.coolDate
+{
+	color: #8d8d8d;
+}
+.lateDate
+{
+	color: red;
+}
+.picturesBox
+{
+	float: left;
+	text-align: center;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+        background: #cccccc;
+        min-height: 45px;
+
+}
+.rPicBox
+{
+
+	text-align: center;
+	width: 100%;
+	border-radius: 5px;
+	padding-top: 10px;
+	background: #f5f5f5;
+	min-height: 45px;
+	min-width: 230px;
+
+}
+.fileBox
+{
+        width: 100%;
+        font-size: 12px;
+}
+.hiddenSubmit
+{
+	display: none;
+}   
+.maquiPicker
+{
+        width: 100%;
+        min-height: 90px;
+        margin-top: 2px;
+	margin-bottom: 10px;
+	border: 1px solid #cccccc;
+	height: 30px !important;
+	font-family: fontRegular;
+	font-size: 12px;
+        text-align-last: left !important; 
+}
+.resSpan
+{
+        font-weight: normal !important;
+        color: #000000 !important;
+        
+}
+.fButon
+{
+        margin-top: -7px;
+        border-radius: 0px 5px 5px 0px !important;
+        background: #C38209; /* Old browsers */
+       
+}
+.popTable
+{
+        max-height: 250px;
+        overflow-y: auto;
+}
+.popTableShort
+{
+        max-height: 200px;
+        overflow-y: auto;
+        margin: 0px !important;
+}
+.modalPicBox
+{
+        max-height: 300px;
+}
+.totalLine
+{
+        width: 100%;
+        text-align: center;
+        
+}
+.totalLine span
+{
+        font-size: 12px;
+        font-weight: bold;
+        color: #000000;
+}
+.black
+{
+        color: #000000 !important;
+        margin-right: 10px;
+}
+.onTop
+{
+        z-index: 3;
+        min-height: 30px;
+}
+.totalCell
+{
+        font-weight: bold;
+        color: #000000;
+        font-size: 14px;
+        border: 0px solid #cccccc !important;
+}
+.vigencyfield
+{
+        width: 100px;
+}
+.reporPicker
+{
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        height: 30px;
+        text-align-last:left !important; 
+}
+.centereDiv
+{
+        margin: auto;
+        max-width: 150px;
+        text-align: center !important;
+}
+.retCheckLabel
+{
+        font-size: 13px;
+}
+
+
+/*----------------BASICS--------------------*/
+.mainContainerWeb
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.hiddenT
+{
+	overflow: hidden !important;
+	height: 0;
+	width: 0;
+}
+.loaderDiv
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 1000000;
+	display: none;
+}
+.loaderDiv img
+{
+	width: 80px;
+	display:block;
+	position:absolute;
+	left:0;
+	right:0;
+	top:40%;
+	margin:auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+}
+/*------------------------------------*/
+
+/*----------------LEGALBOX--------------------*/
+.legalBox
+{
+	width: 100%;
+	text-align: center;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.legalAdviseBox
+{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	text-align: justify;
+	background:  #ffffff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 15px;
+	max-height: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	color: #272E36;
+	font-size: 14px;
+	overflow-y: auto;
+}
+.legalAdviseBox b
+{
+	color: #000000;
+}
+.legalAdviseBox img
+{
+	vertical-align: middle;
+}
+/*------------------------------------*/
+
+/*----------------LOGIN BOX--------------------*/
+.loginBox
+{
+	margin: auto;
+	border-radius: 5px;
+	text-align: center;
+	overflow: hidden;
+	max-width: 400px;
+}
+.loginTitle1
+{
+	margin: auto;
+	max-width: 90%;
+	font-size: 16px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+.loginTitle2
+{
+	margin: auto;
+	max-width: 90%;
+	font-size: 14px;
+	color: #272E36;
+}
+.loginButton
+{
+	float: left;
+	width: 100%;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	background: #000000;
+	color: #ffffff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-shadow: 0px 0px 4px #000000;
+	cursor: pointer;
+}
+/*---------------------------------------------*/
+
+/*----------------IF MANAGE--------------------*/
+.homeLogo
+{
+	height: 100%;
+}
+.msgIcon
+{
+	position: absolute;
+	top: 10%;
+	left: 2%;
+	width: 35px;
+	cursor: pointer;
+}
+.exitIcon
+{
+	position: absolute;
+	top: 10%;
+	right: 2%;
+	width: 43px;
+	cursor: pointer;
+	display: none;
+}
+.containerMine
+{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+}
+.mainHead
+{
+	position: relative;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: #272E36;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	height: 15%;
+	text-align: center;
+}
+.mainArea
+{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+.mainMid
+{
+	float: left;
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	height: 80%;
+	overflow-y: auto;
+}
+.mainMiddleContent
+{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.ifBox
+{
+	overflow: hidden;
+	width: 100%;
+	padding-top: 15px;
+        max-width: 1300px;
+         margin: auto;
+         background: #ffffff;
+}
+.ifBoxShort
+{
+	overflow: hidden;
+	width: 100%;
+        max-width: 1300px;
+        margin: auto;
+	padding-top: 15px;
+        background: #ffffff;
+}
+.mainBottom
+{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #272E36;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	height: 5%;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+
+}
+.mainBottom a
+{
+	vertical-align: middle;
+	display: table-cell;
+	color: #ffffff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+/*---------------------------------------------*/
+
+/*----------------FIELDS--------------------*/
+
+.fields input[type="text"]:disabled, input[type="password"]:disabled
+{
+        background: #cccccc;
+}
+.fields select:disabled
+{
+        background: #cccccc;
+}
+.fields input[type="text"], input[type="password"]
+{
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 99%;
+	border: 1px solid #cccccc;
+	height: 30px !important;
+	font-family: fontRegular;
+	font-size: 12px;
+}
+.fields textarea
+{
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 99%;
+        min-height: 60px;
+	border: 1px solid #cccccc;
+	height: 30px !important;
+	font-family: fontRegular;
+	font-size: 12px;
+}
+.fields select
+{
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #cccccc;
+	height: 30px !important;
+	font-family: fontRegular;
+	font-size: 12px;
+        text-align-last: left !important; 
+}
+
+.optIcon
+{
+        text-align: center !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+}
+.optIcon img
+{
+        width: 23px;
+        margin-top: 8px;
+        cursor: pointer;
+}
+.centField
+{
+	text-align: center !important;
+}
+/*---------------------------------------------*/
+
+/*----------------BUTTONS AND LABELS--------------------*/
+.panelButtFull button
+{
+	float: left;
+	width: 100%;
+        background: #272E36;
+	color: #ffffff;
+	border: 0px solid #cccccc;
+	height: 30px !important;
+	font-family: fontRegular;
+	font-size: 12px;
+	font-weight: bold;
+        border-radius: 5px;
+		text-shadow: 0px 1px #000000;
+}
+.panelButtFull button:hover
+{
+        background: #59bcda;
+}
+.fLabel span
+{
+
+	font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+}
+/*---------------------------------------------*/
+
+/*----------------PASS REC--------------------*/
+.pssRecLink
+{
+	font-size: 14px;
+	color: red;
+	cursor: pointer;
+	text-shadow: 0px 0px 3px #ffffff;
+}
+.recMailBox
+{
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	height: 25px;
+        font-size: 12px;
+}
+.pssRecMain
+{
+	text-align: center;
+}
+.pssRecMain div
+{
+	width: 300px;
+	margin: auto;
+	border: 5px solid #ffffff;
+	margin-top: 50px;
+	border-radius: 10px;
+	padding: 15px;
+	background: #272E36;
+}
+.pssRecMain img
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 80%;
+}
+.pssRecMain input[type=text]
+{
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+	border-radius: 10px;
+	text-align: center;
+}
+.pssRecMain button
+{
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+	border-radius: 10px;
+	text-align: center;
+	background: #000000;
+	border: 3px solid #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.pssRecMain span
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+/*---------------------------------------------*/
+
+/*----------------CONDITIONS--------------------*/
+.conditionsAcceptLink
+{
+	width: 100%;
+	float: left;
+	color: #272E36;
+	display: table;
+	font-size: 13px;
+	margin-top: 15px;
+}
+.conditionsAcceptLink span
+{
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.conditionsAcceptLink input
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+/*---------------------------------------------*/
+
+/*----------------MENU Y WORKAREA--------------------*/
+.menuContainer
+{
+	position: fixed;
+	top: 15%;
+	left: 0;
+	width: 100%;
+	background: #000000;
+	text-align: center !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 20px;
+}
+.menuContainer div
+{
+	font-size: 90%;
+	color: #ffffff;
+	cursor: pointer;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	text-shadow: 0px 0px 4px #000000;
+	font-weight: bold;
+	float: left;
+}
+.menuBarBox
+{
+	position: absolute;
+}
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav
+{
+        list-style-type: none;
+        margin: 0;
+		position: fixed;
+		z-index: 2;
+		width: 100%;
+        padding: 0;
+		
+        overflow: hidden;
+        background-color: #5d9838;
+}
+/* Float the list items side by side */
+ul.topnav li 
+{
+        float: left;
+        cursor: pointer;
+}
+/* Style the links inside the list items */
+ul.topnav li a 
+{
+        display: inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 13px;
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover 
+{
+        background-color: #111;
+}
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon 
+{
+        display: none;
+}
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) 
+{
+        ul.topnav li:not(:first-child) 
+        {
+                display: none;
+        }
+        ul.topnav li.icon 
+        {
+                float: right;
+                display: inline-block;
+        }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) 
+{
+        ul.topnav.responsive 
+        {       
+                position: relative;
+        }
+        ul.topnav.responsive li.icon 
+        {
+                position: absolute;
+                right: 0;
+                top: 0;
+        }
+        ul.topnav.responsive li 
+        {
+                float: none;
+                display: inline;
+        }
+        ul.topnav.responsive li a 
+        {
+                display: block;
+                text-align: left;
+        }
+}
+
+.workarea
+{
+	width: 98%;
+	margin: auto;
+	max-width: 98%;
+        
+}
+/*---------------------------------------------*/
+
+/*----------------TABLES--------------------*/
+
+/* seo friendly tables */
+.table
+{
+	display:table;	/* Defines a Table */
+
+	font-size:14px;
+	border-bottom:2px solid #dddddd;
+	color:#8d8d8d;
+	margin:10px 0;
+        width: 100%;
+}
+.table-head
+{
+	 display: table-header-group; /* Defines a table header group */
+         
+}
+.table-head .column
+{ /* Column inside the table-head */
+	background:#272E36;
+	font-weight: bold;
+        color: #ffffff;
+	border-right:1px solid #5d5d5d;
+	border-bottom:none;
+}
+.table-head .column:hover
+{ /* Column hover inside the table-head */
+	background:#272E36;
+}
+.rowT
+{
+	display:table-row; /* Defines a table row */
+}
+.rowT:hover
+{
+        background:#fff7db;
+}
+.rowT .column:nth-child(1)
+{ /* First column in a row */
+	border-left:1px solid #eeeeee;
+}
+.rowT:last-child .column
+{  /* column in a last row */
+	border-bottom:none;
+}
+.column
+{
+	display:table-cell; /* Defines a table cell */
+	padding: 5px 10px;
+	border-bottom:1px solid #eeeeee;
+	border-right:1px solid #eeeeee;
+        font-size: 12px;
+}
+.opts
+{
+        text-align: center !important; 
+        min-width: 130px;
+        vertical-align: middle;
+}
+.opts img
+{
+        width: 20px !important; 
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        cursor: pointer;
+}
+.opts input[type=checkbox]
+{
+        width: 20px !important; 
+        margin-left: 0.5%;
+        vertical-align: middle;
+        margin-right: 0.5%;
+        cursor: pointer;
+}
+.loneIcon
+{
+        width: 20px !important; 
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+}
+.loneIconForm
+{
+        width: 20px !important; 
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        margin-top: -6px;
+}
+/* Responsive table */
+@media all and (max-width: 900px){
+	.table,
+	.rowT,
+	.column,
+	.column:before
+        {
+		display:block;	/* Converts a table, table row, table column and table column:before into a block element */
+                
+	}
+	.table,
+	.rowT .column:last-child
+        {
+		border-bottom:none;
+	}
+	.table-head
+        {
+		position:absolute;	/* Hides table head but not using display none */
+		top:-1000em;
+		left:-1000em;
+                
+	}
+	.rowT
+        {
+		border:1px solid #eeeeee;
+		border-top:0px solid #dddddd;
+		border-bottom:5px solid #000000;
+		margin:20px 0;
+	}
+	.rowT .column:nth-child(1)
+        { /* first column of the row */
+		border-left:none;
+	}
+	.rowT .column:last-child
+        { /* last column of the row */
+		border-right:none;
+	}
+	.rowT:last-child .column,
+	.column
+        { /* Column in the last row and column */
+		border-bottom:1px solid #eeeeee;
+                padding: 2px 10px;
+	}
+	.column:before
+        { /* prints the value of data-label attribute before the column data */
+		padding-right:20px;
+		font-size:12px;
+                color: #000000;
+		content:""attr(data-label)"";	/* call the attribute value of data-label and adds a string // */
+	}
+        .opts img
+        {
+                width: 30px !important; 
+                margin-left: 5%;
+                margin-right: 5%;
+        }
+}
+.blankProducts
+{
+	margin-top: 5px;
+	font-size: 12px;
+	color: #000000 !important;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+/*---------------------------------------------*/
+
+.imageBoxView
+{
+	position: relative;
+	float: left !important;
+	width: 14.6%;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	cursor: pointer;
+        max-height: 25px;
+}
+.imageBoxViewReport
+{
+	position: relative;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	cursor: pointer;
+        max-height: 25px;
+}
+
+@media all and (max-width: 1000px)
+{
+        .imageBoxView
+        {
+                position: relative;
+                float: left !important;
+                width: 14.6%;
+                margin-left: 2%;
+                margin-bottom: 10px;
+                cursor: pointer;
+                max-height: 40px !important;
+        }
+        
+        
+}
+
+/*----------------BOXSPAND--------------------*/
+.mainbs
+{
+	overflow-y: auto;
+	display: block;
+	width: 100%;
+	overflow-x: hidden;
+	width: 100%;
+	margin-bottom: 10px;
+	-webkit-transition: height 1s ease;
+	-moz-transition: height 1s ease;
+	-o-transition: height 1s ease;
+	transition: height 1s ease;
+}
+.tBar
+{
+	background: #000000;
+	color: #ffffff;
+	font-size: 12px;
+	
+	height: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	display: table;
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+        margin-bottom: 10px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b9b2a+0,005b13+73,107c00+100 */
+        background: #59bcda; /* Old browsers */
+        /* background: -webkit-linear-gradient(top,  #e0bd0e 0%,#907203 73%,#6f500a 100%); /* Chrome10-25,Safari5.1-6 */ */
+
+
+
+
+
+}
+.tBar span
+{
+	display: table-cell;
+	vertical-align: middle;
+	/* color: #000000; */
+	font-weight: bold;
+	text-shadow: 0px 1px #000000;
+}
+.expandIcon
+{
+        float: right;
+        width: 20px;
+        margin-top: 4px;
+        margin-right: 5px;
+}
+.expandIcon:Hover
+{
+	cursor: pointer;
+}
+/*---------------------------------------------*/
+
+/*----------------FORM BUTTONS--------------------*/
+.dualButtonsDiv
+{
+	margin-top: 1%;
+	width: 100%;
+	box-sizing: border-box;
+        text-align: center;
+}
+.singleButtonPop
+{
+	width: 120px;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	background: #000000;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 3px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-shadow: 0px 0px 4px #000000;
+	cursor: pointer;
+}
+.singleButtonPop:hover
+{
+	background: red;
+}
+.dualButtonPop
+{
+	float: left;
+	width: 40%;
+	margin-left: 6.7%;
+	margin-top: 2%;
+	margin-bottom: 15px;
+	background: #000000;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 3px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-shadow: 0px 0px 4px #000000;
+	cursor: pointer;
+}
+.dualButtonPop:hover
+{
+	background:  red;
+}
+/*---------------------------------------------*/
+
+/*----------------CONTACT--------------------*/
+.abuseBox
+{
+	margin-top: 10px;
+	margin-left: 1%;
+	width: 99%;
+	height: 100px;
+	font-size: 14px;
+	font-family: fontRegular;
+}
+.contactBox
+{
+	float: left;
+	width: 98%;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.contactBox textarea
+{
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 10px;
+	resize: none;
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+}
+.contactBox span
+{
+	margin-top: 0px;
+	font-size: 15px;
+	width: 100%;
+}
+.contactIcon
+{
+	width: 50%;
+	margin-bottom: 0px;
+	height: auto;
+}
+.contactField1
+{
+	width: 99%;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 1%;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: fontRegular;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #cccccc;
+}
+.contactField2
+{
+	width: 99%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-left: 1%;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: fontRegular;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #cccccc;
+}
+/*---------------------------------------------*/
+
+/*----------------INFO ICONS--------------------*/
+.infoIcon
+{
+	width: 90px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+.infoLogo
+{
+	width: 30%;
+}
+.infoRegLogo
+{
+	max-width: 70px;
+}
+.infoRegLogoR
+{
+	margin-bottom: 10px;
+}
+/*---------------------------------------------*/
+

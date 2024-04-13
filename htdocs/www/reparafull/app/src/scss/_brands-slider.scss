@@ -1,0 +1,22 @@
+// Brands Slider
+.brands-slider {
+  .card {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    overflow: hidden;
+  }
+}
+@include media-breakpoint-only(md) {
+  .brands-slider .card {
+    height: 70px;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .brands-slider .card {
+    height: 70px;
+    padding: 0 2rem;
+  }
+}

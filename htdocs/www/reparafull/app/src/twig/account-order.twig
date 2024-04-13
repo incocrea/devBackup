@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include '_required-css.twig' %}
+
+    {% include '_template-css.twig' %}
+
+    <title>My Orders - {{title}}</title>
+  </head>
+  <body>
+
+    {% include '_header.twig' %}
+
+    <div class="container-fluid" id="main-container">
+      <div class="row">
+
+        {% include '_sidebar.twig' with {'active':'pages','sub':'account-order'} %}
+
+        <div class="col" id="main-content">
+
+          <div class="card user-card">
+            <div class="card-body">
+              {% include '_user-card.twig' with {'active':'account-order'} %}
+              <hr>
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead class="thead-light">
+                    <tr>
+                      <th scope="col">Order ID</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Total</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><a href="account-order-detail.html" class="text-info">1712697HPKINV</a></th>
+                      <td>Dec 19, 2017</td>
+                      <td>$74.00</td>
+                      <td><span class="badge badge-warning">In Progress</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="account-order-detail.html" class="text-info">171264CK6FINV</a></th>
+                      <td>Dec 10, 2017</td>
+                      <td>$100.00</td>
+                      <td><span class="badge badge-danger">Canceled</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="account-order-detail.html" class="text-info">171266PC4AINV</a></th>
+                      <td>Dec 01, 2017</td>
+                      <td>$20.00</td>
+                      <td><span class="badge badge-success">Finished</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="account-order-detail.html" class="text-info">1711697HPKINV</a></th>
+                      <td>Nov 19, 2017</td>
+                      <td>$74.00</td>
+                      <td><span class="badge badge-success">Finished</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><a href="account-order-detail.html" class="text-info">171164CK6FINV</a></th>
+                      <td>Nov 10, 2017</td>
+                      <td>$100.00</td>
+                      <td><span class="badge badge-success">Finished</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          {% include '_footer.twig' %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include '_modal-cart.twig' %}
+
+    {% include '_required-js.twig' %}
+
+    {% include '_template-js.twig' %}
+  </body>
+</html>
